@@ -1,0 +1,22 @@
+const { chromium } = require('/Users/nihalusmanmm/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const assert = require('node:assert/strict');
+(async () => {
+  const browser = await chromium.launch({channel:'chrome',headless:true});
+  const page = await browser.newPage({viewport:{width:1440,height:1000}});
+  const errors=[]; page.on('pageerror',e=>errors.push(e.message));
+  await page.goto('http://127.0.0.1:4175/dist/');
+  await page.waitForTimeout(2000);
+  assert.equal(await page.locator('#yr').count(),0);
+  assert.equal(await page.locator('#faq details').count(),4);
+  assert.equal(await page.locator('label:has(input[name="grade"]) span').textContent(),'Grade');
+  assert.equal(await page.locator('#sb-canvas').evaluate(e=>Number(e.style.opacity)),0);
+  assert(await page.locator('#hero-bg').evaluate(e=>e.complete&&e.naturalWidth>0));
+  await page.screenshot({path:'docs/previews/final-hero.png'});
+  await page.evaluate(()=>window.sbLenis.scrollTo(900,{immediate:true}));
+  await page.waitForTimeout(1200);
+  assert(await page.locator('#sb-canvas').evaluate(e=>Number(e.style.opacity)>0.8));
+  await page.screenshot({path:'docs/previews/final-animation.png'});
+  assert.deepEqual(errors,[]);
+  console.log('PASS: copyright line removed, Grade label, four FAQs, hero photograph, scroll reveal, no page errors.');
+  await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

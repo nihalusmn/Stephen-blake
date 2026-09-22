@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-22T08:25:58.860Z",
+  "checks": [
+    "Scene cleanup 0",
+    "Scene reinitialization 0",
+    "No duplicate triggers 0",
+    "Scene cleanup 1",
+    "Scene reinitialization 1",
+    "No duplicate triggers 1",
+    "Resize to mobile preserves scene",
+    "Resize back to desktop restores scene",
+    "Keyboard scroll preserved",
+    "No WebGL retains photos and catalogue",
+    "No WebGL category remains functional",
+    "Reduced motion does not fetch scene",
+    "No lifecycle errors"
+  ],
+  "errors": []
+}

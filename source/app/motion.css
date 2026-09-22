@@ -1,0 +1,10 @@
+html { scroll-padding-top: 84px; }
+html.sb-scroll-locked { overflow: hidden; }
+.sb-gsap-reveals [data-reveal] { transition: none; }
+.sb-gsap-reveals [data-reveal="zoom"] img { transition: transform 600ms var(--ease); }
+#dossier, .dossier__body, #drawer { overscroll-behavior: contain; }
+.sb-card:focus-visible { outline: 2px solid var(--gold); outline-offset: 4px; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+  [data-reveal] { opacity: 1 !important; transform: none !important; clip-path: none !important; }
+}

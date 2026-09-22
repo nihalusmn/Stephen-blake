@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<!-- source-file-preview --><script>if(location.protocol==='file:')location.replace(new URL('dist/index.html',location.href));</script><!-- /source-file-preview -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stephen Blake — Indian Coffee. Grown, graded, shipped.</title>
+<meta name="description" content="Indian coffee exporters. Green, roasted, ground and filter coffee for roasters, cafés, brands and importers. Request a sample, build a specification, get a quotation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="app/site.css">
+<link rel="stylesheet" href="app/origin.css">
+<link rel="icon" href="data:,">
+<link rel="preload" as="image" href="assets/source/coffee-cherries.webp" fetchpriority="high">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<g id="i-arrow"><path d="M4 10h12M11 5l5 5-5 5"/></g>
+<g id="i-ne"><path d="M6 14 14 6M7 6h7v7"/></g>
+<g id="i-back"><path d="M16 10H4M9 5 4 10l5 5"/></g>
+<g id="i-check"><path d="M4 10.5 8 14.5 16 5.5"/></g>
+<g id="i-search"><circle cx="9" cy="9" r="5.5"/><path d="M13.2 13.2 17 17"/></g>
+<g id="i-menu"><path d="M3 6h14M3 10h14M3 14h14"/></g>
+<g id="i-close"><path d="M5 5l10 10M15 5 5 15"/></g>
+<g id="i-globe"><circle cx="10" cy="10" r="7.2"/><path d="M10 2.8c2.4 2 3.6 4.6 3.6 7.2s-1.2 5.2-3.6 7.2c-2.4-2-3.6-4.6-3.6-7.2S7.6 4.8 10 2.8ZM3.1 10h13.8"/></g>
+<g id="i-map"><path d="M10 17s5.5-5.2 5.5-9A5.5 5.5 0 0 0 4.5 8c0 3.8 5.5 9 5.5 9Z"/><circle cx="10" cy="8" r="2"/></g>
+<g id="i-bean"><path d="M10 3.1c3.2 0 5.8 3.1 5.8 6.9s-2.6 6.9-5.8 6.9-5.8-3.1-5.8-6.9S6.8 3.1 10 3.1Z"/><path d="M7.7 4.7c1.9 1.9 1.9 8.7 0 10.6"/></g>
+<g id="i-mail"><rect x="3" y="5" width="14" height="10" rx="1.5"/><path d="m3.6 6 6.4 5 6.4-5"/></g>
+<g id="i-wa"><path d="M3.4 16.6 4.5 13a6.7 6.7 0 1 1 2.6 2.5l-3.7 1.1Z"/><path d="M7.5 7.9c.2 1.7 2 3.5 3.7 3.9"/></g>
+</defs></svg>
+
+<header class="masthead" id="masthead">
+  <div class="wrap masthead__in">
+    <a class="crest" href="#top" aria-label="Stephen Blake — home">
+      <img src="assets/source/brand-transparent.png" alt="">
+      <span><b>STEPHEN BLAKE</b><i>Indian coffee exporters</i></span>
+    </a>
+    <nav class="mainnav" aria-label="Primary">
+      <a href="#coffees">Coffee</a>
+      <a href="#origins">Origins</a>
+      <a href="#private-label">Private label</a>
+      <a href="#story">Our story</a>
+    </nav>
+    <a class="btn btn--sm btn--head" href="#request">Request a sample</a>
+    <button class="burger" id="burger" aria-controls="drawer" aria-expanded="false" aria-label="Open menu"><svg class="icon" viewBox="0 0 20 20" width="22" height="22"><use href="#i-menu"/></svg></button>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="drawer__top">
+    <span class="data" style="color:var(--gold)">Stephen Blake</span>
+    <button class="burger" id="drawer-close" style="display:inline-flex" aria-label="Close menu"><svg class="icon" viewBox="0 0 20 20" width="22" height="22"><use href="#i-close"/></svg></button>
+  </div>
+  <nav>
+    <a href="#coffees">Coffee</a>
+    <a href="#origins">Origins</a>
+    <a href="#private-label">Private label</a>
+    <a href="#story">Our story</a>
+    <a href="#process">Processing</a>
+    <a href="#faq">Coffee questions</a>
+  </nav>
+  <a class="btn" href="#request">Request a sample <svg class="icon" viewBox="0 0 20 20" width="18" height="18"><use href="#i-arrow"/></svg></a>
+</div>
+
+<main id="top">
+
+<div class="sb-origin" id="sb-origin">
+  <div class="sb-stage" id="sb-stage">
+
+    <div class="sb-bg" aria-hidden="true">
+  <img class="sb-bg__layer sb-bg__plantation" id="hero-bg" alt="" src="assets/photography/hero-estate-1680.webp" srcset="assets/photography/hero-estate-960.webp 960w, assets/photography/hero-estate-1680.webp 1680w" sizes="(max-aspect-ratio: 16/9) 178vh, 100vw" fetchpriority="high">
+      <img class="sb-bg__layer sb-bg__hills" id="sb-hills" data-sb-src="assets/source/origin-hills.webp" alt="">
+      <div class="sb-bg__studio" id="sb-studio"></div>
+      <div class="sb-bg__paper" id="sb-paper"></div>
+    </div>
+
+    <canvas class="sb-canvas" id="sb-canvas" aria-hidden="true"></canvas>
+    <div class="sb-veil" id="sb-veil" aria-hidden="true"></div>
+
+    <div class="sb-copy" id="sb-copy">
+      <section class="hero">
+  <div class="wrap hero__in">
+    <p class="data" data-reveal style="--rd:100ms">INDIAN ORIGIN. GLOBAL REACH.</p>
+    <h1 data-reveal style="--rd:200ms">Where Indian origins<br>meet global standards.</h1>
+    <p class="hero__sub" data-reveal style="--rd:340ms">Indian coffee, selected for roasters and brands worldwide.</p>
+    <div class="hero__acts" data-reveal style="--rd:450ms">
+      <a class="btn" href="#coffees">Explore our coffee <svg class="icon" viewBox="0 0 20 20" width="18" height="18"><use href="#i-arrow"/></svg></a>
+      <a class="hero__sample" href="#request">Request a sample</a>
+    </div>
+    <p class="hero__journey" data-reveal style="--rd:580ms"><span aria-hidden="true">↓</span> Scroll to discover the journey</p>
+  </div>
+      </section>
+
+      <div class="sb-notes" id="sb-notes">
+        <figure class="sb-note" data-note="0">
+          <h2 class="sb-note__h">Every cup begins as a fruit.</h2>
+          <p class="sb-note__p">Before coffee is a bean, it is a cherry on a tree.</p>
+        </figure>
+        <figure class="sb-note" data-note="1">
+          <h2 class="sb-note__h">Harvested at ripeness</h2>
+          <p class="sb-note__p">Ripe cherries are picked once the fruit has developed the sugars and compounds that shape the coffee inside.</p>
+        </figure>
+        <figure class="sb-note" data-note="2">
+          <h2 class="sb-note__h">After harvest, coffee takes different paths.</h2>
+          <p class="sb-note__p">How the fruit is removed changes the coffee that comes out of it.</p>
+        </figure>
+        <figure class="sb-note" data-note="3">
+          <h2 class="sb-note__h">Natural process</h2>
+          <p class="sb-note__p">The whole cherry is dried around the seed, and the dried fruit is removed afterwards.</p>
+          <p class="sb-note__sub">Often associated with greater fruit character, sweetness and body.</p>
+        </figure>
+        <figure class="sb-note" data-note="4">
+          <h2 class="sb-note__h">Washed process</h2>
+          <p class="sb-note__p">The fruit is removed and the coffee is washed clean of mucilage before drying.</p>
+          <p class="sb-note__sub">Often associated with clarity and a cleaner cup profile.</p>
+        </figure>
+        <figure class="sb-note" data-note="5">
+          <h2 class="sb-note__h">Honey process</h2>
+          <p class="sb-note__p">The skin comes off, but part of the sticky fruit layer stays on the coffee while it dries.</p>
+          <p class="sb-note__sub">Often associated with balanced sweetness, body and fruit character.</p>
+        </figure>
+        <figure class="sb-note" data-note="6">
+          <h2 class="sb-note__h">Drying</h2>
+          <p class="sb-note__p">Coffee is dried slowly to a stable moisture level before storage and milling.</p>
+        </figure>
+        <figure class="sb-note" data-note="7">
+          <h2 class="sb-note__h">From seed to green coffee</h2>
+          <p class="sb-note__p">After drying, the coffee is hulled, sorted and graded — leaving the green beans a roaster buys.</p>
+        </figure>
+        <figure class="sb-note" data-note="8">
+          <h2 class="sb-note__h">Roasting</h2>
+          <p class="sb-note__p">Heat transforms aroma, structure and flavour.</p>
+        </figure>
+        <figure class="sb-note" data-note="9">
+          <h2 class="sb-note__h">Ground for brewing</h2>
+          <p class="sb-note__p">Roasted coffee is ground to the particle size the brewing method needs.</p>
+        </figure>
+      </div>
+
+      <nav class="sb-rail" id="sb-rail" aria-label="Where you are in the coffee journey">
+        <ol>
+          <li class="sb-rail__step" data-stage="0"><i></i><span>Origin</span></li>
+          <li class="sb-rail__step" data-stage="1"><i></i><span>Harvest</span></li>
+          <li class="sb-rail__step" data-stage="2"><i></i><span>Process</span></li>
+          <li class="sb-rail__step" data-stage="3"><i></i><span>Dry</span></li>
+          <li class="sb-rail__step" data-stage="4"><i></i><span>Green</span></li>
+          <li class="sb-rail__step" data-stage="5"><i></i><span>Roast</span></li>
+          <li class="sb-rail__step" data-stage="6"><i></i><span>Grind</span></li>
+        </ol>
+      </nav>
+    </div>
+
+    <section class="sb-cats" id="coffees" aria-labelledby="cats-h">
+      <div class="wrap">
+        <div class="sb-cats__head">
+          <span class="data">The collection</span>
+          <h2 id="cats-h">One origin. Three expressions.</h2>
+        </div>
+        <div class="sb-cats__row" id="sb-cards">
+          <a class="sb-card" href="#filter-coffee" data-cat="filter" aria-label="Explore filter coffee">
+            <span class="sb-card__img">
+              <img src="assets/photography/category-filter-960.webp" srcset="assets/photography/category-filter-480.webp 480w, assets/photography/category-filter-960.webp 960w, assets/photography/category-filter-1120.webp 1120w" sizes="(max-width:860px) 92vw, 31vw" width="1120" height="1400" loading="eager" decoding="async" alt="Photorealistic ground filter coffee in a dark ceramic bowl">
+              <span class="sb-card__scrim" aria-hidden="true"></span>
+              <span class="sb-card__glow" aria-hidden="true"></span>
+            </span>
+            <span class="sb-card__body">
+              <span class="sb-card__spec">Crafted for the cup</span>
+              <h3>Filter coffee</h3>
+              <p>Coffee developed for a rich, aromatic filter brew.</p>
+              <span class="sb-card__cta">Explore filter coffee <svg class="icon" viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><use href="#i-ne"/></svg></span>
+            </span>
+          </a>
+          <a class="sb-card" href="#roasted-coffee" data-cat="roasted" aria-label="Explore roasted coffee">
+            <span class="sb-card__img">
+              <img src="assets/photography/category-roasted-960.webp" srcset="assets/photography/category-roasted-480.webp 480w, assets/photography/category-roasted-960.webp 960w, assets/photography/category-roasted-1120.webp 1120w" sizes="(max-width:860px) 92vw, 31vw" width="1120" height="1400" loading="eager" decoding="async" alt="Photorealistic roasted coffee beans in a dark ceramic bowl">
+              <span class="sb-card__scrim" aria-hidden="true"></span>
+              <span class="sb-card__glow" aria-hidden="true"></span>
+            </span>
+            <span class="sb-card__body">
+              <span class="sb-card__spec">Developed through roast</span>
+              <h3>Roasted coffee</h3>
+              <p>Whole-bean coffees roasted to express aroma, body and distinctive flavour.</p>
+              <span class="sb-card__cta">Explore roasted coffee <svg class="icon" viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><use href="#i-ne"/></svg></span>
+            </span>
+          </a>
+          <a class="sb-card" href="#green-coffee" data-cat="green" aria-label="Explore green coffee">
+            <span class="sb-card__img">
+              <img src="assets/photography/category-green-960.webp" srcset="assets/photography/category-green-480.webp 480w, assets/photography/category-green-960.webp 960w, assets/photography/category-green-1120.webp 1120w" sizes="(max-width:860px) 92vw, 31vw" width="1120" height="1400" loading="eager" decoding="async" alt="Photorealistic unroasted green coffee beans in a dark ceramic bowl">
+              <span class="sb-card__scrim" aria-hidden="true"></span>
+              <span class="sb-card__glow" aria-hidden="true"></span>
+            </span>
+            <span class="sb-card__body">
+              <span class="sb-card__spec">Before the roast</span>
+              <h3>Green coffee beans</h3>
+              <p>Sourced and graded green coffee for roasting, trading and private-label production.</p>
+              <span class="sb-card__cta">Explore green coffee <svg class="icon" viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><use href="#i-ne"/></svg></span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="sb-loader" id="sb-loader" aria-hidden="true">
+      <span class="sb-loader__mark">STEPHEN BLAKE</span>
+      <span class="sb-loader__bean"></span>
+      <span class="sb-loader__bar"><i></i></span>
+    </div>
+
+  </div>
+</div>
+
+<section class="range" id="range" hidden aria-labelledby="range-h">
+  <div class="range__hero">
+    <img class="range__art" id="range-art" src="assets/photography/category-green-1120.webp" alt="" width="1440" height="1800" decoding="async">
+    <div class="wrap range__heroin">
+      <button class="link range__back" id="range-back">
+        <svg class="icon" viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><use href="#i-back"/></svg>
+        All categories
+      </button>
+      <span class="data" id="range-kicker"></span>
+      <h2 id="range-h"></h2>
+      <p class="lead" id="range-lead"></p>
+    </div>
+  </div>
+
+  <div class="wrap range__body">
+    <div class="range__nav" id="range-nav" role="group" aria-label="Coffee categories"></div>
+
+    <div class="shead range__shead">
+      <div>
+        <span class="data">Products in this category</span>
+        <h3 id="range-count" role="status" aria-live="polite"></h3>
+      </div>
+      <p class="lead">Open any coffee for its grades, origin options and full specification. Availability, minimum order and price are confirmed per enquiry — nothing here is a stock list.</p>
+    </div>
+
+    <div class="filters">
+      <div class="species" id="species"><span>Variety</span></div>
+      <label class="search">
+        <svg class="icon" viewBox="0 0 20 20" width="17" height="17"><use href="#i-search"/></svg>
+        <input id="q" type="search" placeholder="Search this category" aria-label="Search this category">
+      </label>
+    </div>
+
+    <div class="grid" id="grid"></div>
+
+    <section class="range__sub" id="functional" hidden aria-labelledby="functional-h">
+      <div class="shead">
+        <div>
+          <span class="data">Functional blends</span>
+          <h3 id="functional-h">Coffee with something added.</h3>
+        </div>
+        <p class="lead">Filter coffee prepared with lion&rsquo;s mane, shilajit, sea moss or ashwagandha. Ask for the complete ingredient declaration on any of these.</p>
+      </div>
+      <div class="grid" id="functional-grid"></div>
+    </section>
+
+    <div class="empty" id="empty" hidden>Nothing matches that search. <button class="link" id="reset">Show every coffee in this category</button></div>
+    <p class="note">Lot specifications, availability, minimum order and pricing are confirmed individually. Product images are illustrative; request a representative sample to evaluate your selected lot.</p>
+
+    <aside class="range__custom">
+      <div>
+        <span class="data">Not on this list</span>
+        <h3>Your signature blend</h3>
+        <p>Start with a flavour brief. We build a coffee to it and produce under your brand.</p>
+      </div>
+      <div class="range__customacts">
+        <button class="btn btn--ghost btn--sm" data-open="custom-blends">Specification</button>
+        <a class="btn btn--sm" href="#private-label">Private label</a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<div class="strip">
+  <div class="wrap strip__in">
+    <span>Green coffee</span><span>Roasted coffee</span><span>Filter coffee</span>
+    <span>Private label</span>
+  </div>
+</div>
+
+<section class="section wrap" id="how">
+  <div class="shead">
+    <div>
+      <span class="data" data-reveal>How it works</span>
+      <h2 data-reveal style="--rd:80ms">Three steps from a question to a sample.</h2>
+    </div>
+    <p class="lead" data-reveal style="--rd:160ms">No account, no checkout, no guessing. Choose an origin, choose a coffee, and send us a brief. We answer with a specification and a price.</p>
+  </div>
+  <div class="how">
+    <article data-reveal style="--rd:0ms">
+      <b>01</b>
+      <h3>Origin</h3>
+      <p>Five Indian coffee states, each with its own altitude, varieties and character.</p>
+    </article>
+    <article data-reveal style="--rd:90ms">
+      <b>02</b>
+      <h3>Specification</h3>
+      <p>Species, form, grade and processing — tell us what you know and leave the rest open.</p>
+    </article>
+    <article data-reveal style="--rd:180ms">
+      <b>03</b>
+      <h3>Sample</h3>
+      <p>We confirm availability, lot specification, packaging and an export quotation.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section wrap story" id="story">
+  <figure class="story__media" data-reveal="mask">
+    <img src="assets/photography/stephen-blake-roaster-monochrome.jpg" alt="Black-and-white photograph of the Stephen Blake coffee roaster and cooling tray" width="1080" height="1920" loading="lazy" decoding="async">
+    <figcaption>Inside Stephen Blake · The roastery</figcaption>
+  </figure>
+  <div>
+    <span class="data" data-reveal>Our story</span>
+    <h2 data-reveal style="--rd:80ms">Indian coffee, selected with intent.</h2>
+    <p class="lead" style="margin-top:1.4rem" data-reveal="" data-rd="160ms">Every coffee begins with a place, and its character develops through variety, altitude, processing and the choices made along the way. We bring an exporter's perspective to that journey — helping buyers move from a clear brief to the right sample, specification and supply conversation.</p>
+    <blockquote data-reveal style="--rd:240ms">We would rather be precise than persuasive.</blockquote>
+    <div style="margin-top:2rem" data-reveal="" >
+      <a class="link" href="#request">Request a sample <svg class="icon" viewBox="0 0 20 20" width="16" height="16"><use href="#i-ne"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section class="dark" id="origins" data-dark>
+  <div class="section wrap origins__grid">
+    <figure class="origins__media" style="margin:0" data-reveal="zoom">
+      <img id="region-img" src="assets/source/origin-hills.webp" alt="Coffee-growing hill country in India" loading="lazy">
+      <span class="origins__badge" id="region-badge">Karnataka</span>
+    </figure>
+    <div>
+      <span class="data" data-reveal>Choose your preferred origin</span>
+      <h2 data-reveal style="--rd:80ms">Five origins to explore. A different story in every cup.</h2>
+      <p class="lead" style="margin-top:1.3rem" data-reveal>Where coffee grows helps explain its character. Explore five of India’s coffee origins, discover what makes each worth tasting, and carry your preferred region into your request.</p>
+      <div class="regions" id="regions" role="group" aria-label="Indian coffee regions"></div>
+      <div class="region-out" aria-live="polite" aria-atomic="true">
+        <span class="data" id="region-name">Karnataka</span>
+        <h3 id="region-areas">Coorg · Chikmagalur · Baba Budangiri</h3>
+        <h4 class="region-title" id="region-title">A heritage of coffee, with room to explore.</h4>
+        <p id="region-note">Coorg and Chikmagalur grow both Arabica and Robusta, while the Baba Budangiri hills are closely linked to the beginnings of coffee cultivation in India.</p>
+        <div class="region-detail"><h4>What makes it distinctive</h4><p id="region-specialty"></p></div>
+        <div class="region-detail"><h4>Why explore this origin</h4><p id="region-reason"></p></div>
+        <p class="region-ask" id="region-ask"></p>
+        <a class="link" href="#request" id="region-cta" style="margin-top:1.2rem;color:var(--gold)">Request coffee from Karnataka <svg class="icon" viewBox="0 0 20 20" width="16" height="16"><use href="#i-ne"/></svg></a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap origin-guide">
+    <span class="data">Why origin matters</span>
+    <h3>Choose with curiosity. Confirm in the cup.</h3>
+    <div class="origin-guide__grid">
+      <div><h4>A starting point for flavour</h4><p>Climate, elevation and growing conditions influence how coffee develops. Origin gives you context for comparing aroma, sweetness, acidity and body; variety, processing, roast and brewing complete the picture.</p></div>
+      <div><h4>A clearer buying decision</h4><p>A region helps narrow your search. A named producer, harvest and process make the comparison more useful. Taste representative samples with the same recipe, then test your favourite in the drink you intend to serve.</p></div>
+      <div><h4>A story you can stand behind</h4><p>Traceable origin lets you explain where a coffee comes from and recognise the people who grow it. Ask for evidence behind estate, geographical-indication or certification claims, and agree the details of the lot you are buying.</p></div>
+    </div>
+    <p class="origin-guide__note">Regional descriptions are a guide to discovery, not guaranteed tasting notes. We confirm origin, availability and specifications for the lot proposed.</p>
+  </div>
+</section>
+
+<section class="section wrap" id="process">
+  <div class="shead">
+    <div>
+      <span class="data" data-reveal>Processing</span>
+      <h2 data-reveal style="--rd:80ms">Process sets the direction. The sample settles it.</h2>
+    </div>
+    <p class="lead" data-reveal style="--rd:160ms">Choose a starting point and we'll carry it into your request. For experimental processing, single-estate or certified coffee, add it to the notes — availability and documents need confirming.</p>
+  </div>
+  <div class="proc" id="proc"></div>
+</section>
+
+<section class="dark" id="private-label" data-dark>
+  <div class="section wrap">
+    <div class="shead">
+      <div>
+        <span class="data" data-reveal>Private label</span>
+        <h2 data-reveal style="--rd:80ms">Coffee that carries your name.</h2>
+      </div>
+      <p class="lead" data-reveal style="--rd:160ms">Bring a flavour brief, a market and a pack format. We work through blend, roast, grind, packaging and production with you. Feasibility, minimum order and timing are confirmed after review.</p>
+    </div>
+    <ol class="steps">
+      <li data-reveal style="--rd:0ms"><b>Step 01</b><span>Your brief</span><small>Market, audience, flavour direction and budget.</small></li>
+      <li data-reveal style="--rd:90ms"><b>Step 02</b><span>Coffee &amp; blend</span><small>Species, origin and blend ratio, evaluated by sample.</small></li>
+      <li data-reveal style="--rd:180ms"><b>Step 03</b><span>Roast &amp; grind</span><small>Profile and grind matched to how it will be brewed.</small></li>
+      <li data-reveal style="--rd:270ms"><b>Step 04</b><span>Pack &amp; brand</span><small>Format, size, labelling and declarations for your market.</small></li>
+      <li data-reveal style="--rd:360ms"><b>Step 05</b><span>Production</span><small>Run, documents and despatch to your port.</small></li>
+    </ol>
+    <div style="margin-top:2.5rem" data-reveal>
+      <a class="btn" href="#request" id="pl-cta">Start a private label request <svg class="icon" viewBox="0 0 20 20" width="18" height="18"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section class="request section" id="request">
+  <div class="wrap">
+    <div class="shead">
+      <div>
+        <span class="data" data-reveal>Request a sample</span>
+        <h2 data-reveal style="--rd:80ms">Build your request in six short steps.</h2>
+      </div>
+      <p class="lead" data-reveal style="--rd:160ms">Answer what you know and skip what you don't. Everything you choose is carried into the brief our coffee team reads.</p>
+    </div>
+
+    <div class="flow" data-reveal>
+      <div class="flow__rail" id="rail" role="group" aria-label="Request steps"></div>
+      <div class="flow__stage">
+
+        <div class="flow__panel on" data-step="0">
+          <h3>Choose your preferred origin</h3>
+          <p class="flow__hint">Explore five Indian coffee origins. If you'd rather we recommend one, leave it open.</p>
+          <div class="picks" id="p-origin"></div>
+        </div>
+
+        <div class="flow__panel" data-step="1">
+          <h3>Choose the form of coffee</h3>
+          <p class="flow__hint">Green beans for your own roastery, or coffee we prepare for you.</p>
+          <div class="picks" id="p-form"></div>
+        </div>
+
+        <div class="flow__panel" data-step="2">
+          <h3>Choose your preferred variety</h3>
+          <p class="flow__hint">Arabica and Robusta are different starting points, not better and worse. Compare samples on your own roast and brew.</p>
+          <div class="picks" id="p-variety"></div>
+        </div>
+
+        <div class="flow__panel" data-step="3">
+          <h3>Choose your preferred process</h3>
+          <p class="flow__hint">Processing describes how the fruit is removed and the coffee dried. Ask for the actual process used on the lot you're quoted.</p>
+          <div class="picks" id="p-process"></div>
+        </div>
+
+        <div class="flow__panel" data-step="4">
+          <h3>Volume and shipping</h3>
+          <p class="flow__hint">International freight is quoted per shipment. Minimum order, bag format and documents are agreed for each order.</p>
+          <div class="fgrid">
+            <label class="field"><span>Required quantity *</span><input name="amount" type="number" min="0.1" step="any" placeholder="e.g. 500"></label>
+            <label class="field"><span>Unit</span><select name="unit"><option>kg</option><option>MT</option><option>containers</option><option>sample packs</option></select></label>
+            <label class="field"><span>Destination country *</span><input name="country" maxlength="200" autocomplete="country-name"></label>
+            <label class="field"><span>City or destination port</span><input name="city" maxlength="200"></label>
+            <label class="field"><span>Preferred Incoterm</span><select name="incoterm"><option>Discuss with sales</option><option>EXW</option><option>FCA</option><option>FOB</option><option>CFR</option><option>CIF</option></select></label>
+            <label class="field"><span>Packaging preference</span><input name="packaging" maxlength="200" placeholder="e.g. 60 kg bags, retail pouches"></label>
+            <label class="field"><span>Sourcing requirement</span><select name="sourcing">
+              <option>Standard commercial specification</option><option>Single-estate enquiry</option>
+              <option>Specialty lot enquiry</option><option>Certified organic enquiry</option>
+              <option>Other certification, described below</option></select></label>
+            <label class="field"><span>Private label required?</span><select name="privateLabel" id="f-pl"><option>No</option><option>Yes</option><option>Considering it</option></select></label>
+          </div>
+        </div>
+
+        <div class="flow__panel" data-step="5">
+          <h3>Where should we send the answer?</h3>
+          <p class="flow__hint">We use these details to reply to your request. <a class="link" href="/policies/privacy">How we handle your information</a></p>
+          <div class="summary" id="summary"><h4>Your request</h4><dl id="summary-list"></dl></div>
+          <div class="fgrid">
+            <label class="field"><span>Full name *</span><input name="name" maxlength="200" autocomplete="name"></label>
+            <label class="field"><span>Company or organisation *</span><input name="company" maxlength="200" autocomplete="organization"></label>
+            <label class="field"><span>Email address *</span><input name="email" type="email" maxlength="200" autocomplete="email"></label>
+            <label class="field"><span>Phone or WhatsApp</span><input name="phone" type="tel" maxlength="200" autocomplete="tel"></label>
+            <label class="field"><span>How can we help?</span><select name="kind" id="f-kind">
+              <option>Bulk quotation</option><option>Sample request</option>
+              <option>Retail enquiry</option><option>Private label enquiry</option></select></label>
+            <label class="field"><span>Grade</span><input name="grade" maxlength="200" placeholder="e.g. AAA, PB, PL A"></label>
+            <label class="field wide"><span>Anything else we should know</span><textarea name="requirements" rows="3" maxlength="2500" placeholder="Roast, grind, application, purchase frequency, target price, certification or delivery requirements"></textarea></label>
+            <input name="website" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+          </div>
+          <div class="status" id="status" hidden role="status"></div>
+        </div>
+
+      </div>
+      <div class="flow__nav">
+        <button class="btn btn--ghost" id="flow-back" hidden><svg class="icon" viewBox="0 0 20 20" width="18" height="18"><use href="#i-back"/></svg> Back</button>
+        <button class="link" id="flow-skip">Skip this step</button>
+        <div class="spacer"></div>
+        <a class="link" id="wa-flow" href="https://wa.me/918111888667" target="_blank" rel="noreferrer">Or ask on WhatsApp <svg class="icon" viewBox="0 0 20 20" width="16" height="16"><use href="#i-ne"/></svg></a>
+        <button class="btn" id="flow-next">Continue <svg class="icon" viewBox="0 0 20 20" width="18" height="18"><use href="#i-arrow"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap" id="faq">
+  <div class="shead">
+    <div>
+      <span class="data" data-reveal>Coffee questions</span>
+      <h2 data-reveal style="--rd:80ms">What buyers ask us first.</h2>
+    </div>
+    <p class="lead" data-reveal style="--rd:160ms">Short answers. For anything specific to a lot, the request above reaches the coffee team directly.</p>
+  </div>
+  <div class="faq">
+    <details><summary>How should bulk coffee be stored to preserve quality before processing or shipment?<i>+</i></summary><p>Store consignments in a clean, dry warehouse, protected from heat, moisture, pests and strong odours. Keep bags on pallets, clear of floors and walls, and maintain lot identification and stock rotation. Retain the agreed protective packaging and monitor warehouse conditions. Green and roasted coffee require different packaging and storage plans; share your expected holding period and destination so we can agree suitable requirements for the order.</p></details>
+    <details><summary>Can hot, humid conditions in Kochi or Mumbai affect coffee held in bulk storage?<i>+</i></summary><p>Yes. Heat, high humidity and condensation can compromise coffee quality during warehousing and transit. For consignments held in coastal hubs such as Kochi or Mumbai, monitor storage conditions, keep packaging intact and minimise unnecessary holding time. Select protective liners or barrier packaging appropriate to the coffee and route, and inspect containers for dryness, cleanliness and odours before loading. Discuss your storage duration and shipping conditions with us when finalising the packing specification.</p></details>
+    <details><summary>Can you develop custom-flavoured roasted coffee for bulk orders?<i>+</i></summary><p>Yes. We can develop roasted coffee beans in your preferred flavour for commercial supply. Send us your flavour brief, target intensity, destination market and expected order volume. We will prepare a sample for approval and agree the formulation, ingredient and allergen declarations, minimum order quantity and production lead time before confirming the bulk order.</p></details>
+    <details><summary>Can you supply bulk orders in our specified packaging?<i>+</i></summary><p>Yes, absolutely. We can work to your packaging requirements, including pack weight, bag or liner specification, private-label artwork and outer-carton configuration. Share your destination market, handling requirements and shipment volume so we can confirm material suitability, labelling, pallet configuration, minimum quantities and lead times before production.</p></details>
+  </div>
+</section>
+
+<section class="dark" data-dark>
+  <div class="section wrap contact">
+    <div>
+      <span class="data" data-reveal>Contact us</span>
+      <h2 data-reveal style="--rd:80ms">Let's talk coffee.</h2>
+      <p class="lead" style="margin-top:1.3rem" data-reveal>One sample, one shipment, or an ongoing supply relationship. We answer every request with a specification, not a brochure.</p>
+    </div>
+    <div class="clist" data-reveal>
+      <a href="mailto:stephenblakeindia@gmail.com"><span>Email</span><b>stephenblakeindia@gmail.com</b></a>
+      <a href="tel:+918111888667"><span>Phone</span><b>+91 81118 88667</b></a>
+      <a id="wa-main" href="https://wa.me/918111888667" target="_blank" rel="noreferrer"><span>WhatsApp</span><b>Message us directly</b></a>
+      <a href="#request"><span>Request</span><b>Build a coffee brief</b></a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer data-dark>
+  <div class="wrap foot">
+    <div class="foot__crest">
+      <img src="assets/source/brand-transparent.png" alt="Stephen Blake company crest">
+      <p style="color:#C0AE99;font-size:.88rem;max-width:32ch">Indian coffee. Selected, roasted and prepared in India, for roasters, cafés, brands and importers.</p>
+      <p class="foot__motto">Audax Celia Fortia Corda</p>
+    </div>
+    <div>
+      <h4>The coffee</h4>
+      <a href="#coffees">The collection</a><a href="#origins">Indian origins</a>
+      <a href="#process">Processing</a><a href="#faq">Coffee questions</a>
+    </div>
+    <div>
+      <h4>For business</h4>
+      <a href="#request">Request a sample</a><a href="#private-label">Private label</a>
+      <a href="#story">Our story</a><a href="#request">Bulk quotation</a>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <a href="mailto:stephenblakeindia@gmail.com">stephenblakeindia@gmail.com</a>
+      <a href="tel:+918111888667">+91 81118 88667</a>
+      <a href="https://wa.me/918111888667" target="_blank" rel="noreferrer">WhatsApp</a>
+    </div>
+  </div>
+  <div class="wrap foot-mark" aria-hidden="true">STEPHEN BLAKE</div>
+  <div class="wrap foot-bottom">
+    <nav>
+      <a href="/policies/privacy">Privacy</a><a href="/policies/terms">Terms</a>
+      <a href="/policies/shipping">Shipping &amp; returns</a><a href="/admin">Business dashboard</a>
+    </nav>
+  </div>
+</footer>
+
+<a class="wafloat" id="wafloat" href="https://wa.me/918111888667" target="_blank" rel="noreferrer">
+  <svg class="icon" viewBox="0 0 20 20" width="18" height="18"><use href="#i-wa"/></svg> WhatsApp
+</a>
+<dialog id="dossier"></dialog>
+
+<script type="module" src="app/main.js"></script>
+
+<!-- ==========================================================================
+     Cinematic prologue.  Vendored locally (no CDN, no build step) as classic
+     scripts so the page still runs from a file:// double-click, and `defer`
+     so none of it blocks first paint of the site above.
+     three.js r160 (MIT) · GSAP 3.12.5 + ScrollTrigger · Lenis 1.1.18
+     ========================================================================== -->
+</body>
+</html>
