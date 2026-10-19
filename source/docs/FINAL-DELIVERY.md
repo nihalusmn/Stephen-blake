@@ -1,5 +1,7 @@
 # Complete website delivery
 
+Version 18: the animated stage uses dynamic viewport height to cover the visible mobile screen as browser controls change. Private Label includes both supplied packaging concepts. Our Story includes six expanded sections and the company philosophy, based on the supplied company description. The supplied monochrome roaster photograph remains in place.
+
 Version 16 replaces the Story video with the supplied upright roaster photograph. Deep links to Our Story and product sections now initialise the homepage journey too, so returning home keeps the animated scroll sequence available. Reduced-motion and data-saving preferences retain the static fallback.
 
 Separate films are supplied alongside the website ZIP: a 1080 × 1920 portrait master, a native-width 1080 × 608 landscape detail master, a 1920 × 1080 web export, and a restrained titled brand film with cleaned original machine audio. The source is portrait 1080 × 1920 at 100 fps, so the landscape web version is upscaled, not native 4K. Quarter-speed motion uses captured frames. The wall vent is retained to avoid damaging the machine's edges or adding synthetic detail. No music or generated machinery was added.

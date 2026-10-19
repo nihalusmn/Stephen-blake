@@ -195,7 +195,7 @@
 .sb-on .sb-origin{ height:var(--sb-track) }
 
 .sb-on .sb-stage{
-  position:sticky; top:0; height:100vh; height:100svh;
+  position:sticky; top:0; height:100vh; height:100dvh;
   overflow:hidden; background:var(--roast); isolation:isolate;
 }
 
