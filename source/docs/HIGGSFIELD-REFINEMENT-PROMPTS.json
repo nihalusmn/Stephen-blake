@@ -1,0 +1,40 @@
+{
+  "washed": {
+    "model": "kling3_0",
+    "duration": 5,
+    "aspect_ratio": "9:16",
+    "mode": "std",
+    "sound": "off",
+    "count": 1,
+    "medias": [
+      {
+        "role": "start_image",
+        "value": "3491b52b-cf70-42a5-8e83-b279f9bbe363"
+      },
+      {
+        "role": "end_image",
+        "value": "d380f00a-d66b-4933-bdf6-d2ec24689b2f"
+      }
+    ],
+    "prompt": "Photoreal scientific macro coffee processing film. Preserve exactly the elongated coffee seed shape, central crease and photographic microscopic texture from the reference images. A SINGLE real depulped coffee seed is coated with translucent amber fruit mucilage at the start. A delicate clear sheet of moving water rinses down its surface from top to bottom, carrying away the thin sticky mucilage to reveal the pale clean parchment-covered seed in the final image. This is WASHED COFFEE processing, not a peanut or nut, never a round sphere. Match the last reference exactly. Camera locked, no orbit, no rotation, no zoom. Single isolated seed centered, same size and position for every frame, crisp realistic tissue detail, controlled highlights, no blown highlights. Preserve uniform plain black background for compositing. Water moves naturally in fine streams with a few micro droplets, no heavy splash or pool, no tools, no hands, no text, no graphics. Premium natural history macro cinematography."
+  },
+  "honey": {
+    "model": "kling3_0",
+    "duration": 5,
+    "aspect_ratio": "9:16",
+    "mode": "std",
+    "sound": "off",
+    "count": 1,
+    "medias": [
+      {
+        "role": "start_image",
+        "value": "3491b52b-cf70-42a5-8e83-b279f9bbe363"
+      },
+      {
+        "role": "end_image",
+        "value": "d380f00a-d66b-4933-bdf6-d2ec24689b2f"
+      }
+    ],
+    "prompt": "Photoreal scientific macro coffee processing film. Preserve exactly the elongated coffee seed shape and central crease from the reference images. A SINGLE depulped coffee seed has a thin translucent amber mucilage coating at the start. Locked-camera macro time lapse: its sticky mucilage gradually loses wet shine and dries into a fine golden parchment surface. This is HONEY COFFEE processing: no water, no added honey, no syrup being poured, no liquid dripping, no bees, no peeling red fruit, no peanut. The skin has ALREADY been removed. The bean remains still and intact, no split, no rotation, no zoom, no swelling. Match the pale parchment bean in the final image, maintain real fine texture. No tools, no hands, no text. Uniform pure black background for compositing. Ultra detailed natural coffee surface, restrained soft directional light, warm realistic color without oversaturation. Every frame stays as sharp and detailed as the supplied photographic references."
+  }
+}

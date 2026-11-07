@@ -18,7 +18,7 @@ const path=require('node:path');
    await p.evaluate(()=>window.sbLenis.scrollTo(0,{immediate:true,force:true}));
    await p.waitForTimeout(900);
    assert.equal(await p.locator('#sb-canvas').evaluate(e=>Number(e.style.opacity)),0);
-   await p.evaluate(()=>window.sbLenis.scrollTo((document.querySelector('#sb-origin').offsetHeight-innerHeight)*.86*.3,{immediate:true,force:true}));
+   await p.evaluate(()=>window.sbLenis.scrollTo((document.querySelector('#sb-origin').offsetHeight-innerHeight)*parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--sb-story'))*.3,{immediate:true,force:true}));
    await p.waitForTimeout(1500);
    assert(await p.locator('#sb-canvas').evaluate(e=>Number(e.style.opacity)>.99));
    await p.screenshot({path:`docs/previews/deep-link-${width}-${hash.slice(1)}.png`});

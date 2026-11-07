@@ -28,6 +28,8 @@ import * as THREE from 'three';
 import { createSceneAssets } from './visuals/scene-assets.js';
 import { gsap, ScrollTrigger } from './animations/core.js';
 import { createSceneScope } from './visuals/scene-scope.js';
+import { createMacroPhotographs } from './visuals/macro-photographs.js';
+import { openingGeometry, openingEase } from './visuals/hero-handoff.js';
 
 export function createOrigin() {
   const scope = createSceneScope();
@@ -86,6 +88,7 @@ export function createOrigin() {
   var seed, beanC, beanL, beanR, beanMats = {}, greenPile, roastPile, grinds, grindMat, mound, moundMat;
   var vessels = [], vesselMats = [], shadowMats = [], spills = [];
   var beanGeoRef, cherryGeoRef, beanSurface = null;
+  var macroPhotographs;
   var processing, stationN, stationW, stationH;
   var dryCherries, washedBeans, honeyBean, honeyCoat;
   var dryingSlab, husk, parchMat, waterMat;
@@ -171,6 +174,7 @@ export function createOrigin() {
     step();
     buildPaths();
     buildProcessing();
+    macroPhotographs = createMacroPhotographs(world, camera, track, function () { needsFrame = true; });
     step();
     buildAtmosphere();
     step();
@@ -1088,40 +1092,41 @@ export function createOrigin() {
 
   /* chapter boundaries, in one place, so the copy and the pictures agree */
   var CH = {
-    origin: [0.000, 0.115],
-    harvest: [0.115, 0.235],
-    fall: [0.235, 0.335],
+    origin: [0.000, 0.190],
+    harvest: [0.190, 0.335],
+    fall: [0.105, 0.190],
     natural: [0.335, 0.412],
-    washed: [0.412, 0.488],
-    honey: [0.488, 0.560],
+    washed: [0.488, 0.560],
+    honey: [0.412, 0.488],
     drying: [0.560, 0.645],
-    hulling: [0.645, 0.735],
-    roast: [0.735, 0.802],
+    hulling: [0.645, 0.700],
+    roast: [0.700, 0.802],
     grind: [0.802, 0.872],
     worlds: [0.855, 1.000]
   };
   /* note in-start, fully-in, out-end */
   var NOTE_T = [
-    [0.072, 0.100, 0.150],
-    [0.168, 0.198, 0.248],
-    [0.258, 0.286, 0.332],
-    [0.342, 0.370, 0.408],
-    [0.418, 0.446, 0.484],
-    [0.494, 0.522, 0.556],
+    [0.108, 0.123, 0.188],
+    [0.190, 0.214, 0.332],
+    [0.418, 0.436, 0.484],
+    [0.494, 0.512, 0.556],
+    [0.333, 0.345, 0.408],
     [0.572, 0.598, 0.641],
-    [0.658, 0.684, 0.731],
-    [0.748, 0.772, 0.798],
-    [0.814, 0.838, 0.868]
+    [0.650, 0.665, 0.696],
+    [0.707, 0.721, 0.798],
+    [0.806, 0.821, 0.870],
+    [0.872, 0.880, 0.910]
   ];
   var STAGE_T = [
-    [0.000, 0.115], [0.115, 0.235], [0.235, 0.560],
-    [0.560, 0.645], [0.645, 0.735], [0.735, 0.802], [0.802, 0.875]
+    [0.000, 0.190], [0.190, 0.335], [0.335, 0.560],
+    [0.560, 0.645], [0.645, 0.700], [0.700, 0.802], [0.802, 0.875]
   ];
 
   function setOp(el, v) { if (el) el.style.opacity = v.toFixed(3); }
   function win(p, c) { return seg(p, c[0], c[1]); }
 
   function apply(p) {
+    stage.dataset.journeyProgress = p.toFixed(6);
     var toDark = seg(p, 0.250, 0.345);
     /* the journey settles in the room it was shot in, not on paper */
     var toPaper = seg(p, 0.905, 0.985);   /* now a deepening, not a lightening */
@@ -1149,7 +1154,7 @@ export function createOrigin() {
 
     /* ---------- typography ------------------------------------------- */
     if (heroCopy) {
-      var ho = 1 - seg(p, 0.028, 0.078);
+      var ho = 1 - seg(p, 0.012, 0.052);
       heroCopy.style.opacity = ho.toFixed(3);
       heroCopy.style.transform = 'translate3d(0,' + (seg(p, 0.010, 0.078) * -46).toFixed(1) + 'px,0)';
       heroCopy.style.visibility = ho < 0.01 ? 'hidden' : 'visible';
@@ -1424,16 +1429,12 @@ export function createOrigin() {
       // Source-image coordinates of the single hanging cherry (not a cluster).
       // Both photo and mesh use this same cover-crop transform at every viewport.
       var sw = stage.clientWidth, sh = stage.clientHeight;
-      var cover = Math.max(sw / 1672, sh / 941);
-      var ax = (sw - 1672 * cover) * 0.5 + 968 * cover;
-      var ay = (sh - 941 * cover) * 0.5 + 236 * cover;
-      var zoomT = smooth(seg(p, 0, 0.12));
-      var zoom = lerp(1, 2.6, zoomT);
-      var cx = lerp(ax, sw * 0.5, zoomT), cy = lerp(ay, sh * 0.48, zoomT);
+      var opening = openingGeometry(sw, sh, p);
+      var cx = opening.x, cy = opening.y;
       bgPlant.style.transformOrigin = '0 0';
-      bgPlant.style.transform = 'translate(' + (cx - ax * zoom) + 'px,' + (cy - ay * zoom) + 'px) scale(' + zoom + ')';
+      bgPlant.style.transform = 'translate3d(' + opening.tx + 'px,' + opening.ty + 'px,0) scale(' + opening.zoom + ')';
       bgPlant.style.filter = 'none';
-      var handoff = smooth(seg(p, 0.065, 0.12));
+      var handoff = openingEase(p, 0.078, 0.116);
       setOp(bgPlant, 1 - handoff);
       setOp(bgHills, 0);
       setOp(bgStudio, handoff);
@@ -1441,7 +1442,7 @@ export function createOrigin() {
       var depth = natural.clone().project(camera).z;
       var aligned = new THREE.Vector3(cx / sw * 2 - 1, 1 - cy / sh * 2, depth).unproject(camera);
       var distance = aligned.clone().applyMatrix4(camera.matrixWorldInverse).z;
-      var radius = 19 * cover * zoom * (2 * Math.abs(distance) * Math.tan(camera.fov * Math.PI / 360)) / sh;
+      var radius = opening.bodyH * 0.5 * (2 * Math.abs(distance) * Math.tan(camera.fov * Math.PI / 360)) / sh;
       var join = smooth(seg(p, 0.12, 0.22));
       heroCherry.position.copy(aligned).lerp(natural, join);
       heroCherry.scale.setScalar(lerp(radius, CHERRY_R, join));
@@ -1452,12 +1453,22 @@ export function createOrigin() {
       if (bgPlant) setOp(bgPlant, 0);
     }
     world.visible = alive;
+    beanC.visible = true;
+    if (macroPhotographs?.update(p, heroCherry, seed, beanC, uRoast.C.value, BEAN, alive)) {
+      // The photographic film replaces the processing props and vessels.
+      // Retain the original scene only as the image-loading failure fallback.
+      world.visible = false;
+      var daylight = openingEase(p, 0.078, 0.116);
+      setOp(bgStudio, daylight);
+      setOp(bgPaper, 0);
+      setOp(veilEl, 1 - daylight);
+    }
   }
 
   function noteAt(i, p, a, b, c) {
     var el = noteEls[i]; if (!el) return;
     var inn = smooth(seg(p, a, b));
-    var out = smooth(seg(p, c - (c - b) * 0.42, c));
+    var out = smooth(seg(p, c - Math.min(0.012, (c - b) * 0.3), c));
     var v = inn * (1 - out);
     el.style.opacity = v.toFixed(3);
     el.style.transform = 'translateY(' + ((1 - inn) * 18 - out * 14).toFixed(1) + 'px)';
@@ -1548,8 +1559,9 @@ export function createOrigin() {
     lastT = time;
     clock = pNow * 60;
     /* weight: the camera follows scroll with mass rather than snapping */
+    if (!onScreen || document.hidden || (pNow === pTarget && !needsFrame)) return;
     pNow += (pTarget - pNow) * Math.min(1, dt * 7.5);
-    if (!onScreen || document.hidden || (Math.abs(pTarget - pNow) < 0.00001 && !needsFrame)) return;
+    if (Math.abs(pTarget - pNow) < 0.00001) pNow = pTarget;
     needsFrame = false;
     driveCamera(pNow);
     apply(pNow);
@@ -1574,8 +1586,14 @@ export function createOrigin() {
       layout.y = -0.30; layout.x = clamp(0.70 * camera.aspect, 0.86, 1.28); layout.base = 1;
     }
     /* the prologue is shorter on a phone: the same story, less scrolling */
-    root.style.setProperty('--sb-track', (innerWidth < 760 ? 520 : 760) + 'vh');
+    root.style.setProperty('--sb-track', (innerWidth < 760 ? 461.2 : 667.6) + 'vh');
     measureCards();
+    // Remove only unused space AFTER the cards; film/stage geometry remains
+    // viewport-sized and the sticky scroll timeline never changes mid-scroll.
+    var collectionWrap = pathsEl && pathsEl.querySelector('.wrap');
+    var collectionTop = pathsEl ? parseFloat(getComputedStyle(pathsEl).paddingTop) : 0;
+    var collectionHeight = collectionWrap ? collectionWrap.offsetHeight : h;
+    root.style.setProperty('--sb-collection-trim', Math.max(0,h-collectionTop-collectionHeight-24)+'px');
     needsFrame = true;
   }
 
@@ -1631,6 +1649,7 @@ export function createOrigin() {
     canvas.replaceWith(canvas.cloneNode(false));
     root.classList.remove('sb-on');
     root.style.removeProperty('--sb-track');
+    root.style.removeProperty('--sb-collection-trim');
     if (loaderEl) loaderEl.classList.add('is-done');
     delete window.sbCaptureCategoryArt;
     delete window.sbOriginDispose;

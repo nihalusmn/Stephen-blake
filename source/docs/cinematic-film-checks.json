@@ -1,0 +1,539 @@
+{
+  "date": "2026-11-07T06:17:48.028Z",
+  "checks": [
+    {
+      "width": 1440,
+      "progress": 0.125,
+      "time": 0.033659,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Every cup begins as a fruit. Before coffee is a bean, it is a cherry on a tree."
+      ]
+    },
+    {
+      "width": 1440,
+      "progress": 0.17,
+      "time": 0.318846,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Every cup begins as a fruit. Before coffee is a bean, it is a cherry on a tree."
+      ]
+    },
+    {
+      "width": 1440,
+      "progress": 0.23,
+      "time": 0.733754,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Harvested at ripeness At peak ripeness, the cherry is ready for picking. Its fruit protects the coffee seeds within."
+      ]
+    },
+    {
+      "width": 1440,
+      "progress": 0.3,
+      "time": 1.240616,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Harvested at ripeness At peak ripeness, the cherry is ready for picking. Its fruit protects the coffee seeds within."
+      ]
+    },
+    {
+      "width": 1440,
+      "progress": 0.38,
+      "time": 6.463628,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Natural process The whole cherry dries with its fruit intact. The dry outer husk then breaks away, revealing seeds still protected by parchment. Whole-cherry drying · an alternative route"
+      ]
+    },
+    {
+      "width": 1440,
+      "progress": 0.46,
+      "time": 13.136257,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Honey process The soft fruit skin peels away to reveal the seeds. Some fruit mucilage remains on the coffee during drying. Mucilage retained · one processing route"
+      ]
+    },
+    {
+      "width": 1440,
+      "progress": 0.53,
+      "time": 18.200043,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Washed process Water carries away the loosened mucilage, exposing the solid, parchment-covered coffee seeds beneath. Mucilage removed · an alternative route"
+      ]
+    },
+    {
+      "width": 1440,
+      "progress": 0.615,
+      "time": 24.37096,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Removing the parchment Once dry, the brittle parchment is cracked and hulled away to reveal green coffee. Natural coffees also lose their dried fruit husk."
+      ]
+    },
+    {
+      "width": 1440,
+      "progress": 0.675,
+      "time": 28.67172,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Selected. Sorted. Graded. Green coffee is prepared to an agreed buyer specification."
+      ]
+    },
+    {
+      "width": 1440,
+      "progress": 0.775,
+      "time": 36.368937,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Roasting Heat transforms aroma, structure and flavour."
+      ]
+    },
+    {
+      "width": 1440,
+      "progress": 0.845,
+      "time": 42.16767,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Ground for brewing Roasted coffee is ground to the particle size the brewing method needs."
+      ]
+    },
+    {
+      "width": 1440,
+      "progress": 0.888,
+      "time": 47.087216,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "From origin to the cup. One journey. Green coffee, roasted coffee and filter coffee."
+      ]
+    },
+    {
+      "width": 1440,
+      "progress": 0.95,
+      "time": 49.05,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 0,
+      "overflow": false,
+      "coverage": true,
+      "notes": []
+    },
+    {
+      "width": 1440,
+      "progress": 0.995,
+      "time": 49.05,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 0,
+      "overflow": false,
+      "coverage": true,
+      "notes": []
+    },
+    {
+      "width": 390,
+      "progress": 0.125,
+      "time": 0.033403,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Every cup begins as a fruit. Before coffee is a bean, it is a cherry on a tree."
+      ]
+    },
+    {
+      "width": 390,
+      "progress": 0.17,
+      "time": 0.307386,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Every cup begins as a fruit. Before coffee is a bean, it is a cherry on a tree."
+      ]
+    },
+    {
+      "width": 390,
+      "progress": 0.23,
+      "time": 0.733716,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Harvested at ripeness At peak ripeness, the cherry is ready for picking. Its fruit protects the coffee seeds within."
+      ]
+    },
+    {
+      "width": 390,
+      "progress": 0.3,
+      "time": 1.241069,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Harvested at ripeness At peak ripeness, the cherry is ready for picking. Its fruit protects the coffee seeds within."
+      ]
+    },
+    {
+      "width": 390,
+      "progress": 0.38,
+      "time": 6.46676,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Natural process The whole cherry dries with its fruit intact. The dry outer husk then breaks away, revealing seeds still protected by parchment. Whole-cherry drying · an alternative route"
+      ]
+    },
+    {
+      "width": 390,
+      "progress": 0.46,
+      "time": 13.145893,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Honey process The soft fruit skin peels away to reveal the seeds. Some fruit mucilage remains on the coffee during drying. Mucilage retained · one processing route"
+      ]
+    },
+    {
+      "width": 390,
+      "progress": 0.53,
+      "time": 18.204609,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Washed process Water carries away the loosened mucilage, exposing the solid, parchment-covered coffee seeds beneath. Mucilage removed · an alternative route"
+      ]
+    },
+    {
+      "width": 390,
+      "progress": 0.615,
+      "time": 24.364633,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Removing the parchment Once dry, the brittle parchment is cracked and hulled away to reveal green coffee. Natural coffees also lose their dried fruit husk."
+      ]
+    },
+    {
+      "width": 390,
+      "progress": 0.675,
+      "time": 28.661691,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Selected. Sorted. Graded. Green coffee is prepared to an agreed buyer specification."
+      ]
+    },
+    {
+      "width": 390,
+      "progress": 0.775,
+      "time": 36.379115,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Roasting Heat transforms aroma, structure and flavour."
+      ]
+    },
+    {
+      "width": 390,
+      "progress": 0.845,
+      "time": 42.152382,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Ground for brewing Roasted coffee is ground to the particle size the brewing method needs."
+      ]
+    },
+    {
+      "width": 390,
+      "progress": 0.888,
+      "time": 47.121477,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "From origin to the cup. One journey. Green coffee, roasted coffee and filter coffee."
+      ]
+    },
+    {
+      "width": 390,
+      "progress": 0.95,
+      "time": 49.05,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 0,
+      "overflow": false,
+      "coverage": true,
+      "notes": []
+    },
+    {
+      "width": 390,
+      "progress": 0.995,
+      "time": 49.05,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 0,
+      "overflow": false,
+      "coverage": true,
+      "notes": []
+    },
+    {
+      "width": 768,
+      "progress": 0.125,
+      "time": 0.033601,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Every cup begins as a fruit. Before coffee is a bean, it is a cherry on a tree."
+      ]
+    },
+    {
+      "width": 768,
+      "progress": 0.17,
+      "time": 0.318636,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Every cup begins as a fruit. Before coffee is a bean, it is a cherry on a tree."
+      ]
+    },
+    {
+      "width": 768,
+      "progress": 0.23,
+      "time": 0.734606,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Harvested at ripeness At peak ripeness, the cherry is ready for picking. Its fruit protects the coffee seeds within."
+      ]
+    },
+    {
+      "width": 768,
+      "progress": 0.3,
+      "time": 1.240867,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Harvested at ripeness At peak ripeness, the cherry is ready for picking. Its fruit protects the coffee seeds within."
+      ]
+    },
+    {
+      "width": 768,
+      "progress": 0.38,
+      "time": 6.457171,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Natural process The whole cherry dries with its fruit intact. The dry outer husk then breaks away, revealing seeds still protected by parchment. Whole-cherry drying · an alternative route"
+      ]
+    },
+    {
+      "width": 768,
+      "progress": 0.46,
+      "time": 13.159442,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Honey process The soft fruit skin peels away to reveal the seeds. Some fruit mucilage remains on the coffee during drying. Mucilage retained · one processing route"
+      ]
+    },
+    {
+      "width": 768,
+      "progress": 0.53,
+      "time": 18.199086,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Washed process Water carries away the loosened mucilage, exposing the solid, parchment-covered coffee seeds beneath. Mucilage removed · an alternative route"
+      ]
+    },
+    {
+      "width": 768,
+      "progress": 0.615,
+      "time": 24.363004,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Removing the parchment Once dry, the brittle parchment is cracked and hulled away to reveal green coffee. Natural coffees also lose their dried fruit husk."
+      ]
+    },
+    {
+      "width": 768,
+      "progress": 0.675,
+      "time": 28.662217,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Selected. Sorted. Graded. Green coffee is prepared to an agreed buyer specification."
+      ]
+    },
+    {
+      "width": 768,
+      "progress": 0.775,
+      "time": 36.374426,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Roasting Heat transforms aroma, structure and flavour."
+      ]
+    },
+    {
+      "width": 768,
+      "progress": 0.845,
+      "time": 42.179783,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "Ground for brewing Roasted coffee is ground to the particle size the brewing method needs."
+      ]
+    },
+    {
+      "width": 768,
+      "progress": 0.888,
+      "time": 47.093859,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 1,
+      "overflow": false,
+      "coverage": true,
+      "notes": [
+        "From origin to the cup. One journey. Green coffee, roasted coffee and filter coffee."
+      ]
+    },
+    {
+      "width": 768,
+      "progress": 0.95,
+      "time": 49.05,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 0,
+      "overflow": false,
+      "coverage": true,
+      "notes": []
+    },
+    {
+      "width": 768,
+      "progress": 0.995,
+      "time": 49.05,
+      "ready": 4,
+      "seeking": false,
+      "opacity": 0,
+      "overflow": false,
+      "coverage": true,
+      "notes": []
+    }
+  ]
+}

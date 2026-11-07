@@ -7,8 +7,8 @@ index.html forwards file-based previews to that build. In the delivered ZIP,
 the production index.html is at the top level: extract first, then open it.
 
 Local preview without installing dependencies:
-  python3 -m http.server 4173 --directory dist
-  Open http://localhost:4173
+  python3 scripts/serve-website.py 4175
+  Open http://127.0.0.1:4175/dist/
 
 To edit and rebuild (Node.js 22.12+ or 24 recommended):
   npm install
@@ -24,5 +24,5 @@ Robusta Cherry and washed Arabica include the requested surface cleanup.
 See docs/GREEN-CLEANUP.md and docs/GREEN-REFERENCE-IMAGES.md for image prompts.
 
 The enquiry form prepares a brief for WhatsApp; it does not send email or
-save to a backend. Privacy/terms/shipping/admin destinations require your
-hosting setup. See docs/IMPLEMENTATION.md for further implementation notes.
+save to a backend. Unimplemented policy and administration links have been removed.
+Owner-approved policies and production hosting security remain deployment tasks. See docs/IMPLEMENTATION.md for further implementation notes.

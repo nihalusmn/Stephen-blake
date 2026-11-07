@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-05",
+  "status": "assembled into cinematic website v21",
+  "referenceVideo": "/Users/nihalusmanmm/Desktop/VIDEO-2026-11-04-15-22-17.mp4",
+  "freeRun": {
+    "model": "hf_mult_motion_control",
+    "resolution": "720p",
+    "count": 1,
+    "use_free_gens": true,
+    "medias": [
+      {
+        "role": "image",
+        "value": "355a9288-5b54-4ea6-9571-c66c41643073"
+      },
+      {
+        "role": "video",
+        "value": "6763127d-df68-4ea7-9817-77a8acf1a021"
+      }
+    ],
+    "prompt": "Create a new polished photorealistic macro coffee transformation film for a premium coffee exporter. Use the supplied still image as the identity and texture of the initial ripe ruby-red coffee cherry. Transfer the reference video's graceful continuous motion and transformation choreography: hanging cherry detaches, red skin and translucent golden pulp peel gracefully away to reveal the pale seed, the dry parchment shell opens to expose the green coffee bean, the green bean warms gradually through golden cinnamon to rich dark walnut roast, delicate believable wisps of vapour rise, the roasted bean crumbles from its bottom into fine ground coffee, a slender coffee stream resolves into a refined cup. Preserve sharp photographic texture throughout and physically believable organic materials. One calm studio world, pale neutral ivory-white background, soft directional natural light from upper left and gentle fill, crisp macro detail with controlled depth of field. Keep the object entirely visible with generous negative space, centred, with consistent scale between transformations. The camera remains calm and all motion is slow, deliberate and elegant. Produce ONLY the clean coffee film: exclude EVERY Instagram or phone interface, text, caption, watermark, logo, social icon, border, status bar, count and user handle appearing in the reference. No labels baked into the video: the website will add readable process descriptions. Do not keep a red cherry when the narrative has advanced to a seed or bean. No plastic texture, no cartoon, no mechanical platforms, no brown background, no rapid cuts, no extra objects or hands. Preserve a stable clean final frame for later transition into the product collection."
+  },
+  "jobs": [
+    {
+      "job_id": "acb9a749-cb0d-4ba4-8efc-ba519c41072c",
+      "shot": "core",
+      "used": true,
+      "credits": 0,
+      "free": true
+    },
+    {
+      "job_id": "0365eeca-d63c-468f-b878-f34226e86e2d",
+      "shot": "natural first attempt",
+      "used": false,
+      "credits": 7.5
+    },
+    {
+      "job_id": "aa935952-a06a-416d-ac46-ccdd09cc1a41",
+      "shot": "washed first attempt",
+      "used": false,
+      "credits": 7.5
+    },
+    {
+      "job_id": "d9c33a42-6ca7-4a2e-aedc-c3be15e071c9",
+      "shot": "honey first attempt",
+      "used": false,
+      "credits": 7.5
+    },
+    {
+      "job_id": "d51da97d-29ad-4c4f-980f-359a528a1146",
+      "shot": "hulling first attempt",
+      "used": false,
+      "credits": 12
+    },
+    {
+      "job_id": "28d7c600-9232-4a59-b507-c8ae76c4a3be",
+      "shot": "natural-corrected",
+      "used": true,
+      "credits": 7.5
+    },
+    {
+      "job_id": "301f6f17-9da2-40e7-9528-80e58c22b577",
+      "shot": "hulling-corrected",
+      "used": true,
+      "credits": 12
+    },
+    {
+      "job_id": "a22408f7-10cf-4963-b3bd-f2b3fff74f88",
+      "shot": "washed-corrected",
+      "used": true,
+      "credits": 7.5
+    },
+    {
+      "job_id": "e6da45e7-eb74-4524-a968-ae1ed6a310a7",
+      "shot": "honey-corrected",
+      "used": true,
+      "credits": 7.5
+    }
+  ],
+  "processPrompts": [
+    {
+      "name": "natural",
+      "prompt": "A five-second silent luxury coffee macro cinematography shot, photorealistic optical detail, filmed with a 100mm macro lens. A single small coffee specimen is suspended in the centre of a seamless softly illuminated pale ivory-white studio, background RGB approximately 245 244 240. Landscape 16:9, keep the specimen fully in frame and only 45 percent of frame height, abundant clean negative space, camera locked with a barely perceptible slow push. Beautiful soft directional key light from upper left, gentle neutral fill, crisp real biological material detail, restrained highlights. It must look like a high-budget real coffee commercial, not cartoon or plastic CGI. No text, no labels, no logos, no UI, no hands, no machines, no trays, no platforms, no dark backdrop, no flames, no magical glow, no syrup being poured. All action is slow and physically coherent. Hold the opening and final composition briefly for editorial transitions. NATURAL PROCESS: begin with one ripe ruby red whole coffee cherry with no stem. In a graceful accelerated drying time-lapse, moisture leaves the WHOLE INTACT FRUIT: red skin darkens to deep reddish mahogany, the skin shrivels into many intricate wrinkles, and the cherry becomes about 15 percent smaller. The coffee seed stays entirely inside. Show only the whole cherry drying, do not split it open, do not roast it and do not turn it into a bean. The final frame is a realistic dried coffee cherry with a richly wrinkled leathery surface."
+    },
+    {
+      "name": "washed",
+      "prompt": "A five-second silent luxury coffee macro cinematography shot, photorealistic optical detail, filmed with a 100mm macro lens. A single small coffee specimen is suspended in the centre of a seamless softly illuminated pale ivory-white studio, background RGB approximately 245 244 240. Landscape 16:9, keep the specimen fully in frame and only 45 percent of frame height, abundant clean negative space, camera locked with a barely perceptible slow push. Beautiful soft directional key light from upper left, gentle neutral fill, crisp real biological material detail, restrained highlights. It must look like a high-budget real coffee commercial, not cartoon or plastic CGI. No text, no labels, no logos, no UI, no hands, no machines, no trays, no platforms, no dark backdrop, no flames, no magical glow, no syrup being poured. All action is slow and physically coherent. Hold the opening and final composition briefly for editorial transitions. WASHED PROCESS: begin with one freshly depulped pale straw coffee seed enclosed in its parchment, with a delicate translucent amber mucilage coating. A thin clear stream of water sweeps gently over the seed from above and runs downward in realistic small droplets, carrying away only the sticky surface coating. As the wash finishes, the pale parchment surface is clean, ivory straw coloured and wet with a few glistening droplets. No red cherry skin appears, no roasting, no green bean is exposed, no floating giant bubbles. Real water refraction and restrained natural wet reflections. Water stops before the final frame."
+    },
+    {
+      "name": "honey",
+      "prompt": "A five-second silent luxury coffee macro cinematography shot, photorealistic optical detail, filmed with a 100mm macro lens. A single small coffee specimen is suspended in the centre of a seamless softly illuminated pale ivory-white studio, background RGB approximately 245 244 240. Landscape 16:9, keep the specimen fully in frame and only 45 percent of frame height, abundant clean negative space, camera locked with a barely perceptible slow push. Beautiful soft directional key light from upper left, gentle neutral fill, crisp real biological material detail, restrained highlights. It must look like a high-budget real coffee commercial, not cartoon or plastic CGI. No text, no labels, no logos, no UI, no hands, no machines, no trays, no platforms, no dark backdrop, no flames, no magical glow, no syrup being poured. All action is slow and physically coherent. Hold the opening and final composition briefly for editorial transitions. HONEY PROCESS: begin with one coffee cherry with its ruby skin already loosened. Two slender pieces of red fruit skin and translucent pale pulp peel smoothly outward and downward, revealing one pale parchment-covered coffee seed with a THIN sticky golden amber mucilage film still attached. Keep the mucilage on the seed. It gradually loses some moisture and becomes a delicate tacky golden coat while the seed remains whole. This is natural coffee fruit mucilage, never literal honey or poured syrup. No water washing, no roast, no molten caramel. End holding the exposed seed with realistic fine fibres and restrained moist sheen."
+    }
+  ],
+  "quotedPaidCredits": 69,
+  "notes": [
+    "Core used the one free Genjutsu motion-transfer generation at 720p.",
+    "Paid shots used Kling 3.0 standard. Pro requests were rejected before submission.",
+    "The first natural shot split the fruit incorrectly; the first washed and honey shots were softer and less consistent; the first hulling shot resembled a nut shell. They are not used in the final edit.",
+    "Reference-driven replacements preserve whole-fruit drying and thinner parchment.",
+    "Source shots are generated illustrations, not documentary footage of company lots.",
+    "Natural, washed and honey are presented as alternative paths, not successive treatments."
+  ],
+  "verifiedRemainingCredits": 51
+}

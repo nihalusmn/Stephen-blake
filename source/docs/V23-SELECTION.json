@@ -1,0 +1,15 @@
+{
+  "version": 23,
+  "opening": "core.mp4, 0\u20134.125 seconds retimed to 4.75 seconds plus two-second mucilage hold",
+  "reference": "User-uploaded stephenblake video.mp4; exact matching original core retained",
+  "processing_order": [
+    "honey",
+    "washed",
+    "natural"
+  ],
+  "layout": "Three accumulating desktop columns; horizontal viewport panels below 760px; vertical parchment removal afterwards",
+  "hulling": "hulling-corrected.mp4",
+  "roasting": "Deterministic colour development of frame 191 from selected hulling clip",
+  "additional_higgsfield_credits": 0,
+  "unused_image_study": "assets/photography/masters/process-mucilage-v23.png"
+}

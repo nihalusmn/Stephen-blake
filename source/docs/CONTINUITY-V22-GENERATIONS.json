@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-05",
+  "model": "kling3_0",
+  "mode": "std",
+  "sound": "off",
+  "jobs": [
+    {
+      "shot": "peeling-v22",
+      "id": "b62c9da6-d534-472c-ba75-7ddbe6584849",
+      "duration": 5,
+      "credits": 7.5
+    },
+    {
+      "shot": "natural-hulling-v22",
+      "id": "f136b118-41dd-445f-9036-b6803ba3db78",
+      "duration": 8,
+      "credits": 12
+    },
+    {
+      "shot": "same-bean-grinding-v22",
+      "id": "38873724-47bd-490b-9132-20719c95e4d3",
+      "duration": 6,
+      "credits": 9
+    }
+  ],
+  "credits_used": 28.5,
+  "verified_remaining": 22.5,
+  "roasting": "Deterministic colour development of final hulling frame; no new video generation."
+}

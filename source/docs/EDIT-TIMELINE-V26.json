@@ -1,0 +1,37 @@
+[
+  {
+    "shot": "peeling-honey",
+    "start": 0,
+    "end": 6.75
+  },
+  {
+    "shot": "washed",
+    "start": 6.5,
+    "end": 12.5
+  },
+  {
+    "shot": "natural",
+    "start": 12.1,
+    "end": 20.6
+  },
+  {
+    "shot": "hulling",
+    "start": 20.35,
+    "end": 28.35
+  },
+  {
+    "shot": "green-roast",
+    "start": 28.35,
+    "end": 38.35
+  },
+  {
+    "shot": "grinding",
+    "start": 38.35,
+    "end": 44.35
+  },
+  {
+    "shot": "cup",
+    "start": 43.95,
+    "end": 48.95
+  }
+]

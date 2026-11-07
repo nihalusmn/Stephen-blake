@@ -111,6 +111,8 @@ addEventListener('load', measureBands);
 measureBands();
 
 addEventListener('scroll', () => {
+  // Dynamic catalogue/animation heights can move these sections after load.
+  measureBands();
   const end = filmEnd();
   const past = scrollY > end + 24;
   mast.classList.toggle('stuck', past);
@@ -240,6 +242,7 @@ function openGroup(key, opts){
   /* the page just got taller: the smooth-scroll systems need to know */
   if(window.sbLenis) window.sbLenis.resize();
   if(window.ScrollTrigger) window.ScrollTrigger.refresh();
+  measureBands();
   if(opts.push !== false && location.hash !== GROUP_HASH[key]){
     history.pushState({group:key}, '', GROUP_HASH[key]);
   }
@@ -256,7 +259,10 @@ function closeGroups(push){
     row.querySelectorAll('.sb-card').forEach(a => a.classList.remove('is-chosen')); }
   document.title = 'Stephen Blake — Indian Coffee. Grown, graded, shipped.';
   if(push !== false && location.hash) history.pushState({}, '', location.pathname + location.search);
-  goToCategories();
+  window.sbLenis?.resize();
+  window.ScrollTrigger?.refresh();
+  measureBands();
+  if(push !== false) goToCategories();
 }
 /* The three categories are the last frame of the cinematic prologue, so the
    jump has to land on that frame rather than on an element's top edge. */
@@ -298,7 +304,17 @@ $('#reset').addEventListener('click', () => {
 function routeFromHash(scroll){
   const key = HASH_GROUP[location.hash];
   if(key) openGroup(key, {push:false, scroll:scroll});
-  else if(state.group) closeGroups(false);
+  else {
+    if(state.group) closeGroups(false);
+    if(scroll){
+      if(location.hash === '#coffees' || !location.hash) goToCategories();
+      else {
+        let target;
+        try { target = document.getElementById(decodeURIComponent(location.hash.slice(1))); } catch {}
+        if(target) scrollToElement(target);
+      }
+    }
+  }
 }
 addEventListener('popstate', () => routeFromHash(true));
 
@@ -340,7 +356,7 @@ function renderDossier(){
     </div>
     <div class="dossier__body">
       <span class="data">${esc(p.category)} — ${esc(ds.roasted ? 'whole bean' : p.species)}</span>
-      <h2>${esc(p.name)}</h2>
+      <h2 id="dossier-title">${esc(p.name)}</h2>
       <p class="lead" style="font-size:1rem">${esc(p.description)}</p>
 
       ${ds.roasted ? `<div class="dsec"><h4>Choose the coffee</h4><div class="chips">
@@ -380,6 +396,7 @@ function renderDossier(){
       </div>
     </div>
   </div>`;
+  dlg.setAttribute('aria-labelledby', 'dossier-title');
   const brief = [p.name, ds.grade && (ds.washed ? 'PL ' : 'Grade ') + ds.grade,
     ds.roasted && ds.species, ds.origin].filter(Boolean).join(', ');
   dlg.querySelector('[data-act="wa"]').href = WA('Hello Stephen Blake, I would like to ask about ' + brief + '.');
@@ -393,6 +410,9 @@ dlg.addEventListener('click', e => {
     if(sp) ds.species = sp.dataset.species;
     if(or) ds.origin = or.dataset.origin;
     renderDossier();
+    const attr = g ? 'data-grade' : sp ? 'data-species' : 'data-origin';
+    const selected = g ? ds.grade : sp ? ds.species : ds.origin;
+    [...dlg.querySelectorAll(`[${attr}]`)].find(el => el.getAttribute(attr) === selected)?.focus({preventScroll:true});
     dlg.querySelector('.dossier__body').scrollTop = keep;
     return;
   }
@@ -403,13 +423,14 @@ dlg.addEventListener('click', e => {
     state.req.form = p.category === 'Custom blends' ? 'Custom blends' : p.category;
     state.req.variety = ds.roasted ? ds.species
       : ['Arabica','Robusta'].includes(p.species) ? p.species
-      : HERBAL.has(p.id) ? 'Herbal blend' : 'Open to recommendation';
-    if(ds.origin !== 'India, any region') state.req.origin = ds.origin;
+      : HERBAL.has(p.id) ? 'Herbal blend' : '';
+    state.req.origin = ds.origin === 'India, any region' ? '' : ds.origin;
+    state.req.process = p.category === 'Green coffee' ? (ds.washed ? 'Washed' : 'Natural') : '';
     state.req.coffee = p.name;
-    if(ds.grade) $('input[name="grade"]').value = (ds.washed ? 'PL ' : '') + ds.grade;
+    $('input[name="grade"]').value = ds.grade ? (ds.washed ? 'PL ' : '') + ds.grade : '';
     if(ds.wantSample) $('#f-kind').value = 'Sample request';
     dlg.close();
-    renderPicks(); goStep(4);
+    renderProcess(); renderPicks(); goStep(4);
     scrollToElement($('#request'), {behavior: calm() ? 'auto' : 'smooth'});
   }
 });
@@ -435,6 +456,7 @@ function renderRegions(){
   window.sbLenis?.resize();
   window.ScrollTrigger?.refresh();
   $('#region-badge').textContent = state.region;
+  measureBands();
   $('#region-cta').firstChild.textContent = 'Request coffee from ' + state.region + ' ';
 }
 $('#regions').addEventListener('click', e => {
@@ -462,6 +484,7 @@ $('#proc').addEventListener('click', e => {
   renderProcess(); renderPicks();
 });
 $('#pl-cta').addEventListener('click', () => {
+  state.req.coffee = ''; $('input[name="grade"]').value = '';
   state.req.form = 'Custom blends'; $('#f-pl').value = 'Yes';
   $('#f-kind').value = 'Private label enquiry'; renderPicks(); goStep(2);
 });
@@ -506,15 +529,20 @@ function renderPicks(){
   $('#p-form').innerHTML    = PICKS.form.map(r => cell('form', r)).join('');
   $('#p-variety').innerHTML = PICKS.variety.map(r => cell('variety', r)).join('');
   $('#p-process').innerHTML = PICKS.process.map(r => cell('process', r)).join('');
-  renderRail(); renderSummary();
+  renderRail(); renderSummary(); updateWa();
 }
+let advanceTimer;
 document.addEventListener('click', e => {
   const b = e.target.closest('[data-pick]'); if(!b) return;
+  clearTimeout(advanceTimer);
+  if(b.dataset.pick === 'form' && state.req.form !== b.dataset.val){
+    state.req.coffee = ''; $('input[name="grade"]').value = '';
+  }
   state.req[b.dataset.pick] = b.dataset.val;
   if(b.dataset.pick === 'process'){ renderProcess(); }
   if(b.dataset.pick === 'origin' && b.dataset.val){ state.region = b.dataset.val; renderRegions(); }
   renderPicks();
-  if(!calm()) setTimeout(() => goStep(state.step + 1), 260);
+  if(!calm()){ const next = state.step + 1; advanceTimer = setTimeout(() => goStep(next), 260); }
   else goStep(state.step + 1);
 });
 function renderRail(){
@@ -525,6 +553,7 @@ $('#rail').addEventListener('click', e => {
   const b = e.target.closest('[data-go]'); if(b) goStep(+b.dataset.go);
 });
 function goStep(n){
+  clearTimeout(advanceTimer);
   state.step = Math.max(0, Math.min(STEPS.length - 1, n));
   $$('.flow__panel').forEach(p => p.classList.toggle('on', +p.dataset.step === state.step));
   $('#flow-back').hidden = state.step === 0;
@@ -552,6 +581,8 @@ function briefPairs(){
   if(v('packaging'))   out.push(['Packaging', v('packaging')]);
   if(v('privateLabel') && v('privateLabel') !== 'No') out.push(['Private label', v('privateLabel')]);
   if(v('sourcing') && v('sourcing') !== 'Standard commercial specification') out.push(['Sourcing', v('sourcing')]);
+  if(v('kind')) out.push(['Enquiry type', v('kind')]);
+  if(v('requirements')) out.push(['Additional requirements', v('requirements')]);
   return out;
 }
 function renderSummary(){
@@ -559,8 +590,21 @@ function renderSummary(){
   $('#summary-list').innerHTML = pairs.map(([k,val]) => `<dt>${k}</dt><dd>${esc(val)}</dd>`).join('');
   $('#summary').hidden = pairs.length === 0;
 }
-function updateWa(){
+function enquiryPairs(){
   const pairs = briefPairs();
+  for(const [name,label] of [['name','Name'],['company','Company'],['email','Email'],['phone','Phone / WhatsApp']]){
+    const value = $(`[name="${name}"]`)?.value.trim();
+    if(value) pairs.push([label,value]);
+  }
+  return pairs;
+}
+function invalidatePreparedBrief(){
+  const status = $('#status');
+  if(status.dataset.kind === 'ok'){ status.hidden = true; status.textContent = ''; delete status.dataset.kind; }
+}
+function updateWa(){
+  invalidatePreparedBrief();
+  const pairs = enquiryPairs();
   const msg = pairs.length
     ? 'Hello Stephen Blake. I would like to request coffee — ' + pairs.map(([k,v]) => `${k}: ${v}`).join(', ') + '.'
     : 'Hello Stephen Blake. I would like to discuss a coffee requirement.';
@@ -577,20 +621,26 @@ $('#flow-next').addEventListener('click', () => {
   const missing = [['name','your name'],['company','your company'],['email','your email'],
     ['country','a destination country'],['amount','a quantity']].filter(([k]) => !v(k));
   const badEmail = v('email') && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v('email'));
-  if(missing.length || badEmail){
+  const badAmount = v('amount') && (!Number.isFinite(Number(v('amount'))) || Number(v('amount')) < .1);
+  if(missing.length || badEmail || badAmount){
     status.hidden = false; status.dataset.kind = 'error';
-    status.textContent = badEmail && !missing.length
-      ? 'That email address looks incomplete — check it and send again.'
+    status.textContent = badAmount && !missing.length
+      ? 'Enter a quantity of at least 0.1 in your selected unit.'
+      : badEmail && !missing.length
+      ? 'That email address looks incomplete — check it and prepare your request again.'
       : 'Add ' + missing.map(m => m[1]).join(', ') + ' so we can reply.';
-    const first = missing[0] ? missing[0][0] : 'email';
+    const first = missing[0] ? missing[0][0] : badAmount ? 'amount' : 'email';
     if(['country','amount'].includes(first)){ goStep(4); }
     setTimeout(() => $(`[name="${first}"]`)?.focus(), 80);
     return;
   }
-  /* live site: POST /api/enquiries and show the returned reference */
-  const ref = Math.random().toString(16).slice(2,10);
+  // Preparing a brief is local. Only the buyer's WhatsApp action sends it.
   status.hidden = false; status.dataset.kind = 'ok';
-  status.innerHTML = `Your brief is ready. Reference <b>${ref}</b>. Send it to our coffee team <a class="link" href="${WA('Hello Stephen Blake, request ' + ref + ': ' + briefPairs().map(([k,v]) => k + ': ' + v).join(', ') + '. Contact: ' + v('name') + ', ' + v('company') + ', ' + v('email'))}" target="_blank" rel="noreferrer">on WhatsApp</a>.`;
+  status.replaceChildren(document.createTextNode('Your brief is ready. It has not been sent yet. '));
+  const sendLink = document.createElement('a');
+  sendLink.className = 'link'; sendLink.textContent = 'Send to our coffee team on WhatsApp';
+  sendLink.href = WA('Hello Stephen Blake, I would like to enquire about coffee.\n' + enquiryPairs().map(([k,value]) => `${k}: ${value}`).join('\n'));
+  sendLink.target = '_blank'; sendLink.rel = 'noopener noreferrer'; status.append(sendLink);
   scrollToElement(status, {block:'center', behavior: calm() ? 'auto' : 'smooth'});
 });
 

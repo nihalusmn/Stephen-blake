@@ -8,12 +8,17 @@ const fs = require('node:fs');
  const pass=(n,v)=>{assert.ok(v,n);checks.push(n);console.log('PASS',n)};
  const url='http://127.0.0.1:4175/dist/';
  await p.goto(url);await p.waitForTimeout(1800);
+ await p.waitForFunction(()=>document.documentElement.dataset.macroReady==='true');
  const initial=await p.evaluate(()=>window.ScrollTrigger.getAll().length);
  for(let i=0;i<2;i++){
   await p.emulateMedia({reducedMotion:'reduce'});await p.waitForTimeout(150);
   pass('Scene cleanup '+i,await p.evaluate(()=>!document.documentElement.classList.contains('sb-on')&&!window.sbLenis));
   await p.emulateMedia({reducedMotion:'no-preference'});await p.waitForTimeout(1700);
+  await p.waitForFunction(()=>document.documentElement.dataset.macroReady==='true');
   pass('Scene reinitialization '+i,await p.evaluate(()=>document.documentElement.classList.contains('sb-on')&&!!window.sbLenis));
+  pass('One film element after reinitialization '+i,await p.locator('.sb-journey-video').count()===1);
+  pass('One aligned hero and vapour overlay '+i,await p.locator('.sb-hero-match').count()===1&&await p.locator('.sb-roast-vapour').count()===1);
+  pass('Exactly three process panels after reinitialization '+i,await p.locator('.sb-process-panel-video').count()===3);
   pass('No duplicate triggers '+i,await p.evaluate(n=>window.ScrollTrigger.getAll().length<=n+1,initial));
  }
  await p.setViewportSize({width:390,height:844});await p.waitForTimeout(400);
@@ -31,7 +36,7 @@ const fs = require('node:fs');
  pass('No WebGL category remains functional',await off.locator('#grid .card').count()===3);
  const reduced=await b.newPage({reducedMotion:'reduce'});const requests=[];
  reduced.on('request',r=>requests.push(r.url()));await reduced.goto(url);await reduced.waitForTimeout(1000);
- pass('Reduced motion does not fetch scene',!requests.some(u=>/\/origin-[^/]+\.js/.test(u)));
+ pass('Reduced motion does not fetch film',!requests.some(u=>u.includes('coffee-journey-v28.mp4')));
  pass('No lifecycle errors',errors.length===0);
  fs.writeFileSync('docs/lifecycle-results.json',JSON.stringify({date:new Date().toISOString(),checks,errors},null,2));
  await b.close();

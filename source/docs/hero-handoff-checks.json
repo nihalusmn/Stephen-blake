@@ -1,0 +1,1748 @@
+[
+  {
+    "width": 1440,
+    "height": 1000,
+    "p": 0,
+    "body": {
+      "x": 360,
+      "y": 385,
+      "h": 420
+    },
+    "movie": {
+      "x": 957.59375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "time": 0,
+    "opacity": 0,
+    "match": 0,
+    "estate": 1,
+    "transform": "translate3d(0px, 0px, 0px) scale(1)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "p": 0.025,
+    "body": {
+      "x": 360,
+      "y": 385,
+      "h": 420
+    },
+    "movie": {
+      "x": 957.59375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "time": 0,
+    "opacity": 0,
+    "match": 0,
+    "estate": 1,
+    "transform": "translate3d(-233.121px, -60.4135px, 0px) scale(1.28389)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "p": 0.045,
+    "body": {
+      "x": 894.9187622070312,
+      "y": 286.4601694742839,
+      "h": 120.61328125
+    },
+    "movie": {
+      "x": 957.59375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "time": 0,
+    "opacity": 0,
+    "match": 0.6033,
+    "estate": 1,
+    "transform": "translate3d(-1024.11px, -274.525px, 0px) scale(2.2321)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "p": 0.06,
+    "body": {
+      "x": 916.7385559082031,
+      "y": 308.25491078694665,
+      "h": 198.4677734375
+    },
+    "movie": {
+      "x": 957.59375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "time": 0,
+    "opacity": 0,
+    "match": 1,
+    "estate": 1,
+    "transform": "translate3d(-2240.92px, -614.819px, 0px) scale(3.6728)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "p": 0.078,
+    "body": {
+      "x": 940.4115905761719,
+      "y": 331.8967393239339,
+      "h": 340.6484375
+    },
+    "movie": {
+      "x": 957.59375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "time": 0,
+    "opacity": 0,
+    "match": 1,
+    "estate": 1,
+    "transform": "translate3d(-4479.3px, -1252.44px, 0px) scale(6.30386)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "p": 0.092,
+    "body": {
+      "x": 953.128662109375,
+      "y": 344.5935974121094,
+      "h": 430.8486328125
+    },
+    "movie": {
+      "x": 957.59375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "time": 0,
+    "opacity": 0.0132,
+    "match": 1,
+    "estate": 0.694,
+    "transform": "translate3d(-6291.81px, -1773.31px, 0px) scale(8.42685)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "p": 0.105,
+    "body": {
+      "x": 957.5999755859375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "movie": {
+      "x": 957.59375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "time": 0,
+    "opacity": 0.526,
+    "match": 1,
+    "estate": 0.203,
+    "transform": "translate3d(-7065.18px, -1996.23px, 0px) scale(9.33158)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "p": 0.119,
+    "body": {
+      "x": 957.5999755859375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "movie": {
+      "x": 957.59375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "time": 0,
+    "opacity": 1,
+    "match": 0.0001,
+    "estate": 0,
+    "transform": "translate3d(-7065.18px, -1996.23px, 0px) scale(9.33158)",
+    "notes": [
+      "Every cup begins as a fruit."
+    ],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "p": 0.145,
+    "body": {
+      "x": 957.5999755859375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "movie": {
+      "x": 957.59375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "time": 0.149829,
+    "opacity": 1,
+    "match": 0,
+    "estate": 0,
+    "transform": "translate3d(-7065.18px, -1996.23px, 0px) scale(9.33158)",
+    "notes": [
+      "Every cup begins as a fruit."
+    ],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "p": 0.18,
+    "body": {
+      "x": 957.5999755859375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "movie": {
+      "x": 957.59375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "time": 0.381708,
+    "opacity": 1,
+    "match": 0,
+    "estate": 0,
+    "transform": "translate3d(-7065.18px, -1996.23px, 0px) scale(9.33158)",
+    "notes": [
+      "Every cup begins as a fruit."
+    ],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "p": 0.23,
+    "body": {
+      "x": 957.5999755859375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "movie": {
+      "x": 824.390625,
+      "y": 344.5575358072917,
+      "h": 425.1337890625
+    },
+    "time": 0.735168,
+    "opacity": 1,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.1482) translate3d(0px, -2.37%, 0px)",
+    "notes": [
+      "Harvested at ripeness"
+    ],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "p": 0.3,
+    "body": {
+      "x": 957.5999755859375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "movie": {
+      "x": 345.046875,
+      "y": 328.3375651041667,
+      "h": 349.15234375
+    },
+    "time": 1.240615,
+    "opacity": 1,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.1812) translate3d(0px, -3.09%, 0px)",
+    "notes": [
+      "Harvested at ripeness"
+    ],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "p": 0.33,
+    "body": {
+      "x": 957.5999755859375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "movie": {
+      "x": 242.5,
+      "y": 324.8738606770833,
+      "h": 332.896484375
+    },
+    "time": 1.458506,
+    "opacity": 0.9809,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.1953) translate3d(0px, -3.4%, 0px)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "p": 0.355,
+    "body": {
+      "x": 957.5999755859375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "movie": {
+      "x": 957.59375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "time": 3.702929,
+    "opacity": 0,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.2) translate3d(0px, -3.5%, 0px)",
+    "notes": [
+      "Natural process"
+    ],
+    "vapour": 0,
+    "panels": [
+      3.608296,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "p": 0.38,
+    "body": {
+      "x": 957.5999755859375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "movie": {
+      "x": 957.59375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "time": 6.454761,
+    "opacity": 0,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.2) translate3d(0px, -3.5%, 0px)",
+    "notes": [
+      "Natural process"
+    ],
+    "vapour": 0,
+    "panels": [
+      6.279887,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "p": 0.405,
+    "body": {
+      "x": 957.5999755859375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "movie": {
+      "x": 957.59375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "time": 9.226389,
+    "opacity": 0,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.2) translate3d(0px, -3.5%, 0px)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      8.944095,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "p": 0.46,
+    "body": {
+      "x": 957.5999755859375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "movie": {
+      "x": 957.59375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "time": 13.153123,
+    "opacity": 0,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.2) translate3d(0px, -3.5%, 0px)",
+    "notes": [
+      "Honey process"
+    ],
+    "vapour": 0,
+    "panels": [
+      9.7,
+      12.950257,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "p": 0.53,
+    "body": {
+      "x": 957.5999755859375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "movie": {
+      "x": 957.59375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "time": 18.200044,
+    "opacity": 0,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.2) translate3d(0px, -3.5%, 0px)",
+    "notes": [
+      "Washed process"
+    ],
+    "vapour": 0,
+    "panels": [
+      9.7,
+      14.7,
+      18.702666
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "p": 0.615,
+    "body": {
+      "x": 957.5999755859375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "movie": {
+      "x": 957.59375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "time": 24.381684,
+    "opacity": 1,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.2) translate3d(0px, -3.5%, 0px)",
+    "notes": [
+      "Removing the parchment"
+    ],
+    "vapour": 0,
+    "panels": [
+      9.7,
+      14.7,
+      20.454346
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "p": 0.775,
+    "body": {
+      "x": 957.5999755859375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "movie": {
+      "x": 957.59375,
+      "y": 349.0625,
+      "h": 446.25
+    },
+    "time": 36.365413,
+    "opacity": 1,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.2) translate3d(0px, -3.5%, 0px)",
+    "notes": [
+      "Roasting"
+    ],
+    "vapour": 1,
+    "panels": [
+      9.7,
+      14.7,
+      20.454346
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "p": 0,
+    "body": {
+      "x": 360,
+      "y": 385,
+      "h": 420
+    },
+    "movie": {
+      "x": 195,
+      "y": 239.50520833333331,
+      "h": 284.375
+    },
+    "time": 0,
+    "opacity": 0,
+    "match": 0,
+    "estate": 1,
+    "transform": "translate3d(0px, 0px, 0px) scale(1)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "p": 0.025,
+    "body": {
+      "x": 360,
+      "y": 385,
+      "h": 420
+    },
+    "movie": {
+      "x": 195,
+      "y": 239.50520833333331,
+      "h": 284.375
+    },
+    "time": 0,
+    "opacity": 0,
+    "match": 0,
+    "estate": 1,
+    "transform": "translate3d(-88.8184px, -48.2888px, 0px) scale(1.24198)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "p": 0.045,
+    "body": {
+      "x": 270.52337646484375,
+      "y": 221.96754050254822,
+      "h": 92.03223323822021
+    },
+    "movie": {
+      "x": 195,
+      "y": 239.50520833333331,
+      "h": 284.375
+    },
+    "time": 0,
+    "opacity": 0,
+    "match": 0.6036,
+    "estate": 1,
+    "transform": "translate3d(-360.997px, -206.091px, 0px) scale(2.01802)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "p": 0.06,
+    "body": {
+      "x": 244.34173583984375,
+      "y": 228.05460611979166,
+      "h": 141.982421875
+    },
+    "movie": {
+      "x": 195,
+      "y": 239.50520833333331,
+      "h": 284.375
+    },
+    "time": 0,
+    "opacity": 0,
+    "match": 1,
+    "estate": 1,
+    "transform": "translate3d(-729.891px, -432.302px, 0px) scale(3.11312)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "p": 0.078,
+    "body": {
+      "x": 215.69274604320526,
+      "y": 234.70831362406412,
+      "h": 228.115234375
+    },
+    "movie": {
+      "x": 195,
+      "y": 239.50520833333331,
+      "h": 284.375
+    },
+    "time": 0,
+    "opacity": 0,
+    "match": 1,
+    "estate": 1,
+    "transform": "translate3d(-1349.54px, -826.243px, 0px) scale(5.00163)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "p": 0.092,
+    "body": {
+      "x": 200.22558212280273,
+      "y": 238.29836654663086,
+      "h": 278.4140625
+    },
+    "movie": {
+      "x": 195,
+      "y": 239.50520833333331,
+      "h": 284.375
+    },
+    "time": 0,
+    "opacity": 0.0158,
+    "match": 1,
+    "estate": 0.687,
+    "transform": "translate3d(-1821.73px, -1132.23px, 0px) scale(6.4611)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "p": 0.105,
+    "body": {
+      "x": 194.99975967407227,
+      "y": 239.51703580220538,
+      "h": 284.375
+    },
+    "movie": {
+      "x": 195,
+      "y": 239.50520833333331,
+      "h": 284.375
+    },
+    "time": 0,
+    "opacity": 0.5234,
+    "match": 1,
+    "estate": 0.204,
+    "transform": "translate3d(-2009.92px, -1255.03px, 0px) scale(7.04572)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "p": 0.119,
+    "body": {
+      "x": 195,
+      "y": 239.5170834859212,
+      "h": 284.375
+    },
+    "movie": {
+      "x": 195,
+      "y": 239.50520833333331,
+      "h": 284.375
+    },
+    "time": 0,
+    "opacity": 1,
+    "match": 0,
+    "estate": 0,
+    "transform": "translate3d(-2009.92px, -1255.03px, 0px) scale(7.04573)",
+    "notes": [
+      "Every cup begins as a fruit."
+    ],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "p": 0.145,
+    "body": {
+      "x": 195,
+      "y": 239.5170834859212,
+      "h": 284.375
+    },
+    "movie": {
+      "x": 195,
+      "y": 239.50520833333331,
+      "h": 284.375
+    },
+    "time": 0.14973,
+    "opacity": 1,
+    "match": 0,
+    "estate": 0,
+    "transform": "translate3d(-2009.92px, -1255.03px, 0px) scale(7.04573)",
+    "notes": [
+      "Every cup begins as a fruit."
+    ],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "p": 0.18,
+    "body": {
+      "x": 195,
+      "y": 239.5170834859212,
+      "h": 284.375
+    },
+    "movie": {
+      "x": 195,
+      "y": 239.50520833333331,
+      "h": 284.375
+    },
+    "time": 0.381766,
+    "opacity": 1,
+    "match": 0,
+    "estate": 0,
+    "transform": "translate3d(-2009.92px, -1255.03px, 0px) scale(7.04573)",
+    "notes": [
+      "Every cup begins as a fruit."
+    ],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "p": 0.23,
+    "body": {
+      "x": 195,
+      "y": 239.5170834859212,
+      "h": 284.375
+    },
+    "movie": {
+      "x": 195,
+      "y": 239.50520833333331,
+      "h": 284.375
+    },
+    "time": 0.717156,
+    "opacity": 1,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.1482) translate3d(0px, -2.37%, 0px)",
+    "notes": [
+      "Harvested at ripeness"
+    ],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "p": 0.3,
+    "body": {
+      "x": 195,
+      "y": 239.5170834859212,
+      "h": 284.375
+    },
+    "movie": {
+      "x": 195,
+      "y": 239.50520833333331,
+      "h": 284.375
+    },
+    "time": 1.22913,
+    "opacity": 1,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.1812) translate3d(0px, -3.09%, 0px)",
+    "notes": [
+      "Harvested at ripeness"
+    ],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "p": 0.33,
+    "body": {
+      "x": 195,
+      "y": 239.5170834859212,
+      "h": 284.375
+    },
+    "movie": {
+      "x": 195,
+      "y": 239.50520833333331,
+      "h": 284.375
+    },
+    "time": 1.458881,
+    "opacity": 0.9824,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.1953) translate3d(0px, -3.4%, 0px)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "p": 0.355,
+    "body": {
+      "x": 195,
+      "y": 239.5170834859212,
+      "h": 284.375
+    },
+    "movie": {
+      "x": 195,
+      "y": 239.50520833333331,
+      "h": 284.375
+    },
+    "time": 3.688305,
+    "opacity": 0,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.2) translate3d(0px, -3.5%, 0px)",
+    "notes": [
+      "Natural process"
+    ],
+    "vapour": 0,
+    "panels": [
+      3.601551,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "p": 0.38,
+    "body": {
+      "x": 195,
+      "y": 239.5170834859212,
+      "h": 284.375
+    },
+    "movie": {
+      "x": 195,
+      "y": 239.50520833333331,
+      "h": 284.375
+    },
+    "time": 6.476079,
+    "opacity": 0,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.2) translate3d(0px, -3.5%, 0px)",
+    "notes": [
+      "Natural process"
+    ],
+    "vapour": 0,
+    "panels": [
+      6.290889,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "p": 0.405,
+    "body": {
+      "x": 195,
+      "y": 239.5170834859212,
+      "h": 284.375
+    },
+    "movie": {
+      "x": 195,
+      "y": 239.50520833333331,
+      "h": 284.375
+    },
+    "time": 9.228398,
+    "opacity": 0,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.2) translate3d(0px, -3.5%, 0px)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      8.938467,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "p": 0.46,
+    "body": {
+      "x": 195,
+      "y": 239.5170834859212,
+      "h": 284.375
+    },
+    "movie": {
+      "x": 195,
+      "y": 239.50520833333331,
+      "h": 284.375
+    },
+    "time": 13.164,
+    "opacity": 0,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.2) translate3d(0px, -3.5%, 0px)",
+    "notes": [
+      "Honey process"
+    ],
+    "vapour": 0,
+    "panels": [
+      9.7,
+      12.959609,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "p": 0.53,
+    "body": {
+      "x": 195,
+      "y": 239.5170834859212,
+      "h": 284.375
+    },
+    "movie": {
+      "x": 195,
+      "y": 239.50520833333331,
+      "h": 284.375
+    },
+    "time": 18.194075,
+    "opacity": 0,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.2) translate3d(0px, -3.5%, 0px)",
+    "notes": [
+      "Washed process"
+    ],
+    "vapour": 0,
+    "panels": [
+      9.7,
+      14.7,
+      18.707861
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "p": 0.615,
+    "body": {
+      "x": 195,
+      "y": 239.5170834859212,
+      "h": 284.375
+    },
+    "movie": {
+      "x": 195,
+      "y": 239.50520833333331,
+      "h": 284.375
+    },
+    "time": 24.375333,
+    "opacity": 1,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.2) translate3d(0px, -3.5%, 0px)",
+    "notes": [
+      "Removing the parchment"
+    ],
+    "vapour": 0,
+    "panels": [
+      9.7,
+      14.7,
+      20.48
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "p": 0.775,
+    "body": {
+      "x": 195,
+      "y": 239.5170834859212,
+      "h": 284.375
+    },
+    "movie": {
+      "x": 195,
+      "y": 239.50520833333331,
+      "h": 284.375
+    },
+    "time": 36.37588,
+    "opacity": 1,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.2) translate3d(0px, -3.5%, 0px)",
+    "notes": [
+      "Roasting"
+    ],
+    "vapour": 1,
+    "panels": [
+      9.7,
+      14.7,
+      20.48
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "p": 0,
+    "body": {
+      "x": 360,
+      "y": 385,
+      "h": 420
+    },
+    "movie": {
+      "x": 510.71875,
+      "y": 357.43798828125,
+      "h": 456.955078125
+    },
+    "time": 0,
+    "opacity": 0,
+    "match": 0,
+    "estate": 1,
+    "transform": "translate3d(0px, 0px, 0px) scale(1)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "p": 0.025,
+    "body": {
+      "x": 360,
+      "y": 385,
+      "h": 420
+    },
+    "movie": {
+      "x": 510.71875,
+      "y": 357.43798828125,
+      "h": 456.955078125
+    },
+    "time": 0,
+    "opacity": 0,
+    "match": 0,
+    "estate": 1,
+    "transform": "translate3d(-150.435px, -61.4319px, 0px) scale(1.28195)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "p": 0.045,
+    "body": {
+      "x": 521.1712646484375,
+      "y": 293.5597635904948,
+      "h": 124.1201171875
+    },
+    "movie": {
+      "x": 510.71875,
+      "y": 357.43798828125,
+      "h": 456.955078125
+    },
+    "time": 0,
+    "opacity": 0,
+    "match": 0.6097,
+    "estate": 1,
+    "transform": "translate3d(-661.143px, -283.716px, 0px) scale(2.24307)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "p": 0.06,
+    "body": {
+      "x": 517.558837890625,
+      "y": 315.60856119791663,
+      "h": 203.0341796875
+    },
+    "movie": {
+      "x": 510.71875,
+      "y": 357.43798828125,
+      "h": 456.955078125
+    },
+    "time": 0,
+    "opacity": 0,
+    "match": 1,
+    "estate": 1,
+    "transform": "translate3d(-1416.5px, -628.71px, 0px) scale(3.66927)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "p": 0.078,
+    "body": {
+      "x": 513.6137084960938,
+      "y": 339.73951466878253,
+      "h": 347.8671875
+    },
+    "movie": {
+      "x": 510.71875,
+      "y": 357.43798828125,
+      "h": 456.955078125
+    },
+    "time": 0,
+    "opacity": 0,
+    "match": 1,
+    "estate": 1,
+    "transform": "translate3d(-2800.02px, -1278.17px, 0px) scale(6.28656)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "p": 0.092,
+    "body": {
+      "x": 511.45751953125,
+      "y": 352.92565027872723,
+      "h": 441.478515625
+    },
+    "movie": {
+      "x": 510.71875,
+      "y": 357.43798828125,
+      "h": 456.955078125
+    },
+    "time": 0,
+    "opacity": 0.0143,
+    "match": 1,
+    "estate": 0.691,
+    "transform": "translate3d(-3935.93px, -1818.55px, 0px) scale(8.43748)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "p": 0.105,
+    "body": {
+      "x": 510.7193069458008,
+      "y": 357.4354591369629,
+      "h": 456.955078125
+    },
+    "movie": {
+      "x": 510.71875,
+      "y": 357.43798828125,
+      "h": 456.955078125
+    },
+    "time": 0,
+    "opacity": 0.5235,
+    "match": 1,
+    "estate": 0.204,
+    "transform": "translate3d(-4407.94px, -2044.14px, 0px) scale(9.33157)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "p": 0.119,
+    "body": {
+      "x": 510.71968841552734,
+      "y": 357.435489654541,
+      "h": 456.955078125
+    },
+    "movie": {
+      "x": 510.71875,
+      "y": 357.43798828125,
+      "h": 456.955078125
+    },
+    "time": 0,
+    "opacity": 1,
+    "match": 0,
+    "estate": 0,
+    "transform": "translate3d(-4407.95px, -2044.14px, 0px) scale(9.33158)",
+    "notes": [
+      "Every cup begins as a fruit."
+    ],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "p": 0.145,
+    "body": {
+      "x": 510.71968841552734,
+      "y": 357.435489654541,
+      "h": 456.955078125
+    },
+    "movie": {
+      "x": 510.71875,
+      "y": 357.43798828125,
+      "h": 456.955078125
+    },
+    "time": 0.150189,
+    "opacity": 1,
+    "match": 0,
+    "estate": 0,
+    "transform": "translate3d(-4407.95px, -2044.14px, 0px) scale(9.33158)",
+    "notes": [
+      "Every cup begins as a fruit."
+    ],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "p": 0.18,
+    "body": {
+      "x": 510.71968841552734,
+      "y": 357.435489654541,
+      "h": 456.955078125
+    },
+    "movie": {
+      "x": 510.71875,
+      "y": 357.43798828125,
+      "h": 456.955078125
+    },
+    "time": 0.381197,
+    "opacity": 1,
+    "match": 0,
+    "estate": 0,
+    "transform": "translate3d(-4407.95px, -2044.14px, 0px) scale(9.33158)",
+    "notes": [
+      "Every cup begins as a fruit."
+    ],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "p": 0.23,
+    "body": {
+      "x": 510.71968841552734,
+      "y": 357.435489654541,
+      "h": 456.955078125
+    },
+    "movie": {
+      "x": 439.28125,
+      "y": 358.34033203125,
+      "h": 410.689453125
+    },
+    "time": 0.718001,
+    "opacity": 1,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.1483) translate3d(0px, -2.37%, 0px)",
+    "notes": [
+      "Harvested at ripeness"
+    ],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "p": 0.3,
+    "body": {
+      "x": 510.71968841552734,
+      "y": 357.435489654541,
+      "h": 456.955078125
+    },
+    "movie": {
+      "x": 183.921875,
+      "y": 361.594970703125,
+      "h": 245.2939453125
+    },
+    "time": 1.240866,
+    "opacity": 1,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.1812) translate3d(0px, -3.09%, 0px)",
+    "notes": [
+      "Harvested at ripeness"
+    ],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "p": 0.33,
+    "body": {
+      "x": 510.71968841552734,
+      "y": 357.435489654541,
+      "h": 456.955078125
+    },
+    "movie": {
+      "x": 129.328125,
+      "y": 362.28263346354163,
+      "h": 209.9248046875
+    },
+    "time": 1.459358,
+    "opacity": 0.9801,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.1953) translate3d(0px, -3.4%, 0px)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      1.5,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "p": 0.355,
+    "body": {
+      "x": 510.71968841552734,
+      "y": 357.435489654541,
+      "h": 456.955078125
+    },
+    "movie": {
+      "x": 510.71875,
+      "y": 357.43798828125,
+      "h": 456.955078125
+    },
+    "time": 3.698323,
+    "opacity": 0,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.2) translate3d(0px, -3.5%, 0px)",
+    "notes": [
+      "Natural process"
+    ],
+    "vapour": 0,
+    "panels": [
+      3.606171,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "p": 0.38,
+    "body": {
+      "x": 510.71968841552734,
+      "y": 357.435489654541,
+      "h": 456.955078125
+    },
+    "movie": {
+      "x": 510.71875,
+      "y": 357.43798828125,
+      "h": 456.955078125
+    },
+    "time": 6.47066,
+    "opacity": 0,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.2) translate3d(0px, -3.5%, 0px)",
+    "notes": [
+      "Natural process"
+    ],
+    "vapour": 0,
+    "panels": [
+      6.278416,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "p": 0.405,
+    "body": {
+      "x": 510.71968841552734,
+      "y": 357.435489654541,
+      "h": 456.955078125
+    },
+    "movie": {
+      "x": 510.71875,
+      "y": 357.43798828125,
+      "h": 456.955078125
+    },
+    "time": 9.2254,
+    "opacity": 0,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.2) translate3d(0px, -3.5%, 0px)",
+    "notes": [],
+    "vapour": 0,
+    "panels": [
+      8.953754,
+      10,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "p": 0.46,
+    "body": {
+      "x": 510.71968841552734,
+      "y": 357.435489654541,
+      "h": 456.955078125
+    },
+    "movie": {
+      "x": 510.71875,
+      "y": 357.43798828125,
+      "h": 456.955078125
+    },
+    "time": 13.158128,
+    "opacity": 0,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.2) translate3d(0px, -3.5%, 0px)",
+    "notes": [
+      "Honey process"
+    ],
+    "vapour": 0,
+    "panels": [
+      9.7,
+      12.966232,
+      15
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "p": 0.53,
+    "body": {
+      "x": 510.71968841552734,
+      "y": 357.435489654541,
+      "h": 456.955078125
+    },
+    "movie": {
+      "x": 510.71875,
+      "y": 357.43798828125,
+      "h": 456.955078125
+    },
+    "time": 18.199124,
+    "opacity": 0,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.2) translate3d(0px, -3.5%, 0px)",
+    "notes": [
+      "Washed process"
+    ],
+    "vapour": 0,
+    "panels": [
+      9.7,
+      14.7,
+      18.702224
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "p": 0.615,
+    "body": {
+      "x": 510.71968841552734,
+      "y": 357.435489654541,
+      "h": 456.955078125
+    },
+    "movie": {
+      "x": 510.71875,
+      "y": 357.43798828125,
+      "h": 456.955078125
+    },
+    "time": 24.355742,
+    "opacity": 1,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.2) translate3d(0px, -3.5%, 0px)",
+    "notes": [
+      "Removing the parchment"
+    ],
+    "vapour": 0,
+    "panels": [
+      9.7,
+      14.7,
+      20.48
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "p": 0.775,
+    "body": {
+      "x": 510.71968841552734,
+      "y": 357.435489654541,
+      "h": 456.955078125
+    },
+    "movie": {
+      "x": 510.71875,
+      "y": 357.43798828125,
+      "h": 456.955078125
+    },
+    "time": 36.372097,
+    "opacity": 1,
+    "match": 0,
+    "estate": 0,
+    "transform": "scale(1.2) translate3d(0px, -3.5%, 0px)",
+    "notes": [
+      "Roasting"
+    ],
+    "vapour": 1,
+    "panels": [
+      9.7,
+      14.7,
+      20.48
+    ],
+    "overflow": false
+  }
+]

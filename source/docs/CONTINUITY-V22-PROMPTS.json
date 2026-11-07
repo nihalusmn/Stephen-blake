@@ -1,0 +1,55 @@
+{
+  "peel": {
+    "model": "kling3_0",
+    "duration": 5,
+    "aspect_ratio": "9:16",
+    "mode": "std",
+    "sound": "off",
+    "count": 1,
+    "medias": [
+      {
+        "role": "start_image",
+        "value": "355a9288-5b54-4ea6-9571-c66c41643073"
+      },
+      {
+        "role": "end_image",
+        "value": "3491b52b-cf70-42a5-8e83-b279f9bbe363"
+      }
+    ],
+    "prompt": "One unbroken photoreal macro shot. Start with the exact ripe coffee cherry in the first reference. Its red skin and soft fruit peel slowly outward to the left and right and fall completely out of frame, exposing the exact elongated COFFEE seed shown in the last reference: a clear long central crease, asymmetrical flattened oval, coated with a THIN translucent amber mucilage layer. The final two seconds hold this intact mucilage-coated coffee seed. This is the entry into HONEY PROCESS, so keep the mucilage attached. Do not turn into dried cherry, do not show a pea, two round peas, a nut or a spherical kernel. The exposed seed must precisely match the supplied final photograph in shape, crease, orientation and size. All skin fragments have left the frame by the final second. Fixed camera, fixed scale, fixed centre, no zoom, no camera orbit. Preserve extraordinary detailed photographic texture, gentle neutral lighting. Uniform black background for compositing, no text, no props, no UI, no overexposure. The coffee stays completely inside the frame."
+  },
+  "hull": {
+    "model": "kling3_0",
+    "duration": 8,
+    "aspect_ratio": "9:16",
+    "mode": "std",
+    "sound": "off",
+    "count": 1,
+    "medias": [
+      {
+        "role": "start_image",
+        "value": "544ee774-c5fc-427f-a675-f9e21d9b85b9"
+      },
+      {
+        "role": "end_image",
+        "value": "80e57cef-13c0-4ceb-b4ee-8cc56cb203e3"
+      }
+    ],
+    "prompt": "One continuous extremely detailed photoreal macro NATURAL COFFEE HULLING shot. Begin with the exact dried whole wrinkled dark red-brown coffee cherry from the first reference. Hold it for one second. The thin brittle dried outer fruit husk fractures along an irregular seam and peels away in light dry flakes, revealing the single elongated pale olive GREEN COFFEE BEAN from the last reference. Remove the dried fruit husk completely; no red outer skin remains after six seconds. Hold the clean green coffee bean motionless for the final two seconds. The ending MUST precisely preserve the last reference's flattened elongated oval silhouette, long sinuous central crease and real coffee surface texture. This is a COFFEE BEAN, never a pea, peanut, round kernel or bulb. No smooth round pea, no swelling, no rotation, no new shapes, no opening of the bean itself. Do not turn the dry cherry into a pale parchment shell before opening: visibly remove the actual DARK DRIED CHERRY SKIN. Fixed camera, same central position and stable scale, no zoom. Uniform plain black background for compositing, no text or props. Crisp photographic detail, neutral natural lighting with no green color cast."
+  },
+  "grind": {
+    "model": "kling3_0",
+    "duration": 6,
+    "aspect_ratio": "3:4",
+    "mode": "std",
+    "sound": "off",
+    "count": 1,
+    "medias": [
+      {
+        "role": "start_image",
+        "value": "0e59b867-eb67-4c33-ac17-6642c32dadeb"
+      }
+    ],
+    "prompt": "Continue this exact macro coffee photograph into a six-second photoreal grinding shot. Maintain the precise starting bean shape, orientation, long central crease, position, scale and dark brown colour. No change of identity, no rounder replacement bean and no shape morph before grinding. First second hold the photographed bean still. From seconds 1 to 5 the SAME bean breaks from its lower edge upward into many tiny irregular real brown coffee particles which fall straight down under gravity in a narrow stream. Keep the unbroken upper portion exactly aligned to the photograph until it too crumbles. No rotation, no zoom, no enlargement. End with no intact bean and a narrow stream of fine coffee grounds falling toward the lower frame. Ultra crisp real texture, not sand, no glossy syrup, no liquid yet. Fixed camera and same warm ivory background RGB245 244 240 throughout. Coffee does not float upward. No hands, no grinder machinery, no props, no letters, no captions, no interface. Slow controlled commercial macro cinematography."
+  }
+}

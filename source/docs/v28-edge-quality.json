@@ -1,0 +1,14 @@
+[
+  {
+    "subject": "cherry",
+    "edge_second_difference_before": 1.278481012658228,
+    "after": 1.0025445292620865,
+    "interior_mean_pixel_change": 0.0
+  },
+  {
+    "subject": "roast",
+    "edge_second_difference_before": 1.413716814159292,
+    "after": 0.9910714285714286,
+    "interior_mean_pixel_change": 0.0
+  }
+]

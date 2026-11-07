@@ -1,0 +1,17 @@
+{
+  "silhouette_overlap": 0.9860791561111342,
+  "texture_correlation": 0.994181443491356,
+  "green_bounds": [
+    204,
+    241,
+    514,
+    718
+  ],
+  "roasted_bounds": [
+    205,
+    241,
+    514,
+    718
+  ],
+  "hulling_to_green_mean_pixel_difference": 0.3071026234567901
+}

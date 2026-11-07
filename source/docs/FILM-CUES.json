@@ -1,0 +1,62 @@
+[
+  {
+    "start": 0,
+    "end": 1.0,
+    "title": "Every cup begins\nas a fruit.",
+    "description": "Before coffee is a bean, it is a cherry on a tree."
+  },
+  {
+    "start": 1.0,
+    "end": 1.5,
+    "title": "Harvested\nat ripeness",
+    "description": "The ripe cherry protects the coffee seeds within."
+  },
+  {
+    "start": 1.5,
+    "end": 6.5,
+    "title": "Honey\nprocess",
+    "description": "Soft fruit skin is removed; mucilage remains on the seeds during drying."
+  },
+  {
+    "start": 6.5,
+    "end": 12.1,
+    "title": "Washed\nprocess",
+    "description": "Water carries the mucilage away, exposing the parchment-covered coffee seeds."
+  },
+  {
+    "start": 12.1,
+    "end": 20.35,
+    "title": "Natural\nprocess",
+    "description": "The whole cherry dries; its outer husk is removed to reveal parchment-covered seeds."
+  },
+  {
+    "start": 20.35,
+    "end": 26.35,
+    "title": "Removing the\nparchment",
+    "description": "Dry, brittle parchment breaks into flakes to reveal green coffee."
+  },
+  {
+    "start": 26.35,
+    "end": 30.35,
+    "title": "Selected.\nSorted. Graded.",
+    "description": "Green coffee is prepared to an agreed buyer specification."
+  },
+  {
+    "start": 30.35,
+    "end": 38.35,
+    "title": "Character,\ndeveloped by heat.",
+    "description": "The same bean deepens from green to a rich roasted brown."
+  },
+  {
+    "start": 38.35,
+    "end": 44.35,
+    "title": "Ground\nfor the brew",
+    "description": "Roasted coffee is ground to suit the intended brewing method."
+  },
+  {
+    "start": 44.35,
+    "end": 48.95,
+    "title": "From origin\nto the cup.",
+    "description": "Green coffee. Roasted coffee. Filter coffee."
+  }
+]

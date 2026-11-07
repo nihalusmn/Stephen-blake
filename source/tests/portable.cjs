@@ -11,13 +11,14 @@ const path=require('node:path');
    await p.goto(pathToFileURL(path.resolve('index.html')).href,{waitUntil:'domcontentloaded'});
    await p.waitForTimeout(2200);
    assert(p.url().includes('/dist/index.html'));
+   await p.waitForFunction(()=>document.documentElement.dataset.macroReady==='true');
    assert(await p.evaluate(()=>document.documentElement.classList.contains('sb-on')));
    assert.equal(await p.locator('#sb-canvas').evaluate(e=>Number(e.style.opacity)),0);
    assert(await p.locator('#hero-bg').evaluate(e=>e.complete&&e.naturalWidth>0));
    assert(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
    await p.screenshot({path:`docs/previews/portable-home-${width}.png`});
    for(const progress of [.09,.30,.60,.98]){
-    await p.evaluate(t=>window.sbLenis.scrollTo((document.querySelector('#sb-origin').offsetHeight-innerHeight)*.86*t,{immediate:true}),progress);
+    await p.evaluate(t=>window.sbLenis.scrollTo((document.querySelector('#sb-origin').offsetHeight-innerHeight)*parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--sb-story'))*t,{immediate:true}),progress);
     await p.waitForTimeout(1400);
     if(progress===.30)assert(await p.locator('#sb-canvas').evaluate(e=>Number(e.style.opacity)>.99));
     await p.screenshot({path:`docs/previews/portable-${width}-${progress}.png`});

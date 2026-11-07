@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "Root and existing /dist preview URLs serve the production website",
+    "Directory listings, source, dotfiles and archives are unavailable",
+    "Unexpected and malformed Host headers rejected",
+    "Video start, middle and suffix ranges return exact bytes; invalid ranges rejected",
+    "No-sniff, revalidation and referrer response headers applied"
+  ]
+}

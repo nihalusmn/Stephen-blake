@@ -1,0 +1,54 @@
+{
+  "version": 25,
+  "date": "2026-11-06",
+  "jobs": [
+    {
+      "shot": "same-seeds-washed",
+      "id": "436e0394-7db4-449f-988d-b09d731dd6a2",
+      "credits": 9,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 6,
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "9ff441c5-4fb0-4833-af49-142f46ad30f7"
+          }
+        ],
+        "prompt": "A continuous photoreal macro coffee-processing demonstration, locked camera. Start with the EXACT TWO mucilage-covered coffee seeds in the reference: identical shape, size, orientation, position and glossy amber surface. These are coffee seeds, not peas, not nuts. At 0–1 second hold the two seeds covered with conspicuously thick translucent sticky yellow-amber FRUIT MUCILAGE as supplied. From 1–4.5 seconds a clearly visible narrow stream of transparent water descends from the top, hits the two seeds and cascades over them. Show the amber gelatinous coating visibly loosening, thinning from top to bottom and washing off in short translucent strands and amber-tinted droplets. The mucilage is natural fruit gel, NOT red skin, parchment, literal honey or a solid shell. Reveal the same TWO intact pale cream parchment-covered seeds underneath, still with the SAME silhouette, crease, orientation, size and centre. The parchment stays intact. 4.5–6 seconds water stops and hold the clean pale seeds with only clear residual droplets. Do not reveal a green bean; no hulling, no peeling hard shell, no floating new seed, no shape morph. Neutral pale ivory studio sweep matching the input, stable light and exposure, crisp macro texture, no camera movement, no text or logos, no hands, no container, no tools, no splashes covering the subject. Make the actual removal of a visible coating unmistakable and gradual. Two seeds remain two seeds throughout."
+      }
+    },
+    {
+      "shot": "brittle-parchment-reference",
+      "id": "65bfe2fa-a460-43f9-a35f-490b72a84a74",
+      "credits": 12,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 8,
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "d611ae48-f9c2-40b7-b80f-0bf2e614966b"
+          },
+          {
+            "role": "end_image",
+            "value": "5d01ddec-7869-4d8a-8833-8b0e68c59057"
+          }
+        ],
+        "prompt": "Single uninterrupted photoreal macro demonstration of DRY COFFEE PARCHMENT HULLING. Precisely preserve the coffee bean shape, orientation, centre and scale in both supplied endpoint images. Begin holding the supplied dry pale straw-coloured parchment-covered coffee seed. Parchment is a THIN DRY STIFF PAPER-LIKE brittle fibrous endocarp: not soft fruit skin, not wet mucilage, not rubber, not leather, not a thick nut shell. At seconds 1–5 fine cracks form in the dry papery cover, and the parchment breaks into several small rigid angular flakes that lift and fall downward like brittle straw paper. No long curling flexible strips and no wet peeling. The intact creased olive-green coffee bean beneath becomes progressively visible. Only the dry outer covering breaks; never crack, split or deform the bean. Loose tiny dry parchment flakes fall out of the lower frame. Seconds 6–8 hold the exact final reference green bean, all flakes gone, with identical final centre, scale, crease and silhouette. Fixed locked camera, no zoom or orbit, no spinning. Photographic texture and realistic stiff dry material behaviour, restrained soft directional studio illumination. Uniform pure black background for compositing. No hands, machines, text, labels, logos, water, mucilage or smoke."
+      }
+    }
+  ],
+  "credits_used": 21,
+  "verified_remaining": 1.5,
+  "hulling_selection": "Generated motion still bent like skin. Use its opening parchment texture in deterministic rigid-flake animation, retaining the original green endpoint.",
+  "source": "https://www.fao.org/input/download/report/722/al32_41e.pdf"
+}

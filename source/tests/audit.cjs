@@ -21,7 +21,7 @@ const check = (name, value) => { assert.ok(value, name); results.push(name); con
  await page.screenshot({path:'/tmp/sb-desktop.png'});
  // Exercise every chapter, allowing the progress-driven scene to settle.
  for (const progress of [0.1, .3, .5, .7, .93, 1]) {
-  await page.evaluate(p => { const el = document.querySelector('#sb-origin'); const y = (el.offsetHeight-innerHeight)*.86*p; window.sbLenis.scrollTo(y,{immediate:true}); },progress);
+  await page.evaluate(p => { const el = document.querySelector('#sb-origin'); const y = (el.offsetHeight-innerHeight)*parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--sb-story'))*p; window.sbLenis.scrollTo(y,{immediate:true}); },progress);
   await page.waitForTimeout(850);
  }
  await page.waitForTimeout(800);
@@ -86,7 +86,7 @@ const check = (name, value) => { assert.ok(value, name); results.push(name); con
  }
  await page.setViewportSize({width:1440,height:1000});await page.goto(base+'/#green-coffee');await page.waitForTimeout(1500);
  check('Direct category link',await page.locator('#range-h').innerText().then(t=>t.includes('Green')));
- check('Deep link avoids Three.js',await page.evaluate(()=>!document.documentElement.classList.contains('sb-on')));
+ check('Deep link retains return-home animation',await page.evaluate(()=>document.documentElement.classList.contains('sb-on')));
  // Scroll through the whole page to load and validate every lazy image.
  await page.evaluate(async()=> {const imgs=[...document.images];for(const img of imgs){img.loading='eager';}await Promise.all(imgs.map(i=>i.decode().catch(()=>{})));});
  check('No broken images',await page.evaluate(()=>[...document.images].every(i=>i.complete&&i.naturalWidth>0)));

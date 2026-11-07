@@ -1,0 +1,16 @@
+{
+  "checks": [
+    {
+      "id": "private-label",
+      "dark": true,
+      "bg": "rgba(11, 8, 6, 0.78)",
+      "color": "rgb(240, 231, 217)"
+    },
+    {
+      "id": "request",
+      "dark": false,
+      "bg": "rgba(244, 237, 225, 0.92)",
+      "color": "rgb(23, 16, 12)"
+    }
+  ]
+}

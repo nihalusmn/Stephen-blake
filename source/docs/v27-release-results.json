@@ -1,0 +1,27 @@
+{
+  "release": 27,
+  "date": "2026-11-07",
+  "layout_viewports": [
+    "1440x1000",
+    "1280x720",
+    "768x1024",
+    "390x844",
+    "320x568",
+    "844x390"
+  ],
+  "extracted_zip_viewports": [
+    "1440x844",
+    "390x844"
+  ],
+  "checks": [
+    "all three category links",
+    "direct file video playback",
+    "horizontal process panels",
+    "product photographs",
+    "captions and reverse seeking",
+    "reduced motion and no WebGL fallback",
+    "hero photo alignment",
+    "compact collection reviewed"
+  ],
+  "film_sha256": "ab75f6b7e9e686c518a6f3647879d5b227ca89472df313c72b15d6fa48b5d80d"
+}

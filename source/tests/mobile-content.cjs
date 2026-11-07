@@ -10,7 +10,7 @@ const assert=require('node:assert/strict');
   for(const height of [740,844,920,740]){
    await p.setViewportSize({width:390,height});await p.waitForTimeout(400);
    for(const progress of [.15,.35,.65]){
-    await p.evaluate(t=>window.sbLenis.scrollTo((document.querySelector('#sb-origin').offsetHeight-innerHeight)*.86*t,{immediate:true}),progress);
+    await p.evaluate(t=>window.sbLenis.scrollTo((document.querySelector('#sb-origin').offsetHeight-innerHeight)*parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--sb-story'))*t,{immediate:true}),progress);
     await p.waitForTimeout(450);
     const coverage=await p.locator('.sb-stage').evaluate(e=>{const r=e.getBoundingClientRect();return {top:r.top,bottom:r.bottom,h:innerHeight}});
     assert(coverage.top<=1&&coverage.bottom>=coverage.h-1,JSON.stringify(coverage));

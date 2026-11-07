@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-07T11:54:24.004Z",
+  "checks": [
+    "Product choices preserve keyboard focus and dialog name",
+    "Switching products clears stale grade, origin and process",
+    "Negative quantities are rejected at the volume step",
+    "Complete WhatsApp brief preserves contact, notes and type; HTML input stays text",
+    "Editing a prepared enquiry invalidates the stale send link",
+    "Queued auto-advance cannot override a manually chosen step",
+    "Browser back from a category restores the intended story section",
+    "No dead policy or administration destinations",
+    "Every catalogue product opens with a loaded specification image",
+    "No application exceptions"
+  ],
+  "errors": []
+}

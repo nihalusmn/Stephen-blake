@@ -1,18 +1,24 @@
 {
-  "date": "2026-09-22T15:39:53.648Z",
+  "date": "2026-11-07T11:52:28.229Z",
   "checks": [
     "Scene cleanup 0",
     "Scene reinitialization 0",
+    "One film element after reinitialization 0",
+    "One aligned hero and vapour overlay 0",
+    "Exactly three process panels after reinitialization 0",
     "No duplicate triggers 0",
     "Scene cleanup 1",
     "Scene reinitialization 1",
+    "One film element after reinitialization 1",
+    "One aligned hero and vapour overlay 1",
+    "Exactly three process panels after reinitialization 1",
     "No duplicate triggers 1",
     "Resize to mobile preserves scene",
     "Resize back to desktop restores scene",
     "Keyboard scroll preserved",
     "No WebGL retains photos and catalogue",
     "No WebGL category remains functional",
-    "Reduced motion does not fetch scene",
+    "Reduced motion does not fetch film",
     "No lifecycle errors"
   ],
   "errors": []
