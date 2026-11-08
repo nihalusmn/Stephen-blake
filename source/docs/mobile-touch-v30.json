@@ -1,0 +1,16 @@
+{
+  "state": {
+    "scroll": 882,
+    "lenis": 882,
+    "progress": 0.289275,
+    "syncTouch": false,
+    "smoothWheel": false
+  },
+  "checks": [
+    "Native touch input scrolls the film",
+    "Lenis follows the native position",
+    "No simulated touch inertia",
+    "Menu locks/unlocks scroll",
+    "Repeated reduced-motion teardown restores one film without duplicate triggers"
+  ]
+}

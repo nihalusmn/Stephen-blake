@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-07T15:58:10.082Z",
+  "environment": "Chromium on Mac, 390×844, DPR 2, touch emulation, 4× CPU slowdown, local assets; three identical 12-second forward/reverse scrolls",
+  "results": [
+    {
+      "elapsed": 12016.09999999404,
+      "frames": 349,
+      "averageFPS": 29.044365476333677,
+      "frameP95": 33.400000000001455,
+      "framesOver34ms": 2,
+      "longTasks": 2,
+      "blockingMS": 416,
+      "progressLagP95": 0.034763868684611066,
+      "seekP95": 5.4000000059604645,
+      "seeks": 316,
+      "webglDraws": 0,
+      "players": [
+        {
+          "width": 1080,
+          "height": 1440,
+          "src": "http://127.0.0.1:4186/assets/video/coffee-journey-v28.mp4",
+          "decoded": 1581
+        },
+        {
+          "width": 1080,
+          "height": 1440,
+          "src": "http://127.0.0.1:4186/assets/video/coffee-journey-v28.mp4",
+          "decoded": 162
+        },
+        {
+          "width": 1080,
+          "height": 1440,
+          "src": "http://127.0.0.1:4186/assets/video/coffee-journey-v28.mp4",
+          "decoded": 168
+        },
+        {
+          "width": 1080,
+          "height": 1440,
+          "src": "http://127.0.0.1:4186/assets/video/coffee-journey-v28.mp4",
+          "decoded": 147
+        }
+      ],
+      "scriptBytes": 5046606,
+      "TaskDuration": 2.55548,
+      "ScriptDuration": 0.54655,
+      "LayoutDuration": 0.138573,
+      "RecalcStyleDuration": 0.7558689999999999,
+      "LayoutCount": 663,
+      "RecalcStyleCount": 1725,
+      "heapMB": 7.097068786621094,
+      "errors": []
+    },
+    {
+      "elapsed": 12006.29999999702,
+      "frames": 349,
+      "averageFPS": 29.068072595228056,
+      "frameP95": 33.400000000000546,
+      "framesOver34ms": 2,
+      "longTasks": 2,
+      "blockingMS": 422,
+      "progressLagP95": 0.03506959595884318,
+      "seekP95": 4.9000000059604645,
+      "seeks": 316,
+      "webglDraws": 0,
+      "players": [
+        {
+          "width": 1080,
+          "height": 1440,
+          "src": "http://127.0.0.1:4186/assets/video/coffee-journey-v28.mp4",
+          "decoded": 1581
+        },
+        {
+          "width": 1080,
+          "height": 1440,
+          "src": "http://127.0.0.1:4186/assets/video/coffee-journey-v28.mp4",
+          "decoded": 169
+        },
+        {
+          "width": 1080,
+          "height": 1440,
+          "src": "http://127.0.0.1:4186/assets/video/coffee-journey-v28.mp4",
+          "decoded": 193
+        },
+        {
+          "width": 1080,
+          "height": 1440,
+          "src": "http://127.0.0.1:4186/assets/video/coffee-journey-v28.mp4",
+          "decoded": 133
+        }
+      ],
+      "scriptBytes": 5046606,
+      "TaskDuration": 2.7555309999999995,
+      "ScriptDuration": 0.550852,
+      "LayoutDuration": 0.18213199999999996,
+      "RecalcStyleDuration": 0.777431,
+      "LayoutCount": 679,
+      "RecalcStyleCount": 1753,
+      "heapMB": 6.401340484619141,
+      "errors": []
+    },
+    {
+      "elapsed": 12009.79999999702,
+      "frames": 343,
+      "averageFPS": 28.56000932572442,
+      "frameP95": 33.400000000001455,
+      "framesOver34ms": 2,
+      "longTasks": 2,
+      "blockingMS": 622,
+      "progressLagP95": 0.035720515150009624,
+      "seekP95": 5.399999991059303,
+      "seeks": 306,
+      "webglDraws": 0,
+      "players": [
+        {
+          "width": 1080,
+          "height": 1440,
+          "src": "http://127.0.0.1:4186/assets/video/coffee-journey-v28.mp4",
+          "decoded": 1546
+        },
+        {
+          "width": 1080,
+          "height": 1440,
+          "src": "http://127.0.0.1:4186/assets/video/coffee-journey-v28.mp4",
+          "decoded": 153
+        },
+        {
+          "width": 1080,
+          "height": 1440,
+          "src": "http://127.0.0.1:4186/assets/video/coffee-journey-v28.mp4",
+          "decoded": 164
+        },
+        {
+          "width": 1080,
+          "height": 1440,
+          "src": "http://127.0.0.1:4186/assets/video/coffee-journey-v28.mp4",
+          "decoded": 132
+        }
+      ],
+      "scriptBytes": 5046606,
+      "TaskDuration": 2.8937589999999997,
+      "ScriptDuration": 0.567323,
+      "LayoutDuration": 0.14243,
+      "RecalcStyleDuration": 0.9776699999999999,
+      "LayoutCount": 668,
+      "RecalcStyleCount": 1710,
+      "heapMB": 6.235523223876953,
+      "errors": []
+    }
+  ]
+}

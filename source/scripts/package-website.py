@@ -3,7 +3,7 @@ from pathlib import Path
 from zipfile import ZipFile, ZIP_DEFLATED
 import sys
 
-version = sys.argv[1] if len(sys.argv) > 1 else '29'
+version = sys.argv[1] if len(sys.argv) > 1 else '30'
 if not version.isdigit():
     raise SystemExit('Supply a numeric version.')
 root = Path.cwd()
@@ -17,7 +17,9 @@ with ZipFile(out, 'w', ZIP_DEFLATED, 6) as archive:
                               ('CONTINUE-HERE.md', 'CONTINUE-HERE.md'),
                               ('scripts/serve-website.py', 'serve-website.py'),
                               ('Stephen-Blake-Cinematic-Film-v28.mp4', 'Stephen-Blake-Cinematic-Film-v28.mp4')]:
-        archive.write(root / name, destination)
+        source = root / name
+        if not source.exists(): source = root.parent / name
+        archive.write(source, destination)
     for folder in ['app', 'assets', 'docs', 'tests', 'lib', 'scripts']:
         for p in (root / folder).rglob('*'):
             if p.is_file() and p.name != '.DS_Store':
@@ -28,6 +30,8 @@ with ZipFile(out, 'w', ZIP_DEFLATED, 6) as archive:
 with ZipFile(out) as archive:
     assert archive.testzip() is None
     assert 'assets/video/coffee-journey-v28.mp4' in archive.namelist()
+    assert 'assets/video/mobile/coffee-journey-v30.mp4' in archive.namelist()
+    assert 'assets/video/mobile/washed-v30.mp4' in archive.namelist()
     assert 'source/app/visuals/journey-film.js' in archive.namelist()
     assert 'source/assets/video/masters/core.mp4' in archive.namelist()
     assert 'source/app/visuals/macro-photographs.js' in archive.namelist()

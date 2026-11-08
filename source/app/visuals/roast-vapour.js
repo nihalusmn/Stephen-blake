@@ -4,11 +4,12 @@ export function createRoastVapour(stage,own) {
  svg.classList.add('sb-roast-vapour');svg.setAttribute('aria-hidden','true');
  const paths=Array.from({length:4},()=>{const path=document.createElementNS(ns,'path');svg.append(path);return path;});
  stage.append(svg);own({dispose(){svg.remove();}});
+ let width=stage.clientWidth,height=stage.clientHeight;
  const ease=(p,a,b)=>{const t=Math.max(0,Math.min(1,(p-a)/(b-a)));return t*t*(3-2*t)};
- return {update(p){
+ return {resize(w,h){width=w;height=h;},update(p){
   const alpha=ease(p,.712,.737)*(1-ease(p,.784,.804));svg.style.opacity=alpha.toFixed(4);svg.style.visibility=alpha>.001?'visible':'hidden';
   if(alpha<.001)return;
-  const w=stage.clientWidth,h=stage.clientHeight,mobile=w<760;
+  const w=width,h=height,mobile=w<768;
   svg.setAttribute('viewBox',`0 0 ${w} ${h}`);
   const vh=mobile?Math.min(h*.78,w*5/3):h*1.02,scale=vh/960;
   const cx=w*(mobile?.5:.665),cy=h*(mobile?.36:.45);

@@ -1,0 +1,19 @@
+{
+  "checks": [
+    "No process decoders loaded on the hero 320",
+    "Every stage, reverse seeking, captions and collection 320",
+    "Small toolbar-sized resize does not reset timeline 320",
+    "Orientation change preserves one working film 320",
+    "No process decoders loaded on the hero 390",
+    "Every stage, reverse seeking, captions and collection 390",
+    "Small toolbar-sized resize does not reset timeline 390",
+    "Orientation change preserves one working film 390",
+    "No process decoders loaded on the hero 768",
+    "Every stage, reverse seeking, captions and collection 768",
+    "No process decoders loaded on the hero 1440",
+    "Every stage, reverse seeking, captions and collection 1440",
+    "Blocked film retains photographic fallback",
+    "No runtime errors or missing assets"
+  ],
+  "errors": []
+}

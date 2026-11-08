@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-07T17:09:23.602Z",
+  "environment": "Chromium on Mac, 390×844, DPR 2, touch emulation, 4× CPU slowdown, local assets; three identical 12-second forward/reverse scrolls",
+  "results": [
+    {
+      "elapsed": 12003.29999999702,
+      "frames": 721,
+      "averageFPS": 60.06681495923446,
+      "frameP95": 16.700000000000728,
+      "framesOver34ms": 0,
+      "longTasks": 0,
+      "blockingMS": 0,
+      "progressLagP95": 0.004326282829787975,
+      "seekP95": 1.800000011920929,
+      "seeks": 470,
+      "webglDraws": 0,
+      "players": [
+        {
+          "width": 720,
+          "height": 960,
+          "src": "http://127.0.0.1:4175/dist/assets/video/mobile/coffee-journey-v30.mp4",
+          "decoded": 2038
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "src": "http://127.0.0.1:4175/dist/assets/video/mobile/natural-v30.mp4",
+          "decoded": 364
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "src": "http://127.0.0.1:4175/dist/assets/video/mobile/honey-v30.mp4",
+          "decoded": 352
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "src": "http://127.0.0.1:4175/dist/assets/video/mobile/washed-v30.mp4",
+          "decoded": 302
+        }
+      ],
+      "scriptBytes": 854778,
+      "TaskDuration": 2.396516,
+      "ScriptDuration": 0.542856,
+      "LayoutDuration": 0.15783899999999998,
+      "RecalcStyleDuration": 0.32621900000000004,
+      "LayoutCount": 1004,
+      "RecalcStyleCount": 1676,
+      "heapMB": 5.972015380859375,
+      "errors": []
+    },
+    {
+      "elapsed": 12004.5,
+      "frames": 721,
+      "averageFPS": 60.06081052938482,
+      "frameP95": 16.700000000000728,
+      "framesOver34ms": 0,
+      "longTasks": 0,
+      "blockingMS": 0,
+      "progressLagP95": 0.00432480808231317,
+      "seekP95": 1.5,
+      "seeks": 470,
+      "webglDraws": 0,
+      "players": [
+        {
+          "width": 720,
+          "height": 960,
+          "src": "http://127.0.0.1:4175/dist/assets/video/mobile/coffee-journey-v30.mp4",
+          "decoded": 2039
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "src": "http://127.0.0.1:4175/dist/assets/video/mobile/natural-v30.mp4",
+          "decoded": 364
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "src": "http://127.0.0.1:4175/dist/assets/video/mobile/honey-v30.mp4",
+          "decoded": 352
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "src": "http://127.0.0.1:4175/dist/assets/video/mobile/washed-v30.mp4",
+          "decoded": 299
+        }
+      ],
+      "scriptBytes": 854778,
+      "TaskDuration": 2.70886,
+      "ScriptDuration": 0.576562,
+      "LayoutDuration": 0.22698300000000002,
+      "RecalcStyleDuration": 0.356366,
+      "LayoutCount": 1005,
+      "RecalcStyleCount": 1695,
+      "heapMB": 5.952144622802734,
+      "errors": []
+    },
+    {
+      "elapsed": 12016.59999999404,
+      "frames": 722,
+      "averageFPS": 60.08355108769187,
+      "frameP95": 16.700000000000728,
+      "framesOver34ms": 0,
+      "longTasks": 0,
+      "blockingMS": 0,
+      "progressLagP95": 0.0043242828290351865,
+      "seekP95": 1.6000000089406967,
+      "seeks": 472,
+      "webglDraws": 0,
+      "players": [
+        {
+          "width": 720,
+          "height": 960,
+          "src": "http://127.0.0.1:4175/dist/assets/video/mobile/coffee-journey-v30.mp4",
+          "decoded": 2017
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "src": "http://127.0.0.1:4175/dist/assets/video/mobile/natural-v30.mp4",
+          "decoded": 373
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "src": "http://127.0.0.1:4175/dist/assets/video/mobile/honey-v30.mp4",
+          "decoded": 375
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "src": "http://127.0.0.1:4175/dist/assets/video/mobile/washed-v30.mp4",
+          "decoded": 300
+        }
+      ],
+      "scriptBytes": 854778,
+      "TaskDuration": 2.5152330000000003,
+      "ScriptDuration": 0.552086,
+      "LayoutDuration": 0.16856200000000002,
+      "RecalcStyleDuration": 0.36799400000000004,
+      "LayoutCount": 997,
+      "RecalcStyleCount": 1647,
+      "heapMB": 5.9228057861328125,
+      "errors": []
+    }
+  ]
+}

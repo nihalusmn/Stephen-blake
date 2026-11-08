@@ -18,7 +18,8 @@ export function setupScroll(enabled) {
   const abort = new AbortController();
   const signal = abort.signal;
   if (enabled && !reducedMotion.matches) {
-    lenis = new Lenis({ lerp: .14, smoothWheel: true, syncTouch: false, autoRaf: false,
+    const touch=matchMedia('(pointer: coarse)').matches;
+    lenis = new Lenis({ lerp: touch ? 1 : .14, smoothWheel: !touch, syncTouch: false, autoRaf: false,
       prevent: node => !!node.closest('dialog, #drawer') });
     window.sbLenis = lenis;
     lenis.on('scroll', ScrollTrigger.update);
@@ -53,6 +54,7 @@ export function setupScroll(enabled) {
   }, { signal });
   return () => {
     abort.abort(); observer.disconnect(); gsap.ticker.remove(tick);
+    lenis?.off('scroll', ScrollTrigger.update);
     lenis?.destroy(); lenis = null; queued = null; delete window.sbLenis;
     document.documentElement.classList.remove('sb-scroll-locked');
   };

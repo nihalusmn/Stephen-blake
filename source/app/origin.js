@@ -1125,7 +1125,7 @@ export function createOrigin() {
   function setOp(el, v) { if (el) el.style.opacity = v.toFixed(3); }
   function win(p, c) { return seg(p, c[0], c[1]); }
 
-  function apply(p) {
+  function apply(p, forceScene = false) {
     stage.dataset.journeyProgress = p.toFixed(6);
     var toDark = seg(p, 0.250, 0.345);
     /* the journey settles in the room it was shot in, not on paper */
@@ -1165,6 +1165,8 @@ export function createOrigin() {
     }
     drawRail(p);
 
+    // The WebGL scene is a fallback, not an invisible second film.
+    if (forceScene || !macroPhotographs?.ready || p < .225) {
     /* ---------- lighting --------------------------------------------- */
     hemi.intensity = lerp(0.55, 0.18, toDark);
     keyLight.intensity = lerp(3.1, 1.35, toDark);
@@ -1398,6 +1400,7 @@ export function createOrigin() {
     moundMat.opacity = smooth(seg(p, 0.828, 0.880));
     mound.visible = moundMat.opacity > 0.006 && alive;
 
+    }
     /* ---------- the crossfade into the real catalogue ---------------- */
     var showCards = seg(p, 0.900, 0.962);
     setOp(pathsEl, showCards);
@@ -1428,7 +1431,7 @@ export function createOrigin() {
     if (p < 0.225 && bgPlant) {
       // Source-image coordinates of the single hanging cherry (not a cluster).
       // Both photo and mesh use this same cover-crop transform at every viewport.
-      var sw = stage.clientWidth, sh = stage.clientHeight;
+      var sw = viewWidth, sh = viewHeight;
       var opening = openingGeometry(sw, sh, p);
       var cx = opening.x, cy = opening.y;
       bgPlant.style.transformOrigin = '0 0';
@@ -1533,16 +1536,24 @@ export function createOrigin() {
      10.  Scroll wiring — Lenis drives, ScrollTrigger reports, we render
      --------------------------------------------------------------------- */
   var pTarget = 0, pNow = 0, running = true, onScreen = true, lastT = 0;
+  var viewWidth=innerWidth, viewHeight=innerHeight, nativeTouch=matchMedia("(pointer: coarse)").matches;
+  var viewportWidth=innerWidth, viewportHeight=innerHeight;
 
   function wireScroll() {
     var storyEnd = parseFloat(getComputedStyle(root).getPropertyValue('--sb-story')) || 0.86;
-    scope.own(ScrollTrigger.create({
+    const responsive=gsap.matchMedia();
+    scope.own({dispose(){responsive.revert();}});
+    responsive.add({mobile:"(max-width: 767px)",tablet:"(min-width: 768px) and (max-width: 1439px)",desktop:"(min-width: 1440px)"}, context=>{
+      root.dataset.motionViewport=context.conditions.mobile?"mobile":context.conditions.tablet?"tablet":"desktop";
+      return (()=>{const trigger=ScrollTrigger.create({
       trigger: '#sb-origin',
       start: 'top top',
-      end: 'bottom bottom',
+      end: () => '+=' + (document.getElementById('sb-origin').offsetHeight-viewHeight),
       scrub: true,
-      onUpdate: function (self) { pTarget = clamp01(self.progress / storyEnd); }
-    }));
+      onUpdate: function (self) { pTarget = clamp01(self.progress / storyEnd); },
+      onRefresh: function (self) { pTarget=clamp01(self.progress/storyEnd);needsFrame=true; }
+    }); return ()=>trigger.kill();})();
+    });
 
     /* render only while the stage is actually on screen */
     scope.own(new IntersectionObserver(function (es) { onScreen = es[0].isIntersecting; },
@@ -1560,20 +1571,26 @@ export function createOrigin() {
     clock = pNow * 60;
     /* weight: the camera follows scroll with mass rather than snapping */
     if (!onScreen || document.hidden || (pNow === pTarget && !needsFrame)) return;
-    pNow += (pTarget - pNow) * Math.min(1, dt * 7.5);
+    // Touch already has native momentum. Do not add another trailing scroll.
+    pNow = nativeTouch ? pTarget : pNow + (pTarget - pNow) * Math.min(1, dt * 7.5);
     if (Math.abs(pTarget - pNow) < 0.00001) pNow = pTarget;
     needsFrame = false;
     driveCamera(pNow);
     apply(pNow);
-    renderer.render(scene, camera);
+    if(world.visible){canvas.style.visibility="visible";renderer.render(scene,camera);}
+    else canvas.style.visibility="hidden";
   }
 
   /* ---------------------------------------------------------------------
      11.  Layout
      --------------------------------------------------------------------- */
   function resize() {
+    root.style.removeProperty('--sb-viewport');
     var w = stage.clientWidth || innerWidth;
     var h = stage.clientHeight || innerHeight;
+    if(nativeTouch)root.style.setProperty('--sb-viewport',h+'px');
+    viewWidth=w;viewHeight=h;
+    macroPhotographs?.resize(w,h);
     camera.aspect = w / h;
     camera.updateProjectionMatrix();
     renderer.setPixelRatio(Math.min(devicePixelRatio || 1, Q.dpr));
@@ -1586,7 +1603,7 @@ export function createOrigin() {
       layout.y = -0.30; layout.x = clamp(0.70 * camera.aspect, 0.86, 1.28); layout.base = 1;
     }
     /* the prologue is shorter on a phone: the same story, less scrolling */
-    root.style.setProperty('--sb-track', (innerWidth < 760 ? 461.2 : 667.6) + 'vh');
+    root.style.setProperty('--sb-track', ((w < 768 ? 4.612 : 6.676)*h) + 'px');
     measureCards();
     // Remove only unused space AFTER the cards; film/stage geometry remains
     // viewport-sized and the sticky scroll timeline never changes mid-scroll.
@@ -1599,8 +1616,11 @@ export function createOrigin() {
 
   var rzT, needsFrame = true;
   function onResize() {
+    // Address-bar/keyboard changes must not move the sticky timeline mid-touch.
+    if(nativeTouch && innerWidth===viewportWidth && Math.abs(innerHeight-viewportHeight)<viewportHeight*.25)return;
+    viewportWidth=innerWidth;viewportHeight=innerHeight;
     clearTimeout(rzT);
-    rzT = setTimeout(function () { resize(); ScrollTrigger.refresh(); }, 140);
+    rzT = setTimeout(function () { if(disposed)return;resize(); ScrollTrigger.refresh(); }, 180);
   }
 
   /* ---------------------------------------------------------------------
@@ -1648,8 +1668,10 @@ export function createOrigin() {
     canvas.removeAttribute('style');
     canvas.replaceWith(canvas.cloneNode(false));
     root.classList.remove('sb-on');
+    delete root.dataset.motionViewport;
     root.style.removeProperty('--sb-track');
     root.style.removeProperty('--sb-collection-trim');
+    root.style.removeProperty('--sb-viewport');
     if (loaderEl) loaderEl.classList.add('is-done');
     delete window.sbCaptureCategoryArt;
     delete window.sbOriginDispose;
@@ -1669,7 +1691,7 @@ export function createOrigin() {
     var prevPos = camera.position.clone(), prevQ = camera.quaternion.clone();
 
     /* freeze the scene at the moment every transformation has completed */
-    apply(0.930);
+    apply(0.930, true);
     uRoast.C.value = 1.0; uRoast.R.value = 1.0; uRoast.L.value = 0.0;
     uGrind.value = 1.0; uSmoke.o.value = 0; uDust.o.value = 0;
     smoke.visible = sparks.visible = dust.visible = false;
@@ -1787,6 +1809,7 @@ export function createOrigin() {
   } catch (err) {
     document.dispatchEvent(new CustomEvent('sb:visual-error', { detail: err.message }));
     root.classList.remove('sb-on');
+    delete root.dataset.motionViewport;
     if (loaderEl) loaderEl.classList.add('is-done');
     try { dispose(); } catch (e2) { }
   }

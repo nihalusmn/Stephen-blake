@@ -7,7 +7,7 @@ export function openingGeometry(w,h,p) {
   const cover=Math.max(w/1672,h/941);
   const anchorX=(w-1672*cover)/2+967.5*cover;
   const anchorY=(h-941*cover)/2+236.5*cover;
-  const mobile=w<760;
+  const mobile=w<768;
   const videoH=mobile?Math.min(h*.78,w*5/3):h*1.02;
   const videoW=videoH*.75;
   const videoX=w*(mobile?.5:.665),videoY=h*(mobile?.36:.45);
@@ -31,19 +31,19 @@ export function createHeroHandoff(stage,own,invalidate) {
   const mask=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 960"><defs><filter id="soft" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur stdDeviation="1.2"/></filter></defs><path fill="white" filter="url(#soft)" d="M350 175 C285 170 247 214 225 281 C203 346 207 427 232 484 C257 549 299 590 355 595 C420 594 466 547 492 486 C518 419 513 333 487 267 C459 204 416 176 370 175 Z"/></svg>`;
   image.style.maskImage=`url("data:image/svg+xml,${encodeURIComponent(mask)}")`;
   stage.append(image);
-  let disposed=false,ready=false;
+  let disposed=false,ready=false,width=stage.clientWidth,height=stage.clientHeight;
+  image.style.width='720px';image.style.height='960px';image.style.transformOrigin='0 0';
   image.decode().then(()=>{if(!disposed){ready=true;invalidate();}}).catch(()=>{});
   own({dispose(){disposed=true;image.remove();}});
-  return {update(p){
-    const g=openingGeometry(stage.clientWidth,stage.clientHeight,p);
+  return {resize(w,h){width=w;height=h;},update(p){
+    const g=openingGeometry(width,height,p);
     const alpha=ready?openingEase(p,.025,.060)*(1-openingEase(p,.105,.119)):0;
     image.style.opacity=alpha.toFixed(4);
     image.style.visibility=alpha>.001?'visible':'hidden';
     if(alpha>.001){
       const settle=1-openingEase(p,.080,.105);
       const sx=g.frameScale*(1+.24*settle),sy=g.frameScale*(1+.13*settle);
-      image.style.width=`${720*sx}px`;image.style.height=`${960*sy}px`;
-      image.style.transform=`translate3d(${g.x-360*sx}px,${g.y-385*sy}px,0)`;
+      image.style.transform=`translate3d(${g.x-360*sx}px,${g.y-385*sy}px,0) scale(${sx},${sy})`;
     }
     return g;
   }};

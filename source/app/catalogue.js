@@ -1,3 +1,4 @@
+import { gsap, ScrollTrigger } from './animations/core.js';
 import { originProfiles } from './origins.js';
 import { scrollToElement } from './animations/scroll.js';
 
@@ -96,33 +97,34 @@ const mast = $('#masthead'), waf = $('#wafloat');
 function filmEnd(){
   const el = $('#sb-origin');
   if(!el || !document.documentElement.classList.contains('sb-on')) return 0;
-  return el.offsetTop + el.offsetHeight - innerHeight;
+  return el.offsetTop + el.offsetHeight - ($('#sb-stage')?.clientHeight || innerHeight);
 }
-let darkBands = [];
+let darkBands = [], cachedFilmEnd=0, headerDirty=true, geometryDirty=true;
+function updateMasthead(){
+  const past=scrollY>cachedFilmEnd+24;
+  mast.classList.toggle('stuck',past);
+  const y=scrollY+42;
+  mast.classList.toggle('on-dark',past&&darkBands.some(b=>y>=b[0]&&y<b[1]));
+  waf.classList.toggle('show',scrollY>cachedFilmEnd+innerHeight*.25);
+}
 function measureBands(){
-  darkBands = $$('[data-dark]').map(el => {
-    const r = el.getBoundingClientRect();
-    return [r.top + scrollY, r.bottom + scrollY];
-  });
+  darkBands=$$('[data-dark]').map(el=>{const r=el.getBoundingClientRect();return [r.top+scrollY,r.bottom+scrollY];});
+  cachedFilmEnd=filmEnd();geometryDirty=false;headerDirty=true;
 }
-addEventListener('resize', () => { clearTimeout(measureBands.t);
-  measureBands.t = setTimeout(measureBands, 150); }, { passive:true });
-addEventListener('load', measureBands);
+const invalidateHeader=()=>{geometryDirty=true;};
+// Cache document geometry. Scrolling only changes the viewport, not section offsets.
+const headerLayoutObserver=new ResizeObserver(invalidateHeader);
+[document.body,$('#sb-origin'),$('#range'),$('#origins')].filter(Boolean).forEach(el=>headerLayoutObserver.observe(el));
+ScrollTrigger.addEventListener('refresh',invalidateHeader);
+addEventListener('resize',invalidateHeader,{passive:true});
+addEventListener('load',invalidateHeader);
+addEventListener('scroll',()=>{headerDirty=true;},{passive:true});
+gsap.ticker.add(()=>{
+  if(document.hidden)return;
+  if(geometryDirty)measureBands();
+  if(headerDirty){headerDirty=false;updateMasthead();}
+});
 measureBands();
-
-addEventListener('scroll', () => {
-  // Dynamic catalogue/animation heights can move these sections after load.
-  measureBands();
-  const end = filmEnd();
-  const past = scrollY > end + 24;
-  mast.classList.toggle('stuck', past);
-  if(past){
-    const y = scrollY + 42;
-    mast.classList.toggle('on-dark', darkBands.some(b => y >= b[0] && y < b[1]));
-  } else mast.classList.remove('on-dark');
-  /* the floating button belongs to the website, not to the film */
-  waf.classList.toggle('show', scrollY > filmEnd() + innerHeight * 0.25);
-}, { passive:true });
 
 /* ==========================================================
    CATALOGUE

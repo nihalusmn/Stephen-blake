@@ -2,7 +2,7 @@ if (process.argv.includes('--visuals')) { require('./visuals.cjs'); } else if (p
 const { chromium } = require('/Users/nihalusmanmm/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
-const base = process.env.SB_URL || 'http://127.0.0.1:4173/dist/';
+const base = process.env.SB_URL || 'http://127.0.0.1:4175/dist/';
 const results = [], errors = [];
 const check = (name, value) => { assert.ok(value, name); results.push(name); console.log('PASS', name); };
 (async () => {

@@ -1,19 +1,19 @@
 import * as THREE from 'three';
 import { createJourneyFilm } from './journey-film.js';
 import { createHeroHandoff } from './hero-handoff.js';
-import cherryURL from '../../assets/photography/macro/cherry.webp?inline';
-import greenURL from '../../assets/photography/macro/green.webp?inline';
-import roastedURL from '../../assets/photography/macro/roasted.webp?inline';
-import peelURL from '../../assets/photography/process/peel.webp?inline';
-import naturalURL from '../../assets/photography/process/natural.webp?inline';
-import parchmentURL from '../../assets/photography/process/parchment.webp?inline';
-import honeyURL from '../../assets/photography/process/honey.webp?inline';
-import goldenURL from '../../assets/photography/process/golden.webp?inline';
-import groundsURL from '../../assets/photography/process/grounds.webp?inline';
+const cherryURL = 'assets/photography/macro/cherry.webp';
+const greenURL = 'assets/photography/macro/green.webp';
+const roastedURL = 'assets/photography/macro/roasted.webp';
+const peelURL = 'assets/photography/process/peel.webp';
+const naturalURL = 'assets/photography/process/natural.webp';
+const parchmentURL = 'assets/photography/process/parchment.webp';
+const honeyURL = 'assets/photography/process/honey.webp';
+const goldenURL = 'assets/photography/process/golden.webp';
+const groundsURL = 'assets/photography/process/grounds.webp';
 
 // A reversible photographic film: every transform is a function of scroll.
 // DOM compositing preserves the source detail on high-density mobile screens.
-// Inline assets also work in the extracted ZIP, without local texture CORS.
+// DOM images use separate cacheable files, including when the ZIP opens locally.
 export function createMacroPhotographs(world, camera, own, invalidate) {
   const stage = document.getElementById('sb-stage');
   const root = document.documentElement;
@@ -24,6 +24,7 @@ export function createMacroPhotographs(world, camera, own, invalidate) {
   const motion = createJourneyFilm(stage, own, invalidate);
   const opening = createHeroHandoff(stage, own, invalidate);
   let ready = false, disposed = false;
+  let width=stage.clientWidth,height=stage.clientHeight;
   const urls = {cherry:cherryURL, green:greenURL, roasted:greenURL, peel:peelURL,
     natural:naturalURL, parchment:parchmentURL, honey:honeyURL, golden:goldenURL, grounds:groundsURL};
   const layers = {}, fragments = [];
@@ -65,15 +66,19 @@ export function createMacroPhotographs(world, camera, own, invalidate) {
     el.style.opacity=clamp(alpha).toFixed(4);
   }
   const v=new THREE.Vector3(),eye=new THREE.Vector3();
-  return {update(p,cherry,seed,bean,roast,beanSize,alive){
+  return {get ready(){return ready;}, resize(w,h){width=w;height=h;motion.resize(w,h);opening.resize(w,h);}, update(p,cherry,seed,bean,roast,beanSize,alive){
     opening.update(p);
     if(!ready){film.style.opacity='0';return false;}
-    const w=stage.clientWidth,h=stage.clientHeight,mobile=w<760;
+    const w=width,h=height,mobile=w<768;
     const entry=smooth(p,.113,.140),out=1-smooth(p,.925,.982);
-    film.style.opacity=(entry*out).toFixed(4);
+    const coverage=motion.update(p);
+    film.style.opacity=(entry*out*(1-coverage)).toFixed(4);
+    film.style.visibility=entry*out*(1-coverage)>.001?'visible':'hidden';
     root.classList.toggle('sb-film-light',p>.109);
     const chapter=p<.190?'origin':p<.335?'harvest':p<.412?'natural':p<.488?'honey':p<.56?'washed':p<.645?'hulling':p<.700?'green':p<.802?'roasting':p<.872?'grinding':'collection';
     root.dataset.processStage=chapter;
+    // Do not animate 83 invisible fallback layers under the opaque film.
+    if(coverage>.999 || entry*out<.001)return true;
     for(const el of Object.values(layers))el.style.opacity='0';
     for(const f of fragments)f.el.style.opacity='0';
     // Let the photograph's hanging cherry establish the exact first anchor.
@@ -145,8 +150,6 @@ export function createMacroPhotographs(world, camera, own, invalidate) {
     }
     // Photographic entry and product handoff surround the actual motion film.
     // The complete still sequence remains available if video decoding fails.
-    const coverage=motion.update(p);
-    film.style.opacity=(entry*out*(1-coverage)).toFixed(4);
     return true;
   }};
 }

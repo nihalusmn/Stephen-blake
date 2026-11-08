@@ -1,9 +1,11 @@
-# Stephen Blake — website v29
+# Stephen Blake — website v30
 
 Extract the whole ZIP and open index.html with the assets folder beside it. Scroll down from the homepage to control the film; scroll back up to reverse it. START-WEBSITE.command starts an optional local preview server on macOS.
 
 ## This update
-Security and functional audit: patched build dependencies, complete enquiry briefs, quantity validation, stale-selection cleanup, keyboard/history fixes, removed dead links, and a restricted local preview server. See source/docs/WEBSITE-AUDIT-2026-11-07.md. The approved v28 animation is unchanged.
+The mobile animation engine now uses native touch scrolling with synchronized GSAP updates, stable viewport geometry, cacheable imagery and mobile-specific film delivery. Invisible fallback layers no longer run throughout the visible film, and offscreen process players are no longer scrubbed continuously. The full approved sequence, horizontal processing chapters, captions, peeling, washing, roasting and collection handoff remain.
+
+Read source/docs/MOBILE-PERFORMANCE-V30.md for before/after measurements and test coverage. V29 enquiry/security fixes are retained; the updated dependency audit reports no known advisories. Desktop film bytes are unchanged.
 
 Previous visual corrections: The colour seam below the compact collection is corrected with an opaque section background. The falling cherry and green/roasting bean have cleaned, antialiased video outlines while retaining interior texture. Process order, Honey peeling, water wash-off, roasting smoke and collection links remain in place.
 
