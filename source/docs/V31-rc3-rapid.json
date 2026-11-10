@@ -1,0 +1,6065 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "width": 390,
+      "loadsBefore": 9,
+      "loadsAfter": 9,
+      "changed": 190,
+      "total": 200,
+      "p95Lag": 1.293999999999997,
+      "maxLag": 1.607000000000001,
+      "ending": {
+        "mediaState": "ready",
+        "targetTime": "35.200",
+        "presentation": "video",
+        "frameTime": "35.200",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "errors": [],
+      "samples": [
+        {
+          "p": 0.135126,
+          "pixelHash": 1851057047,
+          "frame": 0,
+          "target": 0.102,
+          "kind": "sequence",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 7942.700000017881
+        },
+        {
+          "p": 0.149885,
+          "pixelHash": -1644421603,
+          "frame": 0.102,
+          "target": 0.196,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 7976.9000000059605
+        },
+        {
+          "p": 0.164972,
+          "pixelHash": 1620377720,
+          "frame": 0.196,
+          "target": 0.291,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 8010.700000017881
+        },
+        {
+          "p": 0.180059,
+          "pixelHash": 536877680,
+          "frame": 0.387,
+          "target": 0.387,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 8045.600000023842
+        },
+        {
+          "p": 0.195146,
+          "pixelHash": -61462256,
+          "frame": 0.487,
+          "target": 0.487,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8080.9000000059605
+        },
+        {
+          "p": 0.209905,
+          "pixelHash": -1054978236,
+          "frame": 0.594,
+          "target": 0.594,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8114.9000000059605
+        },
+        {
+          "p": 0.224992,
+          "pixelHash": -673416898,
+          "frame": 0.703,
+          "target": 0.703,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8149.300000011921
+        },
+        {
+          "p": 0.240079,
+          "pixelHash": 1568235033,
+          "frame": 0.813,
+          "target": 0.813,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8182.9000000059605
+        },
+        {
+          "p": 0.254838,
+          "pixelHash": 857328107,
+          "frame": 0.92,
+          "target": 0.92,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8216.300000011921
+        },
+        {
+          "p": 0.269925,
+          "pixelHash": 313165472,
+          "frame": 1.029,
+          "target": 1.029,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8249.90000000596
+        },
+        {
+          "p": 0.285011,
+          "pixelHash": 1164900431,
+          "frame": 1.138,
+          "target": 1.138,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8283.90000000596
+        },
+        {
+          "p": 0.300098,
+          "pixelHash": -1519349935,
+          "frame": 1.247,
+          "target": 1.247,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8317.700000017881
+        },
+        {
+          "p": 0.314857,
+          "pixelHash": -1495235535,
+          "frame": 1.354,
+          "target": 1.354,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8351.300000011921
+        },
+        {
+          "p": 0.329944,
+          "pixelHash": 1692296955,
+          "frame": 1.463,
+          "target": 1.463,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8384.100000023842
+        },
+        {
+          "p": 0.345031,
+          "pixelHash": -1519079599,
+          "frame": 2.568,
+          "target": 2.568,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 8416.800000011921
+        },
+        {
+          "p": 0.360118,
+          "pixelHash": 537271752,
+          "frame": 4.175,
+          "target": 4.175,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 8450
+        },
+        {
+          "p": 0.374877,
+          "pixelHash": 1660447355,
+          "frame": 5.747,
+          "target": 5.747,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 8483.5
+        },
+        {
+          "p": 0.389964,
+          "pixelHash": -299629770,
+          "frame": 7.353,
+          "target": 7.353,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 8515.800000011921
+        },
+        {
+          "p": 0.405051,
+          "pixelHash": -1346860659,
+          "frame": 8.96,
+          "target": 8.96,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 8549.40000000596
+        },
+        {
+          "p": 0.420138,
+          "pixelHash": 591040565,
+          "frame": 10.503,
+          "target": 10.503,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 8582.5
+        },
+        {
+          "p": 0.434897,
+          "pixelHash": -785179516,
+          "frame": 11.416,
+          "target": 11.416,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 8616.90000000596
+        },
+        {
+          "p": 0.449984,
+          "pixelHash": 841220686,
+          "frame": 12.349,
+          "target": 12.349,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 8650.100000023842
+        },
+        {
+          "p": 0.465071,
+          "pixelHash": -1510154330,
+          "frame": 13.282,
+          "target": 13.282,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 8684.100000023842
+        },
+        {
+          "p": 0.480157,
+          "pixelHash": -1562815238,
+          "frame": 14.215,
+          "target": 14.215,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 8717.90000000596
+        },
+        {
+          "p": 0.494916,
+          "pixelHash": 697050437,
+          "frame": 15.611,
+          "target": 15.611,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 8750.90000000596
+        },
+        {
+          "p": 0.510003,
+          "pixelHash": -2093986971,
+          "frame": 16.945,
+          "target": 16.945,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 8784.700000017881
+        },
+        {
+          "p": 0.52509,
+          "pixelHash": 1811664143,
+          "frame": 18.278,
+          "target": 18.278,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 8818.5
+        },
+        {
+          "p": 0.539849,
+          "pixelHash": 440179662,
+          "frame": 19.583,
+          "target": 19.583,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 8852.200000017881
+        },
+        {
+          "p": 0.554936,
+          "pixelHash": -1941518582,
+          "frame": 20.48,
+          "target": 20.48,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 8886.300000011921
+        },
+        {
+          "p": 0.570023,
+          "pixelHash": 25005587,
+          "frame": 21.208,
+          "target": 21.208,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 8920.90000000596
+        },
+        {
+          "p": 0.58511,
+          "pixelHash": 838360563,
+          "frame": 22.272,
+          "target": 22.272,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 8955
+        },
+        {
+          "p": 0.599869,
+          "pixelHash": 2090497529,
+          "frame": 23.314,
+          "target": 23.314,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 8989.100000023842
+        },
+        {
+          "p": 0.614956,
+          "pixelHash": -1560688395,
+          "frame": 24.379,
+          "target": 24.379,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 9023.200000017881
+        },
+        {
+          "p": 0.630043,
+          "pixelHash": -1560688395,
+          "frame": 24.379,
+          "target": 25.444,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 9058.700000017881
+        },
+        {
+          "p": 0.64513,
+          "pixelHash": 1724383644,
+          "frame": 26.5,
+          "target": 26.509,
+          "kind": "sequence",
+          "chapter": "green",
+          "expected": "green",
+          "at": 9093.40000000596
+        },
+        {
+          "p": 0.659888,
+          "pixelHash": -2072414795,
+          "frame": 27.583,
+          "target": 27.583,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 9130.200000017881
+        },
+        {
+          "p": 0.674975,
+          "pixelHash": -1634117513,
+          "frame": 28.68,
+          "target": 28.68,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 9164.5
+        },
+        {
+          "p": 0.690062,
+          "pixelHash": 1102847319,
+          "frame": 29.777,
+          "target": 29.777,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 9197.90000000596
+        },
+        {
+          "p": 0.705149,
+          "pixelHash": 499805081,
+          "frame": 30.904,
+          "target": 30.904,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9230.600000023842
+        },
+        {
+          "p": 0.719908,
+          "pixelHash": -50016335,
+          "frame": 32.061,
+          "target": 32.061,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9263.5
+        },
+        {
+          "p": 0.734995,
+          "pixelHash": 1160854331,
+          "frame": 33.245,
+          "target": 33.245,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9296.600000023842
+        },
+        {
+          "p": 0.750082,
+          "pixelHash": 304309602,
+          "frame": 34.428,
+          "target": 34.428,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9330.200000017881
+        },
+        {
+          "p": 0.764841,
+          "pixelHash": -664921819,
+          "frame": 35.586,
+          "target": 35.586,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9363.40000000596
+        },
+        {
+          "p": 0.779928,
+          "pixelHash": 78662749,
+          "frame": 36.769,
+          "target": 36.769,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9397.200000017881
+        },
+        {
+          "p": 0.795015,
+          "pixelHash": 672421963,
+          "frame": 37.952,
+          "target": 37.952,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9430.700000017881
+        },
+        {
+          "p": 0.810102,
+          "pixelHash": -1458141915,
+          "frame": 39.194,
+          "target": 39.194,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9465.300000011921
+        },
+        {
+          "p": 0.824861,
+          "pixelHash": 897550038,
+          "frame": 40.459,
+          "target": 40.459,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9497.90000000596
+        },
+        {
+          "p": 0.839948,
+          "pixelHash": -1595710881,
+          "frame": 41.753,
+          "target": 41.753,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9530.5
+        },
+        {
+          "p": 0.855034,
+          "pixelHash": 331028317,
+          "frame": 43.046,
+          "target": 43.046,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9563.90000000596
+        },
+        {
+          "p": 0.870121,
+          "pixelHash": 1097975958,
+          "frame": 44.339,
+          "target": 44.339,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9596.600000023842
+        },
+        {
+          "p": 0.870121,
+          "pixelHash": 1097975958,
+          "frame": 44.339,
+          "target": 44.339,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9629.40000000596
+        },
+        {
+          "p": 0.855034,
+          "pixelHash": 1097975958,
+          "frame": 44.339,
+          "target": 43.046,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9663
+        },
+        {
+          "p": 0.839948,
+          "pixelHash": 331028317,
+          "frame": 43.046,
+          "target": 41.753,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9695.90000000596
+        },
+        {
+          "p": 0.824861,
+          "pixelHash": -1595710881,
+          "frame": 41.753,
+          "target": 40.459,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9730
+        },
+        {
+          "p": 0.810102,
+          "pixelHash": 897550038,
+          "frame": 40.459,
+          "target": 39.194,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9763.700000017881
+        },
+        {
+          "p": 0.795015,
+          "pixelHash": 672421963,
+          "frame": 37.952,
+          "target": 37.952,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9797.200000017881
+        },
+        {
+          "p": 0.779928,
+          "pixelHash": 78662749,
+          "frame": 36.769,
+          "target": 36.769,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9830.5
+        },
+        {
+          "p": 0.764841,
+          "pixelHash": -664921819,
+          "frame": 35.586,
+          "target": 35.586,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9864.800000011921
+        },
+        {
+          "p": 0.750082,
+          "pixelHash": 304309602,
+          "frame": 34.428,
+          "target": 34.428,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9898.600000023842
+        },
+        {
+          "p": 0.734995,
+          "pixelHash": 1160854331,
+          "frame": 33.245,
+          "target": 33.245,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9931.40000000596
+        },
+        {
+          "p": 0.719908,
+          "pixelHash": -50016335,
+          "frame": 32.061,
+          "target": 32.061,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9963.5
+        },
+        {
+          "p": 0.705149,
+          "pixelHash": 499805081,
+          "frame": 30.904,
+          "target": 30.904,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9997.200000017881
+        },
+        {
+          "p": 0.690062,
+          "pixelHash": 1102847319,
+          "frame": 29.777,
+          "target": 29.777,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 10031.600000023842
+        },
+        {
+          "p": 0.674975,
+          "pixelHash": -1634117513,
+          "frame": 28.68,
+          "target": 28.68,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 10066
+        },
+        {
+          "p": 0.659888,
+          "pixelHash": -2072414795,
+          "frame": 27.583,
+          "target": 27.583,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 10099.200000017881
+        },
+        {
+          "p": 0.64513,
+          "pixelHash": -1935357482,
+          "frame": 26.509,
+          "target": 26.509,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 10132.300000011921
+        },
+        {
+          "p": 0.630043,
+          "pixelHash": 1587754415,
+          "frame": 25.444,
+          "target": 25.444,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 10165.90000000596
+        },
+        {
+          "p": 0.614956,
+          "pixelHash": -1560688395,
+          "frame": 24.379,
+          "target": 24.379,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 10199.90000000596
+        },
+        {
+          "p": 0.599869,
+          "pixelHash": 2090497529,
+          "frame": 23.314,
+          "target": 23.314,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 10234
+        },
+        {
+          "p": 0.58511,
+          "pixelHash": 838360563,
+          "frame": 22.272,
+          "target": 22.272,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 10267.700000017881
+        },
+        {
+          "p": 0.570023,
+          "pixelHash": 25005587,
+          "frame": 21.208,
+          "target": 21.208,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 10301.300000011921
+        },
+        {
+          "p": 0.554936,
+          "pixelHash": -1941518582,
+          "frame": 20.48,
+          "target": 20.48,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 10334.5
+        },
+        {
+          "p": 0.539849,
+          "pixelHash": 440179662,
+          "frame": 19.583,
+          "target": 19.583,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 10367.300000011921
+        },
+        {
+          "p": 0.52509,
+          "pixelHash": 1811664143,
+          "frame": 18.278,
+          "target": 18.278,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 10402
+        },
+        {
+          "p": 0.510003,
+          "pixelHash": -2093986971,
+          "frame": 16.945,
+          "target": 16.945,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 10435.100000023842
+        },
+        {
+          "p": 0.494916,
+          "pixelHash": 697050437,
+          "frame": 15.611,
+          "target": 15.611,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 10472.600000023842
+        },
+        {
+          "p": 0.480157,
+          "pixelHash": -1509868228,
+          "frame": 14.7,
+          "target": 14.215,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 10507.90000000596
+        },
+        {
+          "p": 0.465071,
+          "pixelHash": -1562815238,
+          "frame": 14.215,
+          "target": 13.282,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 10541.90000000596
+        },
+        {
+          "p": 0.449984,
+          "pixelHash": -1510154330,
+          "frame": 13.282,
+          "target": 12.349,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 10575
+        },
+        {
+          "p": 0.434897,
+          "pixelHash": 841220686,
+          "frame": 12.349,
+          "target": 11.416,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 10609.300000011921
+        },
+        {
+          "p": 0.420138,
+          "pixelHash": -785179516,
+          "frame": 11.416,
+          "target": 10.503,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 10642.40000000596
+        },
+        {
+          "p": 0.405051,
+          "pixelHash": -385403531,
+          "frame": 9.7,
+          "target": 8.96,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 10676.5
+        },
+        {
+          "p": 0.389964,
+          "pixelHash": -1346860659,
+          "frame": 8.96,
+          "target": 7.353,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 10709.700000017881
+        },
+        {
+          "p": 0.374877,
+          "pixelHash": -299629770,
+          "frame": 7.353,
+          "target": 5.747,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 10744
+        },
+        {
+          "p": 0.360118,
+          "pixelHash": 1660447355,
+          "frame": 5.747,
+          "target": 4.175,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 10778.100000023842
+        },
+        {
+          "p": 0.345031,
+          "pixelHash": -1519079599,
+          "frame": 2.568,
+          "target": 2.568,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 10812.600000023842
+        },
+        {
+          "p": 0.329944,
+          "pixelHash": 1692296955,
+          "frame": 1.463,
+          "target": 1.463,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 10847
+        },
+        {
+          "p": 0.314857,
+          "pixelHash": -1495235535,
+          "frame": 1.354,
+          "target": 1.354,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 10881
+        },
+        {
+          "p": 0.300098,
+          "pixelHash": -1519349935,
+          "frame": 1.247,
+          "target": 1.247,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 10913.700000017881
+        },
+        {
+          "p": 0.285011,
+          "pixelHash": 1164900431,
+          "frame": 1.138,
+          "target": 1.138,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 10946.90000000596
+        },
+        {
+          "p": 0.269925,
+          "pixelHash": 313165472,
+          "frame": 1.029,
+          "target": 1.029,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 10980.200000017881
+        },
+        {
+          "p": 0.254838,
+          "pixelHash": 857328107,
+          "frame": 0.92,
+          "target": 0.92,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11013.700000017881
+        },
+        {
+          "p": 0.240079,
+          "pixelHash": 1568235033,
+          "frame": 0.813,
+          "target": 0.813,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11046.90000000596
+        },
+        {
+          "p": 0.224992,
+          "pixelHash": -673416898,
+          "frame": 0.703,
+          "target": 0.703,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11080.600000023842
+        },
+        {
+          "p": 0.209905,
+          "pixelHash": -1054978236,
+          "frame": 0.594,
+          "target": 0.594,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11114.200000017881
+        },
+        {
+          "p": 0.195146,
+          "pixelHash": -61462256,
+          "frame": 0.487,
+          "target": 0.487,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11148.100000023842
+        },
+        {
+          "p": 0.180059,
+          "pixelHash": 536877680,
+          "frame": 0.387,
+          "target": 0.387,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11182.5
+        },
+        {
+          "p": 0.164972,
+          "pixelHash": 910233091,
+          "frame": 0.291,
+          "target": 0.291,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11216.5
+        },
+        {
+          "p": 0.149885,
+          "pixelHash": 1620377720,
+          "frame": 0.196,
+          "target": 0.196,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11250.700000017881
+        },
+        {
+          "p": 0.135126,
+          "pixelHash": -1644421603,
+          "frame": 0.102,
+          "target": 0.102,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11285.800000011921
+        },
+        {
+          "p": 0.135126,
+          "pixelHash": -1644421603,
+          "frame": 0.102,
+          "target": 0.102,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11319.800000011921
+        },
+        {
+          "p": 0.149885,
+          "pixelHash": -1644421603,
+          "frame": 0.102,
+          "target": 0.196,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11354.300000011921
+        },
+        {
+          "p": 0.164972,
+          "pixelHash": 1620377720,
+          "frame": 0.196,
+          "target": 0.291,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11388.300000011921
+        },
+        {
+          "p": 0.180059,
+          "pixelHash": 910233091,
+          "frame": 0.291,
+          "target": 0.387,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11422.700000017881
+        },
+        {
+          "p": 0.195146,
+          "pixelHash": -396196332,
+          "frame": 0.5,
+          "target": 0.487,
+          "kind": "sequence",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11455.90000000596
+        },
+        {
+          "p": 0.209905,
+          "pixelHash": -61462256,
+          "frame": 0.487,
+          "target": 0.594,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11489.700000017881
+        },
+        {
+          "p": 0.224992,
+          "pixelHash": -1054978236,
+          "frame": 0.594,
+          "target": 0.703,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11523.600000023842
+        },
+        {
+          "p": 0.240079,
+          "pixelHash": -673416898,
+          "frame": 0.703,
+          "target": 0.813,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11555.800000011921
+        },
+        {
+          "p": 0.254838,
+          "pixelHash": 1568235033,
+          "frame": 0.813,
+          "target": 0.92,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11589.200000017881
+        },
+        {
+          "p": 0.269925,
+          "pixelHash": 857328107,
+          "frame": 0.92,
+          "target": 1.029,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11623.5
+        },
+        {
+          "p": 0.285011,
+          "pixelHash": 313165472,
+          "frame": 1.029,
+          "target": 1.138,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11657.600000023842
+        },
+        {
+          "p": 0.300098,
+          "pixelHash": 1164900431,
+          "frame": 1.138,
+          "target": 1.247,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11691.700000017881
+        },
+        {
+          "p": 0.314857,
+          "pixelHash": -1519349935,
+          "frame": 1.247,
+          "target": 1.354,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11726.300000011921
+        },
+        {
+          "p": 0.329944,
+          "pixelHash": -1495235535,
+          "frame": 1.354,
+          "target": 1.463,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11760.300000011921
+        },
+        {
+          "p": 0.345031,
+          "pixelHash": -786088838,
+          "frame": 1.501,
+          "target": 2.568,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 11794.200000017881
+        },
+        {
+          "p": 0.360118,
+          "pixelHash": 537271752,
+          "frame": 4.175,
+          "target": 4.175,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 11831.300000011921
+        },
+        {
+          "p": 0.374877,
+          "pixelHash": 1660447355,
+          "frame": 5.747,
+          "target": 5.747,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 11865.40000000596
+        },
+        {
+          "p": 0.389964,
+          "pixelHash": -299629770,
+          "frame": 7.353,
+          "target": 7.353,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 11899.40000000596
+        },
+        {
+          "p": 0.405051,
+          "pixelHash": -1346860659,
+          "frame": 8.96,
+          "target": 8.96,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 11931.700000017881
+        },
+        {
+          "p": 0.420138,
+          "pixelHash": 591040565,
+          "frame": 10.503,
+          "target": 10.503,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 11965
+        },
+        {
+          "p": 0.434897,
+          "pixelHash": -785179516,
+          "frame": 11.416,
+          "target": 11.416,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 11997.700000017881
+        },
+        {
+          "p": 0.449984,
+          "pixelHash": 841220686,
+          "frame": 12.349,
+          "target": 12.349,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 12031.100000023842
+        },
+        {
+          "p": 0.465071,
+          "pixelHash": -1510154330,
+          "frame": 13.282,
+          "target": 13.282,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 12065.40000000596
+        },
+        {
+          "p": 0.480157,
+          "pixelHash": -1562815238,
+          "frame": 14.215,
+          "target": 14.215,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 12099.200000017881
+        },
+        {
+          "p": 0.494916,
+          "pixelHash": 697050437,
+          "frame": 15.611,
+          "target": 15.611,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 12133
+        },
+        {
+          "p": 0.510003,
+          "pixelHash": -2093986971,
+          "frame": 16.945,
+          "target": 16.945,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 12167.300000011921
+        },
+        {
+          "p": 0.52509,
+          "pixelHash": 1811664143,
+          "frame": 18.278,
+          "target": 18.278,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 12200.700000017881
+        },
+        {
+          "p": 0.539849,
+          "pixelHash": 440179662,
+          "frame": 19.583,
+          "target": 19.583,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 12233.90000000596
+        },
+        {
+          "p": 0.554936,
+          "pixelHash": -1941518582,
+          "frame": 20.48,
+          "target": 20.48,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 12266.800000011921
+        },
+        {
+          "p": 0.570023,
+          "pixelHash": 25005587,
+          "frame": 21.208,
+          "target": 21.208,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 12300.300000011921
+        },
+        {
+          "p": 0.58511,
+          "pixelHash": 838360563,
+          "frame": 22.272,
+          "target": 22.272,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 12333.300000011921
+        },
+        {
+          "p": 0.599869,
+          "pixelHash": 2090497529,
+          "frame": 23.314,
+          "target": 23.314,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 12366.5
+        },
+        {
+          "p": 0.614956,
+          "pixelHash": -1560688395,
+          "frame": 24.379,
+          "target": 24.379,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 12399.600000023842
+        },
+        {
+          "p": 0.630043,
+          "pixelHash": 1587754415,
+          "frame": 25.444,
+          "target": 25.444,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 12433.300000011921
+        },
+        {
+          "p": 0.64513,
+          "pixelHash": -1935357482,
+          "frame": 26.509,
+          "target": 26.509,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 12467.100000023842
+        },
+        {
+          "p": 0.659888,
+          "pixelHash": -2072414795,
+          "frame": 27.583,
+          "target": 27.583,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 12500.90000000596
+        },
+        {
+          "p": 0.674975,
+          "pixelHash": -1634117513,
+          "frame": 28.68,
+          "target": 28.68,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 12534.5
+        },
+        {
+          "p": 0.690062,
+          "pixelHash": 1102847319,
+          "frame": 29.777,
+          "target": 29.777,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 12568.300000011921
+        },
+        {
+          "p": 0.705149,
+          "pixelHash": 499805081,
+          "frame": 30.904,
+          "target": 30.904,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 12604.90000000596
+        },
+        {
+          "p": 0.719908,
+          "pixelHash": -50016335,
+          "frame": 32.061,
+          "target": 32.061,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 12640.40000000596
+        },
+        {
+          "p": 0.734995,
+          "pixelHash": -50016335,
+          "frame": 32.061,
+          "target": 33.245,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 12674.600000023842
+        },
+        {
+          "p": 0.750082,
+          "pixelHash": 1160854331,
+          "frame": 33.245,
+          "target": 34.428,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 12708.200000017881
+        },
+        {
+          "p": 0.764841,
+          "pixelHash": 304309602,
+          "frame": 34.428,
+          "target": 35.586,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 12741.600000023842
+        },
+        {
+          "p": 0.779928,
+          "pixelHash": -664921819,
+          "frame": 35.586,
+          "target": 36.769,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 12774.40000000596
+        },
+        {
+          "p": 0.795015,
+          "pixelHash": 78662749,
+          "frame": 36.769,
+          "target": 37.952,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 12808.200000017881
+        },
+        {
+          "p": 0.810102,
+          "pixelHash": -1458141915,
+          "frame": 39.194,
+          "target": 39.194,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 12841.700000017881
+        },
+        {
+          "p": 0.824861,
+          "pixelHash": -1458141915,
+          "frame": 39.194,
+          "target": 40.459,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 12875.300000011921
+        },
+        {
+          "p": 0.839948,
+          "pixelHash": 897550038,
+          "frame": 40.459,
+          "target": 41.753,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 12909.100000023842
+        },
+        {
+          "p": 0.855034,
+          "pixelHash": -1595710881,
+          "frame": 41.753,
+          "target": 43.046,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 12942.700000017881
+        },
+        {
+          "p": 0.870121,
+          "pixelHash": 1097975958,
+          "frame": 44.339,
+          "target": 44.339,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 12980.40000000596
+        },
+        {
+          "p": 0.870121,
+          "pixelHash": 1097975958,
+          "frame": 44.339,
+          "target": 44.339,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 13013.90000000596
+        },
+        {
+          "p": 0.855034,
+          "pixelHash": 1097975958,
+          "frame": 44.339,
+          "target": 43.046,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 13047
+        },
+        {
+          "p": 0.839948,
+          "pixelHash": 331028317,
+          "frame": 43.046,
+          "target": 41.753,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 13080.300000011921
+        },
+        {
+          "p": 0.824861,
+          "pixelHash": -1595710881,
+          "frame": 41.753,
+          "target": 40.459,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 13113.600000023842
+        },
+        {
+          "p": 0.810102,
+          "pixelHash": 897550038,
+          "frame": 40.459,
+          "target": 39.194,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 13145.90000000596
+        },
+        {
+          "p": 0.795015,
+          "pixelHash": 672421963,
+          "frame": 37.952,
+          "target": 37.952,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 13179.5
+        },
+        {
+          "p": 0.779928,
+          "pixelHash": 78662749,
+          "frame": 36.769,
+          "target": 36.769,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 13212.5
+        },
+        {
+          "p": 0.764841,
+          "pixelHash": -664921819,
+          "frame": 35.586,
+          "target": 35.586,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 13247
+        },
+        {
+          "p": 0.750082,
+          "pixelHash": 304309602,
+          "frame": 34.428,
+          "target": 34.428,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 13280.100000023842
+        },
+        {
+          "p": 0.734995,
+          "pixelHash": 1160854331,
+          "frame": 33.245,
+          "target": 33.245,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 13313.700000017881
+        },
+        {
+          "p": 0.719908,
+          "pixelHash": -50016335,
+          "frame": 32.061,
+          "target": 32.061,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 13349
+        },
+        {
+          "p": 0.705149,
+          "pixelHash": 499805081,
+          "frame": 30.904,
+          "target": 30.904,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 13382.700000017881
+        },
+        {
+          "p": 0.690062,
+          "pixelHash": 1102847319,
+          "frame": 29.777,
+          "target": 29.777,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 13416.300000011921
+        },
+        {
+          "p": 0.674975,
+          "pixelHash": -1634117513,
+          "frame": 28.68,
+          "target": 28.68,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 13450.700000017881
+        },
+        {
+          "p": 0.659888,
+          "pixelHash": -2072414795,
+          "frame": 27.583,
+          "target": 27.583,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 13484.90000000596
+        },
+        {
+          "p": 0.64513,
+          "pixelHash": -1935357482,
+          "frame": 26.509,
+          "target": 26.509,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 13518.700000017881
+        },
+        {
+          "p": 0.630043,
+          "pixelHash": 1587754415,
+          "frame": 25.444,
+          "target": 25.444,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 13552.200000017881
+        },
+        {
+          "p": 0.614956,
+          "pixelHash": -1560688395,
+          "frame": 24.379,
+          "target": 24.379,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 13584.90000000596
+        },
+        {
+          "p": 0.599869,
+          "pixelHash": 2090497529,
+          "frame": 23.314,
+          "target": 23.314,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 13617.300000011921
+        },
+        {
+          "p": 0.58511,
+          "pixelHash": 838360563,
+          "frame": 22.272,
+          "target": 22.272,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 13651
+        },
+        {
+          "p": 0.570023,
+          "pixelHash": 25005587,
+          "frame": 21.208,
+          "target": 21.208,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 13684
+        },
+        {
+          "p": 0.554936,
+          "pixelHash": -1941518582,
+          "frame": 20.48,
+          "target": 20.48,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 13717.40000000596
+        },
+        {
+          "p": 0.539849,
+          "pixelHash": 440179662,
+          "frame": 19.583,
+          "target": 19.583,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 13750.5
+        },
+        {
+          "p": 0.52509,
+          "pixelHash": 1811664143,
+          "frame": 18.278,
+          "target": 18.278,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 13784
+        },
+        {
+          "p": 0.510003,
+          "pixelHash": -2093986971,
+          "frame": 16.945,
+          "target": 16.945,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 13818.600000023842
+        },
+        {
+          "p": 0.494916,
+          "pixelHash": 697050437,
+          "frame": 15.611,
+          "target": 15.611,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 13851.600000023842
+        },
+        {
+          "p": 0.480157,
+          "pixelHash": -1562815238,
+          "frame": 14.215,
+          "target": 14.215,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 13885.5
+        },
+        {
+          "p": 0.465071,
+          "pixelHash": -1510154330,
+          "frame": 13.282,
+          "target": 13.282,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 13919
+        },
+        {
+          "p": 0.449984,
+          "pixelHash": 841220686,
+          "frame": 12.349,
+          "target": 12.349,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 13952.800000011921
+        },
+        {
+          "p": 0.434897,
+          "pixelHash": -785179516,
+          "frame": 11.416,
+          "target": 11.416,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 13986.800000011921
+        },
+        {
+          "p": 0.420138,
+          "pixelHash": 591040565,
+          "frame": 10.503,
+          "target": 10.503,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 14020.40000000596
+        },
+        {
+          "p": 0.405051,
+          "pixelHash": -385403531,
+          "frame": 9.7,
+          "target": 8.96,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 14052.100000023842
+        },
+        {
+          "p": 0.389964,
+          "pixelHash": -1346860659,
+          "frame": 8.96,
+          "target": 7.353,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 14085
+        },
+        {
+          "p": 0.374877,
+          "pixelHash": -299629770,
+          "frame": 7.353,
+          "target": 5.747,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 14118.40000000596
+        },
+        {
+          "p": 0.360118,
+          "pixelHash": 1660447355,
+          "frame": 5.747,
+          "target": 4.175,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 14152.100000023842
+        },
+        {
+          "p": 0.345031,
+          "pixelHash": 537271752,
+          "frame": 4.175,
+          "target": 2.568,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 14186.600000023842
+        },
+        {
+          "p": 0.329944,
+          "pixelHash": 1692296955,
+          "frame": 1.463,
+          "target": 1.463,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14220.700000017881
+        },
+        {
+          "p": 0.314857,
+          "pixelHash": 1692296955,
+          "frame": 1.463,
+          "target": 1.354,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14255.5
+        },
+        {
+          "p": 0.300098,
+          "pixelHash": -1495235535,
+          "frame": 1.354,
+          "target": 1.247,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14289
+        },
+        {
+          "p": 0.285011,
+          "pixelHash": -1519349935,
+          "frame": 1.247,
+          "target": 1.138,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14322.100000023842
+        },
+        {
+          "p": 0.269925,
+          "pixelHash": 1164900431,
+          "frame": 1.138,
+          "target": 1.029,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14355.200000017881
+        },
+        {
+          "p": 0.254838,
+          "pixelHash": 313165472,
+          "frame": 1.029,
+          "target": 0.92,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14388.600000023842
+        },
+        {
+          "p": 0.240079,
+          "pixelHash": 857328107,
+          "frame": 0.92,
+          "target": 0.813,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14422.100000023842
+        },
+        {
+          "p": 0.224992,
+          "pixelHash": 1568235033,
+          "frame": 0.813,
+          "target": 0.703,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14455.40000000596
+        },
+        {
+          "p": 0.209905,
+          "pixelHash": -673416898,
+          "frame": 0.703,
+          "target": 0.594,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14488.5
+        },
+        {
+          "p": 0.195146,
+          "pixelHash": -1054978236,
+          "frame": 0.594,
+          "target": 0.487,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14521.200000017881
+        },
+        {
+          "p": 0.180059,
+          "pixelHash": -61462256,
+          "frame": 0.487,
+          "target": 0.387,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 14555.100000023842
+        },
+        {
+          "p": 0.164972,
+          "pixelHash": 536877680,
+          "frame": 0.387,
+          "target": 0.291,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 14588.600000023842
+        },
+        {
+          "p": 0.149885,
+          "pixelHash": 910233091,
+          "frame": 0.291,
+          "target": 0.196,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 14622
+        },
+        {
+          "p": 0.135126,
+          "pixelHash": 1620377720,
+          "frame": 0.196,
+          "target": 0.102,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 14655.600000023842
+        }
+      ]
+    },
+    {
+      "width": 758,
+      "loadsBefore": 9,
+      "loadsAfter": 9,
+      "changed": 182,
+      "total": 200,
+      "p95Lag": 1.3049999999999997,
+      "maxLag": 1.607000000000001,
+      "ending": {
+        "mediaState": "ready",
+        "targetTime": "35.200",
+        "presentation": "video",
+        "frameTime": "35.200",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "errors": [],
+      "samples": [
+        {
+          "p": 0.135126,
+          "pixelHash": 1851057047,
+          "frame": 0,
+          "target": 0.102,
+          "kind": "sequence",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 7996.300000011921
+        },
+        {
+          "p": 0.149885,
+          "pixelHash": -1644421603,
+          "frame": 0.102,
+          "target": 0.196,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 8030.4000000059605
+        },
+        {
+          "p": 0.164972,
+          "pixelHash": 910233091,
+          "frame": 0.291,
+          "target": 0.291,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 8064.800000011921
+        },
+        {
+          "p": 0.180059,
+          "pixelHash": 536877680,
+          "frame": 0.387,
+          "target": 0.387,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 8099.5999999940395
+        },
+        {
+          "p": 0.195146,
+          "pixelHash": -61462256,
+          "frame": 0.487,
+          "target": 0.487,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8134.699999988079
+        },
+        {
+          "p": 0.209905,
+          "pixelHash": -1054978236,
+          "frame": 0.594,
+          "target": 0.594,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8168.300000011921
+        },
+        {
+          "p": 0.224992,
+          "pixelHash": -673416898,
+          "frame": 0.703,
+          "target": 0.703,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8203.199999988079
+        },
+        {
+          "p": 0.240079,
+          "pixelHash": 1568235033,
+          "frame": 0.813,
+          "target": 0.813,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8238.90000000596
+        },
+        {
+          "p": 0.254838,
+          "pixelHash": 1568235033,
+          "frame": 0.813,
+          "target": 0.92,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8276.40000000596
+        },
+        {
+          "p": 0.269925,
+          "pixelHash": 857328107,
+          "frame": 0.92,
+          "target": 1.029,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8310.09999999404
+        },
+        {
+          "p": 0.285011,
+          "pixelHash": 313165472,
+          "frame": 1.029,
+          "target": 1.138,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8343.5
+        },
+        {
+          "p": 0.300098,
+          "pixelHash": 1164900431,
+          "frame": 1.138,
+          "target": 1.247,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8376.800000011921
+        },
+        {
+          "p": 0.314857,
+          "pixelHash": -1519349935,
+          "frame": 1.247,
+          "target": 1.354,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8410.09999999404
+        },
+        {
+          "p": 0.329944,
+          "pixelHash": -1495235535,
+          "frame": 1.354,
+          "target": 1.463,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8444.300000011921
+        },
+        {
+          "p": 0.345031,
+          "pixelHash": 2124015150,
+          "frame": 2.5,
+          "target": 2.568,
+          "kind": "sequence",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 8478.40000000596
+        },
+        {
+          "p": 0.360118,
+          "pixelHash": 537271752,
+          "frame": 4.175,
+          "target": 4.175,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 8515.09999999404
+        },
+        {
+          "p": 0.374877,
+          "pixelHash": 1660447355,
+          "frame": 5.747,
+          "target": 5.747,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 8548.300000011921
+        },
+        {
+          "p": 0.389964,
+          "pixelHash": -299629770,
+          "frame": 7.353,
+          "target": 7.353,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 8582.199999988079
+        },
+        {
+          "p": 0.405051,
+          "pixelHash": -1346860659,
+          "frame": 8.96,
+          "target": 8.96,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 8615.59999999404
+        },
+        {
+          "p": 0.420138,
+          "pixelHash": -473578652,
+          "frame": 10.001,
+          "target": 10.503,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 8649.09999999404
+        },
+        {
+          "p": 0.434897,
+          "pixelHash": 591040565,
+          "frame": 10.503,
+          "target": 11.416,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 8682.59999999404
+        },
+        {
+          "p": 0.449984,
+          "pixelHash": -785179516,
+          "frame": 11.416,
+          "target": 12.349,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 8715.699999988079
+        },
+        {
+          "p": 0.465071,
+          "pixelHash": 841220686,
+          "frame": 12.349,
+          "target": 13.282,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 8748.800000011921
+        },
+        {
+          "p": 0.480157,
+          "pixelHash": -1510154330,
+          "frame": 13.282,
+          "target": 14.215,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 8781.800000011921
+        },
+        {
+          "p": 0.494916,
+          "pixelHash": 697050437,
+          "frame": 15.611,
+          "target": 15.611,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 8815
+        },
+        {
+          "p": 0.510003,
+          "pixelHash": 697050437,
+          "frame": 15.611,
+          "target": 16.945,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 8847.5
+        },
+        {
+          "p": 0.52509,
+          "pixelHash": 1811664143,
+          "frame": 18.278,
+          "target": 18.278,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 8882.300000011921
+        },
+        {
+          "p": 0.539849,
+          "pixelHash": 440179662,
+          "frame": 19.583,
+          "target": 19.583,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 8915.699999988079
+        },
+        {
+          "p": 0.554936,
+          "pixelHash": -1941518582,
+          "frame": 20.48,
+          "target": 20.48,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 8948.199999988079
+        },
+        {
+          "p": 0.570023,
+          "pixelHash": 25005587,
+          "frame": 21.208,
+          "target": 21.208,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 8981.59999999404
+        },
+        {
+          "p": 0.58511,
+          "pixelHash": 838360563,
+          "frame": 22.272,
+          "target": 22.272,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 9015
+        },
+        {
+          "p": 0.599869,
+          "pixelHash": 2090497529,
+          "frame": 23.314,
+          "target": 23.314,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 9048.699999988079
+        },
+        {
+          "p": 0.614956,
+          "pixelHash": -1560688395,
+          "frame": 24.379,
+          "target": 24.379,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 9082.699999988079
+        },
+        {
+          "p": 0.630043,
+          "pixelHash": 1587754415,
+          "frame": 25.444,
+          "target": 25.444,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 9115.800000011921
+        },
+        {
+          "p": 0.64513,
+          "pixelHash": -1935357482,
+          "frame": 26.509,
+          "target": 26.509,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 9149.300000011921
+        },
+        {
+          "p": 0.659888,
+          "pixelHash": -2072414795,
+          "frame": 27.583,
+          "target": 27.583,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 9182.90000000596
+        },
+        {
+          "p": 0.674975,
+          "pixelHash": -1634117513,
+          "frame": 28.68,
+          "target": 28.68,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 9216.199999988079
+        },
+        {
+          "p": 0.690062,
+          "pixelHash": 1102847319,
+          "frame": 29.777,
+          "target": 29.777,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 9249.300000011921
+        },
+        {
+          "p": 0.705149,
+          "pixelHash": 499805081,
+          "frame": 30.904,
+          "target": 30.904,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9282.09999999404
+        },
+        {
+          "p": 0.719908,
+          "pixelHash": -50016335,
+          "frame": 32.061,
+          "target": 32.061,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9315.699999988079
+        },
+        {
+          "p": 0.734995,
+          "pixelHash": 1160854331,
+          "frame": 33.245,
+          "target": 33.245,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9348.40000000596
+        },
+        {
+          "p": 0.750082,
+          "pixelHash": 304309602,
+          "frame": 34.428,
+          "target": 34.428,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9381.59999999404
+        },
+        {
+          "p": 0.764841,
+          "pixelHash": -664921819,
+          "frame": 35.586,
+          "target": 35.586,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9415.699999988079
+        },
+        {
+          "p": 0.779928,
+          "pixelHash": 78662749,
+          "frame": 36.769,
+          "target": 36.769,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9449.300000011921
+        },
+        {
+          "p": 0.795015,
+          "pixelHash": 672421963,
+          "frame": 37.952,
+          "target": 37.952,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9482.90000000596
+        },
+        {
+          "p": 0.810102,
+          "pixelHash": -1458141915,
+          "frame": 39.194,
+          "target": 39.194,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9517
+        },
+        {
+          "p": 0.824861,
+          "pixelHash": 897550038,
+          "frame": 40.459,
+          "target": 40.459,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9550.59999999404
+        },
+        {
+          "p": 0.839948,
+          "pixelHash": -1595710881,
+          "frame": 41.753,
+          "target": 41.753,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9583.699999988079
+        },
+        {
+          "p": 0.855034,
+          "pixelHash": 331028317,
+          "frame": 43.046,
+          "target": 43.046,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9616.40000000596
+        },
+        {
+          "p": 0.870121,
+          "pixelHash": 1097975958,
+          "frame": 44.339,
+          "target": 44.339,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9649
+        },
+        {
+          "p": 0.870121,
+          "pixelHash": 1097975958,
+          "frame": 44.339,
+          "target": 44.339,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9682.199999988079
+        },
+        {
+          "p": 0.855034,
+          "pixelHash": 1097975958,
+          "frame": 44.339,
+          "target": 43.046,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9716.5
+        },
+        {
+          "p": 0.839948,
+          "pixelHash": 331028317,
+          "frame": 43.046,
+          "target": 41.753,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9751.40000000596
+        },
+        {
+          "p": 0.824861,
+          "pixelHash": -1595710881,
+          "frame": 41.753,
+          "target": 40.459,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9785
+        },
+        {
+          "p": 0.810102,
+          "pixelHash": 897550038,
+          "frame": 40.459,
+          "target": 39.194,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9819.59999999404
+        },
+        {
+          "p": 0.795015,
+          "pixelHash": 672421963,
+          "frame": 37.952,
+          "target": 37.952,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9853.300000011921
+        },
+        {
+          "p": 0.779928,
+          "pixelHash": 78662749,
+          "frame": 36.769,
+          "target": 36.769,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9886.59999999404
+        },
+        {
+          "p": 0.764841,
+          "pixelHash": -664921819,
+          "frame": 35.586,
+          "target": 35.586,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9920.800000011921
+        },
+        {
+          "p": 0.750082,
+          "pixelHash": 304309602,
+          "frame": 34.428,
+          "target": 34.428,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9954.300000011921
+        },
+        {
+          "p": 0.734995,
+          "pixelHash": 1160854331,
+          "frame": 33.245,
+          "target": 33.245,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9987.300000011921
+        },
+        {
+          "p": 0.719908,
+          "pixelHash": -50016335,
+          "frame": 32.061,
+          "target": 32.061,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 10020.40000000596
+        },
+        {
+          "p": 0.705149,
+          "pixelHash": 499805081,
+          "frame": 30.904,
+          "target": 30.904,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 10054.199999988079
+        },
+        {
+          "p": 0.690062,
+          "pixelHash": 1102847319,
+          "frame": 29.777,
+          "target": 29.777,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 10088.300000011921
+        },
+        {
+          "p": 0.674975,
+          "pixelHash": -1634117513,
+          "frame": 28.68,
+          "target": 28.68,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 10122.800000011921
+        },
+        {
+          "p": 0.659888,
+          "pixelHash": -2072414795,
+          "frame": 27.583,
+          "target": 27.583,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 10158.40000000596
+        },
+        {
+          "p": 0.64513,
+          "pixelHash": -2072414795,
+          "frame": 27.583,
+          "target": 26.509,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 10192.59999999404
+        },
+        {
+          "p": 0.630043,
+          "pixelHash": 1587754415,
+          "frame": 25.444,
+          "target": 25.444,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 10226.09999999404
+        },
+        {
+          "p": 0.614956,
+          "pixelHash": 1587754415,
+          "frame": 25.444,
+          "target": 24.379,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 10258.59999999404
+        },
+        {
+          "p": 0.599869,
+          "pixelHash": -1560688395,
+          "frame": 24.379,
+          "target": 23.314,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 10291.40000000596
+        },
+        {
+          "p": 0.58511,
+          "pixelHash": 2090497529,
+          "frame": 23.314,
+          "target": 22.272,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 10326.199999988079
+        },
+        {
+          "p": 0.570023,
+          "pixelHash": 838360563,
+          "frame": 22.272,
+          "target": 21.208,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 10359.40000000596
+        },
+        {
+          "p": 0.554936,
+          "pixelHash": -1941518582,
+          "frame": 20.48,
+          "target": 20.48,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 10392.90000000596
+        },
+        {
+          "p": 0.539849,
+          "pixelHash": -1941518582,
+          "frame": 20.48,
+          "target": 19.583,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 10426.90000000596
+        },
+        {
+          "p": 0.52509,
+          "pixelHash": 440179662,
+          "frame": 19.583,
+          "target": 18.278,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 10461.199999988079
+        },
+        {
+          "p": 0.510003,
+          "pixelHash": 1811664143,
+          "frame": 18.278,
+          "target": 16.945,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 10495
+        },
+        {
+          "p": 0.494916,
+          "pixelHash": -2093986971,
+          "frame": 16.945,
+          "target": 15.611,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 10530.300000011921
+        },
+        {
+          "p": 0.480157,
+          "pixelHash": -1509868228,
+          "frame": 14.7,
+          "target": 14.215,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 10564.09999999404
+        },
+        {
+          "p": 0.465071,
+          "pixelHash": -1510154330,
+          "frame": 13.282,
+          "target": 13.282,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 10598.40000000596
+        },
+        {
+          "p": 0.449984,
+          "pixelHash": 841220686,
+          "frame": 12.349,
+          "target": 12.349,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 10633.5
+        },
+        {
+          "p": 0.434897,
+          "pixelHash": -785179516,
+          "frame": 11.416,
+          "target": 11.416,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 10667.699999988079
+        },
+        {
+          "p": 0.420138,
+          "pixelHash": 591040565,
+          "frame": 10.503,
+          "target": 10.503,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 10700.199999988079
+        },
+        {
+          "p": 0.405051,
+          "pixelHash": -1346860659,
+          "frame": 8.96,
+          "target": 8.96,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 10734.699999988079
+        },
+        {
+          "p": 0.389964,
+          "pixelHash": -299629770,
+          "frame": 7.353,
+          "target": 7.353,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 10766.800000011921
+        },
+        {
+          "p": 0.374877,
+          "pixelHash": 1660447355,
+          "frame": 5.747,
+          "target": 5.747,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 10800.90000000596
+        },
+        {
+          "p": 0.360118,
+          "pixelHash": 537271752,
+          "frame": 4.175,
+          "target": 4.175,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 10833.59999999404
+        },
+        {
+          "p": 0.345031,
+          "pixelHash": -1519079599,
+          "frame": 2.568,
+          "target": 2.568,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 10866.300000011921
+        },
+        {
+          "p": 0.329944,
+          "pixelHash": 1692296955,
+          "frame": 1.463,
+          "target": 1.463,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 10899.199999988079
+        },
+        {
+          "p": 0.314857,
+          "pixelHash": -1495235535,
+          "frame": 1.354,
+          "target": 1.354,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 10932.5
+        },
+        {
+          "p": 0.300098,
+          "pixelHash": -1519349935,
+          "frame": 1.247,
+          "target": 1.247,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 10966.59999999404
+        },
+        {
+          "p": 0.285011,
+          "pixelHash": 1164900431,
+          "frame": 1.138,
+          "target": 1.138,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11000.59999999404
+        },
+        {
+          "p": 0.269925,
+          "pixelHash": 313165472,
+          "frame": 1.029,
+          "target": 1.029,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11032.699999988079
+        },
+        {
+          "p": 0.254838,
+          "pixelHash": 857328107,
+          "frame": 0.92,
+          "target": 0.92,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11067.40000000596
+        },
+        {
+          "p": 0.240079,
+          "pixelHash": 1568235033,
+          "frame": 0.813,
+          "target": 0.813,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11101.40000000596
+        },
+        {
+          "p": 0.224992,
+          "pixelHash": -673416898,
+          "frame": 0.703,
+          "target": 0.703,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11134.199999988079
+        },
+        {
+          "p": 0.209905,
+          "pixelHash": -1054978236,
+          "frame": 0.594,
+          "target": 0.594,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11168.300000011921
+        },
+        {
+          "p": 0.195146,
+          "pixelHash": -61462256,
+          "frame": 0.487,
+          "target": 0.487,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11201.09999999404
+        },
+        {
+          "p": 0.180059,
+          "pixelHash": 536877680,
+          "frame": 0.387,
+          "target": 0.387,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11234.40000000596
+        },
+        {
+          "p": 0.164972,
+          "pixelHash": 910233091,
+          "frame": 0.291,
+          "target": 0.291,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11268
+        },
+        {
+          "p": 0.149885,
+          "pixelHash": 1620377720,
+          "frame": 0.196,
+          "target": 0.196,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11301.199999988079
+        },
+        {
+          "p": 0.135126,
+          "pixelHash": -1644421603,
+          "frame": 0.102,
+          "target": 0.102,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11334.5
+        },
+        {
+          "p": 0.135126,
+          "pixelHash": -1644421603,
+          "frame": 0.102,
+          "target": 0.102,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11367.5
+        },
+        {
+          "p": 0.149885,
+          "pixelHash": -1644421603,
+          "frame": 0.102,
+          "target": 0.196,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11400.699999988079
+        },
+        {
+          "p": 0.164972,
+          "pixelHash": 1620377720,
+          "frame": 0.196,
+          "target": 0.291,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11434.199999988079
+        },
+        {
+          "p": 0.180059,
+          "pixelHash": 910233091,
+          "frame": 0.291,
+          "target": 0.387,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11468.40000000596
+        },
+        {
+          "p": 0.195146,
+          "pixelHash": -396196332,
+          "frame": 0.5,
+          "target": 0.487,
+          "kind": "sequence",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11501.40000000596
+        },
+        {
+          "p": 0.209905,
+          "pixelHash": -61462256,
+          "frame": 0.487,
+          "target": 0.594,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11536.40000000596
+        },
+        {
+          "p": 0.224992,
+          "pixelHash": -1054978236,
+          "frame": 0.594,
+          "target": 0.703,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11571.199999988079
+        },
+        {
+          "p": 0.240079,
+          "pixelHash": -673416898,
+          "frame": 0.703,
+          "target": 0.813,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11605
+        },
+        {
+          "p": 0.254838,
+          "pixelHash": 1568235033,
+          "frame": 0.813,
+          "target": 0.92,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11643.699999988079
+        },
+        {
+          "p": 0.269925,
+          "pixelHash": 857328107,
+          "frame": 0.92,
+          "target": 1.029,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11677.59999999404
+        },
+        {
+          "p": 0.285011,
+          "pixelHash": 313165472,
+          "frame": 1.029,
+          "target": 1.138,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11711.09999999404
+        },
+        {
+          "p": 0.300098,
+          "pixelHash": 1164900431,
+          "frame": 1.138,
+          "target": 1.247,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11744.5
+        },
+        {
+          "p": 0.314857,
+          "pixelHash": -1519349935,
+          "frame": 1.247,
+          "target": 1.354,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11777.40000000596
+        },
+        {
+          "p": 0.329944,
+          "pixelHash": -1495235535,
+          "frame": 1.354,
+          "target": 1.463,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11812
+        },
+        {
+          "p": 0.345031,
+          "pixelHash": -786088838,
+          "frame": 1.501,
+          "target": 2.568,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 11846.40000000596
+        },
+        {
+          "p": 0.360118,
+          "pixelHash": 537271752,
+          "frame": 4.175,
+          "target": 4.175,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 11881.59999999404
+        },
+        {
+          "p": 0.374877,
+          "pixelHash": 1660447355,
+          "frame": 5.747,
+          "target": 5.747,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 11915.90000000596
+        },
+        {
+          "p": 0.389964,
+          "pixelHash": -299629770,
+          "frame": 7.353,
+          "target": 7.353,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 11950.300000011921
+        },
+        {
+          "p": 0.405051,
+          "pixelHash": -1346860659,
+          "frame": 8.96,
+          "target": 8.96,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 11983.90000000596
+        },
+        {
+          "p": 0.420138,
+          "pixelHash": 591040565,
+          "frame": 10.503,
+          "target": 10.503,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 12017.40000000596
+        },
+        {
+          "p": 0.434897,
+          "pixelHash": -785179516,
+          "frame": 11.416,
+          "target": 11.416,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 12051.699999988079
+        },
+        {
+          "p": 0.449984,
+          "pixelHash": 841220686,
+          "frame": 12.349,
+          "target": 12.349,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 12089.199999988079
+        },
+        {
+          "p": 0.465071,
+          "pixelHash": -1510154330,
+          "frame": 13.282,
+          "target": 13.282,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 12122.59999999404
+        },
+        {
+          "p": 0.480157,
+          "pixelHash": -1562815238,
+          "frame": 14.215,
+          "target": 14.215,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 12158.699999988079
+        },
+        {
+          "p": 0.494916,
+          "pixelHash": 697050437,
+          "frame": 15.611,
+          "target": 15.611,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 12192
+        },
+        {
+          "p": 0.510003,
+          "pixelHash": -2093986971,
+          "frame": 16.945,
+          "target": 16.945,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 12225.59999999404
+        },
+        {
+          "p": 0.52509,
+          "pixelHash": -2093986971,
+          "frame": 16.945,
+          "target": 18.278,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 12258
+        },
+        {
+          "p": 0.539849,
+          "pixelHash": 1811664143,
+          "frame": 18.278,
+          "target": 19.583,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 12291.40000000596
+        },
+        {
+          "p": 0.554936,
+          "pixelHash": 440179662,
+          "frame": 19.583,
+          "target": 20.48,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 12327.40000000596
+        },
+        {
+          "p": 0.570023,
+          "pixelHash": 25005587,
+          "frame": 21.208,
+          "target": 21.208,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 12361.40000000596
+        },
+        {
+          "p": 0.58511,
+          "pixelHash": 25005587,
+          "frame": 21.208,
+          "target": 22.272,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 12394.5
+        },
+        {
+          "p": 0.599869,
+          "pixelHash": 838360563,
+          "frame": 22.272,
+          "target": 23.314,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 12428
+        },
+        {
+          "p": 0.614956,
+          "pixelHash": 2090497529,
+          "frame": 23.314,
+          "target": 24.379,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 12461.5
+        },
+        {
+          "p": 0.630043,
+          "pixelHash": -1560688395,
+          "frame": 24.379,
+          "target": 25.444,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 12495.699999988079
+        },
+        {
+          "p": 0.64513,
+          "pixelHash": -1935357482,
+          "frame": 26.509,
+          "target": 26.509,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 12529.699999988079
+        },
+        {
+          "p": 0.659888,
+          "pixelHash": -1935357482,
+          "frame": 26.509,
+          "target": 27.583,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 12563.90000000596
+        },
+        {
+          "p": 0.674975,
+          "pixelHash": -2072414795,
+          "frame": 27.583,
+          "target": 28.68,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 12597.90000000596
+        },
+        {
+          "p": 0.690062,
+          "pixelHash": -1634117513,
+          "frame": 28.68,
+          "target": 29.777,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 12632.40000000596
+        },
+        {
+          "p": 0.705149,
+          "pixelHash": 499805081,
+          "frame": 30.904,
+          "target": 30.904,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 12666.59999999404
+        },
+        {
+          "p": 0.719908,
+          "pixelHash": -50016335,
+          "frame": 32.061,
+          "target": 32.061,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 12699.09999999404
+        },
+        {
+          "p": 0.734995,
+          "pixelHash": 1160854331,
+          "frame": 33.245,
+          "target": 33.245,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 12732.59999999404
+        },
+        {
+          "p": 0.750082,
+          "pixelHash": 304309602,
+          "frame": 34.428,
+          "target": 34.428,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 12767.09999999404
+        },
+        {
+          "p": 0.764841,
+          "pixelHash": -664921819,
+          "frame": 35.586,
+          "target": 35.586,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 12800.09999999404
+        },
+        {
+          "p": 0.779928,
+          "pixelHash": 78662749,
+          "frame": 36.769,
+          "target": 36.769,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 12832.5
+        },
+        {
+          "p": 0.795015,
+          "pixelHash": 672421963,
+          "frame": 37.952,
+          "target": 37.952,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 12866.199999988079
+        },
+        {
+          "p": 0.810102,
+          "pixelHash": -1458141915,
+          "frame": 39.194,
+          "target": 39.194,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 12899.199999988079
+        },
+        {
+          "p": 0.824861,
+          "pixelHash": 897550038,
+          "frame": 40.459,
+          "target": 40.459,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 12932.800000011921
+        },
+        {
+          "p": 0.839948,
+          "pixelHash": -1595710881,
+          "frame": 41.753,
+          "target": 41.753,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 12966.699999988079
+        },
+        {
+          "p": 0.855034,
+          "pixelHash": 331028317,
+          "frame": 43.046,
+          "target": 43.046,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 13000.40000000596
+        },
+        {
+          "p": 0.870121,
+          "pixelHash": 1097975958,
+          "frame": 44.339,
+          "target": 44.339,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 13034
+        },
+        {
+          "p": 0.870121,
+          "pixelHash": 1097975958,
+          "frame": 44.339,
+          "target": 44.339,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 13066.699999988079
+        },
+        {
+          "p": 0.855034,
+          "pixelHash": 1097975958,
+          "frame": 44.339,
+          "target": 43.046,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 13102.800000011921
+        },
+        {
+          "p": 0.839948,
+          "pixelHash": 331028317,
+          "frame": 43.046,
+          "target": 41.753,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 13136.699999988079
+        },
+        {
+          "p": 0.824861,
+          "pixelHash": -1595710881,
+          "frame": 41.753,
+          "target": 40.459,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 13170.5
+        },
+        {
+          "p": 0.810102,
+          "pixelHash": 897550038,
+          "frame": 40.459,
+          "target": 39.194,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 13204.300000011921
+        },
+        {
+          "p": 0.795015,
+          "pixelHash": 672421963,
+          "frame": 37.952,
+          "target": 37.952,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 13240.699999988079
+        },
+        {
+          "p": 0.779928,
+          "pixelHash": 672421963,
+          "frame": 37.952,
+          "target": 36.769,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 13274
+        },
+        {
+          "p": 0.764841,
+          "pixelHash": 78662749,
+          "frame": 36.769,
+          "target": 35.586,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 13310.5
+        },
+        {
+          "p": 0.750082,
+          "pixelHash": -664921819,
+          "frame": 35.586,
+          "target": 34.428,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 13343.5
+        },
+        {
+          "p": 0.734995,
+          "pixelHash": 304309602,
+          "frame": 34.428,
+          "target": 33.245,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 13377.199999988079
+        },
+        {
+          "p": 0.719908,
+          "pixelHash": 1160854331,
+          "frame": 33.245,
+          "target": 32.061,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 13410.59999999404
+        },
+        {
+          "p": 0.705149,
+          "pixelHash": -50016335,
+          "frame": 32.061,
+          "target": 30.904,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 13444.40000000596
+        },
+        {
+          "p": 0.690062,
+          "pixelHash": 1102847319,
+          "frame": 29.777,
+          "target": 29.777,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 13477.59999999404
+        },
+        {
+          "p": 0.674975,
+          "pixelHash": 1102847319,
+          "frame": 29.777,
+          "target": 28.68,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 13511.800000011921
+        },
+        {
+          "p": 0.659888,
+          "pixelHash": -1634117513,
+          "frame": 28.68,
+          "target": 27.583,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 13545.699999988079
+        },
+        {
+          "p": 0.64513,
+          "pixelHash": -2072414795,
+          "frame": 27.583,
+          "target": 26.509,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 13578.90000000596
+        },
+        {
+          "p": 0.630043,
+          "pixelHash": 1587754415,
+          "frame": 25.444,
+          "target": 25.444,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 13612.699999988079
+        },
+        {
+          "p": 0.614956,
+          "pixelHash": 1587754415,
+          "frame": 25.444,
+          "target": 24.379,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 13647.59999999404
+        },
+        {
+          "p": 0.599869,
+          "pixelHash": -1560688395,
+          "frame": 24.379,
+          "target": 23.314,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 13681.800000011921
+        },
+        {
+          "p": 0.58511,
+          "pixelHash": 2090497529,
+          "frame": 23.314,
+          "target": 22.272,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 13716.59999999404
+        },
+        {
+          "p": 0.570023,
+          "pixelHash": 838360563,
+          "frame": 22.272,
+          "target": 21.208,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 13751.09999999404
+        },
+        {
+          "p": 0.554936,
+          "pixelHash": -1941518582,
+          "frame": 20.48,
+          "target": 20.48,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 13786.40000000596
+        },
+        {
+          "p": 0.539849,
+          "pixelHash": 440179662,
+          "frame": 19.583,
+          "target": 19.583,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 13820.199999988079
+        },
+        {
+          "p": 0.52509,
+          "pixelHash": 1811664143,
+          "frame": 18.278,
+          "target": 18.278,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 13855.199999988079
+        },
+        {
+          "p": 0.510003,
+          "pixelHash": -2093986971,
+          "frame": 16.945,
+          "target": 16.945,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 13889
+        },
+        {
+          "p": 0.494916,
+          "pixelHash": 697050437,
+          "frame": 15.611,
+          "target": 15.611,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 13923
+        },
+        {
+          "p": 0.480157,
+          "pixelHash": -1509868228,
+          "frame": 14.7,
+          "target": 14.215,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 13957.5
+        },
+        {
+          "p": 0.465071,
+          "pixelHash": -1562815238,
+          "frame": 14.215,
+          "target": 13.282,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 13991.199999988079
+        },
+        {
+          "p": 0.449984,
+          "pixelHash": -1510154330,
+          "frame": 13.282,
+          "target": 12.349,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 14025.199999988079
+        },
+        {
+          "p": 0.434897,
+          "pixelHash": 841220686,
+          "frame": 12.349,
+          "target": 11.416,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 14058.699999988079
+        },
+        {
+          "p": 0.420138,
+          "pixelHash": -785179516,
+          "frame": 11.416,
+          "target": 10.503,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 14091.800000011921
+        },
+        {
+          "p": 0.405051,
+          "pixelHash": -385403531,
+          "frame": 9.7,
+          "target": 8.96,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 14126.40000000596
+        },
+        {
+          "p": 0.389964,
+          "pixelHash": -1346860659,
+          "frame": 8.96,
+          "target": 7.353,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 14159.59999999404
+        },
+        {
+          "p": 0.374877,
+          "pixelHash": -299629770,
+          "frame": 7.353,
+          "target": 5.747,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 14192.40000000596
+        },
+        {
+          "p": 0.360118,
+          "pixelHash": 1660447355,
+          "frame": 5.747,
+          "target": 4.175,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 14225.199999988079
+        },
+        {
+          "p": 0.345031,
+          "pixelHash": 537271752,
+          "frame": 4.175,
+          "target": 2.568,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 14258.699999988079
+        },
+        {
+          "p": 0.329944,
+          "pixelHash": 1692296955,
+          "frame": 1.463,
+          "target": 1.463,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14293.40000000596
+        },
+        {
+          "p": 0.314857,
+          "pixelHash": 1692296955,
+          "frame": 1.463,
+          "target": 1.354,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14326.800000011921
+        },
+        {
+          "p": 0.300098,
+          "pixelHash": -1495235535,
+          "frame": 1.354,
+          "target": 1.247,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14359.199999988079
+        },
+        {
+          "p": 0.285011,
+          "pixelHash": -1519349935,
+          "frame": 1.247,
+          "target": 1.138,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14391.90000000596
+        },
+        {
+          "p": 0.269925,
+          "pixelHash": 1164900431,
+          "frame": 1.138,
+          "target": 1.029,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14425.40000000596
+        },
+        {
+          "p": 0.254838,
+          "pixelHash": 313165472,
+          "frame": 1.029,
+          "target": 0.92,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14459.09999999404
+        },
+        {
+          "p": 0.240079,
+          "pixelHash": 857328107,
+          "frame": 0.92,
+          "target": 0.813,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14492.5
+        },
+        {
+          "p": 0.224992,
+          "pixelHash": 1568235033,
+          "frame": 0.813,
+          "target": 0.703,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14525.40000000596
+        },
+        {
+          "p": 0.209905,
+          "pixelHash": -673416898,
+          "frame": 0.703,
+          "target": 0.594,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14558.59999999404
+        },
+        {
+          "p": 0.195146,
+          "pixelHash": -1054978236,
+          "frame": 0.594,
+          "target": 0.487,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14591.800000011921
+        },
+        {
+          "p": 0.180059,
+          "pixelHash": -61462256,
+          "frame": 0.487,
+          "target": 0.387,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 14625.300000011921
+        },
+        {
+          "p": 0.164972,
+          "pixelHash": 536877680,
+          "frame": 0.387,
+          "target": 0.291,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 14659
+        },
+        {
+          "p": 0.149885,
+          "pixelHash": 910233091,
+          "frame": 0.291,
+          "target": 0.196,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 14694
+        },
+        {
+          "p": 0.135126,
+          "pixelHash": 1620377720,
+          "frame": 0.196,
+          "target": 0.102,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 14727.5
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "loadsBefore": 4,
+      "loadsAfter": 4,
+      "changed": 180,
+      "total": 200,
+      "p95Lag": 1.3100000000000005,
+      "maxLag": 1.601,
+      "ending": {
+        "mediaState": "ready",
+        "targetTime": "35.203",
+        "presentation": "video",
+        "frameTime": "35.203",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "errors": [],
+      "samples": [
+        {
+          "p": 0.135045,
+          "pixelHash": 4474033,
+          "frame": 0.102,
+          "target": 0.102,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 7986.600000023842
+        },
+        {
+          "p": 0.150073,
+          "pixelHash": 4474033,
+          "frame": 0.102,
+          "target": 0.197,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 8021.100000023842
+        },
+        {
+          "p": 0.165101,
+          "pixelHash": 1995825025,
+          "frame": 0.197,
+          "target": 0.292,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 8054.600000023842
+        },
+        {
+          "p": 0.179921,
+          "pixelHash": 2083534946,
+          "frame": 0.292,
+          "target": 0.386,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 8088.4000000059605
+        },
+        {
+          "p": 0.194949,
+          "pixelHash": 1215112640,
+          "frame": 0.386,
+          "target": 0.486,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8123.4000000059605
+        },
+        {
+          "p": 0.209977,
+          "pixelHash": -803195923,
+          "frame": 0.595,
+          "target": 0.595,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8159.700000017881
+        },
+        {
+          "p": 0.225005,
+          "pixelHash": -1270380852,
+          "frame": 0.703,
+          "target": 0.703,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8194.40000000596
+        },
+        {
+          "p": 0.240033,
+          "pixelHash": -1217089080,
+          "frame": 0.812,
+          "target": 0.812,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8227
+        },
+        {
+          "p": 0.255062,
+          "pixelHash": 321430151,
+          "frame": 0.921,
+          "target": 0.921,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8260.40000000596
+        },
+        {
+          "p": 0.27009,
+          "pixelHash": 1611137965,
+          "frame": 1.03,
+          "target": 1.03,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8293.100000023842
+        },
+        {
+          "p": 0.284909,
+          "pixelHash": 129602108,
+          "frame": 1.137,
+          "target": 1.137,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8326.300000011921
+        },
+        {
+          "p": 0.299937,
+          "pixelHash": 194228402,
+          "frame": 1.246,
+          "target": 1.246,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8358.800000011921
+        },
+        {
+          "p": 0.314966,
+          "pixelHash": 2072141427,
+          "frame": 1.355,
+          "target": 1.355,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8392.5
+        },
+        {
+          "p": 0.329994,
+          "pixelHash": 1569472776,
+          "frame": 1.464,
+          "target": 1.464,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 8426.700000017881
+        },
+        {
+          "p": 0.345022,
+          "pixelHash": 1700354511,
+          "frame": 2.567,
+          "target": 2.567,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 8461.200000017881
+        },
+        {
+          "p": 0.36005,
+          "pixelHash": 534768580,
+          "frame": 4.168,
+          "target": 4.168,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 8494.700000017881
+        },
+        {
+          "p": 0.375078,
+          "pixelHash": 121277828,
+          "frame": 5.768,
+          "target": 5.768,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 8529.100000023842
+        },
+        {
+          "p": 0.389898,
+          "pixelHash": -190967852,
+          "frame": 7.346,
+          "target": 7.346,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 8562.700000017881
+        },
+        {
+          "p": 0.404926,
+          "pixelHash": 461498523,
+          "frame": 8.947,
+          "target": 8.947,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 8598
+        },
+        {
+          "p": 0.419954,
+          "pixelHash": 1666838484,
+          "frame": 10.5,
+          "target": 10.492,
+          "kind": "sequence",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 8632
+        },
+        {
+          "p": 0.434982,
+          "pixelHash": -1736733726,
+          "frame": 11.5,
+          "target": 11.421,
+          "kind": "sequence",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 8665.700000017881
+        },
+        {
+          "p": 0.45001,
+          "pixelHash": -886118518,
+          "frame": 12.25,
+          "target": 12.351,
+          "kind": "sequence",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 8699.600000023842
+        },
+        {
+          "p": 0.465039,
+          "pixelHash": -1593051821,
+          "frame": 13.25,
+          "target": 13.28,
+          "kind": "sequence",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 8734.200000017881
+        },
+        {
+          "p": 0.480067,
+          "pixelHash": -114033463,
+          "frame": 14.25,
+          "target": 14.209,
+          "kind": "sequence",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 8768.700000017881
+        },
+        {
+          "p": 0.495095,
+          "pixelHash": 766132287,
+          "frame": 15.627,
+          "target": 15.627,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 8802.300000011921
+        },
+        {
+          "p": 0.509914,
+          "pixelHash": 766132287,
+          "frame": 15.627,
+          "target": 16.937,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 8836.90000000596
+        },
+        {
+          "p": 0.524943,
+          "pixelHash": 1290849097,
+          "frame": 16.937,
+          "target": 18.265,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 8870.200000017881
+        },
+        {
+          "p": 0.539971,
+          "pixelHash": 1791636820,
+          "frame": 18.265,
+          "target": 19.594,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 8903.800000011921
+        },
+        {
+          "p": 0.554999,
+          "pixelHash": -1236367311,
+          "frame": 19.594,
+          "target": 20.48,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 8936.90000000596
+        },
+        {
+          "p": 0.570027,
+          "pixelHash": -1142143767,
+          "frame": 21.25,
+          "target": 21.208,
+          "kind": "sequence",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 8970.300000011921
+        },
+        {
+          "p": 0.585055,
+          "pixelHash": -1033530640,
+          "frame": 22.25,
+          "target": 22.269,
+          "kind": "sequence",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 9004
+        },
+        {
+          "p": 0.600083,
+          "pixelHash": 1603802947,
+          "frame": 23.25,
+          "target": 23.329,
+          "kind": "sequence",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 9040.300000011921
+        },
+        {
+          "p": 0.614903,
+          "pixelHash": -1306828245,
+          "frame": 24.376,
+          "target": 24.376,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 9077.700000017881
+        },
+        {
+          "p": 0.629931,
+          "pixelHash": -1221843919,
+          "frame": 25.436,
+          "target": 25.436,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 9111.40000000596
+        },
+        {
+          "p": 0.644959,
+          "pixelHash": 748901327,
+          "frame": 26.497,
+          "target": 26.497,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 9144.600000023842
+        },
+        {
+          "p": 0.659987,
+          "pixelHash": 1295564246,
+          "frame": 27.59,
+          "target": 27.59,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 9178.300000011921
+        },
+        {
+          "p": 0.675016,
+          "pixelHash": 1841177790,
+          "frame": 28.683,
+          "target": 28.683,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 9211.90000000596
+        },
+        {
+          "p": 0.690044,
+          "pixelHash": -1123032901,
+          "frame": 29.776,
+          "target": 29.776,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 9245.700000017881
+        },
+        {
+          "p": 0.705072,
+          "pixelHash": 656888597,
+          "frame": 31,
+          "target": 30.898,
+          "kind": "sequence",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9278.600000023842
+        },
+        {
+          "p": 0.7201,
+          "pixelHash": 656888597,
+          "frame": 31,
+          "target": 32.076,
+          "kind": "sequence",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9312
+        },
+        {
+          "p": 0.73492,
+          "pixelHash": -957612952,
+          "frame": 32.076,
+          "target": 33.239,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9345.600000023842
+        },
+        {
+          "p": 0.749948,
+          "pixelHash": -1948893138,
+          "frame": 33.239,
+          "target": 34.417,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9377.90000000596
+        },
+        {
+          "p": 0.764976,
+          "pixelHash": 843291399,
+          "frame": 34.417,
+          "target": 35.596,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9410.800000011921
+        },
+        {
+          "p": 0.780004,
+          "pixelHash": 1435466333,
+          "frame": 35.596,
+          "target": 36.775,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9445.5
+        },
+        {
+          "p": 0.795032,
+          "pixelHash": -1098066422,
+          "frame": 36.775,
+          "target": 37.954,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9479.200000017881
+        },
+        {
+          "p": 0.810061,
+          "pixelHash": 649014987,
+          "frame": 39.25,
+          "target": 39.191,
+          "kind": "sequence",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9511.90000000596
+        },
+        {
+          "p": 0.825089,
+          "pixelHash": 649014987,
+          "frame": 39.25,
+          "target": 40.479,
+          "kind": "sequence",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9545.300000011921
+        },
+        {
+          "p": 0.839908,
+          "pixelHash": -825485172,
+          "frame": 40.479,
+          "target": 41.749,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9578.90000000596
+        },
+        {
+          "p": 0.854936,
+          "pixelHash": -812012139,
+          "frame": 41.749,
+          "target": 43.037,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9611.800000011921
+        },
+        {
+          "p": 0.869965,
+          "pixelHash": 1022099985,
+          "frame": 43.037,
+          "target": 44.326,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9646.100000023842
+        },
+        {
+          "p": 0.869965,
+          "pixelHash": -1861437260,
+          "frame": 44.326,
+          "target": 44.326,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9679.600000023842
+        },
+        {
+          "p": 0.854936,
+          "pixelHash": 1022099985,
+          "frame": 43.037,
+          "target": 43.037,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9713.40000000596
+        },
+        {
+          "p": 0.839908,
+          "pixelHash": -812012139,
+          "frame": 41.749,
+          "target": 41.749,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9746.300000011921
+        },
+        {
+          "p": 0.825089,
+          "pixelHash": -812012139,
+          "frame": 41.749,
+          "target": 40.479,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9780.40000000596
+        },
+        {
+          "p": 0.810061,
+          "pixelHash": -825485172,
+          "frame": 40.479,
+          "target": 39.191,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 9814.40000000596
+        },
+        {
+          "p": 0.795032,
+          "pixelHash": 2145431016,
+          "frame": 38,
+          "target": 37.954,
+          "kind": "sequence",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9849
+        },
+        {
+          "p": 0.780004,
+          "pixelHash": -859685432,
+          "frame": 37.954,
+          "target": 36.775,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9882.5
+        },
+        {
+          "p": 0.764976,
+          "pixelHash": -1098066422,
+          "frame": 36.775,
+          "target": 35.596,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9914.600000023842
+        },
+        {
+          "p": 0.749948,
+          "pixelHash": 1435466333,
+          "frame": 35.596,
+          "target": 34.417,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9947.90000000596
+        },
+        {
+          "p": 0.73492,
+          "pixelHash": 843291399,
+          "frame": 34.417,
+          "target": 33.239,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 9981.200000017881
+        },
+        {
+          "p": 0.7201,
+          "pixelHash": -1948893138,
+          "frame": 33.239,
+          "target": 32.076,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 10014.5
+        },
+        {
+          "p": 0.705072,
+          "pixelHash": -957612952,
+          "frame": 32.076,
+          "target": 30.898,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 10048.100000023842
+        },
+        {
+          "p": 0.690044,
+          "pixelHash": -156302030,
+          "frame": 29.75,
+          "target": 29.776,
+          "kind": "sequence",
+          "chapter": "green",
+          "expected": "green",
+          "at": 10082.600000023842
+        },
+        {
+          "p": 0.675016,
+          "pixelHash": -156302030,
+          "frame": 29.75,
+          "target": 28.683,
+          "kind": "sequence",
+          "chapter": "green",
+          "expected": "green",
+          "at": 10117.40000000596
+        },
+        {
+          "p": 0.659987,
+          "pixelHash": 1841177790,
+          "frame": 28.683,
+          "target": 27.59,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 10150.700000017881
+        },
+        {
+          "p": 0.644959,
+          "pixelHash": 1023237224,
+          "frame": 26.5,
+          "target": 26.497,
+          "kind": "sequence",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 10184.90000000596
+        },
+        {
+          "p": 0.629931,
+          "pixelHash": 748901327,
+          "frame": 26.497,
+          "target": 25.436,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 10218.300000011921
+        },
+        {
+          "p": 0.614903,
+          "pixelHash": -1221843919,
+          "frame": 25.436,
+          "target": 24.376,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 10250.5
+        },
+        {
+          "p": 0.600083,
+          "pixelHash": -1306828245,
+          "frame": 24.376,
+          "target": 23.329,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 10284.40000000596
+        },
+        {
+          "p": 0.585055,
+          "pixelHash": -680914647,
+          "frame": 23.329,
+          "target": 22.269,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 10317.700000017881
+        },
+        {
+          "p": 0.570027,
+          "pixelHash": -471391596,
+          "frame": 22.269,
+          "target": 21.208,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 10350.40000000596
+        },
+        {
+          "p": 0.554999,
+          "pixelHash": -442883929,
+          "frame": 20.48,
+          "target": 20.48,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 10382.800000011921
+        },
+        {
+          "p": 0.539971,
+          "pixelHash": -1236367311,
+          "frame": 19.594,
+          "target": 19.594,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 10416.90000000596
+        },
+        {
+          "p": 0.524943,
+          "pixelHash": 1791636820,
+          "frame": 18.265,
+          "target": 18.265,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 10450.5
+        },
+        {
+          "p": 0.509914,
+          "pixelHash": 1290849097,
+          "frame": 16.937,
+          "target": 16.937,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 10484.40000000596
+        },
+        {
+          "p": 0.495095,
+          "pixelHash": 766132287,
+          "frame": 15.627,
+          "target": 15.627,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 10518.40000000596
+        },
+        {
+          "p": 0.480067,
+          "pixelHash": -443284869,
+          "frame": 14.7,
+          "target": 14.209,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 10552.700000017881
+        },
+        {
+          "p": 0.465039,
+          "pixelHash": 44494835,
+          "frame": 14.209,
+          "target": 13.28,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 10586.200000017881
+        },
+        {
+          "p": 0.45001,
+          "pixelHash": -331836394,
+          "frame": 13.28,
+          "target": 12.351,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 10619.800000011921
+        },
+        {
+          "p": 0.434982,
+          "pixelHash": 1843189654,
+          "frame": 12.351,
+          "target": 11.421,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 10653.300000011921
+        },
+        {
+          "p": 0.419954,
+          "pixelHash": -306199720,
+          "frame": 11.421,
+          "target": 10.492,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 10686
+        },
+        {
+          "p": 0.404926,
+          "pixelHash": 1495603298,
+          "frame": 9.7,
+          "target": 8.947,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 10719.200000017881
+        },
+        {
+          "p": 0.389898,
+          "pixelHash": 461498523,
+          "frame": 8.947,
+          "target": 7.346,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 10752.700000017881
+        },
+        {
+          "p": 0.375078,
+          "pixelHash": -190967852,
+          "frame": 7.346,
+          "target": 5.768,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 10787
+        },
+        {
+          "p": 0.36005,
+          "pixelHash": 121277828,
+          "frame": 5.768,
+          "target": 4.168,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 10821.100000023842
+        },
+        {
+          "p": 0.345022,
+          "pixelHash": 534768580,
+          "frame": 4.168,
+          "target": 2.567,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 10854.5
+        },
+        {
+          "p": 0.329994,
+          "pixelHash": -860686585,
+          "frame": 1.5,
+          "target": 1.464,
+          "kind": "sequence",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 10888.40000000596
+        },
+        {
+          "p": 0.314966,
+          "pixelHash": 1569472776,
+          "frame": 1.464,
+          "target": 1.355,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 10921.800000011921
+        },
+        {
+          "p": 0.299937,
+          "pixelHash": 2072141427,
+          "frame": 1.355,
+          "target": 1.246,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 10955.600000023842
+        },
+        {
+          "p": 0.284909,
+          "pixelHash": 194228402,
+          "frame": 1.246,
+          "target": 1.137,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 10989.40000000596
+        },
+        {
+          "p": 0.27009,
+          "pixelHash": 129602108,
+          "frame": 1.137,
+          "target": 1.03,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11023.200000017881
+        },
+        {
+          "p": 0.255062,
+          "pixelHash": 321430151,
+          "frame": 0.921,
+          "target": 0.921,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11057.90000000596
+        },
+        {
+          "p": 0.240033,
+          "pixelHash": -1217089080,
+          "frame": 0.812,
+          "target": 0.812,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11091.600000023842
+        },
+        {
+          "p": 0.225005,
+          "pixelHash": -1270380852,
+          "frame": 0.703,
+          "target": 0.703,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11125.100000023842
+        },
+        {
+          "p": 0.209977,
+          "pixelHash": -803195923,
+          "frame": 0.595,
+          "target": 0.595,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11158.5
+        },
+        {
+          "p": 0.194949,
+          "pixelHash": 1092220163,
+          "frame": 0.486,
+          "target": 0.486,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11193.200000017881
+        },
+        {
+          "p": 0.179921,
+          "pixelHash": 1215112640,
+          "frame": 0.386,
+          "target": 0.386,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11226.300000011921
+        },
+        {
+          "p": 0.165101,
+          "pixelHash": 2083534946,
+          "frame": 0.292,
+          "target": 0.292,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11259.90000000596
+        },
+        {
+          "p": 0.150073,
+          "pixelHash": 1995825025,
+          "frame": 0.197,
+          "target": 0.197,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11293.200000017881
+        },
+        {
+          "p": 0.135045,
+          "pixelHash": 4474033,
+          "frame": 0.102,
+          "target": 0.102,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11326.600000023842
+        },
+        {
+          "p": 0.135045,
+          "pixelHash": 4474033,
+          "frame": 0.102,
+          "target": 0.102,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11358.800000011921
+        },
+        {
+          "p": 0.150073,
+          "pixelHash": 4474033,
+          "frame": 0.102,
+          "target": 0.197,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11393
+        },
+        {
+          "p": 0.165101,
+          "pixelHash": 1995825025,
+          "frame": 0.197,
+          "target": 0.292,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11426.800000011921
+        },
+        {
+          "p": 0.179921,
+          "pixelHash": 2083534946,
+          "frame": 0.292,
+          "target": 0.386,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 11461.5
+        },
+        {
+          "p": 0.194949,
+          "pixelHash": 1016852220,
+          "frame": 0.5,
+          "target": 0.486,
+          "kind": "sequence",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11496.600000023842
+        },
+        {
+          "p": 0.209977,
+          "pixelHash": 1092220163,
+          "frame": 0.486,
+          "target": 0.595,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11531.600000023842
+        },
+        {
+          "p": 0.225005,
+          "pixelHash": -803195923,
+          "frame": 0.595,
+          "target": 0.703,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11566.700000017881
+        },
+        {
+          "p": 0.240033,
+          "pixelHash": -1270380852,
+          "frame": 0.703,
+          "target": 0.812,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11601.700000017881
+        },
+        {
+          "p": 0.255062,
+          "pixelHash": -1217089080,
+          "frame": 0.812,
+          "target": 0.921,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11637
+        },
+        {
+          "p": 0.27009,
+          "pixelHash": 321430151,
+          "frame": 0.921,
+          "target": 1.03,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11671.700000017881
+        },
+        {
+          "p": 0.284909,
+          "pixelHash": 1611137965,
+          "frame": 1.03,
+          "target": 1.137,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11705.5
+        },
+        {
+          "p": 0.299937,
+          "pixelHash": 129602108,
+          "frame": 1.137,
+          "target": 1.246,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11742.700000017881
+        },
+        {
+          "p": 0.314966,
+          "pixelHash": 194228402,
+          "frame": 1.246,
+          "target": 1.355,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11778.100000023842
+        },
+        {
+          "p": 0.329994,
+          "pixelHash": 2072141427,
+          "frame": 1.355,
+          "target": 1.464,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 11812.800000011921
+        },
+        {
+          "p": 0.345022,
+          "pixelHash": 1700354511,
+          "frame": 2.567,
+          "target": 2.567,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 11846.5
+        },
+        {
+          "p": 0.36005,
+          "pixelHash": 534768580,
+          "frame": 4.168,
+          "target": 4.168,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 11880.90000000596
+        },
+        {
+          "p": 0.375078,
+          "pixelHash": 121277828,
+          "frame": 5.768,
+          "target": 5.768,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 11916
+        },
+        {
+          "p": 0.389898,
+          "pixelHash": -190967852,
+          "frame": 7.346,
+          "target": 7.346,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 11951
+        },
+        {
+          "p": 0.404926,
+          "pixelHash": -190967852,
+          "frame": 7.346,
+          "target": 8.947,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 11986.40000000596
+        },
+        {
+          "p": 0.419954,
+          "pixelHash": -1683959330,
+          "frame": 10.492,
+          "target": 10.492,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 12021.600000023842
+        },
+        {
+          "p": 0.434982,
+          "pixelHash": -1683959330,
+          "frame": 10.492,
+          "target": 11.421,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 12056.600000023842
+        },
+        {
+          "p": 0.45001,
+          "pixelHash": 1843189654,
+          "frame": 12.351,
+          "target": 12.351,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 12092.800000011921
+        },
+        {
+          "p": 0.465039,
+          "pixelHash": -331836394,
+          "frame": 13.28,
+          "target": 13.28,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 12127.800000011921
+        },
+        {
+          "p": 0.480067,
+          "pixelHash": 44494835,
+          "frame": 14.209,
+          "target": 14.209,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 12162.700000017881
+        },
+        {
+          "p": 0.495095,
+          "pixelHash": 766132287,
+          "frame": 15.627,
+          "target": 15.627,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 12198.200000017881
+        },
+        {
+          "p": 0.509914,
+          "pixelHash": 1290849097,
+          "frame": 16.937,
+          "target": 16.937,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 12232.700000017881
+        },
+        {
+          "p": 0.524943,
+          "pixelHash": 1791636820,
+          "frame": 18.265,
+          "target": 18.265,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 12266.800000011921
+        },
+        {
+          "p": 0.539971,
+          "pixelHash": -1236367311,
+          "frame": 19.594,
+          "target": 19.594,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 12301.40000000596
+        },
+        {
+          "p": 0.554999,
+          "pixelHash": -1236367311,
+          "frame": 19.594,
+          "target": 20.48,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 12336.700000017881
+        },
+        {
+          "p": 0.570027,
+          "pixelHash": -1142143767,
+          "frame": 21.25,
+          "target": 21.208,
+          "kind": "sequence",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 12371.300000011921
+        },
+        {
+          "p": 0.585055,
+          "pixelHash": -1033530640,
+          "frame": 22.25,
+          "target": 22.269,
+          "kind": "sequence",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 12404.90000000596
+        },
+        {
+          "p": 0.600083,
+          "pixelHash": 1603802947,
+          "frame": 23.25,
+          "target": 23.329,
+          "kind": "sequence",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 12442.90000000596
+        },
+        {
+          "p": 0.614903,
+          "pixelHash": -1306828245,
+          "frame": 24.376,
+          "target": 24.376,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 12479.5
+        },
+        {
+          "p": 0.629931,
+          "pixelHash": -1221843919,
+          "frame": 25.436,
+          "target": 25.436,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 12514.600000023842
+        },
+        {
+          "p": 0.644959,
+          "pixelHash": 748901327,
+          "frame": 26.497,
+          "target": 26.497,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 12549.800000011921
+        },
+        {
+          "p": 0.659987,
+          "pixelHash": 1295564246,
+          "frame": 27.59,
+          "target": 27.59,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 12585.600000023842
+        },
+        {
+          "p": 0.675016,
+          "pixelHash": 1295564246,
+          "frame": 27.59,
+          "target": 28.683,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 12619.5
+        },
+        {
+          "p": 0.690044,
+          "pixelHash": 1841177790,
+          "frame": 28.683,
+          "target": 29.776,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 12654.100000023842
+        },
+        {
+          "p": 0.705072,
+          "pixelHash": 656888597,
+          "frame": 31,
+          "target": 30.898,
+          "kind": "sequence",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 12688.800000011921
+        },
+        {
+          "p": 0.7201,
+          "pixelHash": 656888597,
+          "frame": 31,
+          "target": 32.076,
+          "kind": "sequence",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 12723.800000011921
+        },
+        {
+          "p": 0.73492,
+          "pixelHash": -1948893138,
+          "frame": 33.239,
+          "target": 33.239,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 12760.40000000596
+        },
+        {
+          "p": 0.749948,
+          "pixelHash": 843291399,
+          "frame": 34.417,
+          "target": 34.417,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 12794.600000023842
+        },
+        {
+          "p": 0.764976,
+          "pixelHash": 1435466333,
+          "frame": 35.596,
+          "target": 35.596,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 12829.100000023842
+        },
+        {
+          "p": 0.780004,
+          "pixelHash": -1098066422,
+          "frame": 36.775,
+          "target": 36.775,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 12863.5
+        },
+        {
+          "p": 0.795032,
+          "pixelHash": -859685432,
+          "frame": 37.954,
+          "target": 37.954,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 12897.700000017881
+        },
+        {
+          "p": 0.810061,
+          "pixelHash": 546074897,
+          "frame": 39.191,
+          "target": 39.191,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 12935.100000023842
+        },
+        {
+          "p": 0.825089,
+          "pixelHash": 546074897,
+          "frame": 39.191,
+          "target": 40.479,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 12970
+        },
+        {
+          "p": 0.839908,
+          "pixelHash": -825485172,
+          "frame": 40.479,
+          "target": 41.749,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 13004.40000000596
+        },
+        {
+          "p": 0.854936,
+          "pixelHash": -812012139,
+          "frame": 41.749,
+          "target": 43.037,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 13039.300000011921
+        },
+        {
+          "p": 0.869965,
+          "pixelHash": -1861437260,
+          "frame": 44.326,
+          "target": 44.326,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 13077.300000011921
+        },
+        {
+          "p": 0.869965,
+          "pixelHash": -1861437260,
+          "frame": 44.326,
+          "target": 44.326,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 13111.700000017881
+        },
+        {
+          "p": 0.854936,
+          "pixelHash": -1861437260,
+          "frame": 44.326,
+          "target": 43.037,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 13146.600000023842
+        },
+        {
+          "p": 0.839908,
+          "pixelHash": 1022099985,
+          "frame": 43.037,
+          "target": 41.749,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 13180.100000023842
+        },
+        {
+          "p": 0.825089,
+          "pixelHash": -812012139,
+          "frame": 41.749,
+          "target": 40.479,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 13214.300000011921
+        },
+        {
+          "p": 0.810061,
+          "pixelHash": -825485172,
+          "frame": 40.479,
+          "target": 39.191,
+          "kind": "video",
+          "chapter": "grinding",
+          "expected": "grinding",
+          "at": 13250.600000023842
+        },
+        {
+          "p": 0.795032,
+          "pixelHash": 2145431016,
+          "frame": 38,
+          "target": 37.954,
+          "kind": "sequence",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 13286.100000023842
+        },
+        {
+          "p": 0.780004,
+          "pixelHash": -859685432,
+          "frame": 37.954,
+          "target": 36.775,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 13321.600000023842
+        },
+        {
+          "p": 0.764976,
+          "pixelHash": -1098066422,
+          "frame": 36.775,
+          "target": 35.596,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 13356.600000023842
+        },
+        {
+          "p": 0.749948,
+          "pixelHash": 843291399,
+          "frame": 34.417,
+          "target": 34.417,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 13392.800000011921
+        },
+        {
+          "p": 0.73492,
+          "pixelHash": -1948893138,
+          "frame": 33.239,
+          "target": 33.239,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 13427.200000017881
+        },
+        {
+          "p": 0.7201,
+          "pixelHash": -957612952,
+          "frame": 32.076,
+          "target": 32.076,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 13462
+        },
+        {
+          "p": 0.705072,
+          "pixelHash": 2054170448,
+          "frame": 30.898,
+          "target": 30.898,
+          "kind": "video",
+          "chapter": "roasting",
+          "expected": "roasting",
+          "at": 13497
+        },
+        {
+          "p": 0.690044,
+          "pixelHash": -1123032901,
+          "frame": 29.776,
+          "target": 29.776,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 13532.5
+        },
+        {
+          "p": 0.675016,
+          "pixelHash": -1123032901,
+          "frame": 29.776,
+          "target": 28.683,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 13567.700000017881
+        },
+        {
+          "p": 0.659987,
+          "pixelHash": 1841177790,
+          "frame": 28.683,
+          "target": 27.59,
+          "kind": "video",
+          "chapter": "green",
+          "expected": "green",
+          "at": 13602.700000017881
+        },
+        {
+          "p": 0.644959,
+          "pixelHash": 1023237224,
+          "frame": 26.5,
+          "target": 26.497,
+          "kind": "sequence",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 13637.90000000596
+        },
+        {
+          "p": 0.629931,
+          "pixelHash": 748901327,
+          "frame": 26.497,
+          "target": 25.436,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 13674.800000011921
+        },
+        {
+          "p": 0.614903,
+          "pixelHash": -1306828245,
+          "frame": 24.376,
+          "target": 24.376,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 13711.300000011921
+        },
+        {
+          "p": 0.600083,
+          "pixelHash": -680914647,
+          "frame": 23.329,
+          "target": 23.329,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 13747
+        },
+        {
+          "p": 0.585055,
+          "pixelHash": -680914647,
+          "frame": 23.329,
+          "target": 22.269,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 13780.200000017881
+        },
+        {
+          "p": 0.570027,
+          "pixelHash": -471391596,
+          "frame": 22.269,
+          "target": 21.208,
+          "kind": "video",
+          "chapter": "hulling",
+          "expected": "hulling",
+          "at": 13815.90000000596
+        },
+        {
+          "p": 0.554999,
+          "pixelHash": -442883929,
+          "frame": 20.48,
+          "target": 20.48,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 13850.100000023842
+        },
+        {
+          "p": 0.539971,
+          "pixelHash": -1236367311,
+          "frame": 19.594,
+          "target": 19.594,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 13884.300000011921
+        },
+        {
+          "p": 0.524943,
+          "pixelHash": 1791636820,
+          "frame": 18.265,
+          "target": 18.265,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 13918.600000023842
+        },
+        {
+          "p": 0.509914,
+          "pixelHash": 1791636820,
+          "frame": 18.265,
+          "target": 16.937,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 13953.600000023842
+        },
+        {
+          "p": 0.495095,
+          "pixelHash": 1290849097,
+          "frame": 16.937,
+          "target": 15.627,
+          "kind": "video",
+          "chapter": "washed",
+          "expected": "washed",
+          "at": 13987.90000000596
+        },
+        {
+          "p": 0.480067,
+          "pixelHash": -443284869,
+          "frame": 14.7,
+          "target": 14.209,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 14022.200000017881
+        },
+        {
+          "p": 0.465039,
+          "pixelHash": 44494835,
+          "frame": 14.209,
+          "target": 13.28,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 14056.5
+        },
+        {
+          "p": 0.45001,
+          "pixelHash": 1843189654,
+          "frame": 12.351,
+          "target": 12.351,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 14092.600000023842
+        },
+        {
+          "p": 0.434982,
+          "pixelHash": -306199720,
+          "frame": 11.421,
+          "target": 11.421,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 14127
+        },
+        {
+          "p": 0.419954,
+          "pixelHash": -1683959330,
+          "frame": 10.492,
+          "target": 10.492,
+          "kind": "video",
+          "chapter": "honey",
+          "expected": "honey",
+          "at": 14159.90000000596
+        },
+        {
+          "p": 0.404926,
+          "pixelHash": 461498523,
+          "frame": 8.947,
+          "target": 8.947,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 14193.5
+        },
+        {
+          "p": 0.389898,
+          "pixelHash": -190967852,
+          "frame": 7.346,
+          "target": 7.346,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 14228
+        },
+        {
+          "p": 0.375078,
+          "pixelHash": 121277828,
+          "frame": 5.768,
+          "target": 5.768,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 14263.100000023842
+        },
+        {
+          "p": 0.36005,
+          "pixelHash": 534768580,
+          "frame": 4.168,
+          "target": 4.168,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 14298.300000011921
+        },
+        {
+          "p": 0.345022,
+          "pixelHash": 1700354511,
+          "frame": 2.567,
+          "target": 2.567,
+          "kind": "video",
+          "chapter": "natural",
+          "expected": "natural",
+          "at": 14333.100000023842
+        },
+        {
+          "p": 0.329994,
+          "pixelHash": -860686585,
+          "frame": 1.5,
+          "target": 1.464,
+          "kind": "sequence",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14367.90000000596
+        },
+        {
+          "p": 0.314966,
+          "pixelHash": 1569472776,
+          "frame": 1.464,
+          "target": 1.355,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14401.700000017881
+        },
+        {
+          "p": 0.299937,
+          "pixelHash": 2072141427,
+          "frame": 1.355,
+          "target": 1.246,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14435
+        },
+        {
+          "p": 0.284909,
+          "pixelHash": 194228402,
+          "frame": 1.246,
+          "target": 1.137,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14468.800000011921
+        },
+        {
+          "p": 0.27009,
+          "pixelHash": 129602108,
+          "frame": 1.137,
+          "target": 1.03,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14502.200000017881
+        },
+        {
+          "p": 0.255062,
+          "pixelHash": 1611137965,
+          "frame": 1.03,
+          "target": 0.921,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14535.100000023842
+        },
+        {
+          "p": 0.240033,
+          "pixelHash": 321430151,
+          "frame": 0.921,
+          "target": 0.812,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14569.800000011921
+        },
+        {
+          "p": 0.225005,
+          "pixelHash": -1217089080,
+          "frame": 0.812,
+          "target": 0.703,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14604.100000023842
+        },
+        {
+          "p": 0.209977,
+          "pixelHash": -1270380852,
+          "frame": 0.703,
+          "target": 0.595,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14639.100000023842
+        },
+        {
+          "p": 0.194949,
+          "pixelHash": -803195923,
+          "frame": 0.595,
+          "target": 0.486,
+          "kind": "video",
+          "chapter": "harvest",
+          "expected": "harvest",
+          "at": 14676.600000023842
+        },
+        {
+          "p": 0.179921,
+          "pixelHash": 1215112640,
+          "frame": 0.386,
+          "target": 0.386,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 14712.800000011921
+        },
+        {
+          "p": 0.165101,
+          "pixelHash": 2083534946,
+          "frame": 0.292,
+          "target": 0.292,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 14747.300000011921
+        },
+        {
+          "p": 0.150073,
+          "pixelHash": 2083534946,
+          "frame": 0.292,
+          "target": 0.197,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 14782
+        },
+        {
+          "p": 0.135045,
+          "pixelHash": 1995825025,
+          "frame": 0.197,
+          "target": 0.102,
+          "kind": "video",
+          "chapter": "origin",
+          "expected": "origin",
+          "at": 14817
+        }
+      ]
+    }
+  ]
+}

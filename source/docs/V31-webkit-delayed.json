@@ -1,0 +1,94 @@
+{
+  "results": [
+    {
+      "test": "delayed-panel",
+      "frame": 0.38,
+      "targetTime": "6.271",
+      "mediaState": "loading",
+      "presentation": "sequence",
+      "frameTime": "6.250",
+      "frameChapter": "natural",
+      "hasFrame": "true",
+      "difference": 0,
+      "subject": 4363,
+      "rect": {
+        "x": -49,
+        "y": -21.171875,
+        "width": 487.5,
+        "height": 650
+      },
+      "canvasWidth": 720,
+      "canvasVisibility": "visible",
+      "overflow": false,
+      "screenSubjectRatio": 0.8197238658777121
+    },
+    {
+      "test": "delayed-panel",
+      "frame": 0.53,
+      "targetTime": "18.684",
+      "mediaState": "ready",
+      "presentation": "video",
+      "frameTime": "18.684",
+      "frameChapter": "washed",
+      "hasFrame": "true",
+      "difference": 7.410927854938271,
+      "subject": 2203,
+      "rect": {
+        "x": -49.03125,
+        "y": -21.171875,
+        "width": 487.5,
+        "height": 650
+      },
+      "canvasWidth": 720,
+      "canvasVisibility": "visible",
+      "overflow": false,
+      "screenSubjectRatio": 0.4429980276134122
+    },
+    {
+      "test": "delayed-panel",
+      "frame": 0.38,
+      "targetTime": "6.271",
+      "mediaState": "loading",
+      "presentation": "sequence",
+      "frameTime": "6.250",
+      "frameChapter": "natural",
+      "hasFrame": "true",
+      "difference": 0,
+      "subject": 4363,
+      "rect": {
+        "x": -49,
+        "y": -21.171875,
+        "width": 487.5,
+        "height": 650
+      },
+      "canvasWidth": 720,
+      "canvasVisibility": "visible",
+      "overflow": false,
+      "screenSubjectRatio": 0.8197238658777121
+    },
+    {
+      "test": "delayed-panel-completes",
+      "frame": 0.38,
+      "targetTime": "6.271",
+      "mediaState": "ready",
+      "presentation": "video",
+      "frameTime": "6.271",
+      "frameChapter": "natural",
+      "hasFrame": "true",
+      "difference": 6.98461612654321,
+      "subject": 4340,
+      "rect": {
+        "x": -49,
+        "y": -21.171875,
+        "width": 487.5,
+        "height": 650
+      },
+      "canvasWidth": 720,
+      "canvasVisibility": "visible",
+      "overflow": false,
+      "screenSubjectRatio": 0.8159763313609467
+    }
+  ],
+  "errors": [],
+  "failure": "AssertionError [ERR_ASSERTION]: delayed-panel: specimen not visible on screen"
+}

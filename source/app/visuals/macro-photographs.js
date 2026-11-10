@@ -53,13 +53,18 @@ export function createMacroPhotographs(world, camera, own, invalidate) {
     el.style.clipPath='polygon(7% 3%,96% 0,100% 81%,73% 100%,0 90%)';
     film.append(el); fragments.push({el,row,col,noise:Math.sin((row*cols+col)*127.1)*.5+.5});
   }
-  Promise.all(Object.values(layers).map(el=>el.decode())).then(()=>{
+  Promise.allSettled(Object.values(layers).map(el=>el.decode())).then(()=>{
     if(disposed)return;
-    ready=true; root.dataset.macroReady='true'; invalidate();
-  }).catch(()=>{if(!disposed)root.dataset.macroReady='fallback';});
-  own({dispose(){disposed=true;film.remove();root.classList.remove('sb-film-light');delete root.dataset.macroReady;delete root.dataset.processStage;}});
+    ready=true;
+    const usable=Object.values(layers).every(el=>el.naturalWidth>0&&el.naturalHeight>0);
+    root.dataset.macroReady='true';
+    if(!usable)root.dataset.macroDegraded='true';
+    invalidate();
+  });
+  own({dispose(){disposed=true;film.remove();root.classList.remove('sb-film-light');delete root.dataset.macroReady;delete root.dataset.macroDegraded;delete root.dataset.processStage;}});
   function put(name,x,y,h,alpha=1,angle=0,width) {
     const el=layers[name];
+    if(!el||!el.naturalWidth||!el.naturalHeight){if(el)el.style.opacity='0';return;}
     const w=width||h*el.naturalWidth/el.naturalHeight;
     el.style.width=`${w.toFixed(2)}px`; el.style.height=`${h.toFixed(2)}px`;
     el.style.transform=`translate3d(${(x-w/2).toFixed(2)}px,${(y-h/2).toFixed(2)}px,0) rotate(${angle.toFixed(3)}deg)`;
@@ -68,10 +73,13 @@ export function createMacroPhotographs(world, camera, own, invalidate) {
   const v=new THREE.Vector3(),eye=new THREE.Vector3();
   return {get ready(){return ready;}, resize(w,h){width=w;height=h;motion.resize(w,h);opening.resize(w,h);}, update(p,cherry,seed,bean,roast,beanSize,alive){
     opening.update(p);
-    if(!ready){film.style.opacity='0';return false;}
+    // Drive the video before still-image decoding completes. On mobile Safari
+    // a failed optional still used to keep the prior 3D scene on screen and
+    // prevent the approved film from ever being revealed.
+    const coverage=motion.update(p,true);
+    if(!ready){film.style.opacity='0';return coverage>.999;}
     const w=width,h=height,mobile=w<768;
     const entry=smooth(p,.113,.140),out=1-smooth(p,.925,.982);
-    const coverage=motion.update(p);
     film.style.opacity=(entry*out*(1-coverage)).toFixed(4);
     film.style.visibility=entry*out*(1-coverage)>.001?'visible':'hidden';
     root.classList.toggle('sb-film-light',p>.109);
@@ -86,9 +94,10 @@ export function createMacroPhotographs(world, camera, own, invalidate) {
     eye.copy(cherry.position).applyMatrix4(camera.matrixWorldInverse);
     const initialH=cherry.scale.x*2.16*h/(2*Math.abs(eye.z)*Math.tan(camera.fov*Math.PI/360));
     const enter=smooth(p,.085,.190);
-    const centerX=mobile?w*.5:w*.665;
-    const centerY=mobile?h*.38:h*.45;
-    const objectH=Math.min(h*(mobile?.37:.48),w*(mobile?.72:.34));
+    const touch=matchMedia('(pointer: coarse)').matches;
+    const centerX=(mobile||touch)?w*.5:w*.665;
+    const centerY=(mobile||touch)?h*.38:h*.45;
+    const objectH=Math.min(h*((mobile||touch)?.37:.48),w*((mobile||touch)?.72:.34));
     const x=mix((v.x+1)*w/2,centerX,enter);
     const y=mix((1-v.y)*h/2,centerY,enter);
     const cherryH=mix(initialH,objectH,enter);

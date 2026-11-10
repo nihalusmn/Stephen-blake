@@ -1,0 +1,228 @@
+[
+  {
+    "name": "normal",
+    "scripts": [
+      "https://stephen-blake.vercel.app/assets/index-Dw34wudm.js"
+    ],
+    "class": "lenis sb-gsap-reveals sb-on sb-horizontal-active sb-film-light",
+    "data": {
+      "theme": "light",
+      "motionViewport": "mobile",
+      "journeyVideo": "ready",
+      "macroReady": "true",
+      "processPanel": "natural",
+      "processStage": "natural"
+    },
+    "errors": [],
+    "progress": "0.380125",
+    "filmOpacity": "0",
+    "stripOpacity": "1",
+    "canvasVisibility": "hidden",
+    "videos": [
+      {
+        "src": "https://stephen-blake.vercel.app/assets/video/mobile/coffee-journey-v30.mp4",
+        "ready": 4,
+        "time": 0,
+        "opacity": "0",
+        "seeking": false
+      },
+      {
+        "src": "https://stephen-blake.vercel.app/assets/video/mobile/natural-v30.mp4",
+        "ready": 0,
+        "time": 0,
+        "opacity": "",
+        "seeking": false
+      },
+      {
+        "src": "https://stephen-blake.vercel.app/assets/video/mobile/honey-v30.mp4",
+        "ready": 0,
+        "time": 0,
+        "opacity": "",
+        "seeking": false
+      },
+      {
+        "src": "",
+        "ready": 0,
+        "time": 0,
+        "opacity": "",
+        "seeking": false
+      }
+    ]
+  },
+  {
+    "name": "webgl-denied",
+    "scripts": [
+      "https://stephen-blake.vercel.app/assets/index-Dw34wudm.js"
+    ],
+    "class": "lenis sb-gsap-reveals",
+    "data": {
+      "theme": "light"
+    },
+    "errors": [
+      "WebGL 2 unavailable; using photographic fallback."
+    ],
+    "canvasVisibility": "",
+    "videos": []
+  },
+  {
+    "name": "save-data",
+    "scripts": [
+      "https://stephen-blake.vercel.app/assets/index-Dw34wudm.js"
+    ],
+    "class": "lenis sb-gsap-reveals",
+    "data": {
+      "theme": "light"
+    },
+    "errors": [],
+    "canvasVisibility": "",
+    "videos": []
+  },
+  {
+    "name": "one-photo-fails",
+    "scripts": [
+      "https://stephen-blake.vercel.app/assets/index-Dw34wudm.js"
+    ],
+    "class": "lenis sb-gsap-reveals sb-on",
+    "data": {
+      "theme": "light",
+      "motionViewport": "mobile",
+      "macroReady": "fallback",
+      "journeyVideo": "ready"
+    },
+    "errors": [],
+    "progress": "0.380125",
+    "filmOpacity": "0",
+    "stripOpacity": "",
+    "canvasVisibility": "visible",
+    "videos": [
+      {
+        "src": "https://stephen-blake.vercel.app/assets/video/mobile/coffee-journey-v30.mp4",
+        "ready": 4,
+        "time": 0,
+        "opacity": "",
+        "seeking": false
+      },
+      {
+        "src": "",
+        "ready": 0,
+        "time": 0,
+        "opacity": "",
+        "seeking": false
+      },
+      {
+        "src": "",
+        "ready": 0,
+        "time": 0,
+        "opacity": "",
+        "seeking": false
+      },
+      {
+        "src": "",
+        "ready": 0,
+        "time": 0,
+        "opacity": "",
+        "seeking": false
+      }
+    ]
+  },
+  {
+    "name": "video-fails",
+    "scripts": [
+      "https://stephen-blake.vercel.app/assets/index-Dw34wudm.js"
+    ],
+    "class": "lenis sb-gsap-reveals sb-on sb-film-light",
+    "data": {
+      "theme": "light",
+      "motionViewport": "mobile",
+      "journeyVideo": "fallback",
+      "macroReady": "true",
+      "processPanel": "natural",
+      "processStage": "natural"
+    },
+    "errors": [],
+    "progress": "0.380125",
+    "filmOpacity": "1",
+    "stripOpacity": "0",
+    "canvasVisibility": "hidden",
+    "videos": [
+      {
+        "src": "https://stephen-blake.vercel.app/assets/video/mobile/coffee-journey-v30.mp4",
+        "ready": 0,
+        "time": 0,
+        "opacity": "0",
+        "seeking": false
+      },
+      {
+        "src": "",
+        "ready": 0,
+        "time": 0,
+        "opacity": "",
+        "seeking": false
+      },
+      {
+        "src": "",
+        "ready": 0,
+        "time": 0,
+        "opacity": "",
+        "seeking": false
+      },
+      {
+        "src": "",
+        "ready": 0,
+        "time": 0,
+        "opacity": "",
+        "seeking": false
+      }
+    ]
+  },
+  {
+    "name": "panel-delayed",
+    "scripts": [
+      "https://stephen-blake.vercel.app/assets/index-Dw34wudm.js"
+    ],
+    "class": "lenis sb-gsap-reveals sb-on sb-horizontal-active sb-film-light",
+    "data": {
+      "theme": "light",
+      "motionViewport": "mobile",
+      "journeyVideo": "ready",
+      "macroReady": "true",
+      "processPanel": "natural",
+      "processStage": "natural"
+    },
+    "errors": [],
+    "progress": "0.380125",
+    "filmOpacity": "0",
+    "stripOpacity": "1",
+    "canvasVisibility": "hidden",
+    "videos": [
+      {
+        "src": "https://stephen-blake.vercel.app/assets/video/mobile/coffee-journey-v30.mp4",
+        "ready": 4,
+        "time": 0,
+        "opacity": "0",
+        "seeking": false
+      },
+      {
+        "src": "https://stephen-blake.vercel.app/assets/video/mobile/natural-v30.mp4",
+        "ready": 0,
+        "time": 0,
+        "opacity": "",
+        "seeking": false
+      },
+      {
+        "src": "https://stephen-blake.vercel.app/assets/video/mobile/honey-v30.mp4",
+        "ready": 1,
+        "time": 0,
+        "opacity": "",
+        "seeking": false
+      },
+      {
+        "src": "",
+        "ready": 0,
+        "time": 0,
+        "opacity": "",
+        "seeking": false
+      }
+    ]
+  }
+]

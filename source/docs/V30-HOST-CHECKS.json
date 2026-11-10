@@ -1,0 +1,100 @@
+[
+  {
+    "url": "https://stephen-blake.vercel.app/",
+    "status": 200,
+    "headers": {
+      "Accept-Ranges": "bytes",
+      "Access-Control-Allow-Origin": "*",
+      "Age": "129947",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Content-Disposition": "inline",
+      "Content-Length": "40519",
+      "Content-Type": "text/html; charset=utf-8",
+      "Date": "Mon, 09 Nov 2026 18:14:31 GMT",
+      "Etag": "\"7b89f61dcbb33c4fde436e65c2ae0452\"",
+      "Last-Modified": "Sun, 08 Nov 2026 06:08:43 GMT",
+      "Server": "Vercel",
+      "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+      "X-Vercel-Cache": "HIT",
+      "X-Vercel-Id": "bom1::cblfb-1794248071680-e5a9f138265d",
+      "Connection": "close"
+    },
+    "length": 40519,
+    "scripts": [
+      "./assets/index-Dw34wudm.js"
+    ]
+  },
+  {
+    "url": "https://stephen-blake.vercel.app/assets/video/mobile/coffee-journey-v30.mp4",
+    "status": 206,
+    "headers": {
+      "Accept-Ranges": "bytes",
+      "Access-Control-Allow-Origin": "*",
+      "Age": "129945",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Content-Disposition": "inline; filename=\"coffee-journey-v30.mp4\"",
+      "Content-Length": "1024",
+      "Content-Range": "bytes 0-1023/9349601",
+      "Content-Type": "video/mp4",
+      "Date": "Mon, 09 Nov 2026 18:14:31 GMT",
+      "Etag": "\"e13b441dcc6fbfe13bbb099f7ec81ec8\"",
+      "Last-Modified": "Sun, 08 Nov 2026 06:08:46 GMT",
+      "Server": "Vercel",
+      "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+      "X-Vercel-Cache": "HIT",
+      "X-Vercel-Id": "bom1::cblfb-1794248071868-cbf12ca385d3",
+      "Connection": "close"
+    },
+    "length": 1024,
+    "prefix_sha256": "60800769e0512d15589d354b155455ea270b511fd836d2a4a349009f245e6358"
+  },
+  {
+    "url": "https://www.stephenblake.co.in/",
+    "status": 200,
+    "headers": {
+      "Accept-Ranges": "bytes",
+      "Access-Control-Allow-Origin": "*",
+      "Age": "129948",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Content-Disposition": "inline",
+      "Content-Length": "40519",
+      "Content-Type": "text/html; charset=utf-8",
+      "Date": "Mon, 09 Nov 2026 18:14:32 GMT",
+      "Etag": "\"7b89f61dcbb33c4fde436e65c2ae0452\"",
+      "Last-Modified": "Sun, 08 Nov 2026 06:08:43 GMT",
+      "Server": "Vercel",
+      "Strict-Transport-Security": "max-age=63072000",
+      "X-Vercel-Cache": "HIT",
+      "X-Vercel-Id": "bom1::vjm4r-1794248072182-8087ad933751",
+      "Connection": "close"
+    },
+    "length": 40519,
+    "scripts": [
+      "./assets/index-Dw34wudm.js"
+    ]
+  },
+  {
+    "url": "https://www.stephenblake.co.in/assets/video/mobile/coffee-journey-v30.mp4",
+    "status": 206,
+    "headers": {
+      "Accept-Ranges": "bytes",
+      "Access-Control-Allow-Origin": "*",
+      "Age": "129946",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Content-Disposition": "inline; filename=\"coffee-journey-v30.mp4\"",
+      "Content-Length": "1024",
+      "Content-Range": "bytes 0-1023/9349601",
+      "Content-Type": "video/mp4",
+      "Date": "Mon, 09 Nov 2026 18:14:32 GMT",
+      "Etag": "\"e13b441dcc6fbfe13bbb099f7ec81ec8\"",
+      "Last-Modified": "Sun, 08 Nov 2026 06:08:46 GMT",
+      "Server": "Vercel",
+      "Strict-Transport-Security": "max-age=63072000",
+      "X-Vercel-Cache": "HIT",
+      "X-Vercel-Id": "bom1::zvgmp-1794248072449-e8f189130d2c",
+      "Connection": "close"
+    },
+    "length": 1024,
+    "prefix_sha256": "60800769e0512d15589d354b155455ea270b511fd836d2a4a349009f245e6358"
+  }
+]

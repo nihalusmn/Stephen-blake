@@ -12,7 +12,7 @@ const check = (name, value) => { assert.ok(value, name); results.push(name); con
  page.on('console', msg => { if (msg.type() === 'error') errors.push(msg.text()); });
  page.on('response', response => { if (response.status() >= 400) errors.push(`${response.status()} ${response.url()}`); });
  await page.goto(base); await page.waitForTimeout(2200);
- check('Desktop Three.js initializes', await page.evaluate(() => document.documentElement.classList.contains('sb-on')));
+ check('Desktop approved film timeline initializes', await page.evaluate(() => document.documentElement.classList.contains('sb-on')));
  check('Lenis and ScrollTrigger initialize', await page.evaluate(() => !!window.sbLenis && window.ScrollTrigger.getAll().length > 0));
  check('Native scrollIntoView is intact', await page.evaluate(() => Element.prototype.scrollIntoView.toString().includes('[native code]')));
  check('Exactly three photographic categories', await page.evaluate(() => {
@@ -92,7 +92,7 @@ const check = (name, value) => { assert.ok(value, name); results.push(name); con
  check('No broken images',await page.evaluate(()=>[...document.images].every(i=>i.complete&&i.naturalWidth>0)));
  await page.goto(base);await page.waitForTimeout(1600);
  await page.evaluate(()=>document.querySelector('#sb-canvas').dispatchEvent(new Event('webglcontextlost',{cancelable:true})));
- check('Context loss leaves accessible fallback',await page.evaluate(()=>!document.documentElement.classList.contains('sb-on')&&getComputedStyle(document.querySelector('.sb-card img')).opacity==='1'));
+ check('Context loss preserves the approved film',await page.evaluate(()=>document.documentElement.classList.contains('sb-on')&&document.querySelectorAll('.sb-frame-decoder').length===4));
  check('No console or network errors',errors.length===0);
  fs.writeFileSync('docs/test-results.json',JSON.stringify({date:new Date().toISOString(),base,passed:results,errors},null,2));
  await browser.close();

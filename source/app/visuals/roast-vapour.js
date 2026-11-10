@@ -1,3 +1,4 @@
+import { phoneLayout } from './media-policy.js';
 // Restrained, scroll-driven heat vapour. No independent loop or timer.
 export function createRoastVapour(stage,own) {
  const ns='http://www.w3.org/2000/svg';const svg=document.createElementNS(ns,'svg');
@@ -9,7 +10,7 @@ export function createRoastVapour(stage,own) {
  return {resize(w,h){width=w;height=h;},update(p){
   const alpha=ease(p,.712,.737)*(1-ease(p,.784,.804));svg.style.opacity=alpha.toFixed(4);svg.style.visibility=alpha>.001?'visible':'hidden';
   if(alpha<.001)return;
-  const w=width,h=height,mobile=w<768;
+  const w=width,h=height,mobile=phoneLayout(w);
   svg.setAttribute('viewBox',`0 0 ${w} ${h}`);
   const vh=mobile?Math.min(h*.78,w*5/3):h*1.02,scale=vh/960;
   const cx=w*(mobile?.5:.665),cy=h*(mobile?.36:.45);

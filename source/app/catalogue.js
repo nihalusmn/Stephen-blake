@@ -62,9 +62,9 @@ const REGIONS = {
   'Odisha':'Koraput, Eastern Ghats'
 };
 const PROCESSES = [
-  ['Natural','Dried with the fruit intact. Start here when you want fruit expression and body.'],
-  ['Washed','Fruit removed and washed before drying. A cleaner starting point when you want clarity.'],
-  ['Honey','Some mucilage left on during drying. Ask which specific method was used for the lot.']
+  ['Natural','Whole cherries are dried before the dried fruit layers are removed at the mill. Evaluate each lot for its individual cup profile.'],
+  ['Washed','Cherries are pulped and the mucilage is removed before the beans dry in parchment. Fermentation and washing, or mechanical removal, prepare the coffee for drying.'],
+  ['Honey','Cherries are pulped, then dried with some or all of the mucilage retained around the parchment. The amount retained and drying conditions vary by lot.']
 ];
 
 const $  = s => document.querySelector(s);
@@ -514,8 +514,8 @@ const PICKS = {
     ['Herbal blend','Herbal blend','Lion\u2019s mane, shilajit, sea moss or ashwagandha']],
   process: [['','Open to recommendation','We propose a process for your brief'],
     ['Natural','Natural','Dried with the fruit intact'],
-    ['Washed','Washed','Fruit removed and washed before drying'],
-    ['Honey','Honey','Some mucilage left on during drying'],
+    ['Washed','Washed','Mucilage removed before parchment drying'],
+    ['Honey','Honey','Pulped and dried with mucilage retained'],
     ['Experimental process enquiry','Experimental','Ask and we will confirm feasibility']]
 };
 function renderPicks(){

@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-07T17:08:33.941Z",
+  "date": "2026-11-10T17:14:51.826Z",
   "base": "http://127.0.0.1:4175/dist/",
   "passed": [
-    "Desktop Three.js initializes",
+    "Desktop approved film timeline initializes",
     "Lenis and ScrollTrigger initialize",
     "Native scrollIntoView is intact",
     "Exactly three photographic categories",
@@ -52,7 +52,7 @@
     "Direct category link",
     "Deep link retains return-home animation",
     "No broken images",
-    "Context loss leaves accessible fallback",
+    "Context loss preserves the approved film",
     "No console or network errors"
   ],
   "errors": []

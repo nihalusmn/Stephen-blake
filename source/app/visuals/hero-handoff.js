@@ -1,3 +1,4 @@
+import { phoneLayout } from './media-policy.js';
 // One screen-space camera ties the estate cherry to the first motion frame.
 // Coordinates refer to the unchanged estate master and the selected film.
 const clamp = x => Math.max(0, Math.min(1, x));
@@ -7,7 +8,7 @@ export function openingGeometry(w,h,p) {
   const cover=Math.max(w/1672,h/941);
   const anchorX=(w-1672*cover)/2+967.5*cover;
   const anchorY=(h-941*cover)/2+236.5*cover;
-  const mobile=w<768;
+  const mobile=phoneLayout(w);
   const videoH=mobile?Math.min(h*.78,w*5/3):h*1.02;
   const videoW=videoH*.75;
   const videoX=w*(mobile?.5:.665),videoY=h*(mobile?.36:.45);

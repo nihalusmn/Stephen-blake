@@ -1,0 +1,145 @@
+{
+  "url": "https://deals-closed-injured-gary.trycloudflare.com",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "headers": {
+        "Date": "Tue, 10 Nov 2026 17:35:40 GMT",
+        "Content-Type": "text/html",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "CF-Ray": "a586d0a0fc56d99d-MAA",
+        "CF-Cache-Status": "DYNAMIC",
+        "Accept-Ranges": "bytes",
+        "Cache-Control": "no-cache",
+        "Last-Modified": "Tue, 10 Nov 2026 17:34:03 GMT",
+        "Server": "cloudflare",
+        "X-Robots-Tag": "none",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff"
+      },
+      "length": 41148,
+      "sha256": "221b3c746f551e0086225d9ee0840f9081d6a974c0e51d2b3223d22c06169d57",
+      "release": "31-rc3",
+      "scripts": [
+        "./assets/index-u7ko3sv0.js",
+        "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      ],
+      "html_transformed_by_preview_proxy": true
+    },
+    {
+      "path": "/assets/video/mobile/opening-v31.mp4",
+      "status": 206,
+      "headers": {
+        "Date": "Tue, 10 Nov 2026 17:35:42 GMT",
+        "Content-Type": "video/mp4",
+        "Content-Length": "1024",
+        "Connection": "close",
+        "Content-Range": "bytes 0-1023/157248",
+        "CF-Ray": "a586d0ae2a69c0f8-MAA",
+        "CF-Cache-Status": "DYNAMIC",
+        "Accept-Ranges": "bytes, bytes",
+        "Cache-Control": "no-cache",
+        "Server": "cloudflare",
+        "X-Robots-Tag": "none",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff"
+      },
+      "length": 1024,
+      "sha256": "d82549b086a81d1f60ddeea761f92602f647aae2c42a6d4b7ddac708c805b155"
+    },
+    {
+      "path": "/assets/video/mobile/washed-v31.mp4",
+      "status": 206,
+      "headers": {
+        "Date": "Tue, 10 Nov 2026 17:35:42 GMT",
+        "Content-Type": "video/mp4",
+        "Content-Length": "1024",
+        "Connection": "close",
+        "Content-Range": "bytes 0-1023/702324",
+        "CF-Ray": "a586d0b07d8a7f13-MAA",
+        "CF-Cache-Status": "DYNAMIC",
+        "Accept-Ranges": "bytes, bytes",
+        "Cache-Control": "no-cache",
+        "Server": "cloudflare",
+        "X-Robots-Tag": "none",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff"
+      },
+      "length": 1024,
+      "sha256": "2cc827f49d2eed84b639e24527c3c124ac6ac4fe15e516048342638dfdcafb2a"
+    },
+    {
+      "path": "/assets/video/mobile/roasting-v31.mp4",
+      "status": 206,
+      "headers": {
+        "Date": "Tue, 10 Nov 2026 17:35:43 GMT",
+        "Content-Type": "video/mp4",
+        "Content-Length": "1024",
+        "Connection": "close",
+        "Content-Range": "bytes 100000-101023/1127900",
+        "CF-Ray": "a586d0b31b90460f-MAA",
+        "CF-Cache-Status": "DYNAMIC",
+        "Accept-Ranges": "bytes, bytes",
+        "Cache-Control": "no-cache",
+        "Server": "cloudflare",
+        "X-Robots-Tag": "none",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff"
+      },
+      "length": 1024,
+      "sha256": "c0de080d9e6ba96f2dd4d1efbb64d748a9437ce5e71eafa8d376b8f9b5ba6819"
+    },
+    {
+      "path": "/assets/video/mobile/opening-v31.mp4",
+      "status": 206,
+      "headers": {
+        "Date": "Tue, 10 Nov 2026 17:35:43 GMT",
+        "Content-Type": "video/mp4",
+        "Content-Length": "1024",
+        "Connection": "close",
+        "Content-Range": "bytes 156224-157247/157248",
+        "CF-Ray": "a586d0b66fda7d2c-MAA",
+        "CF-Cache-Status": "DYNAMIC",
+        "Accept-Ranges": "bytes, bytes",
+        "Cache-Control": "no-cache",
+        "Server": "cloudflare",
+        "X-Robots-Tag": "none",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff"
+      },
+      "length": 1024,
+      "sha256": "6e449466c0db89ac0b2bedde0f9b776beb717fd7cdfaffa22e04d18ded4df009"
+    },
+    {
+      "path": "/assets/video/recovery-v31/frame-070.jpg",
+      "status": 200,
+      "headers": {
+        "Date": "Tue, 10 Nov 2026 17:35:43 GMT",
+        "Content-Type": "image/jpeg",
+        "Content-Length": "33230",
+        "Connection": "close",
+        "CF-Ray": "a586d0b7c97a7efe-MAA",
+        "CF-Cache-Status": "DYNAMIC",
+        "Accept-Ranges": "bytes",
+        "Cache-Control": "no-cache",
+        "Last-Modified": "Tue, 10 Nov 2026 17:34:03 GMT",
+        "Server": "cloudflare",
+        "X-Robots-Tag": "none",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff"
+      },
+      "length": 33230,
+      "sha256": "b193571ba5d359769d1d4ad4b86c292a409eb48a35dd1e1b1a0482f626da7f4d"
+    },
+    {
+      "path": "/source/app/main.js",
+      "status": 404
+    },
+    {
+      "path": "/.git/config",
+      "status": 404
+    }
+  ]
+}

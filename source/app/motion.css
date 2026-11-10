@@ -8,3 +8,8 @@ html.sb-scroll-locked { overflow: hidden; }
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
   [data-reveal] { opacity: 1 !important; transform: none !important; clip-path: none !important; }
 }
+
+/* Lenis/ScrollTrigger own programmatic scroll. GSAP may restore an inline
+   smooth value during refresh; do not let it start a second native animation
+   that a late font/media refresh can interrupt, especially on touch devices. */
+html.lenis,html.sb-on{scroll-behavior:auto!important}

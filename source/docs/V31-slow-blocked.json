@@ -1,0 +1,6278 @@
+{
+  "samples": [
+    {
+      "direction": "forward",
+      "p": 0.120039,
+      "expected": "origin",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "0.007",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "0.007",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "origin",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.135126,
+      "expected": "origin",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "0.102",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "0.102",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "origin",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.149885,
+      "expected": "origin",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "0.196",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "0.196",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "origin",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.164972,
+      "expected": "origin",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "0.291",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "0.291",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "origin",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.180059,
+      "expected": "origin",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "0.387",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "0.387",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "origin",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.195146,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "0.487",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "0.487",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.209905,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "0.594",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "0.594",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.224992,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "0.703",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "0.703",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.240079,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "0.813",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "0.813",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "error",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.254838,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "0.920",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "0.920",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "error",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.269925,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "1.029",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "1.029",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "error",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.285011,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "1.138",
+        "presentation": "sequence",
+        "frameTime": "0.750",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 373,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "1.138",
+          "presentation": "sequence",
+          "frameTime": "0.750",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "error",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.300098,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "1.247",
+        "presentation": "sequence",
+        "frameTime": "0.750",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 373,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "1.247",
+          "presentation": "sequence",
+          "frameTime": "0.750",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "error",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.314857,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "1.354",
+        "presentation": "sequence",
+        "frameTime": "0.750",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 373,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "1.354",
+          "presentation": "sequence",
+          "frameTime": "0.750",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "error",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "error",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.329944,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "1.463",
+        "presentation": "sequence",
+        "frameTime": "1.500",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 376,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "1.463",
+          "presentation": "sequence",
+          "frameTime": "1.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "1.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.345031,
+      "expected": "natural",
+      "chosen": {
+        "targetTime": "2.568",
+        "mediaState": "error",
+        "presentation": "sequence",
+        "frameTime": "1.500",
+        "frameChapter": "natural",
+        "hasFrame": "true"
+      },
+      "subject": 376,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "2.607",
+          "presentation": "sequence",
+          "frameTime": "1.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "2.568",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "1.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.360118,
+      "expected": "natural",
+      "chosen": {
+        "targetTime": "4.175",
+        "mediaState": "error",
+        "presentation": "sequence",
+        "frameTime": "2.500",
+        "frameChapter": "natural",
+        "hasFrame": "true"
+      },
+      "subject": 393,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "4.273",
+          "presentation": "sequence",
+          "frameTime": "1.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "4.175",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "2.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.374877,
+      "expected": "natural",
+      "chosen": {
+        "targetTime": "5.747",
+        "mediaState": "error",
+        "presentation": "sequence",
+        "frameTime": "2.500",
+        "frameChapter": "natural",
+        "hasFrame": "true"
+      },
+      "subject": 393,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "5.902",
+          "presentation": "sequence",
+          "frameTime": "1.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "5.747",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "2.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.389964,
+      "expected": "natural",
+      "chosen": {
+        "targetTime": "7.353",
+        "mediaState": "error",
+        "presentation": "sequence",
+        "frameTime": "4.250",
+        "frameChapter": "natural",
+        "hasFrame": "true"
+      },
+      "subject": 424,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "7.567",
+          "presentation": "sequence",
+          "frameTime": "1.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "7.353",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "4.250",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "error",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.405051,
+      "expected": "natural",
+      "chosen": {
+        "targetTime": "8.960",
+        "mediaState": "error",
+        "presentation": "sequence",
+        "frameTime": "4.250",
+        "frameChapter": "natural",
+        "hasFrame": "true"
+      },
+      "subject": 424,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "9.233",
+          "presentation": "sequence",
+          "frameTime": "1.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "8.960",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "4.250",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "error",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.420138,
+      "expected": "honey",
+      "chosen": {
+        "targetTime": "10.503",
+        "mediaState": "error",
+        "presentation": "sequence",
+        "frameTime": "10.000",
+        "frameChapter": "honey",
+        "hasFrame": "true"
+      },
+      "subject": 655,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "10.535",
+          "presentation": "sequence",
+          "frameTime": "1.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "4.250",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.503",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "error",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.434897,
+      "expected": "honey",
+      "chosen": {
+        "targetTime": "11.416",
+        "mediaState": "error",
+        "presentation": "sequence",
+        "frameTime": "10.000",
+        "frameChapter": "honey",
+        "hasFrame": "true"
+      },
+      "subject": 655,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "11.506",
+          "presentation": "sequence",
+          "frameTime": "1.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "4.250",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "11.416",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.449984,
+      "expected": "honey",
+      "chosen": {
+        "targetTime": "12.349",
+        "mediaState": "error",
+        "presentation": "sequence",
+        "frameTime": "10.500",
+        "frameChapter": "honey",
+        "hasFrame": "true"
+      },
+      "subject": 704,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "12.499",
+          "presentation": "sequence",
+          "frameTime": "1.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "7.250",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "12.349",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.465071,
+      "expected": "honey",
+      "chosen": {
+        "targetTime": "13.282",
+        "mediaState": "error",
+        "presentation": "sequence",
+        "frameTime": "10.500",
+        "frameChapter": "honey",
+        "hasFrame": "true"
+      },
+      "subject": 704,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "13.491",
+          "presentation": "sequence",
+          "frameTime": "1.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "13.282",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.480157,
+      "expected": "honey",
+      "chosen": {
+        "targetTime": "14.215",
+        "mediaState": "error",
+        "presentation": "sequence",
+        "frameTime": "10.500",
+        "frameChapter": "honey",
+        "hasFrame": "true"
+      },
+      "subject": 704,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "14.484",
+          "presentation": "sequence",
+          "frameTime": "1.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.215",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.494916,
+      "expected": "washed",
+      "chosen": {
+        "targetTime": "15.611",
+        "mediaState": "error",
+        "presentation": "sequence",
+        "frameTime": "15.000",
+        "frameChapter": "washed",
+        "hasFrame": "true"
+      },
+      "subject": 210,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "15.528",
+          "presentation": "sequence",
+          "frameTime": "1.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "14.250",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.611",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.510003,
+      "expected": "washed",
+      "chosen": {
+        "targetTime": "16.945",
+        "mediaState": "error",
+        "presentation": "sequence",
+        "frameTime": "15.000",
+        "frameChapter": "washed",
+        "hasFrame": "true"
+      },
+      "subject": 210,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "16.681",
+          "presentation": "sequence",
+          "frameTime": "1.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "14.250",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "16.945",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.52509,
+      "expected": "washed",
+      "chosen": {
+        "targetTime": "18.278",
+        "mediaState": "error",
+        "presentation": "sequence",
+        "frameTime": "15.000",
+        "frameChapter": "washed",
+        "hasFrame": "true"
+      },
+      "subject": 210,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "17.833",
+          "presentation": "sequence",
+          "frameTime": "1.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "18.278",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.539849,
+      "expected": "washed",
+      "chosen": {
+        "targetTime": "19.583",
+        "mediaState": "error",
+        "presentation": "sequence",
+        "frameTime": "17.000",
+        "frameChapter": "washed",
+        "hasFrame": "true"
+      },
+      "subject": 314,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "18.961",
+          "presentation": "sequence",
+          "frameTime": "1.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "19.583",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "17.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.554936,
+      "expected": "washed",
+      "chosen": {
+        "targetTime": "20.480",
+        "mediaState": "error",
+        "presentation": "sequence",
+        "frameTime": "17.000",
+        "frameChapter": "washed",
+        "hasFrame": "true"
+      },
+      "subject": 314,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "20.113",
+          "presentation": "sequence",
+          "frameTime": "1.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "17.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.570023,
+      "expected": "hulling",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "21.208",
+        "presentation": "preview",
+        "frameTime": "20.500",
+        "frameChapter": "hulling",
+        "hasFrame": "true"
+      },
+      "subject": 222,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "21.208",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.58511,
+      "expected": "hulling",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "22.272",
+        "presentation": "preview",
+        "frameTime": "20.500",
+        "frameChapter": "hulling",
+        "hasFrame": "true"
+      },
+      "subject": 222,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "22.272",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.599869,
+      "expected": "hulling",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "23.314",
+        "presentation": "sequence",
+        "frameTime": "21.250",
+        "frameChapter": "hulling",
+        "hasFrame": "true"
+      },
+      "subject": 423,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "23.314",
+          "presentation": "sequence",
+          "frameTime": "21.250",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.614956,
+      "expected": "hulling",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "24.379",
+        "presentation": "sequence",
+        "frameTime": "21.250",
+        "frameChapter": "hulling",
+        "hasFrame": "true"
+      },
+      "subject": 423,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "24.379",
+          "presentation": "sequence",
+          "frameTime": "21.250",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.630043,
+      "expected": "hulling",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "25.444",
+        "presentation": "sequence",
+        "frameTime": "23.250",
+        "frameChapter": "hulling",
+        "hasFrame": "true"
+      },
+      "subject": 508,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "25.444",
+          "presentation": "sequence",
+          "frameTime": "23.250",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.64513,
+      "expected": "green",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "26.509",
+        "presentation": "preview",
+        "frameTime": "26.500",
+        "frameChapter": "green",
+        "hasFrame": "true"
+      },
+      "subject": 442,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "26.509",
+          "presentation": "preview",
+          "frameTime": "26.500",
+          "frameChapter": "green",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.659888,
+      "expected": "green",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "27.583",
+        "presentation": "preview",
+        "frameTime": "26.500",
+        "frameChapter": "green",
+        "hasFrame": "true"
+      },
+      "subject": 442,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "27.583",
+          "presentation": "preview",
+          "frameTime": "26.500",
+          "frameChapter": "green",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.674975,
+      "expected": "green",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "28.680",
+        "presentation": "preview",
+        "frameTime": "26.500",
+        "frameChapter": "green",
+        "hasFrame": "true"
+      },
+      "subject": 442,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "28.680",
+          "presentation": "preview",
+          "frameTime": "26.500",
+          "frameChapter": "green",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.690062,
+      "expected": "green",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "29.777",
+        "presentation": "preview",
+        "frameTime": "26.500",
+        "frameChapter": "green",
+        "hasFrame": "true"
+      },
+      "subject": 442,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "29.777",
+          "presentation": "preview",
+          "frameTime": "26.500",
+          "frameChapter": "green",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.705149,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "30.904",
+        "presentation": "preview",
+        "frameTime": "30.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 443,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "30.904",
+          "presentation": "preview",
+          "frameTime": "30.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.719908,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "32.061",
+        "presentation": "preview",
+        "frameTime": "30.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 443,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "32.061",
+          "presentation": "preview",
+          "frameTime": "30.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.734995,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "33.245",
+        "presentation": "preview",
+        "frameTime": "30.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 443,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "33.245",
+          "presentation": "preview",
+          "frameTime": "30.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.750082,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "34.428",
+        "presentation": "sequence",
+        "frameTime": "31.000",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 445,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "34.428",
+          "presentation": "sequence",
+          "frameTime": "31.000",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.764841,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "35.586",
+        "presentation": "sequence",
+        "frameTime": "31.000",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 445,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "35.586",
+          "presentation": "sequence",
+          "frameTime": "31.000",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.779928,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "36.769",
+        "presentation": "sequence",
+        "frameTime": "34.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 457,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "36.769",
+          "presentation": "sequence",
+          "frameTime": "34.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.795015,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "37.952",
+        "presentation": "sequence",
+        "frameTime": "34.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 457,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "37.952",
+          "presentation": "sequence",
+          "frameTime": "34.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.810102,
+      "expected": "grinding",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "39.194",
+        "presentation": "preview",
+        "frameTime": "38.500",
+        "frameChapter": "grinding",
+        "hasFrame": "true"
+      },
+      "subject": 513,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "39.194",
+          "presentation": "preview",
+          "frameTime": "38.500",
+          "frameChapter": "grinding",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.824861,
+      "expected": "grinding",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "40.459",
+        "presentation": "preview",
+        "frameTime": "38.500",
+        "frameChapter": "grinding",
+        "hasFrame": "true"
+      },
+      "subject": 513,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "40.459",
+          "presentation": "preview",
+          "frameTime": "38.500",
+          "frameChapter": "grinding",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.839948,
+      "expected": "grinding",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "41.753",
+        "presentation": "sequence",
+        "frameTime": "39.250",
+        "frameChapter": "grinding",
+        "hasFrame": "true"
+      },
+      "subject": 518,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "41.753",
+          "presentation": "sequence",
+          "frameTime": "39.250",
+          "frameChapter": "grinding",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.855034,
+      "expected": "grinding",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "43.046",
+        "presentation": "sequence",
+        "frameTime": "41.750",
+        "frameChapter": "grinding",
+        "hasFrame": "true"
+      },
+      "subject": 504,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "43.046",
+          "presentation": "sequence",
+          "frameTime": "41.750",
+          "frameChapter": "grinding",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.855034,
+      "expected": "grinding",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "43.046",
+        "presentation": "sequence",
+        "frameTime": "41.750",
+        "frameChapter": "grinding",
+        "hasFrame": "true"
+      },
+      "subject": 504,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "43.046",
+          "presentation": "sequence",
+          "frameTime": "41.750",
+          "frameChapter": "grinding",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.839948,
+      "expected": "grinding",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "41.753",
+        "presentation": "sequence",
+        "frameTime": "41.750",
+        "frameChapter": "grinding",
+        "hasFrame": "true"
+      },
+      "subject": 504,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "41.753",
+          "presentation": "sequence",
+          "frameTime": "41.750",
+          "frameChapter": "grinding",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.824861,
+      "expected": "grinding",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "40.459",
+        "presentation": "sequence",
+        "frameTime": "41.750",
+        "frameChapter": "grinding",
+        "hasFrame": "true"
+      },
+      "subject": 504,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "40.459",
+          "presentation": "sequence",
+          "frameTime": "41.750",
+          "frameChapter": "grinding",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.810102,
+      "expected": "grinding",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "39.194",
+        "presentation": "sequence",
+        "frameTime": "39.250",
+        "frameChapter": "grinding",
+        "hasFrame": "true"
+      },
+      "subject": 518,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "39.194",
+          "presentation": "sequence",
+          "frameTime": "39.250",
+          "frameChapter": "grinding",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.795015,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "37.952",
+        "presentation": "preview",
+        "frameTime": "30.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 443,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "37.952",
+          "presentation": "preview",
+          "frameTime": "30.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.779928,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "36.769",
+        "presentation": "preview",
+        "frameTime": "30.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 443,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "36.769",
+          "presentation": "preview",
+          "frameTime": "30.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.764841,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "35.586",
+        "presentation": "sequence",
+        "frameTime": "36.750",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 459,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "35.586",
+          "presentation": "sequence",
+          "frameTime": "36.750",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.750082,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "34.428",
+        "presentation": "sequence",
+        "frameTime": "36.750",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 459,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "34.428",
+          "presentation": "sequence",
+          "frameTime": "36.750",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.734995,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "33.245",
+        "presentation": "sequence",
+        "frameTime": "35.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 459,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "33.245",
+          "presentation": "sequence",
+          "frameTime": "35.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.719908,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "32.061",
+        "presentation": "sequence",
+        "frameTime": "35.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 459,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "32.061",
+          "presentation": "sequence",
+          "frameTime": "35.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.705149,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "30.904",
+        "presentation": "sequence",
+        "frameTime": "31.000",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 445,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "30.904",
+          "presentation": "sequence",
+          "frameTime": "31.000",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.690062,
+      "expected": "green",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "29.777",
+        "presentation": "preview",
+        "frameTime": "26.500",
+        "frameChapter": "green",
+        "hasFrame": "true"
+      },
+      "subject": 442,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "29.777",
+          "presentation": "preview",
+          "frameTime": "26.500",
+          "frameChapter": "green",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.674975,
+      "expected": "green",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "28.680",
+        "presentation": "preview",
+        "frameTime": "26.500",
+        "frameChapter": "green",
+        "hasFrame": "true"
+      },
+      "subject": 442,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "28.680",
+          "presentation": "preview",
+          "frameTime": "26.500",
+          "frameChapter": "green",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.659888,
+      "expected": "green",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "27.583",
+        "presentation": "preview",
+        "frameTime": "26.500",
+        "frameChapter": "green",
+        "hasFrame": "true"
+      },
+      "subject": 442,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "27.583",
+          "presentation": "preview",
+          "frameTime": "26.500",
+          "frameChapter": "green",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.64513,
+      "expected": "green",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "26.509",
+        "presentation": "preview",
+        "frameTime": "26.500",
+        "frameChapter": "green",
+        "hasFrame": "true"
+      },
+      "subject": 442,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "26.509",
+          "presentation": "preview",
+          "frameTime": "26.500",
+          "frameChapter": "green",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.630043,
+      "expected": "hulling",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "25.444",
+        "presentation": "sequence",
+        "frameTime": "25.500",
+        "frameChapter": "hulling",
+        "hasFrame": "true"
+      },
+      "subject": 523,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "25.444",
+          "presentation": "sequence",
+          "frameTime": "25.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.614956,
+      "expected": "hulling",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "24.379",
+        "presentation": "sequence",
+        "frameTime": "25.500",
+        "frameChapter": "hulling",
+        "hasFrame": "true"
+      },
+      "subject": 523,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "24.379",
+          "presentation": "sequence",
+          "frameTime": "25.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.599869,
+      "expected": "hulling",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "23.314",
+        "presentation": "sequence",
+        "frameTime": "25.500",
+        "frameChapter": "hulling",
+        "hasFrame": "true"
+      },
+      "subject": 523,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "23.314",
+          "presentation": "sequence",
+          "frameTime": "25.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.58511,
+      "expected": "hulling",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "22.272",
+        "presentation": "sequence",
+        "frameTime": "24.500",
+        "frameChapter": "hulling",
+        "hasFrame": "true"
+      },
+      "subject": 704,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "22.272",
+          "presentation": "sequence",
+          "frameTime": "24.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.570023,
+      "expected": "hulling",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "21.208",
+        "presentation": "sequence",
+        "frameTime": "24.500",
+        "frameChapter": "hulling",
+        "hasFrame": "true"
+      },
+      "subject": 704,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "21.208",
+          "presentation": "sequence",
+          "frameTime": "24.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "20.250",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.554936,
+      "expected": "washed",
+      "chosen": {
+        "targetTime": "20.480",
+        "mediaState": "error",
+        "presentation": "sequence",
+        "frameTime": "20.250",
+        "frameChapter": "washed",
+        "hasFrame": "true"
+      },
+      "subject": 226,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "20.113",
+          "presentation": "sequence",
+          "frameTime": "24.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "20.250",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.539849,
+      "expected": "washed",
+      "chosen": {
+        "targetTime": "19.583",
+        "mediaState": "error",
+        "presentation": "sequence",
+        "frameTime": "19.500",
+        "frameChapter": "washed",
+        "hasFrame": "true"
+      },
+      "subject": 232,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "18.961",
+          "presentation": "sequence",
+          "frameTime": "24.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "19.583",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.52509,
+      "expected": "washed",
+      "chosen": {
+        "targetTime": "18.278",
+        "mediaState": "error",
+        "presentation": "sequence",
+        "frameTime": "19.500",
+        "frameChapter": "washed",
+        "hasFrame": "true"
+      },
+      "subject": 232,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "17.833",
+          "presentation": "sequence",
+          "frameTime": "24.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "18.278",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.510003,
+      "expected": "washed",
+      "chosen": {
+        "targetTime": "16.945",
+        "mediaState": "error",
+        "presentation": "sequence",
+        "frameTime": "19.500",
+        "frameChapter": "washed",
+        "hasFrame": "true"
+      },
+      "subject": 232,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "16.681",
+          "presentation": "sequence",
+          "frameTime": "24.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "16.945",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "19.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.494916,
+      "expected": "washed",
+      "chosen": {
+        "targetTime": "15.611",
+        "mediaState": "error",
+        "presentation": "sequence",
+        "frameTime": "15.500",
+        "frameChapter": "washed",
+        "hasFrame": "true"
+      },
+      "subject": 207,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "15.528",
+          "presentation": "sequence",
+          "frameTime": "24.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.611",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "15.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.480157,
+      "expected": "honey",
+      "chosen": {
+        "targetTime": "14.215",
+        "mediaState": "fallback",
+        "presentation": "sequence",
+        "frameTime": "14.500",
+        "frameChapter": "honey",
+        "hasFrame": "true"
+      },
+      "subject": 186,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "14.484",
+          "presentation": "sequence",
+          "frameTime": "24.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.215",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "15.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.465071,
+      "expected": "honey",
+      "chosen": {
+        "targetTime": "13.282",
+        "mediaState": "fallback",
+        "presentation": "sequence",
+        "frameTime": "14.500",
+        "frameChapter": "honey",
+        "hasFrame": "true"
+      },
+      "subject": 186,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "13.491",
+          "presentation": "sequence",
+          "frameTime": "24.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "13.282",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "error",
+          "presentation": "sequence",
+          "frameTime": "15.500",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.449984,
+      "expected": "honey",
+      "chosen": {
+        "targetTime": "12.349",
+        "mediaState": "fallback",
+        "presentation": "sequence",
+        "frameTime": "14.250",
+        "frameChapter": "honey",
+        "hasFrame": "true"
+      },
+      "subject": 183,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "12.499",
+          "presentation": "sequence",
+          "frameTime": "24.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "12.349",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "14.250",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.434897,
+      "expected": "honey",
+      "chosen": {
+        "targetTime": "11.416",
+        "mediaState": "fallback",
+        "presentation": "sequence",
+        "frameTime": "12.250",
+        "frameChapter": "honey",
+        "hasFrame": "true"
+      },
+      "subject": 348,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "11.506",
+          "presentation": "sequence",
+          "frameTime": "24.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "11.416",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "12.250",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.420138,
+      "expected": "honey",
+      "chosen": {
+        "targetTime": "10.503",
+        "mediaState": "fallback",
+        "presentation": "sequence",
+        "frameTime": "12.250",
+        "frameChapter": "honey",
+        "hasFrame": "true"
+      },
+      "subject": 348,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "10.535",
+          "presentation": "sequence",
+          "frameTime": "24.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.503",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "12.250",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.405051,
+      "expected": "natural",
+      "chosen": {
+        "targetTime": "8.960",
+        "mediaState": "fallback",
+        "presentation": "sequence",
+        "frameTime": "9.500",
+        "frameChapter": "natural",
+        "hasFrame": "true"
+      },
+      "subject": 166,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "9.233",
+          "presentation": "sequence",
+          "frameTime": "24.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "8.960",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "11.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.389964,
+      "expected": "natural",
+      "chosen": {
+        "targetTime": "7.353",
+        "mediaState": "fallback",
+        "presentation": "sequence",
+        "frameTime": "9.000",
+        "frameChapter": "natural",
+        "hasFrame": "true"
+      },
+      "subject": 199,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "7.567",
+          "presentation": "sequence",
+          "frameTime": "24.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "7.353",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "9.000",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "11.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.374877,
+      "expected": "natural",
+      "chosen": {
+        "targetTime": "5.747",
+        "mediaState": "fallback",
+        "presentation": "sequence",
+        "frameTime": "9.000",
+        "frameChapter": "natural",
+        "hasFrame": "true"
+      },
+      "subject": 199,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "5.902",
+          "presentation": "sequence",
+          "frameTime": "24.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "5.747",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "9.000",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.360118,
+      "expected": "natural",
+      "chosen": {
+        "targetTime": "4.175",
+        "mediaState": "fallback",
+        "presentation": "sequence",
+        "frameTime": "9.000",
+        "frameChapter": "natural",
+        "hasFrame": "true"
+      },
+      "subject": 199,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "4.273",
+          "presentation": "sequence",
+          "frameTime": "24.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "4.175",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "9.000",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.345031,
+      "expected": "natural",
+      "chosen": {
+        "targetTime": "2.568",
+        "mediaState": "fallback",
+        "presentation": "sequence",
+        "frameTime": "7.250",
+        "frameChapter": "natural",
+        "hasFrame": "true"
+      },
+      "subject": 588,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "2.607",
+          "presentation": "sequence",
+          "frameTime": "24.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "2.568",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "7.250",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.329944,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "1.463",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "1.463",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "7.250",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.314857,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "1.354",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "1.354",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "7.250",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.300098,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "1.247",
+        "presentation": "sequence",
+        "frameTime": "1.500",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 376,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "1.247",
+          "presentation": "sequence",
+          "frameTime": "1.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "7.250",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.285011,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "1.138",
+        "presentation": "sequence",
+        "frameTime": "1.500",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 376,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "1.138",
+          "presentation": "sequence",
+          "frameTime": "1.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "7.250",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.269925,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "1.029",
+        "presentation": "sequence",
+        "frameTime": "1.250",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 374,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "1.029",
+          "presentation": "sequence",
+          "frameTime": "1.250",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "7.250",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.254838,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "0.920",
+        "presentation": "sequence",
+        "frameTime": "1.250",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 374,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "0.920",
+          "presentation": "sequence",
+          "frameTime": "1.250",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "7.250",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.240079,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "0.813",
+        "presentation": "sequence",
+        "frameTime": "1.000",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 377,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "0.813",
+          "presentation": "sequence",
+          "frameTime": "1.000",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "7.250",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.224992,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "0.703",
+        "presentation": "sequence",
+        "frameTime": "1.000",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 377,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "0.703",
+          "presentation": "sequence",
+          "frameTime": "1.000",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "7.250",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.209905,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "0.594",
+        "presentation": "sequence",
+        "frameTime": "0.750",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 373,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "0.594",
+          "presentation": "sequence",
+          "frameTime": "0.750",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "7.250",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.195146,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "0.487",
+        "presentation": "sequence",
+        "frameTime": "0.750",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 373,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "0.487",
+          "presentation": "sequence",
+          "frameTime": "0.750",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "7.250",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.180059,
+      "expected": "origin",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "0.387",
+        "presentation": "sequence",
+        "frameTime": "0.500",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "subject": 371,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "0.387",
+          "presentation": "sequence",
+          "frameTime": "0.500",
+          "frameChapter": "origin",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "7.250",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.164972,
+      "expected": "origin",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "0.291",
+        "presentation": "sequence",
+        "frameTime": "0.500",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "subject": 371,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "0.291",
+          "presentation": "sequence",
+          "frameTime": "0.500",
+          "frameChapter": "origin",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "7.250",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.149885,
+      "expected": "origin",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "0.196",
+        "presentation": "sequence",
+        "frameTime": "0.250",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "subject": 371,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "0.196",
+          "presentation": "sequence",
+          "frameTime": "0.250",
+          "frameChapter": "origin",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "7.250",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.135126,
+      "expected": "origin",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "0.102",
+        "presentation": "sequence",
+        "frameTime": "0.250",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "subject": 371,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "0.102",
+          "presentation": "sequence",
+          "frameTime": "0.250",
+          "frameChapter": "origin",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "7.250",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.120039,
+      "expected": "origin",
+      "chosen": {
+        "mediaState": "error",
+        "targetTime": "0.007",
+        "presentation": "sequence",
+        "frameTime": "0.000",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "subject": 375,
+      "items": [
+        {
+          "mediaState": "error",
+          "targetTime": "0.007",
+          "presentation": "sequence",
+          "frameTime": "0.000",
+          "frameChapter": "origin",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "7.250",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "fallback",
+          "presentation": "sequence",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "resources": [
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/style-BvSGbpsf.css",
+      "bytes": 61342,
+      "start": 236.5,
+      "duration": 2111.7999999821186
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/index-DRHBMrJF.js",
+      "bytes": 222605,
+      "start": 237.40000000596046,
+      "duration": 5077.0999999940395
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Archivo:wght@400;500;600&display=swap",
+      "bytes": 1106,
+      "start": 239.90000000596046,
+      "duration": 324.5
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/brand-transparent-CILVdTO2.png",
+      "bytes": 30510,
+      "start": 242,
+      "duration": 1189.199999988079
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/hero-estate-1680-D834h6dp.webp",
+      "bytes": 516432,
+      "start": 247.40000000596046,
+      "duration": 8149.5
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/category-filter-480-DDZmdv0x.webp",
+      "bytes": 57624,
+      "start": 281.19999998807907,
+      "duration": 2040.2000000178814
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/category-roasted-480-coUtmWNI.webp",
+      "bytes": 44624,
+      "start": 288.90000000596046,
+      "duration": 1807.7999999821186
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/category-green-480-CxLeyZb3.webp",
+      "bytes": 46408,
+      "start": 288.90000000596046,
+      "duration": 2458.399999976158
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-000.jpg",
+      "bytes": 26678,
+      "start": 5610.5,
+      "duration": 1053
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-006.jpg",
+      "bytes": 27277,
+      "start": 5610.5,
+      "duration": 1087.199999988079
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-060.jpg",
+      "bytes": 18050,
+      "start": 5610.5999999940395,
+      "duration": 844.1999999880791
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-040.jpg",
+      "bytes": 30287,
+      "start": 5610.5999999940395,
+      "duration": 1136.699999988079
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/coffee-journey-poster-v28.jpg",
+      "bytes": 66924,
+      "start": 5611.299999982119,
+      "duration": 1686.9000000059605
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/opening-v31.mp4",
+      "bytes": 0,
+      "start": 5623.299999982119,
+      "duration": 1.2000000178813934
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-002.jpg",
+      "bytes": 27232,
+      "start": 6665.0999999940395,
+      "duration": 665.6999999880791
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/opening-v31.mp4",
+      "bytes": 0,
+      "start": 7069.699999988079,
+      "duration": 2.0999999940395355
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/natural-v31.mp4",
+      "bytes": 0,
+      "start": 7172.4000000059605,
+      "duration": 1.699999988079071
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-003.jpg",
+      "bytes": 27301,
+      "start": 7332.9000000059605,
+      "duration": 514.6999999880791
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-005.jpg",
+      "bytes": 27186,
+      "start": 7849.199999988079,
+      "duration": 514.7000000178814
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/honey-v31.mp4",
+      "bytes": 0,
+      "start": 8139.699999988079,
+      "duration": 7
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/opening-v31.mp4",
+      "bytes": 0,
+      "start": 8416.40000000596,
+      "duration": 2.399999976158142
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/natural-v31.mp4",
+      "bytes": 0,
+      "start": 8418.59999999404,
+      "duration": 2.4000000059604645
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/honey-v31.mp4",
+      "bytes": 0,
+      "start": 8418.799999982119,
+      "duration": 2.4000000059604645
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-010.jpg",
+      "bytes": 28676,
+      "start": 8524.699999988079,
+      "duration": 372.40000000596046
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-017.jpg",
+      "bytes": 29357,
+      "start": 8899.09999999404,
+      "duration": 373.69999998807907
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/washed-v31.mp4",
+      "bytes": 0,
+      "start": 9111,
+      "duration": 0.7999999821186066
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-029.jpg",
+      "bytes": 58543,
+      "start": 9274.5,
+      "duration": 647.7999999821186
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-042.jpg",
+      "bytes": 33505,
+      "start": 9497,
+      "duration": 509.09999999403954
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-038.jpg",
+      "bytes": 17762,
+      "start": 9924.59999999404,
+      "duration": 322.19999998807907
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-049.jpg",
+      "bytes": 17568,
+      "start": 10008.199999988079,
+      "duration": 322.09999999403954
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/natural-v31.mp4",
+      "bytes": 0,
+      "start": 10075.90000000596,
+      "duration": 2
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/honey-v31.mp4",
+      "bytes": 0,
+      "start": 10076.59999999404,
+      "duration": 1.9000000059604645
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-057.jpg",
+      "bytes": 16096,
+      "start": 10331.799999982119,
+      "duration": 289.90000000596046
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-062.jpg",
+      "bytes": 18595,
+      "start": 10458.5,
+      "duration": 314.09999999403954
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/washed-v31.mp4",
+      "bytes": 0,
+      "start": 10571.40000000596,
+      "duration": 2.199999988079071
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-058.jpg",
+      "bytes": 16159,
+      "start": 10624.40000000596,
+      "duration": 297.69999998807907
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-068.jpg",
+      "bytes": 31688,
+      "start": 10774.09999999404,
+      "duration": 390.30000001192093
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-078.jpg",
+      "bytes": 24266,
+      "start": 11166.09999999404,
+      "duration": 347.30000001192093
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-085.jpg",
+      "bytes": 30677,
+      "start": 11435.5,
+      "duration": 470.2999999821186
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/hulling-v31.mp4",
+      "bytes": 0,
+      "start": 11437.09999999404,
+      "duration": 0.800000011920929
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-081.jpg",
+      "bytes": 21643,
+      "start": 11514.5,
+      "duration": 423.7999999821186
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-093.jpg",
+      "bytes": 41001,
+      "start": 11907.5,
+      "duration": 440.2999999821186
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-102.jpg",
+      "bytes": 49232,
+      "start": 12349.199999988079,
+      "duration": 481.80000001192093
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/green-v31.mp4",
+      "bytes": 0,
+      "start": 12378.5,
+      "duration": 0.7999999821186066
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-115.jpg",
+      "bytes": 42330,
+      "start": 12832,
+      "duration": 440.40000000596046
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/roasting-v31.mp4",
+      "bytes": 0,
+      "start": 13146.59999999404,
+      "duration": 0.800000011920929
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-124.jpg",
+      "bytes": 42309,
+      "start": 13274.09999999404,
+      "duration": 447.5
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-138.jpg",
+      "bytes": 37122,
+      "start": 13726.40000000596,
+      "duration": 411.69999998807907
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-147.jpg",
+      "bytes": 32773,
+      "start": 14140.5,
+      "duration": 390.09999999403954
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/grinding-v31.mp4",
+      "bytes": 0,
+      "start": 14498.90000000596,
+      "duration": 2.0999999940395355
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-157.jpg",
+      "bytes": 24359,
+      "start": 14531.40000000596,
+      "duration": 340.19999998807907
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-167.jpg",
+      "bytes": 25985,
+      "start": 14875.40000000596,
+      "duration": 355.09999999403954
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-172.jpg",
+      "bytes": 24787,
+      "start": 15231.799999982119,
+      "duration": 348.60000002384186
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-162.jpg",
+      "bytes": 24692,
+      "start": 15643.09999999404,
+      "duration": 344.59999999403954
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-152.jpg",
+      "bytes": 30541,
+      "start": 16028.799999982119,
+      "duration": 377
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/roasting-v31.mp4",
+      "bytes": 0,
+      "start": 16037,
+      "duration": 1.7999999821186066
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-142.jpg",
+      "bytes": 35095,
+      "start": 16424,
+      "duration": 405.2999999821186
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-133.jpg",
+      "bytes": 39693,
+      "start": 16831.69999998808,
+      "duration": 432.2000000178814
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-119.jpg",
+      "bytes": 42369,
+      "start": 17378.40000000596,
+      "duration": 443.19999998807907
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/green-v31.mp4",
+      "bytes": 0,
+      "start": 17391.59999999404,
+      "duration": 0.800000011920929
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-110.jpg",
+      "bytes": 42264,
+      "start": 17824.59999999404,
+      "duration": 447.19999998807907
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/hulling-v31.mp4",
+      "bytes": 0,
+      "start": 18150.90000000596,
+      "duration": 0.699999988079071
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-098.jpg",
+      "bytes": 60903,
+      "start": 18329.09999999404,
+      "duration": 543.1999999880791
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-089.jpg",
+      "bytes": 31448,
+      "start": 18876.19999998808,
+      "duration": 387.30000001192093
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/washed-v31.mp4",
+      "bytes": 0,
+      "start": 19077.59999999404,
+      "duration": 0.9000000059604645
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-073.jpg",
+      "bytes": 30075,
+      "start": 19488.19999998808,
+      "duration": 383.90000000596046
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-057.jpg",
+      "bytes": 16096,
+      "start": 20064.79999998212,
+      "duration": 381.40000000596046
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-060.jpg",
+      "bytes": 18050,
+      "start": 20065.5,
+      "duration": 406.2999999821186
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-049.jpg",
+      "bytes": 17568,
+      "start": 20448,
+      "duration": 307.59999999403954
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-046.jpg",
+      "bytes": 29708,
+      "start": 20758.69999998808,
+      "duration": 371.5
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-036.jpg",
+      "bytes": 23641,
+      "start": 21003.5,
+      "duration": 333.7999999821186
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-040.jpg",
+      "bytes": 30287,
+      "start": 21131.5,
+      "duration": 381.59999999403954
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-029.jpg",
+      "bytes": 58543,
+      "start": 21341.40000000596,
+      "duration": 538.5999999940395
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-010.jpg",
+      "bytes": 28676,
+      "start": 21881.69999998808,
+      "duration": 464.80000001192093
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-006.jpg",
+      "bytes": 27277,
+      "start": 21954.40000000596,
+      "duration": 459
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/opening-v31.mp4",
+      "bytes": 0,
+      "start": 21962,
+      "duration": 1.0999999940395355
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-005.jpg",
+      "bytes": 27186,
+      "start": 22415,
+      "duration": 365.2999999821186
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-004.jpg",
+      "bytes": 27105,
+      "start": 22782,
+      "duration": 364.69999998807907
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-003.jpg",
+      "bytes": 27301,
+      "start": 23148.19999998808,
+      "duration": 364.80000001192093
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-002.jpg",
+      "bytes": 27232,
+      "start": 23514.69999998808,
+      "duration": 364.59999999403954
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/opening-v31.mp4",
+      "bytes": 0,
+      "start": 23568.5,
+      "duration": 1.9000000059604645
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-001.jpg",
+      "bytes": 27452,
+      "start": 24034.09999999404,
+      "duration": 362.69999998807907
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-000.jpg",
+      "bytes": 26678,
+      "start": 24412.09999999404,
+      "duration": 350.80000001192093
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/mobile/opening-v31.mp4",
+      "bytes": 0,
+      "start": 25069.40000000596,
+      "duration": 1.2999999821186066
+    }
+  ],
+  "status": "passed",
+  "collection": "all three photographs visible, links enabled"
+}

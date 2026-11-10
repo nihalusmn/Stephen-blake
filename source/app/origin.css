@@ -575,6 +575,21 @@
 .sb-on.sb-horizontal-active .sb-copy{z-index:4}
 .sb-process-horizontal__label{z-index:3}
 
+/* Touch-first panel choreography also applies in phone landscape, where the
+   CSS viewport is wider than 767px even though the user is still on a phone. */
+@media(pointer:coarse){
+ .sb-process-horizontal__track{width:300%}
+ .sb-process-horizontal__panel{flex:0 0 33.333333%;overflow:hidden}
+ .sb-process-horizontal__panel+.sb-process-horizontal__panel{border-left:0}
+ .sb-process-panel-video{left:50%;top:40%;height:76%;max-width:none}
+ .sb-process-horizontal__label{top:12%;left:8%;font-size:.58rem}
+ .sb-process-horizontal .sb-notes{top:66%;bottom:auto}
+ .sb-panel-note{left:8%;width:min(34ch,86vw);top:0;bottom:auto}
+ .sb-panel-note .sb-note__h{font-size:clamp(1.5rem,5vw,2rem)}
+ .sb-panel-note .sb-note__p{font-size:.86rem;max-width:34ch}
+ .sb-panel-note .sb-note__sub{display:block;font-size:.65rem;letter-spacing:.02em}
+}
+
 /* Same-frame cherry match during the estate-to-film dolly. */
 .sb-hero-match{position:absolute;left:0;top:0;z-index:2;max-width:none;pointer-events:none;opacity:0;mask-repeat:no-repeat;mask-size:100% 100%;will-change:transform,opacity}
 @media(max-width:767px){.sb-journey-video{height:min(78%,166.666667vw);max-width:none}}
@@ -708,3 +723,29 @@
 .sb-process-object,.sb-coffee-fragment{will-change:auto}
 
 @media(max-width:767px){.sb-rail__step span{font-size:clamp(.4125rem,1.9vw,.5rem);letter-spacing:.04em}}
+
+/* V31: one presentation layer. Decoder reloads cannot erase a visible frame. */
+.sb-journey-surface,.sb-panel-surface{position:absolute;z-index:2;aspect-ratio:3/4;pointer-events:none;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 14%,#000 86%,transparent),linear-gradient(0deg,transparent,#000 12%,#000 88%,transparent);mask-composite:intersect;-webkit-mask-composite:source-in}
+.sb-frame-decoder,.sb-frame-buffer,.sb-frame-image{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:fill}
+.sb-frame-decoder{opacity:0;pointer-events:none}
+.sb-frame-buffer,.sb-frame-image{visibility:hidden}
+.sb-motion-retry{position:absolute;z-index:8;right:var(--gutter);top:19%;padding:.5rem .8rem;border:1px solid #79796c;background:#f5f4f0;color:#29332b;font-size:.7rem;cursor:pointer}
+.sb-motion-retry[hidden]{display:none}
+html[data-motion-layout="phone"] .sb-process-horizontal__track{width:300%}
+html[data-motion-layout="phone"] .sb-process-horizontal__panel{flex:0 0 33.333333%;border-left:0}
+html[data-motion-layout="phone"] .sb-process-horizontal__label{top:12%;left:8%;font-size:.58rem}
+html[data-motion-layout="phone"] .sb-process-horizontal .sb-notes{top:min(66%,calc(100% - 235px));bottom:auto}
+html[data-motion-layout="phone"] .sb-panel-note{left:8%;width:min(34ch,86vw);top:0;bottom:auto}
+html[data-motion-layout="phone"] .sb-panel-note .sb-note__h{font-size:clamp(1.5rem,5vw,2rem)}
+html[data-motion-layout="phone"] .sb-panel-note .sb-note__p{font-size:.86rem;max-width:34ch}
+html[data-motion-layout="phone"] .sb-panel-note .sb-note__sub{display:block;font-size:.65rem}
+html[data-motion-layout="desktop"] .sb-process-horizontal__track{width:100%}
+@media(max-height:500px) and (min-aspect-ratio:3/2){
+  html[data-motion-layout="phone"] .sb-process-horizontal__label{top:22%;left:7%}
+  html[data-motion-layout="phone"] .sb-process-horizontal .sb-notes{top:30%;bottom:auto}
+  html[data-motion-layout="phone"] .sb-panel-note{left:65%;width:32vw}
+  html[data-motion-layout="phone"] .sb-panel-note .sb-note__h{font-size:1.35rem}
+  html[data-motion-layout="phone"] .sb-panel-note .sb-note__p{font-size:.76rem;line-height:1.45;margin-top:.55rem}
+  html[data-motion-layout="phone"] .sb-panel-note .sb-note__sub{font-size:.55rem;margin-top:.5rem}
+}
+@media(prefers-reduced-motion:reduce){.sb-journey-surface,.sb-panel-surface,.sb-motion-retry{display:none}}

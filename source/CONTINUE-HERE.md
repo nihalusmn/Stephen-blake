@@ -1,5 +1,19 @@
 # Stephen Blake — editable handoff
-Updated 7 November 2026. Current release: **v30** (mobile performance optimization; approved v28 visual sequence preserved).
+Updated 10 November 2026. **V31 RC3 under test after RC1 and RC2 failed physical phones; production remains v30.**
+
+Start with [docs/V31-RELEASE-CANDIDATE.md](docs/V31-RELEASE-CANDIDATE.md). The user requires physical iPhone/Samsung acceptance before GitHub push. Do not mistake browser emulation for that gate. The new single DOM/video timeline preserves the approved film and removes the WebGL/optional-photo startup dependency. Recovery frames are in assets/video/recovery-v31. Build and automated test results are in the v31 documents.
+
+## Latest: RC3
+
+RC2 also failed physical acceptance: fast scrolling still broke/jolted on both phones, and the laptop showed a dark vignette. RC3 removes that overlay, retains chapter decoders instead of resetting them on chapter changes, captures completed seek frames before scheduling the next seek, and gives phones desktop-equivalent scroll space. It also updates process copy from primary references and fixes landscape caption overflow. Tests now count actual changed pixel hashes during rapid reversals. See the release candidate report for measured results and limits. DO NOT PUSH until both physical phones accept RC3.
+
+## Earlier mobile failure follow-up
+
+Read `docs/V31-RELEASE-CANDIDATE.md`. RC1's 86-per-browser checks did not catch continuous-scroll frame starvation. The user's Android diagnostic confirmed the canvas stayed on a harvest frame while captions advanced. RC2 removes strict near-target frame rejection, coalesces recovery requests, embeds lightweight chapter covers and uses small phone chapter videos instead of the full master. Current reports use the `V31-rc2-` prefix; do not present older RC1 results as current acceptance.
+
+Physical iPhone Safari and Samsung acceptance is still REQUIRED before pushing. Diagnostic preview uses the running local server on port 4191; the regular preview is port 4175. Ephemeral tunnel logs/tokens are under `output/v31/`, never ship them. No GitHub push for v31 has been made.
+
+## Historical release notes
 
 ## V30 mobile engine
 See docs/MOBILE-PERFORMANCE-V30.md for measured comparisons, implementation notes and testing limits.

@@ -1,0 +1,35 @@
+{
+  "release": "31-rc3",
+  "status": "RC3 automated checks passed; physical iPhone and Samsung acceptance pending. RC1 and RC2 failed.",
+  "files": {
+    "index.html": "8be72243d584996558bd1c23a0cd2ebebdfb623d3040d382d984dfa3822b8375",
+    "assets/style-C3u3lf8e.css": "99547ba275a5d58fa2f484e3db5cb576c86d70b7c2f505d525052c03ccd5ddc5",
+    "assets/index-u7ko3sv0.js": "557dc7522b82bb5090f9ed31ec0b0c8c08b52c9a7c8a559fd23c33f643662899"
+  },
+  "physical_tests": {
+    "iphone_safari": null,
+    "samsung_browser": null
+  },
+  "github_push": false,
+  "automated_tests": {
+    "rc3_chromium": 86,
+    "rc3_webkit": 86,
+    "rapid_pixel_changes": {
+      "390px": "190/200",
+      "758px": "182/200",
+      "1440px": "180/200"
+    },
+    "landscape_caption": "fits above rail; bottom242px vs rail325px",
+    "rc3_cold_cellular_forward_reverse_samples": 100,
+    "short_portrait_caption": "bottom555px; rail579px at 360x640"
+  },
+  "phone_preview": "https://deals-closed-injured-gary.trycloudflare.com",
+  "preview_note": "Temporary tunnel. Keep the Mac awake. Production still serves v30.",
+  "extracted_zip_test": "RC3 passed: harvest, Natural, Honey, Washed, roasting and final collection through extracted file:// website",
+  "physical_test_report": {
+    "rc1": "User reports both startup stalls and picture freezes on both phones; Android Chrome diagnostic confirms stale frames during continuous scroll.",
+    "rc2": "FAILED: user reports unsmooth motion and breakage during fast scrolling on both phones, plus dark vignette on laptop.",
+    "rc3": "Not yet accepted on physical phones."
+  },
+  "range_checks": "Preview start, middle and suffix ranges: HTTP 206, exact bytes, Content-Range and video/mp4 verified"
+}
