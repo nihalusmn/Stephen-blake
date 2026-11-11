@@ -1,15 +1,37 @@
-# Stephen Blake — website v30
+## Cleaned V32 delivery
+The runtime assets are now limited to those used by the current website. Old films, photo variants, editing originals and review screenshots are excluded. Both device-specific chapter sets and all recovery frames remain. The root index.html is the ready-to-open website; source/ contains the editable project and the same required assets.
 
-Extract the whole ZIP and open index.html with the assets folder beside it. Scroll down from the homepage to control the film; scroll back up to reverse it. START-WEBSITE.command starts an optional local preview server on macOS.
+## Final photo correction
+The owner rejected the separate logo badge. The website now uses cleaned bean photographs with the original tray branding restored from the supplied photographs, without a separate logo overlay. Active image names include `v32-original-logo`. The shared-image policy remains unchanged. Do not rerun `apply-exact-photo-logo.cjs`; it is superseded by `restore-photo-branding.cjs`.
 
-## This update
-The mobile animation engine now uses native touch scrolling with synchronized GSAP updates, stable viewport geometry, cacheable imagery and mobile-specific film delivery. Invisible fallback layers no longer run throughout the visible film, and offscreen process players are no longer scrubbed continuously. The full approved sequence, horizontal processing chapters, captions, peeling, washing, roasting and collection handoff remain.
+# Stephen Blake — v32 candidate
 
-Read source/docs/MOBILE-PERFORMANCE-V30.md for before/after measurements and test coverage. V29 enquiry/security fixes are retained; the updated dependency audit reports no known advisories. Desktop film bytes are unchanged.
+Open `index.html` with the adjacent `assets` directory, or use `START-WEBSITE.command` on macOS. The editable project is under `source/` in the complete ZIP.
 
-Previous visual corrections: The colour seam below the compact collection is corrected with an opaque section background. The falling cherry and green/roasting bean have cleaned, antialiased video outlines while retaining interior texture. Process order, Honey peeling, water wash-off, roasting smoke and collection links remain in place.
+## What changed
 
-The ZIP includes the deployable website, editable source, media, retained production clips, reproducible compositing scripts, captioned film and continuation notes. The film is 49.1 seconds; the website controls it by scrolling and adds horizontal layouts and motion overlays.
+- The collection uses the owner's green-bean tray photograph, with cleaner bean surfaces.
+- Five labelled samples were retouched and assigned from their printed labels. Duplicate photographs of the same samples were not presented as different products.
+- The five supplied sample photographs are used only for their matching grades. At the owner’s final request, all other grades share the same green-coffee tray photograph, labelled as a general reference. Generated grade variations are excluded from the browser build. Final lot specification still requires a representative sample.
+- Robusta Cherry has a yellowish straw/ochre/light yellow-brown palette; washed Arabica retains grey-green tones.
+- Grade photographs remain fully visible rather than being cropped out of the mobile dialogue.
+- Desktop now uses short, seekable 960×1280 chapters. Its first clip is about 217 KB, instead of requesting the approximately 19 MB full movie. Main and process panels retain their chapter decoders for reverse scrolling. The phone chapters, choreography, descriptions and timing are unchanged.
 
-## Limits
-Browser viewport checks are documented in source/docs/V28-QA.md; physical mobile hardware is not tested. The processing imagery is illustrative generated/composited media, not documentary footage. This is a local delivery, not a public deployment. The enquiry form prepares WhatsApp briefs and does not provide an email/database backend.
+## Validation and boundaries
+
+See the V32 JSON reports for actual browser checks. The checks include displayed-frame comparisons, reverse scrolling, rotation, blocked/delayed media, foreground resume, reduced motion, and the final collection. The desktop slow-network check uses a cold cache, a 1440px Retina viewport, 200 ms latency, approximately 1.44 Mbps throughput and 4× CPU throttling.
+
+The user accepted v31 RC3 on both physical phones and reported pushing it to GitHub. Production was verified as v31 RC3, script index-u7ko3sv0.js, at the start of this work. The later Mac lag report led to the desktop chapter delivery change above.
+
+This v32 candidate has not been pushed or publicly deployed by this task. Browser automation is not a new physical-device acceptance claim. Enquiry actions continue to prepare WhatsApp briefs; no email or database service has been added.
+
+## Continue editing
+
+- `app/green-photography.js`: grade-to-image mapping and captions.
+- `docs/V32-PHOTO-SOURCES.md`: exact source photos and generation distinction.
+- `assets/photography/retouched-source/`: editable master PNGs, excluded from the browser build.
+- `scripts/export-green-photography.cjs`: responsive WebP exports (requires Sharp; update its local package path on another computer).
+- `app/visuals/journey-film.js`: one film timeline shared by both layouts.
+- `scripts/prepare-chapter-media.py --desktop`: rebuild desktop chapter files from the approved master; no need to regenerate to run the site.
+
+Run `npm install`, then `npm run build`. For a complete editable archive run `python3 scripts/package-website.py 32 --candidate`.

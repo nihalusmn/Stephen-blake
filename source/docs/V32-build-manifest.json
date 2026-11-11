@@ -1,0 +1,40 @@
+{
+  "release": "32-original-logo",
+  "date": "2026-11-11",
+  "source": "local workspace based on production v31 RC3",
+  "published": false,
+  "files": {
+    "index.html": "025503f55ecce0ccf859632408f48e5b5b5ffd3157710425a32c19066cb0955a",
+    "assets/index-B3GvRd1c.js": "b35e36b09d9bb7cc705f8620022fcca62f2c268a4c07e86c35ca4668df2a666d",
+    "assets/style-CdBItdCm.css": "71ffc485beb81498199eb3ffcced1402132ae3f9994d131f1a0e56072c1b4b31"
+  },
+  "photoCount": 6,
+  "gradeCount": 18,
+  "retouchedSamples": 5,
+  "logo": "Original branding restored from the user-supplied tray photographs; no separate logo badge",
+  "physicalAcceptance": "v31 RC3 user reported both phones pass. New desktop media delivery has browser-test evidence; not claimed physically accepted.",
+  "generatedIllustrationsUsed": 0,
+  "unphotographedGradePolicy": "All 13 use one shared user-supplied tray photograph",
+  "automatedTests": {
+    "webkitFrameChecks": 86,
+    "chromiumFrameChecks": 86,
+    "coldDesktopSamples": 100,
+    "blockedDesktopSamples": 100,
+    "rapidScroll": "phone/tablet/desktop passed",
+    "siteAudit": "52 checks passed",
+    "gradeImageChecks": "36 mobile/desktop checks passed after restoring original photographed logos"
+  },
+  "mediaCleanup": {
+    "runtimeFileCount": 255,
+    "runtimeMediaBytes": 28781664,
+    "websiteBytes": 29108444,
+    "removedFileCount": 230,
+    "removedBytes": 435241893,
+    "validation": "36 grade checks, 52 site checks, WebKit displayed-frame checks for mobile, desktop, rotation, reverse scroll, video failure and reduced motion passed"
+  },
+  "cleanedBuildHashes": {
+    "dist/index.html": "7b391be595b2ae5909dbe14a9df4508f51581fdc5e2848d790055d439368599e",
+    "dist/assets/index-CbZ-EHU6.js": "b6e640f3e010cd35be99b6bd69538d9e706261a4686275e7d1c12424eeefc731",
+    "dist/assets/style-CdBItdCm.css": "71ffc485beb81498199eb3ffcced1402132ae3f9994d131f1a0e56072c1b4b31"
+  }
+}

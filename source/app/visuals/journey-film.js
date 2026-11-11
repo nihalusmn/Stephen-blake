@@ -8,7 +8,7 @@ export const FILM_CUES = [
 ];
 const clamp=n=>Math.max(0,Math.min(1,n));
 const ease=(p,a,b)=>{const t=clamp((p-a)/(b-a));return t*t*(3-2*t);};
-const PHONE_CHAPTERS=[
+const CHAPTERS=[
   {until:.560,name:'opening',offset:0}, {until:.645,name:'hulling',offset:20.5},
   {until:.700,name:'green',offset:26.5}, {until:.802,name:'roasting',offset:30.5},
   {until:.872,name:'grinding',offset:38.5}, {until:Infinity,name:'collection',offset:44.5}
@@ -57,13 +57,16 @@ export function createJourneyFilm(stage,own,invalidate){
   document.addEventListener('visibilitychange',resume);window.addEventListener('pageshow',resume);window.addEventListener('online',resume);
   window.addEventListener('pointerup',gesture,{passive:true});window.addEventListener('touchend',gesture,{passive:true});window.addEventListener('keydown',gesture);
   const vapour=createRoastVapour(stage,own);
+  // Both layouts use the approved chapter timeline. Desktop must not seek four
+  // independent 19 MB full-film decoders while phones use short, seekable files.
+  const chapterURL=name=>phone?`assets/video/mobile/${name}-v31.mp4`:`assets/video/desktop/${name}-v32.mp4`;
   function mainSource(p){
-    const chapter=PHONE_CHAPTERS.find(c=>p<c.until);
-    main.source(phone?`assets/video/mobile/${chapter.name}-v31.mp4`:'assets/video/coffee-journey-v28.mp4',phone?chapter.offset:0);
+    const chapter=CHAPTERS.find(c=>p<c.until);
+    main.source(chapterURL(chapter.name),chapter.offset);
   }
   function setSources(){
     mainSource(lastProgress);
-    panels.forEach(p=>p.surface.source(phone?`assets/video/mobile/${p.name.toLowerCase()}-v31.mp4`:'assets/video/coffee-journey-v28.mp4',phone?p.t0:0));
+    panels.forEach(p=>p.surface.source(chapterURL(p.name.toLowerCase()),p.t0));
   }
   function sizeSurface(surface,x,y,h){
     const el=surface.element;el.style.width=`${h*.75}px`;el.style.height=`${h}px`;
@@ -84,10 +87,10 @@ export function createJourneyFilm(stage,own,invalidate){
   return {resize,update(p){
     if(disposed)return;
     lastProgress=p;mainSource(p);
-    if(phone && p>.50 && p<.90) {
-      const index=PHONE_CHAPTERS.findIndex(c=>p<c.until);
-      const next=PHONE_CHAPTERS[Math.min(index+1,PHONE_CHAPTERS.length-1)];
-      main.warm(`assets/video/mobile/${next.name}-v31.mp4`);
+    if(p>.50 && p<.90) {
+      const index=CHAPTERS.findIndex(c=>p<c.until);
+      const next=CHAPTERS[Math.min(index+1,CHAPTERS.length-1)];
+      main.warm(chapterURL(next.name));
     }
     vapour.update(p);
     const horizontal=ease(p,.329,.341)*(1-ease(p,.556,.574));

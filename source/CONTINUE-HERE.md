@@ -1,3 +1,16 @@
+## V32 media cleanup — current
+Unused media has been removed from assets and the delivery. The build copies only app/runtime-media.json. Run python3 scripts/audit-runtime-media.py when changing media references, then npm run build. Preserve all 197 recovery frames and both sets of nine chapter clips. Editing originals and legacy media are intentionally excluded. See docs/V32-MEDIA-CLEANUP.json.
+
+## Final photo correction
+The owner rejected the separate logo badge. The website now uses cleaned bean photographs with the original tray branding restored from the supplied photographs, without a separate logo overlay. Active image names include `v32-original-logo`. The shared-image policy remains unchanged. Do not rerun `apply-exact-photo-logo.cjs`; it is superseded by `restore-photo-branding.cjs`.
+
+### Latest owner direction
+Stop generating grade variants. Use the five supplied sample photos for their exact grades and the common supplied green-bean tray photo for every other grade. Never re-enable generated grade variants without a new request. The official logo artwork has been composited with explicit permission.
+
+## Current work: v32 candidate, 11 November 2026
+
+See `docs/V32-RELEASE-CANDIDATE.md` and `docs/V32-PHOTO-SOURCES.md` first. v31 RC3 passed both physical phones according to the owner, who then pushed it to GitHub. Production was verified as v31 RC3. v32 adds real-photo retouches, grade illustrations and short desktop media chapters in response to the Mac lag report. No v32 push has been made. Earlier statements below about pending v31 acceptance are historical.
+
 # Stephen Blake — editable handoff
 Updated 10 November 2026. **V31 RC3 under test after RC1 and RC2 failed physical phones; production remains v30.**
 

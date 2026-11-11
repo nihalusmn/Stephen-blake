@@ -1,0 +1,257 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "width": 390,
+      "id": "robusta-cherry-aaa",
+      "grade": "AAA",
+      "src": "assets/photography/green-robusta-cherry-aaa-v32-original-logo-960.webp",
+      "caption": "Grade AAA · Retouched sample photograph"
+    },
+    {
+      "width": 390,
+      "id": "robusta-cherry-aaa",
+      "grade": "AA",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 390,
+      "id": "robusta-cherry-aaa",
+      "grade": "A",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 390,
+      "id": "robusta-cherry-aaa",
+      "grade": "B",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 390,
+      "id": "robusta-cherry-aaa",
+      "grade": "C",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 390,
+      "id": "robusta-cherry-aaa",
+      "grade": "PB",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 390,
+      "id": "arabica-cherry-a",
+      "grade": "AAA",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 390,
+      "id": "arabica-cherry-a",
+      "grade": "AA",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 390,
+      "id": "arabica-cherry-a",
+      "grade": "A",
+      "src": "assets/photography/green-arabica-cherry-a-v32-original-logo-960.webp",
+      "caption": "Grade A · Retouched sample photograph"
+    },
+    {
+      "width": 390,
+      "id": "arabica-cherry-a",
+      "grade": "B",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 390,
+      "id": "arabica-cherry-a",
+      "grade": "C",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 390,
+      "id": "arabica-cherry-a",
+      "grade": "PB",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 390,
+      "id": "arabica-parchment-c",
+      "grade": "AAA",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 390,
+      "id": "arabica-parchment-c",
+      "grade": "AA",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 390,
+      "id": "arabica-parchment-c",
+      "grade": "A",
+      "src": "assets/photography/green-arabica-pl-a-v32-original-logo-960.webp",
+      "caption": "Grade PL A · Retouched sample photograph"
+    },
+    {
+      "width": 390,
+      "id": "arabica-parchment-c",
+      "grade": "B",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 390,
+      "id": "arabica-parchment-c",
+      "grade": "C",
+      "src": "assets/photography/green-arabica-parchment-c-v32-original-logo-960.webp",
+      "caption": "Grade PL C · Retouched sample photograph"
+    },
+    {
+      "width": 390,
+      "id": "arabica-parchment-c",
+      "grade": "PB",
+      "src": "assets/photography/green-arabica-pl-pb-v32-original-logo-960.webp",
+      "caption": "Grade PL PB · Retouched sample photograph"
+    },
+    {
+      "width": 1440,
+      "id": "robusta-cherry-aaa",
+      "grade": "AAA",
+      "src": "assets/photography/green-robusta-cherry-aaa-v32-original-logo-960.webp",
+      "caption": "Grade AAA · Retouched sample photograph"
+    },
+    {
+      "width": 1440,
+      "id": "robusta-cherry-aaa",
+      "grade": "AA",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 1440,
+      "id": "robusta-cherry-aaa",
+      "grade": "A",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 1440,
+      "id": "robusta-cherry-aaa",
+      "grade": "B",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 1440,
+      "id": "robusta-cherry-aaa",
+      "grade": "C",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 1440,
+      "id": "robusta-cherry-aaa",
+      "grade": "PB",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 1440,
+      "id": "arabica-cherry-a",
+      "grade": "AAA",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 1440,
+      "id": "arabica-cherry-a",
+      "grade": "AA",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 1440,
+      "id": "arabica-cherry-a",
+      "grade": "A",
+      "src": "assets/photography/green-arabica-cherry-a-v32-original-logo-960.webp",
+      "caption": "Grade A · Retouched sample photograph"
+    },
+    {
+      "width": 1440,
+      "id": "arabica-cherry-a",
+      "grade": "B",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 1440,
+      "id": "arabica-cherry-a",
+      "grade": "C",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 1440,
+      "id": "arabica-cherry-a",
+      "grade": "PB",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 1440,
+      "id": "arabica-parchment-c",
+      "grade": "AAA",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 1440,
+      "id": "arabica-parchment-c",
+      "grade": "AA",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 1440,
+      "id": "arabica-parchment-c",
+      "grade": "A",
+      "src": "assets/photography/green-arabica-pl-a-v32-original-logo-960.webp",
+      "caption": "Grade PL A · Retouched sample photograph"
+    },
+    {
+      "width": 1440,
+      "id": "arabica-parchment-c",
+      "grade": "B",
+      "src": "assets/photography/green-collection-tray-v32-original-logo-960.webp",
+      "caption": "Green coffee reference photograph · Grade-specific sample on request"
+    },
+    {
+      "width": 1440,
+      "id": "arabica-parchment-c",
+      "grade": "C",
+      "src": "assets/photography/green-arabica-parchment-c-v32-original-logo-960.webp",
+      "caption": "Grade PL C · Retouched sample photograph"
+    },
+    {
+      "width": 1440,
+      "id": "arabica-parchment-c",
+      "grade": "PB",
+      "src": "assets/photography/green-arabica-pl-pb-v32-original-logo-960.webp",
+      "caption": "Grade PL PB · Retouched sample photograph"
+    }
+  ]
+}

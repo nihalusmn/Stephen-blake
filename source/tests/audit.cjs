@@ -16,7 +16,7 @@ const check = (name, value) => { assert.ok(value, name); results.push(name); con
  check('Lenis and ScrollTrigger initialize', await page.evaluate(() => !!window.sbLenis && window.ScrollTrigger.getAll().length > 0));
  check('Native scrollIntoView is intact', await page.evaluate(() => Element.prototype.scrollIntoView.toString().includes('[native code]')));
  check('Exactly three photographic categories', await page.evaluate(() => {
-  const imgs = [...document.querySelectorAll('.sb-card img')]; return imgs.length === 3 && imgs.every(i => /category-(filter|roasted|green)-/.test(i.src));
+  const imgs = [...document.querySelectorAll('.sb-card img')]; return imgs.length === 3 && imgs.every(i => /category-(filter|roasted)-|green-collection-tray-v32-/.test(i.src));
  }));
  await page.screenshot({path:'/tmp/sb-desktop.png'});
  // Exercise every chapter, allowing the progress-driven scene to settle.

@@ -1,17 +1,17 @@
 import { gsap, ScrollTrigger } from './animations/core.js';
 import { originProfiles } from './origins.js';
 import { scrollToElement } from './animations/scroll.js';
+import { GREEN_PHOTOGRAPHY, greenPhotograph } from './green-photography.js';
 
-const ASSETS = {"/coffee-cherries.webp": "assets/source/coffee-cherries.webp", "/origin-hills.webp": "assets/source/origin-hills.webp", "/roastery.webp": "assets/source/roastery.webp", "/brand-transparent.png": "assets/source/brand-transparent.png"};
 /* Catalogue photography lives in assets/products/ — one crop, one grade,
    one art direction.  Source photographs are separate cacheable files in assets/source/. */
-const GRADED = new Set(["/beans-4048.webp", "/beans-4049.webp", "/beans-4054.webp", "/beans-4057.webp", "/beans-4062.webp", "/roasted-sample.webp", "/coffee-hero.webp", "/filter-arabica-concept.webp", "/filter-arabica-70.webp", "/filter-arabica-80.webp", "/filter-robusta-concept.webp", "/filter-robusta-60.webp", "/filter-robusta-70.webp", "/filter-robusta-80.webp", "/filter-ashwagandha.webp", "/filter-lions-mane.webp", "/filter-sea-moss.webp", "/filter-shilajit.webp"]);
-const A = p => GRADED.has(p) ? 'assets/products' + p : (ASSETS[p] || p);
+const GRADED = new Set(["/roasted-sample.webp", "/coffee-hero.webp", "/filter-arabica-concept.webp", "/filter-arabica-70.webp", "/filter-arabica-80.webp", "/filter-robusta-concept.webp", "/filter-robusta-60.webp", "/filter-robusta-70.webp", "/filter-robusta-80.webp", "/filter-ashwagandha.webp", "/filter-lions-mane.webp", "/filter-sea-moss.webp", "/filter-shilajit.webp"]);
+const A = p => GRADED.has(p) ? 'assets/products' + p : p;
 /* ---- catalogue: preserved verbatim from the live site's data ---- */
 const CATALOGUE = [
-{id:'arabica-cherry-a',name:'Arabica Unwashed',category:'Green coffee',species:'Arabica',grade:'AAA · AA · A · B · C · PB',image:'assets/photography/green-arabica-unwashed-reference-960.webp',description:'Unwashed Indian Arabica. Explore six green-bean grades and build a lot specification around your roast and cup.',process:'Unwashed, green beans',origin:'India, region on request',notes:'Request a sample for cup evaluation',packaging:'Discuss bag size and liner requirements',moq:'On enquiry'},
-{id:'robusta-cherry-aaa',name:'Robusta Cherry',category:'Green coffee',species:'Robusta',grade:'AAA · AA · A · B · C · PB',image:'assets/photography/green-robusta-clean-960.webp',description:'Green Robusta for roasting, blending and commercial coffee applications.',process:'Confirm lot specification',origin:'India, region on request',notes:'Request a sample for cup evaluation',packaging:'Discuss bag size and liner requirements',moq:'On enquiry'},
-{id:'arabica-parchment-c',name:'Arabica Washed',category:'Green coffee',species:'Arabica',grade:'AAA · AA · A · B · PB · C',image:'assets/photography/green-arabica-washed-clean-960.webp',description:'Washed Indian Arabica, available in PL AAA, AA, A, B, PB and C grades. Select a grade and request a representative sample.',process:'Washed, green beans',origin:'India, region on request',notes:'Request a sample for cup evaluation',packaging:'Discuss bag size and liner requirements',moq:'On enquiry'},
+{id:'arabica-cherry-a',name:'Arabica Unwashed',category:'Green coffee',species:'Arabica',grade:'AAA · AA · A · B · C · PB',image:'assets/photography/green-arabica-cherry-a-v32-original-logo-960.webp',description:'Unwashed Indian Arabica. Explore six green-bean grades and build a lot specification around your roast and cup.',process:'Unwashed, green beans',origin:'India, region on request',notes:'Request a sample for cup evaluation',packaging:'Discuss bag size and liner requirements',moq:'On enquiry'},
+{id:'robusta-cherry-aaa',name:'Robusta Cherry',category:'Green coffee',species:'Robusta',grade:'AAA · AA · A · B · C · PB',image:'assets/photography/green-robusta-cherry-aaa-v32-original-logo-960.webp',description:'Green Robusta for roasting, blending and commercial coffee applications.',process:'Confirm lot specification',origin:'India, region on request',notes:'Request a sample for cup evaluation',packaging:'Discuss bag size and liner requirements',moq:'On enquiry'},
+{id:'arabica-parchment-c',name:'Arabica Washed',category:'Green coffee',species:'Arabica',grade:'AAA · AA · A · B · PB · C',image:'assets/photography/green-arabica-pl-a-v32-original-logo-960.webp',description:'Washed Indian Arabica, available in PL AAA, AA, A, B, PB and C grades. Select a grade and request a representative sample.',process:'Washed, green beans',origin:'India, region on request',notes:'Request a sample for cup evaluation',packaging:'Discuss bag size and liner requirements',moq:'On enquiry'},
 {id:'roasted-coffee',name:'Roasted Coffee Beans',category:'Roasted coffee',species:'Arabica / Robusta',grade:'AAA · AA · A · B · C · PB',image:'/coffee-hero.webp',description:'Roast profiles developed for cafés, hospitality and retail coffee brands.',process:'Medium-dark roast',origin:'India, to specification',notes:'Profile developed to your brief',packaging:'Retail or bulk requirements',moq:'On enquiry'},
 {id:'ground-coffee',name:'Ground Coffee',category:'Ground coffee',species:'Arabica / Robusta / Blend',grade:'To specification',image:'/filter-arabica-concept.webp',description:'Coffee ground for your brewing method, from espresso to filter.',process:'Grind size to brief',origin:'India, to specification',notes:'Discuss strength, body and brew method',packaging:'Retail or bulk requirements',moq:'On enquiry'},
 {id:'filter-robusta-pure',name:'Robusta Pure Filter Coffee',category:'Filter coffee',species:'Robusta',grade:'100% Robusta coffee',image:'/filter-robusta-concept.webp',description:'Robusta Cherry coffee, ground for the traditional filter coffee ritual.',process:'Ground for filter brewing',origin:'Coffee origin: India',notes:'Evaluate a sample using your preferred brew method',packaging:'Discuss retail and bulk formats',moq:'On enquiry'},
@@ -34,10 +34,14 @@ const CATALOGUE = [
    specific `category`; this maps that onto the three the homepage tells a
    story about.  Nothing is duplicated and nothing is invented.
    ---------------------------------------------------------------------- */
+for (const product of CATALOGUE) {
+  const photos = GREEN_PHOTOGRAPHY[product.id];
+  if (photos) product.image = photos.grades[photos.defaultGrade];
+}
 const GROUPS = [
   { key:'green', name:'Green coffee beans', kicker:'Selected at origin',
     lead:'Unwashed and washed Indian green beans, graded and shipped to roasters, traders and private-label producers. Sample first, specification agreed per lot.',
-    art:'assets/photography/category-green-1120.webp',
+    art:'assets/photography/green-collection-tray-v32-original-logo-1120.webp',
     match:['Green coffee'] },
   { key:'roasted', name:'Roasted coffee', kicker:'Roasted for character',
     lead:'Whole bean and ground, roasted to a profile agreed against your own sample. Roast date, profile and shelf life confirmed on every despatch.',
@@ -156,7 +160,7 @@ const metaLine = p => {
   return [p.species, say].filter(Boolean).join(' \u00b7 ');
 };
 const altFor = p => p.category === 'Green coffee'
-  ? p.name + ', illustrative green coffee photograph'
+  ? `${p.name}, grade ${GREEN_PHOTOGRAPHY[p.id].defaultGrade}, retouched sample photograph`
   : p.name + ', illustrative product photograph';
 
 /* ==========================================================
@@ -331,7 +335,7 @@ function openProduct(id, wantSample){
         roasted  = p.id === 'roasted-coffee',
         washed   = p.id === 'arabica-parchment-c';
   const grades = (isFilter || p.grade === 'To specification') ? [] : p.grade.split(' · ');
-  ds = { p, isFilter, roasted, washed, grades, grade: grades[0] || '',
+  ds = { p, isFilter, roasted, washed, grades, grade: GREEN_PHOTOGRAPHY[p.id]?.defaultGrade || grades[0] || '',
          origin:'India, any region', species: roasted ? 'Arabica' : p.species, wantSample:!!wantSample };
   renderDossier();
   if(!dlg.open) dlg.showModal();
@@ -340,8 +344,9 @@ function openProduct(id, wantSample){
 }
 function renderDossier(){
   const p = ds.p;
-  const photo = p.image;
-  const label = p.category === 'Green coffee' ? 'Illustrative image · Request a representative lot sample' : 'Representative product image';
+  const sample = greenPhotograph(p.id, ds.grade);
+  const photo = sample?.src || p.image;
+  const label = sample?.caption || 'Representative product image';
   const format = ds.isFilter ? p.grade : ds.roasted ? 'Medium-dark roast'
     : ds.washed ? 'Washed, green beans'
     : p.category === 'Green coffee' ? 'Unwashed, green beans' : p.process;
@@ -352,7 +357,7 @@ function renderDossier(){
   dlg.innerHTML = `
   <button class="dclose" data-act="close" aria-label="Close"><svg class="icon" viewBox="0 0 20 20" width="18" height="18"><use href="#i-close"/></svg></button>
   <div class="dossier">
-    <div class="dossier__visual">
+    <div class="dossier__visual${sample ? ' dossier__visual--sample' : ''}">
       <img src="${A(photo)}" ${p.category === 'Green coffee' ? `srcset="${photo.replace('-960', '-480')} 480w, ${photo} 960w" sizes="(max-width: 860px) 94vw, 45vw" width="1122" height="1402"` : ''} alt="${esc(p.name + ', ' + label)}" decoding="async">
       <p class="dossier__cap">${esc(label)}</p>
     </div>
@@ -502,7 +507,7 @@ const PICKS = {
     ['Tamil Nadu','Tamil Nadu','Nilgiris, Shevaroys, Anamalais'],
     ['Andhra Pradesh','Andhra Pradesh','Araku Valley, Eastern Ghats'],
     ['Odisha','Odisha','Koraput, Eastern Ghats']],
-  form: [['Green coffee','Green coffee','For your own roastery','/beans-4054.webp'],
+  form: [['Green coffee','Green coffee','For your own roastery','assets/photography/green-collection-tray-v32-original-logo-480.webp'],
     ['Roasted coffee','Roasted beans','Profile to your brief','/coffee-hero.webp'],
     ['Ground coffee','Ground coffee','Grind to your brew method','/filter-arabica-concept.webp'],
     ['Filter coffee','Filter coffee','Pure, chicory and herbal blends','/filter-robusta-80.webp'],

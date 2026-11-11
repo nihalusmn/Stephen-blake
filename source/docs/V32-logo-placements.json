@@ -1,0 +1,182 @@
+{
+  "source": "STEPHEN BLAKE LOGO.pdf.png",
+  "sha256": "8654bc77d0f3dd427d1795d798b1503b5c7256f1f7449c312941ddb5bbb0dacb",
+  "background": {
+    "r": 82,
+    "g": 72,
+    "b": 56
+  },
+  "placements": [
+    {
+      "file": "green-arabica-cherry-a-v32.png",
+      "left": 389,
+      "top": 536,
+      "width": 335,
+      "height": 433,
+      "logoPixels": "Exact source artwork; proportional resize only",
+      "base": "assets/photography/retouched-source/before-logo/green-arabica-cherry-a-v32.png"
+    },
+    {
+      "file": "green-arabica-cherry-aa-illustration-v32.png",
+      "left": 384,
+      "top": 536,
+      "width": 344,
+      "height": 433,
+      "logoPixels": "Exact source artwork; proportional resize only",
+      "base": "assets/photography/retouched-source/before-logo/green-arabica-cherry-aa-illustration-v32.png"
+    },
+    {
+      "file": "green-arabica-cherry-aaa-illustration-v32.png",
+      "left": 389,
+      "top": 532,
+      "width": 342,
+      "height": 436,
+      "logoPixels": "Exact source artwork; proportional resize only",
+      "base": "assets/photography/retouched-source/before-logo/green-arabica-cherry-aaa-illustration-v32.png"
+    },
+    {
+      "file": "green-arabica-cherry-b-illustration-v32.png",
+      "left": 389,
+      "top": 536,
+      "width": 342,
+      "height": 436,
+      "logoPixels": "Exact source artwork; proportional resize only",
+      "base": "assets/photography/retouched-source/before-logo/green-arabica-cherry-b-illustration-v32.png"
+    },
+    {
+      "file": "green-arabica-cherry-c-illustration-v32.png",
+      "left": 396,
+      "top": 565,
+      "width": 315,
+      "height": 362,
+      "logoPixels": "Exact source artwork; proportional resize only",
+      "base": "assets/photography/retouched-source/before-logo/green-arabica-cherry-c-illustration-v32.png"
+    },
+    {
+      "file": "green-arabica-cherry-pb-illustration-v32.png",
+      "left": 396,
+      "top": 565,
+      "width": 315,
+      "height": 362,
+      "logoPixels": "Exact source artwork; proportional resize only",
+      "base": "assets/photography/retouched-source/before-logo/green-arabica-cherry-pb-illustration-v32.png"
+    },
+    {
+      "file": "green-arabica-parchment-c-v32.png",
+      "left": 380,
+      "top": 541,
+      "width": 375,
+      "height": 451,
+      "logoPixels": "Exact source artwork; proportional resize only",
+      "base": "assets/photography/retouched-source/before-logo/green-arabica-parchment-c-v32.png"
+    },
+    {
+      "file": "green-arabica-pl-a-v32.png",
+      "left": 405,
+      "top": 516,
+      "width": 337,
+      "height": 391,
+      "logoPixels": "Exact source artwork; proportional resize only",
+      "base": "assets/photography/retouched-source/before-logo/green-arabica-pl-a-v32.png"
+    },
+    {
+      "file": "green-arabica-pl-aa-illustration-v32.png",
+      "left": 396,
+      "top": 565,
+      "width": 315,
+      "height": 362,
+      "logoPixels": "Exact source artwork; proportional resize only",
+      "base": "assets/photography/retouched-source/before-logo/green-arabica-pl-aa-illustration-v32.png"
+    },
+    {
+      "file": "green-arabica-pl-aaa-illustration-v32.png",
+      "left": 396,
+      "top": 565,
+      "width": 315,
+      "height": 362,
+      "logoPixels": "Exact source artwork; proportional resize only",
+      "base": "assets/photography/retouched-source/before-logo/green-arabica-pl-aaa-illustration-v32.png"
+    },
+    {
+      "file": "green-arabica-pl-b-illustration-v32.png",
+      "left": 396,
+      "top": 565,
+      "width": 315,
+      "height": 362,
+      "logoPixels": "Exact source artwork; proportional resize only",
+      "base": "assets/photography/retouched-source/before-logo/green-arabica-pl-b-illustration-v32.png"
+    },
+    {
+      "file": "green-arabica-pl-pb-v32.png",
+      "left": 396,
+      "top": 565,
+      "width": 315,
+      "height": 362,
+      "logoPixels": "Exact source artwork; proportional resize only",
+      "base": "assets/photography/retouched-source/before-logo/green-arabica-pl-pb-v32.png"
+    },
+    {
+      "file": "green-collection-tray-v32.png",
+      "left": 326,
+      "top": 456,
+      "width": 424,
+      "height": 478,
+      "logoPixels": "Exact source artwork; proportional resize only",
+      "base": "assets/photography/retouched-source/before-logo/green-collection-tray-v32.png"
+    },
+    {
+      "file": "green-robusta-cherry-a-illustration-v32.png",
+      "left": 348,
+      "top": 507,
+      "width": 380,
+      "height": 449,
+      "logoPixels": "Exact source artwork; proportional resize only",
+      "base": "assets/photography/retouched-source/before-logo/green-robusta-cherry-a-illustration-v32.png"
+    },
+    {
+      "file": "green-robusta-cherry-aa-illustration-v32.png",
+      "left": 348,
+      "top": 507,
+      "width": 380,
+      "height": 449,
+      "logoPixels": "Exact source artwork; proportional resize only",
+      "base": "assets/photography/retouched-source/before-logo/green-robusta-cherry-aa-illustration-v32.png"
+    },
+    {
+      "file": "green-robusta-cherry-aaa-v32.png",
+      "left": 396,
+      "top": 565,
+      "width": 315,
+      "height": 362,
+      "logoPixels": "Exact source artwork; proportional resize only",
+      "base": "assets/photography/retouched-source/before-logo/green-robusta-cherry-aaa-v32.png"
+    },
+    {
+      "file": "green-robusta-cherry-b-illustration-v32.png",
+      "left": 348,
+      "top": 507,
+      "width": 380,
+      "height": 449,
+      "logoPixels": "Exact source artwork; proportional resize only",
+      "base": "assets/photography/retouched-source/before-logo/green-robusta-cherry-b-illustration-v32.png"
+    },
+    {
+      "file": "green-robusta-cherry-c-illustration-v32.png",
+      "left": 348,
+      "top": 507,
+      "width": 380,
+      "height": 449,
+      "logoPixels": "Exact source artwork; proportional resize only",
+      "base": "assets/photography/retouched-source/before-logo/green-robusta-cherry-c-illustration-v32.png"
+    },
+    {
+      "file": "green-robusta-cherry-pb-illustration-v32.png",
+      "left": 348,
+      "top": 507,
+      "width": 380,
+      "height": 449,
+      "logoPixels": "Exact source artwork; proportional resize only",
+      "base": "assets/photography/retouched-source/before-logo/green-robusta-cherry-pb-illustration-v32.png"
+    }
+  ]
+}

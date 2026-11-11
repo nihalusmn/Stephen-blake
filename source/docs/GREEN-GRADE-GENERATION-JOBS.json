@@ -1,0 +1,307 @@
+{
+  "status": "STOPPED by owner. Generated grade variants are not used on the website. One shared user-supplied tray photograph is used for all grades without their own supplied photo.",
+  "provider": "Higgsfield",
+  "estimatedTotalCredits": 35.75,
+  "requests": [
+    {
+      "index": 1,
+      "id": "robusta-cherry-aaa",
+      "grade": "AA",
+      "slug": "green-robusta-cherry-aa-illustration-v32",
+      "params": {
+        "model": "gpt_image_2_6",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:4",
+        "count": 1,
+        "prompt": "Create one premium photorealistic GREEN COFFEE catalogue illustration using the supplied actual sample photograph as the product and brand reference. Target: ROBUSTA CHERRY AA. This is an illustrative rendering, not certification of a measured screen grade. Keep the same wooden sample tray, overhead camera, warm natural wood, central Stephen Blake crest, consistent portrait composition and soft daylight. Beans form a generous loose ring around the crest with a small opening exposing the tray. Maintain realistic scale relative to the tray; keep the camera distance consistent with the reference, do not crop closer just to make smaller grades look big. Bean morphology: Robusta: broad rounded oval flat beans with relatively straight central grooves. bold large flat beans, somewhat smaller than AAA. Bean colour: Robusta Cherry: predominantly yellowish straw, muted ochre and pale yellow-brown, minimal olive undertone.. Smooth CLEAN bean surfaces with fine authentic matte texture and clear central grooves, no dirt-like spots, chalky flakes or crusty patches. Preserve subtle individual variation; not polished plastic, wax, green peas, roasted brown beans, or cartoon render. Reference label belongs to the source grade: replace it with a neat white sample card reading EXACTLY \"ROBUSTA CHERRY AA\" in black, no other new text. Preserve the Stephen Blake crest from the reference, no invented badges/certifications or dates. No extra props. Professional product photograph, realistic tactile beans, balanced exposure, restrained colour. Brand crest: retain SB and STEPHEN BLAKE only, omit tiny years and motto text to prevent invented typography.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "d0528196-530e-409b-98cc-6c7dc06194aa"
+          }
+        ]
+      },
+      "finalMaster": "assets/photography/retouched-source/green-robusta-cherry-aa-illustration-v32.png",
+      "finalWebImage": "assets/photography/green-robusta-cherry-aa-illustration-v32-960.webp"
+    },
+    {
+      "index": 2,
+      "id": "robusta-cherry-aaa",
+      "grade": "A",
+      "slug": "green-robusta-cherry-a-illustration-v32",
+      "params": {
+        "model": "gpt_image_2_6",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:4",
+        "count": 1,
+        "prompt": "Create one premium photorealistic GREEN COFFEE catalogue illustration using the supplied actual sample photograph as the product and brand reference. Target: ROBUSTA CHERRY A. This is an illustrative rendering, not certification of a measured screen grade. Keep the same wooden sample tray, overhead camera, warm natural wood, central Stephen Blake crest, consistent portrait composition and soft daylight. Beans form a generous loose ring around the crest with a small opening exposing the tray. Maintain realistic scale relative to the tray; keep the camera distance consistent with the reference, do not crop closer just to make smaller grades look big. Bean morphology: Robusta: broad rounded oval flat beans with relatively straight central grooves. medium-large flat beans. Bean colour: Robusta Cherry: predominantly yellowish straw, muted ochre and pale yellow-brown, minimal olive undertone.. Smooth CLEAN bean surfaces with fine authentic matte texture and clear central grooves, no dirt-like spots, chalky flakes or crusty patches. Preserve subtle individual variation; not polished plastic, wax, green peas, roasted brown beans, or cartoon render. Reference label belongs to the source grade: replace it with a neat white sample card reading EXACTLY \"ROBUSTA CHERRY A\" in black, no other new text. Preserve the Stephen Blake crest from the reference, no invented badges/certifications or dates. No extra props. Professional product photograph, realistic tactile beans, balanced exposure, restrained colour. Brand crest: retain SB and STEPHEN BLAKE only, omit tiny years and motto text to prevent invented typography.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "d0528196-530e-409b-98cc-6c7dc06194aa"
+          }
+        ]
+      },
+      "finalMaster": "assets/photography/retouched-source/green-robusta-cherry-a-illustration-v32.png",
+      "finalWebImage": "assets/photography/green-robusta-cherry-a-illustration-v32-960.webp"
+    },
+    {
+      "index": 3,
+      "id": "robusta-cherry-aaa",
+      "grade": "B",
+      "slug": "green-robusta-cherry-b-illustration-v32",
+      "params": {
+        "model": "gpt_image_2_6",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:4",
+        "count": 1,
+        "prompt": "Create one premium photorealistic GREEN COFFEE catalogue illustration using the supplied actual sample photograph as the product and brand reference. Target: ROBUSTA CHERRY B. This is an illustrative rendering, not certification of a measured screen grade. Keep the same wooden sample tray, overhead camera, warm natural wood, central Stephen Blake crest, consistent portrait composition and soft daylight. Beans form a generous loose ring around the crest with a small opening exposing the tray. Maintain realistic scale relative to the tray; keep the camera distance consistent with the reference, do not crop closer just to make smaller grades look big. Bean morphology: Robusta: broad rounded oval flat beans with relatively straight central grooves. smaller flat beans with restrained natural size variation. Bean colour: Robusta Cherry: predominantly yellowish straw, muted ochre and pale yellow-brown, minimal olive undertone.. Smooth CLEAN bean surfaces with fine authentic matte texture and clear central grooves, no dirt-like spots, chalky flakes or crusty patches. Preserve subtle individual variation; not polished plastic, wax, green peas, roasted brown beans, or cartoon render. Reference label belongs to the source grade: replace it with a neat white sample card reading EXACTLY \"ROBUSTA CHERRY B\" in black, no other new text. Preserve the Stephen Blake crest from the reference, no invented badges/certifications or dates. No extra props. Professional product photograph, realistic tactile beans, balanced exposure, restrained colour. Brand crest: retain SB and STEPHEN BLAKE only, omit tiny years and motto text to prevent invented typography.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "d0528196-530e-409b-98cc-6c7dc06194aa"
+          }
+        ]
+      },
+      "finalMaster": "assets/photography/retouched-source/green-robusta-cherry-b-illustration-v32.png",
+      "finalWebImage": "assets/photography/green-robusta-cherry-b-illustration-v32-960.webp"
+    },
+    {
+      "index": 4,
+      "id": "robusta-cherry-aaa",
+      "grade": "C",
+      "slug": "green-robusta-cherry-c-illustration-v32",
+      "params": {
+        "model": "gpt_image_2_6",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:4",
+        "count": 1,
+        "prompt": "Create one premium photorealistic GREEN COFFEE catalogue illustration using the supplied actual sample photograph as the product and brand reference. Target: ROBUSTA CHERRY C. This is an illustrative rendering, not certification of a measured screen grade. Keep the same wooden sample tray, overhead camera, warm natural wood, central Stephen Blake crest, consistent portrait composition and soft daylight. Beans form a generous loose ring around the crest with a small opening exposing the tray. Maintain realistic scale relative to the tray; keep the camera distance consistent with the reference, do not crop closer just to make smaller grades look big. Bean morphology: Robusta: broad rounded oval flat beans with relatively straight central grooves. small flat beans with naturally mixed outlines and sizes, clean but not artificially uniform. Bean colour: Robusta Cherry: predominantly yellowish straw, muted ochre and pale yellow-brown, minimal olive undertone.. Smooth CLEAN bean surfaces with fine authentic matte texture and clear central grooves, no dirt-like spots, chalky flakes or crusty patches. Preserve subtle individual variation; not polished plastic, wax, green peas, roasted brown beans, or cartoon render. Reference label belongs to the source grade: replace it with a neat white sample card reading EXACTLY \"ROBUSTA CHERRY C\" in black, no other new text. Preserve the Stephen Blake crest from the reference, no invented badges/certifications or dates. No extra props. Professional product photograph, realistic tactile beans, balanced exposure, restrained colour. Brand crest: retain SB and STEPHEN BLAKE only, omit tiny years and motto text to prevent invented typography.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "d0528196-530e-409b-98cc-6c7dc06194aa"
+          }
+        ]
+      },
+      "finalMaster": "assets/photography/retouched-source/green-robusta-cherry-c-illustration-v32.png",
+      "finalWebImage": "assets/photography/green-robusta-cherry-c-illustration-v32-960.webp"
+    },
+    {
+      "index": 5,
+      "id": "robusta-cherry-aaa",
+      "grade": "PB",
+      "slug": "green-robusta-cherry-pb-illustration-v32",
+      "params": {
+        "model": "gpt_image_2_6",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:4",
+        "count": 1,
+        "prompt": "Create one premium photorealistic GREEN COFFEE catalogue illustration using the supplied actual sample photograph as the product and brand reference. Target: ROBUSTA CHERRY PB. This is an illustrative rendering, not certification of a measured screen grade. Keep the same wooden sample tray, overhead camera, warm natural wood, central Stephen Blake crest, consistent portrait composition and soft daylight. Beans form a generous loose ring around the crest with a small opening exposing the tray. Maintain realistic scale relative to the tray; keep the camera distance consistent with the reference, do not crop closer just to make smaller grades look big. Bean morphology: distinct rounded compact peaberries, oval or barrel shaped rather than flat-sided beans; each still has a real central coffee crease. Not green peas or perfectly spherical beads. Bean colour: Robusta Cherry: predominantly yellowish straw, muted ochre and pale yellow-brown, minimal olive undertone.. Smooth CLEAN bean surfaces with fine authentic matte texture and clear central grooves, no dirt-like spots, chalky flakes or crusty patches. Preserve subtle individual variation; not polished plastic, wax, green peas, roasted brown beans, or cartoon render. Reference label belongs to the source grade: replace it with a neat white sample card reading EXACTLY \"ROBUSTA CHERRY PB\" in black, no other new text. Preserve the Stephen Blake crest from the reference, no invented badges/certifications or dates. No extra props. Professional product photograph, realistic tactile beans, balanced exposure, restrained colour. Brand crest: retain SB and STEPHEN BLAKE only, omit tiny years and motto text to prevent invented typography.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "d0528196-530e-409b-98cc-6c7dc06194aa"
+          },
+          {
+            "role": "image",
+            "value": "8a6be07b-bfb9-4cc6-8634-625a9cd3beb3"
+          }
+        ]
+      },
+      "finalMaster": "assets/photography/retouched-source/green-robusta-cherry-pb-illustration-v32.png",
+      "finalWebImage": "assets/photography/green-robusta-cherry-pb-illustration-v32-960.webp"
+    },
+    {
+      "index": 6,
+      "id": "arabica-cherry-a",
+      "grade": "AAA",
+      "slug": "green-arabica-cherry-aaa-illustration-v32",
+      "params": {
+        "model": "gpt_image_2_6",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:4",
+        "count": 1,
+        "prompt": "Create one premium photorealistic GREEN COFFEE catalogue illustration using the supplied actual sample photograph as the product and brand reference. Target: ARABICA CHERRY AAA. This is an illustrative rendering, not certification of a measured screen grade. Keep the same wooden sample tray, overhead camera, warm natural wood, central Stephen Blake crest, consistent portrait composition and soft daylight. Beans form a generous loose ring around the crest with a small opening exposing the tray. Maintain realistic scale relative to the tray; keep the camera distance consistent with the reference, do not crop closer just to make smaller grades look big. Bean morphology: Arabica: oval and slightly elongated flat beans with subtly curved central grooves. very bold and comparatively large flat beans. Bean colour: natural olive yellow-green, with gentle tan undertones. Smooth CLEAN bean surfaces with fine authentic matte texture and clear central grooves, no dirt-like spots, chalky flakes or crusty patches. Preserve subtle individual variation; not polished plastic, wax, green peas, roasted brown beans, or cartoon render. Reference label belongs to the source grade: replace it with a neat white sample card reading EXACTLY \"ARABICA CHERRY AAA\" in black, no other new text. Preserve the Stephen Blake crest from the reference, no invented badges/certifications or dates. No extra props. Professional product photograph, realistic tactile beans, balanced exposure, restrained colour. Brand crest: retain SB and STEPHEN BLAKE only, omit tiny years and motto text to prevent invented typography.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "b8384b35-625f-48ca-9bb8-3b4ff5db1d4e"
+          }
+        ]
+      },
+      "finalMaster": "assets/photography/retouched-source/green-arabica-cherry-aaa-illustration-v32.png",
+      "finalWebImage": "assets/photography/green-arabica-cherry-aaa-illustration-v32-960.webp"
+    },
+    {
+      "index": 7,
+      "id": "arabica-cherry-a",
+      "grade": "AA",
+      "slug": "green-arabica-cherry-aa-illustration-v32",
+      "params": {
+        "model": "gpt_image_2_6",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:4",
+        "count": 1,
+        "prompt": "Create one premium photorealistic GREEN COFFEE catalogue illustration using the supplied actual sample photograph as the product and brand reference. Target: ARABICA CHERRY AA. This is an illustrative rendering, not certification of a measured screen grade. Keep the same wooden sample tray, overhead camera, warm natural wood, central Stephen Blake crest, consistent portrait composition and soft daylight. Beans form a generous loose ring around the crest with a small opening exposing the tray. Maintain realistic scale relative to the tray; keep the camera distance consistent with the reference, do not crop closer just to make smaller grades look big. Bean morphology: Arabica: oval and slightly elongated flat beans with subtly curved central grooves. bold large flat beans, somewhat smaller than AAA. Bean colour: natural olive yellow-green, with gentle tan undertones. Smooth CLEAN bean surfaces with fine authentic matte texture and clear central grooves, no dirt-like spots, chalky flakes or crusty patches. Preserve subtle individual variation; not polished plastic, wax, green peas, roasted brown beans, or cartoon render. Reference label belongs to the source grade: replace it with a neat white sample card reading EXACTLY \"ARABICA CHERRY AA\" in black, no other new text. Preserve the Stephen Blake crest from the reference, no invented badges/certifications or dates. No extra props. Professional product photograph, realistic tactile beans, balanced exposure, restrained colour. Brand crest: retain SB and STEPHEN BLAKE only, omit tiny years and motto text to prevent invented typography.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "b8384b35-625f-48ca-9bb8-3b4ff5db1d4e"
+          }
+        ]
+      },
+      "finalMaster": "assets/photography/retouched-source/green-arabica-cherry-aa-illustration-v32.png",
+      "finalWebImage": "assets/photography/green-arabica-cherry-aa-illustration-v32-960.webp"
+    },
+    {
+      "index": 8,
+      "id": "arabica-cherry-a",
+      "grade": "B",
+      "slug": "green-arabica-cherry-b-illustration-v32",
+      "params": {
+        "model": "gpt_image_2_6",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:4",
+        "count": 1,
+        "prompt": "Create one premium photorealistic GREEN COFFEE catalogue illustration using the supplied actual sample photograph as the product and brand reference. Target: ARABICA CHERRY B. This is an illustrative rendering, not certification of a measured screen grade. Keep the same wooden sample tray, overhead camera, warm natural wood, central Stephen Blake crest, consistent portrait composition and soft daylight. Beans form a generous loose ring around the crest with a small opening exposing the tray. Maintain realistic scale relative to the tray; keep the camera distance consistent with the reference, do not crop closer just to make smaller grades look big. Bean morphology: Arabica: oval and slightly elongated flat beans with subtly curved central grooves. smaller flat beans with restrained natural size variation. Bean colour: natural olive yellow-green, with gentle tan undertones. Smooth CLEAN bean surfaces with fine authentic matte texture and clear central grooves, no dirt-like spots, chalky flakes or crusty patches. Preserve subtle individual variation; not polished plastic, wax, green peas, roasted brown beans, or cartoon render. Reference label belongs to the source grade: replace it with a neat white sample card reading EXACTLY \"ARABICA CHERRY B\" in black, no other new text. Preserve the Stephen Blake crest from the reference, no invented badges/certifications or dates. No extra props. Professional product photograph, realistic tactile beans, balanced exposure, restrained colour. Brand crest: retain SB and STEPHEN BLAKE only, omit tiny years and motto text to prevent invented typography.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "b8384b35-625f-48ca-9bb8-3b4ff5db1d4e"
+          }
+        ]
+      },
+      "finalMaster": "assets/photography/retouched-source/green-arabica-cherry-b-illustration-v32.png",
+      "finalWebImage": "assets/photography/green-arabica-cherry-b-illustration-v32-960.webp"
+    },
+    {
+      "index": 9,
+      "id": "arabica-cherry-a",
+      "grade": "C",
+      "slug": "green-arabica-cherry-c-illustration-v32",
+      "params": {
+        "model": "gpt_image_2_6",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:4",
+        "count": 1,
+        "prompt": "Create one premium photorealistic GREEN COFFEE catalogue illustration using the supplied actual sample photograph as the product and brand reference. Target: ARABICA CHERRY C. This is an illustrative rendering, not certification of a measured screen grade. Keep the same wooden sample tray, overhead camera, warm natural wood, central Stephen Blake crest, consistent portrait composition and soft daylight. Beans form a generous loose ring around the crest with a small opening exposing the tray. Maintain realistic scale relative to the tray; keep the camera distance consistent with the reference, do not crop closer just to make smaller grades look big. Bean morphology: Arabica: oval and slightly elongated flat beans with subtly curved central grooves. small flat beans with naturally mixed outlines and sizes, clean but not artificially uniform. Bean colour: natural olive yellow-green, with gentle tan undertones. Smooth CLEAN bean surfaces with fine authentic matte texture and clear central grooves, no dirt-like spots, chalky flakes or crusty patches. Preserve subtle individual variation; not polished plastic, wax, green peas, roasted brown beans, or cartoon render. Reference label belongs to the source grade: replace it with a neat white sample card reading EXACTLY \"ARABICA CHERRY C\" in black, no other new text. Preserve the Stephen Blake crest from the reference, no invented badges/certifications or dates. No extra props. Professional product photograph, realistic tactile beans, balanced exposure, restrained colour. Brand crest: retain SB and STEPHEN BLAKE only, omit tiny years and motto text to prevent invented typography.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "b8384b35-625f-48ca-9bb8-3b4ff5db1d4e"
+          }
+        ]
+      },
+      "finalMaster": "assets/photography/retouched-source/green-arabica-cherry-c-illustration-v32.png",
+      "finalWebImage": "assets/photography/green-arabica-cherry-c-illustration-v32-960.webp"
+    },
+    {
+      "index": 10,
+      "id": "arabica-cherry-a",
+      "grade": "PB",
+      "slug": "green-arabica-cherry-pb-illustration-v32",
+      "params": {
+        "model": "gpt_image_2_6",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:4",
+        "count": 1,
+        "prompt": "Create one premium photorealistic GREEN COFFEE catalogue illustration using the supplied actual sample photograph as the product and brand reference. Target: ARABICA CHERRY PB. This is an illustrative rendering, not certification of a measured screen grade. Keep the same wooden sample tray, overhead camera, warm natural wood, central Stephen Blake crest, consistent portrait composition and soft daylight. Beans form a generous loose ring around the crest with a small opening exposing the tray. Maintain realistic scale relative to the tray; keep the camera distance consistent with the reference, do not crop closer just to make smaller grades look big. Bean morphology: distinct rounded compact peaberries, oval or barrel shaped rather than flat-sided beans; each still has a real central coffee crease. Not green peas or perfectly spherical beads. Bean colour: natural olive yellow-green, with gentle tan undertones. Smooth CLEAN bean surfaces with fine authentic matte texture and clear central grooves, no dirt-like spots, chalky flakes or crusty patches. Preserve subtle individual variation; not polished plastic, wax, green peas, roasted brown beans, or cartoon render. Reference label belongs to the source grade: replace it with a neat white sample card reading EXACTLY \"ARABICA CHERRY PB\" in black, no other new text. Preserve the Stephen Blake crest from the reference, no invented badges/certifications or dates. No extra props. Professional product photograph, realistic tactile beans, balanced exposure, restrained colour. Brand crest: retain SB and STEPHEN BLAKE only, omit tiny years and motto text to prevent invented typography.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "b8384b35-625f-48ca-9bb8-3b4ff5db1d4e"
+          },
+          {
+            "role": "image",
+            "value": "8a6be07b-bfb9-4cc6-8634-625a9cd3beb3"
+          }
+        ]
+      },
+      "finalMaster": "assets/photography/retouched-source/green-arabica-cherry-pb-illustration-v32.png",
+      "finalWebImage": "assets/photography/green-arabica-cherry-pb-illustration-v32-960.webp"
+    },
+    {
+      "index": 11,
+      "id": "arabica-parchment-c",
+      "grade": "AAA",
+      "slug": "green-arabica-pl-aaa-illustration-v32",
+      "params": {
+        "model": "gpt_image_2_6",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:4",
+        "count": 1,
+        "prompt": "Create one premium photorealistic GREEN COFFEE catalogue illustration using the supplied actual sample photograph as the product and brand reference. Target: ARABICA PL AAA. This is an illustrative rendering, not certification of a measured screen grade. Keep the same wooden sample tray, overhead camera, warm natural wood, central Stephen Blake crest, consistent portrait composition and soft daylight. Beans form a generous loose ring around the crest with a small opening exposing the tray. Maintain realistic scale relative to the tray; keep the camera distance consistent with the reference, do not crop closer just to make smaller grades look big. Bean morphology: washed Arabica: oval and slightly elongated flat green beans with subtly curved centre grooves. very bold and comparatively large flat beans. Bean colour: muted grey-green and sage, gently silvery, not yellow. Smooth CLEAN bean surfaces with fine authentic matte texture and clear central grooves, no dirt-like spots, chalky flakes or crusty patches. Preserve subtle individual variation; not polished plastic, wax, green peas, roasted brown beans, or cartoon render. Reference label belongs to the source grade: replace it with a neat white sample card reading EXACTLY \"ARABICA PL AAA\" in black, no other new text. Preserve the Stephen Blake crest from the reference, no invented badges/certifications or dates. No extra props. Professional product photograph, realistic tactile beans, balanced exposure, restrained colour. Brand crest: retain SB and STEPHEN BLAKE only, omit tiny years and motto text to prevent invented typography.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "85b4452d-09e3-4d44-8324-1fb7980ce67d"
+          }
+        ]
+      },
+      "finalMaster": "assets/photography/retouched-source/green-arabica-pl-aaa-illustration-v32.png",
+      "finalWebImage": "assets/photography/green-arabica-pl-aaa-illustration-v32-960.webp"
+    },
+    {
+      "index": 12,
+      "id": "arabica-parchment-c",
+      "grade": "AA",
+      "slug": "green-arabica-pl-aa-illustration-v32",
+      "params": {
+        "model": "gpt_image_2_6",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:4",
+        "count": 1,
+        "prompt": "Create one premium photorealistic GREEN COFFEE catalogue illustration using the supplied actual sample photograph as the product and brand reference. Target: ARABICA PL AA. This is an illustrative rendering, not certification of a measured screen grade. Keep the same wooden sample tray, overhead camera, warm natural wood, central Stephen Blake crest, consistent portrait composition and soft daylight. Beans form a generous loose ring around the crest with a small opening exposing the tray. Maintain realistic scale relative to the tray; keep the camera distance consistent with the reference, do not crop closer just to make smaller grades look big. Bean morphology: washed Arabica: oval and slightly elongated flat green beans with subtly curved centre grooves. bold large flat beans, somewhat smaller than AAA. Bean colour: muted grey-green and sage, gently silvery, not yellow. Smooth CLEAN bean surfaces with fine authentic matte texture and clear central grooves, no dirt-like spots, chalky flakes or crusty patches. Preserve subtle individual variation; not polished plastic, wax, green peas, roasted brown beans, or cartoon render. Reference label belongs to the source grade: replace it with a neat white sample card reading EXACTLY \"ARABICA PL AA\" in black, no other new text. Preserve the Stephen Blake crest from the reference, no invented badges/certifications or dates. No extra props. Professional product photograph, realistic tactile beans, balanced exposure, restrained colour. Brand crest: retain SB and STEPHEN BLAKE only, omit tiny years and motto text to prevent invented typography.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "85b4452d-09e3-4d44-8324-1fb7980ce67d"
+          }
+        ]
+      },
+      "finalMaster": "assets/photography/retouched-source/green-arabica-pl-aa-illustration-v32.png",
+      "finalWebImage": "assets/photography/green-arabica-pl-aa-illustration-v32-960.webp"
+    },
+    {
+      "index": 13,
+      "id": "arabica-parchment-c",
+      "grade": "B",
+      "slug": "green-arabica-pl-b-illustration-v32",
+      "params": {
+        "model": "gpt_image_2_6",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:4",
+        "count": 1,
+        "prompt": "Create one premium photorealistic GREEN COFFEE catalogue illustration using the supplied actual sample photograph as the product and brand reference. Target: ARABICA PL B. This is an illustrative rendering, not certification of a measured screen grade. Keep the same wooden sample tray, overhead camera, warm natural wood, central Stephen Blake crest, consistent portrait composition and soft daylight. Beans form a generous loose ring around the crest with a small opening exposing the tray. Maintain realistic scale relative to the tray; keep the camera distance consistent with the reference, do not crop closer just to make smaller grades look big. Bean morphology: washed Arabica: oval and slightly elongated flat green beans with subtly curved centre grooves. smaller flat beans with restrained natural size variation. Bean colour: muted grey-green and sage, gently silvery, not yellow. Smooth CLEAN bean surfaces with fine authentic matte texture and clear central grooves, no dirt-like spots, chalky flakes or crusty patches. Preserve subtle individual variation; not polished plastic, wax, green peas, roasted brown beans, or cartoon render. Reference label belongs to the source grade: replace it with a neat white sample card reading EXACTLY \"ARABICA PL B\" in black, no other new text. Preserve the Stephen Blake crest from the reference, no invented badges/certifications or dates. No extra props. Professional product photograph, realistic tactile beans, balanced exposure, restrained colour. Brand crest: retain SB and STEPHEN BLAKE only, omit tiny years and motto text to prevent invented typography.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "85b4452d-09e3-4d44-8324-1fb7980ce67d"
+          }
+        ]
+      },
+      "finalMaster": "assets/photography/retouched-source/green-arabica-pl-b-illustration-v32.png",
+      "finalWebImage": "assets/photography/green-arabica-pl-b-illustration-v32-960.webp"
+    }
+  ],
+  "finalProvider": "Built-in image generation",
+  "colourCorrection": "Robusta Cherry: predominantly yellowish straw, muted ochre and pale yellow-brown, minimal olive undertone.",
+  "higgsfieldJobsSubmitted": 0,
+  "higgsfieldCreditsCharged": 0,
+  "officialLogo": "assets/photography/retouched-source/brand-master.png",
+  "websiteUsesGeneratedGradeVariants": false
+}

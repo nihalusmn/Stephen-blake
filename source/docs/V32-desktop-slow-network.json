@@ -1,0 +1,5977 @@
+{
+  "samples": [
+    {
+      "direction": "forward",
+      "p": 0.120008,
+      "expected": "origin",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "0.006",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "0.006",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "origin",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.135082,
+      "expected": "origin",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "0.102",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "0.102",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "origin",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.149961,
+      "expected": "origin",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "0.196",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "0.196",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "origin",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.165035,
+      "expected": "origin",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "0.292",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "0.292",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "origin",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.179914,
+      "expected": "origin",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "0.386",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "0.386",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "origin",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.194988,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "0.486",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "0.486",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.210063,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "0.595",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "0.595",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.224941,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "0.703",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "0.703",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.240016,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "0.812",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "0.812",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.25509,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "0.921",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "0.921",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.269969,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "1.029",
+        "presentation": "preview",
+        "frameTime": "0.000",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 378,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "1.029",
+          "presentation": "preview",
+          "frameTime": "0.000",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.285043,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "metadata",
+        "targetTime": "1.138",
+        "presentation": "sequence",
+        "frameTime": "0.500",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 371,
+      "items": [
+        {
+          "mediaState": "metadata",
+          "targetTime": "1.138",
+          "presentation": "sequence",
+          "frameTime": "0.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.299922,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "seeking",
+        "targetTime": "1.246",
+        "presentation": "sequence",
+        "frameTime": "0.500",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 371,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "1.246",
+          "presentation": "sequence",
+          "frameTime": "0.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.245984,
+          "seeking": true
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.314996,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "seeking",
+        "targetTime": "1.355",
+        "presentation": "sequence",
+        "frameTime": "0.500",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 371,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "1.355",
+          "presentation": "sequence",
+          "frameTime": "0.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.245984,
+          "seeking": true
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.33007,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "seeking",
+        "targetTime": "1.464",
+        "presentation": "sequence",
+        "frameTime": "0.500",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 371,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "1.464",
+          "presentation": "sequence",
+          "frameTime": "0.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.245984,
+          "seeking": true
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "metadata",
+          "presentation": "sequence",
+          "frameTime": "1.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.344949,
+      "expected": "natural",
+      "chosen": {
+        "targetTime": "2.560",
+        "mediaState": "seeking",
+        "presentation": "video",
+        "frameTime": "1.500",
+        "frameChapter": "natural",
+        "hasFrame": "true"
+      },
+      "subject": 668,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "2.598",
+          "presentation": "sequence",
+          "frameTime": "0.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.245984,
+          "seeking": true
+        },
+        {
+          "targetTime": "2.560",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "1.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.360023,
+      "expected": "natural",
+      "chosen": {
+        "targetTime": "4.165",
+        "mediaState": "seeking",
+        "presentation": "video",
+        "frameTime": "1.500",
+        "frameChapter": "natural",
+        "hasFrame": "true"
+      },
+      "subject": 668,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "4.262",
+          "presentation": "sequence",
+          "frameTime": "0.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.245984,
+          "seeking": true
+        },
+        {
+          "targetTime": "4.165",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "1.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.375098,
+      "expected": "natural",
+      "chosen": {
+        "targetTime": "5.770",
+        "mediaState": "seeking",
+        "presentation": "video",
+        "frameTime": "1.500",
+        "frameChapter": "natural",
+        "hasFrame": "true"
+      },
+      "subject": 668,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "5.926",
+          "presentation": "sequence",
+          "frameTime": "0.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.245984,
+          "seeking": true
+        },
+        {
+          "targetTime": "5.770",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "1.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "metadata",
+          "ready": 3,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.389977,
+      "expected": "natural",
+      "chosen": {
+        "targetTime": "7.355",
+        "mediaState": "seeking",
+        "presentation": "video",
+        "frameTime": "1.500",
+        "frameChapter": "natural",
+        "hasFrame": "true"
+      },
+      "subject": 668,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "7.569",
+          "presentation": "sequence",
+          "frameTime": "0.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.245984,
+          "seeking": true
+        },
+        {
+          "targetTime": "7.355",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "1.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "metadata",
+          "ready": 3,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.405051,
+      "expected": "natural",
+      "chosen": {
+        "targetTime": "8.960",
+        "mediaState": "seeking",
+        "presentation": "video",
+        "frameTime": "1.500",
+        "frameChapter": "natural",
+        "hasFrame": "true"
+      },
+      "subject": 668,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "9.233",
+          "presentation": "sequence",
+          "frameTime": "0.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.245984,
+          "seeking": true
+        },
+        {
+          "targetTime": "8.960",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "1.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "metadata",
+          "ready": 3,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.41993,
+      "expected": "honey",
+      "chosen": {
+        "targetTime": "10.490",
+        "mediaState": "seeking",
+        "presentation": "preview",
+        "frameTime": "10.000",
+        "frameChapter": "honey",
+        "hasFrame": "true"
+      },
+      "subject": 658,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "10.522",
+          "presentation": "sequence",
+          "frameTime": "0.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.245984,
+          "seeking": true
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "1.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.490",
+          "mediaState": "seeking",
+          "presentation": "preview",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.435004,
+      "expected": "honey",
+      "chosen": {
+        "targetTime": "11.423",
+        "mediaState": "seeking",
+        "presentation": "preview",
+        "frameTime": "10.000",
+        "frameChapter": "honey",
+        "hasFrame": "true"
+      },
+      "subject": 658,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "11.513",
+          "presentation": "sequence",
+          "frameTime": "0.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.245984,
+          "seeking": true
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "2.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "11.423",
+          "mediaState": "seeking",
+          "presentation": "preview",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.450078,
+      "expected": "honey",
+      "chosen": {
+        "targetTime": "12.355",
+        "mediaState": "seeking",
+        "presentation": "preview",
+        "frameTime": "10.000",
+        "frameChapter": "honey",
+        "hasFrame": "true"
+      },
+      "subject": 658,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "12.505",
+          "presentation": "sequence",
+          "frameTime": "0.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.245984,
+          "seeking": true
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "2.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "12.355",
+          "mediaState": "seeking",
+          "presentation": "preview",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.464957,
+      "expected": "honey",
+      "chosen": {
+        "targetTime": "13.275",
+        "mediaState": "seeking",
+        "presentation": "preview",
+        "frameTime": "10.000",
+        "frameChapter": "honey",
+        "hasFrame": "true"
+      },
+      "subject": 658,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "13.484",
+          "presentation": "sequence",
+          "frameTime": "0.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.245984,
+          "seeking": true
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "2.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "13.275",
+          "mediaState": "seeking",
+          "presentation": "preview",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.480031,
+      "expected": "honey",
+      "chosen": {
+        "targetTime": "14.207",
+        "mediaState": "seeking",
+        "presentation": "preview",
+        "frameTime": "10.000",
+        "frameChapter": "honey",
+        "hasFrame": "true"
+      },
+      "subject": 658,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "14.476",
+          "presentation": "sequence",
+          "frameTime": "0.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.245984,
+          "seeking": true
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "2.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.207",
+          "mediaState": "seeking",
+          "presentation": "preview",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "loading",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.49491,
+      "expected": "washed",
+      "chosen": {
+        "targetTime": "15.611",
+        "mediaState": "loading",
+        "presentation": "preview",
+        "frameTime": "15.000",
+        "frameChapter": "washed",
+        "hasFrame": "true"
+      },
+      "subject": 206,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "15.528",
+          "presentation": "sequence",
+          "frameTime": "0.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.245984,
+          "seeking": true
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "2.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "preview",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.611",
+          "mediaState": "loading",
+          "presentation": "preview",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.509984,
+      "expected": "washed",
+      "chosen": {
+        "targetTime": "16.943",
+        "mediaState": "seeking",
+        "presentation": "video",
+        "frameTime": "15.000",
+        "frameChapter": "washed",
+        "hasFrame": "true"
+      },
+      "subject": 372,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "16.679",
+          "presentation": "sequence",
+          "frameTime": "0.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.245984,
+          "seeking": true
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "2.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "preview",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "16.943",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.525059,
+      "expected": "washed",
+      "chosen": {
+        "targetTime": "18.276",
+        "mediaState": "seeking",
+        "presentation": "video",
+        "frameTime": "15.000",
+        "frameChapter": "washed",
+        "hasFrame": "true"
+      },
+      "subject": 372,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "17.831",
+          "presentation": "sequence",
+          "frameTime": "0.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.245984,
+          "seeking": true
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "2.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "preview",
+          "frameTime": "10.000",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "18.276",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.539937,
+      "expected": "washed",
+      "chosen": {
+        "targetTime": "19.591",
+        "mediaState": "seeking",
+        "presentation": "video",
+        "frameTime": "15.000",
+        "frameChapter": "washed",
+        "hasFrame": "true"
+      },
+      "subject": 372,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "18.967",
+          "presentation": "sequence",
+          "frameTime": "0.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.245984,
+          "seeking": true
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "2.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "19.591",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.555012,
+      "expected": "washed",
+      "chosen": {
+        "targetTime": "20.480",
+        "mediaState": "seeking",
+        "presentation": "video",
+        "frameTime": "15.000",
+        "frameChapter": "washed",
+        "hasFrame": "true"
+      },
+      "subject": 372,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "20.119",
+          "presentation": "sequence",
+          "frameTime": "0.500",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.245984,
+          "seeking": true
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "2.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.570086,
+      "expected": "hulling",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "21.212",
+        "presentation": "preview",
+        "frameTime": "20.500",
+        "frameChapter": "hulling",
+        "hasFrame": "true"
+      },
+      "subject": 222,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "21.212",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.584965,
+      "expected": "hulling",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "22.262",
+        "presentation": "preview",
+        "frameTime": "20.500",
+        "frameChapter": "hulling",
+        "hasFrame": "true"
+      },
+      "subject": 222,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "22.262",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.600039,
+      "expected": "hulling",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "23.326",
+        "presentation": "preview",
+        "frameTime": "20.500",
+        "frameChapter": "hulling",
+        "hasFrame": "true"
+      },
+      "subject": 222,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "23.326",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.614918,
+      "expected": "hulling",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "24.377",
+        "presentation": "preview",
+        "frameTime": "20.500",
+        "frameChapter": "hulling",
+        "hasFrame": "true"
+      },
+      "subject": 222,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "24.377",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.629992,
+      "expected": "hulling",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "25.441",
+        "presentation": "preview",
+        "frameTime": "20.500",
+        "frameChapter": "hulling",
+        "hasFrame": "true"
+      },
+      "subject": 222,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "25.441",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.645067,
+      "expected": "green",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "26.505",
+        "presentation": "preview",
+        "frameTime": "26.500",
+        "frameChapter": "green",
+        "hasFrame": "true"
+      },
+      "subject": 442,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "26.505",
+          "presentation": "preview",
+          "frameTime": "26.500",
+          "frameChapter": "green",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.659945,
+      "expected": "green",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "27.587",
+        "presentation": "preview",
+        "frameTime": "26.500",
+        "frameChapter": "green",
+        "hasFrame": "true"
+      },
+      "subject": 442,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "27.587",
+          "presentation": "preview",
+          "frameTime": "26.500",
+          "frameChapter": "green",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.67502,
+      "expected": "green",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "28.683",
+        "presentation": "preview",
+        "frameTime": "26.500",
+        "frameChapter": "green",
+        "hasFrame": "true"
+      },
+      "subject": 442,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "28.683",
+          "presentation": "preview",
+          "frameTime": "26.500",
+          "frameChapter": "green",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.690094,
+      "expected": "green",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "29.780",
+        "presentation": "preview",
+        "frameTime": "26.500",
+        "frameChapter": "green",
+        "hasFrame": "true"
+      },
+      "subject": 442,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "29.780",
+          "presentation": "preview",
+          "frameTime": "26.500",
+          "frameChapter": "green",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.704973,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "30.890",
+        "presentation": "preview",
+        "frameTime": "30.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 443,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "30.890",
+          "presentation": "preview",
+          "frameTime": "30.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.720047,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "32.072",
+        "presentation": "preview",
+        "frameTime": "30.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 443,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "32.072",
+          "presentation": "preview",
+          "frameTime": "30.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.734926,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "33.239",
+        "presentation": "preview",
+        "frameTime": "30.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 443,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "33.239",
+          "presentation": "preview",
+          "frameTime": "30.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.059514,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.75,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "34.422",
+        "presentation": "preview",
+        "frameTime": "30.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 443,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "34.422",
+          "presentation": "preview",
+          "frameTime": "30.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.765074,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "35.604",
+        "presentation": "preview",
+        "frameTime": "30.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 443,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "35.604",
+          "presentation": "preview",
+          "frameTime": "30.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.779953,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "36.771",
+        "presentation": "preview",
+        "frameTime": "30.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 443,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "36.771",
+          "presentation": "preview",
+          "frameTime": "30.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.795027,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "37.953",
+        "presentation": "preview",
+        "frameTime": "30.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 443,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "37.953",
+          "presentation": "preview",
+          "frameTime": "30.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.809906,
+      "expected": "grinding",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "39.178",
+        "presentation": "preview",
+        "frameTime": "38.500",
+        "frameChapter": "grinding",
+        "hasFrame": "true"
+      },
+      "subject": 513,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "39.178",
+          "presentation": "preview",
+          "frameTime": "38.500",
+          "frameChapter": "grinding",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.82498,
+      "expected": "grinding",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "40.470",
+        "presentation": "preview",
+        "frameTime": "38.500",
+        "frameChapter": "grinding",
+        "hasFrame": "true"
+      },
+      "subject": 513,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "40.470",
+          "presentation": "preview",
+          "frameTime": "38.500",
+          "frameChapter": "grinding",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.840055,
+      "expected": "grinding",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "41.762",
+        "presentation": "preview",
+        "frameTime": "38.500",
+        "frameChapter": "grinding",
+        "hasFrame": "true"
+      },
+      "subject": 513,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "41.762",
+          "presentation": "preview",
+          "frameTime": "38.500",
+          "frameChapter": "grinding",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "forward",
+      "p": 0.854933,
+      "expected": "grinding",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "43.037",
+        "presentation": "preview",
+        "frameTime": "38.500",
+        "frameChapter": "grinding",
+        "hasFrame": "true"
+      },
+      "subject": 513,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "43.037",
+          "presentation": "preview",
+          "frameTime": "38.500",
+          "frameChapter": "grinding",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 0.490378,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.854933,
+      "expected": "grinding",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "43.037",
+        "presentation": "preview",
+        "frameTime": "38.500",
+        "frameChapter": "grinding",
+        "hasFrame": "true"
+      },
+      "subject": 513,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "43.037",
+          "presentation": "preview",
+          "frameTime": "38.500",
+          "frameChapter": "grinding",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 0.490378,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.840055,
+      "expected": "grinding",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "41.762",
+        "presentation": "preview",
+        "frameTime": "38.500",
+        "frameChapter": "grinding",
+        "hasFrame": "true"
+      },
+      "subject": 513,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "41.762",
+          "presentation": "preview",
+          "frameTime": "38.500",
+          "frameChapter": "grinding",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 0.490378,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.82498,
+      "expected": "grinding",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "40.470",
+        "presentation": "preview",
+        "frameTime": "38.500",
+        "frameChapter": "grinding",
+        "hasFrame": "true"
+      },
+      "subject": 513,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "40.470",
+          "presentation": "preview",
+          "frameTime": "38.500",
+          "frameChapter": "grinding",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 0.490378,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.809906,
+      "expected": "grinding",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "39.178",
+        "presentation": "preview",
+        "frameTime": "38.500",
+        "frameChapter": "grinding",
+        "hasFrame": "true"
+      },
+      "subject": 513,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "39.178",
+          "presentation": "preview",
+          "frameTime": "38.500",
+          "frameChapter": "grinding",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 0.490378,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.795027,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "37.953",
+        "presentation": "preview",
+        "frameTime": "30.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 443,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "37.953",
+          "presentation": "preview",
+          "frameTime": "30.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 0.490378,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.779953,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "36.771",
+        "presentation": "preview",
+        "frameTime": "30.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 443,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "36.771",
+          "presentation": "preview",
+          "frameTime": "30.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 0.490378,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.765074,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "35.604",
+        "presentation": "preview",
+        "frameTime": "30.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 443,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "35.604",
+          "presentation": "preview",
+          "frameTime": "30.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 0.490378,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.75,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "34.422",
+        "presentation": "preview",
+        "frameTime": "30.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 443,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "34.422",
+          "presentation": "preview",
+          "frameTime": "30.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 0.490378,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.734926,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "33.239",
+        "presentation": "preview",
+        "frameTime": "30.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 443,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "33.239",
+          "presentation": "preview",
+          "frameTime": "30.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 0.490378,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.720047,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "32.072",
+        "presentation": "preview",
+        "frameTime": "30.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 443,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "32.072",
+          "presentation": "preview",
+          "frameTime": "30.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 0.490378,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.704973,
+      "expected": "roasting",
+      "chosen": {
+        "mediaState": "loading",
+        "targetTime": "30.890",
+        "presentation": "preview",
+        "frameTime": "30.500",
+        "frameChapter": "roasting",
+        "hasFrame": "true"
+      },
+      "subject": 443,
+      "items": [
+        {
+          "mediaState": "loading",
+          "targetTime": "30.890",
+          "presentation": "preview",
+          "frameTime": "30.500",
+          "frameChapter": "roasting",
+          "hasFrame": "true",
+          "ready": 0,
+          "time": 0,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 0.490378,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.690094,
+      "expected": "green",
+      "chosen": {
+        "mediaState": "seeking",
+        "targetTime": "29.780",
+        "presentation": "preview",
+        "frameTime": "26.500",
+        "frameChapter": "green",
+        "hasFrame": "true"
+      },
+      "subject": 442,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "29.780",
+          "presentation": "preview",
+          "frameTime": "26.500",
+          "frameChapter": "green",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 3.279561,
+          "seeking": true
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 0.490378,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.67502,
+      "expected": "green",
+      "chosen": {
+        "mediaState": "seeking",
+        "targetTime": "28.683",
+        "presentation": "preview",
+        "frameTime": "26.500",
+        "frameChapter": "green",
+        "hasFrame": "true"
+      },
+      "subject": 442,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "28.683",
+          "presentation": "preview",
+          "frameTime": "26.500",
+          "frameChapter": "green",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 3.279561,
+          "seeking": true
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 0.490378,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 1.943131,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.659945,
+      "expected": "green",
+      "chosen": {
+        "mediaState": "seeking",
+        "targetTime": "27.587",
+        "presentation": "preview",
+        "frameTime": "26.500",
+        "frameChapter": "green",
+        "hasFrame": "true"
+      },
+      "subject": 442,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "27.587",
+          "presentation": "preview",
+          "frameTime": "26.500",
+          "frameChapter": "green",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 3.279561,
+          "seeking": true
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 0.490378,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.943131,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.645067,
+      "expected": "green",
+      "chosen": {
+        "mediaState": "seeking",
+        "targetTime": "26.505",
+        "presentation": "preview",
+        "frameTime": "26.500",
+        "frameChapter": "green",
+        "hasFrame": "true"
+      },
+      "subject": 442,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "26.505",
+          "presentation": "preview",
+          "frameTime": "26.500",
+          "frameChapter": "green",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 3.279561,
+          "seeking": true
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 0.490378,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.943131,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.629992,
+      "expected": "hulling",
+      "chosen": {
+        "mediaState": "seeking",
+        "targetTime": "25.441",
+        "presentation": "preview",
+        "frameTime": "20.500",
+        "frameChapter": "hulling",
+        "hasFrame": "true"
+      },
+      "subject": 222,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "25.441",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.940623,
+          "seeking": true
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 0.490378,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.943131,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.614918,
+      "expected": "hulling",
+      "chosen": {
+        "mediaState": "seeking",
+        "targetTime": "24.377",
+        "presentation": "preview",
+        "frameTime": "20.500",
+        "frameChapter": "hulling",
+        "hasFrame": "true"
+      },
+      "subject": 222,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "24.377",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.940623,
+          "seeking": true
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 0.490378,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.943131,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.600039,
+      "expected": "hulling",
+      "chosen": {
+        "mediaState": "seeking",
+        "targetTime": "23.326",
+        "presentation": "preview",
+        "frameTime": "20.500",
+        "frameChapter": "hulling",
+        "hasFrame": "true"
+      },
+      "subject": 222,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "23.326",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.940623,
+          "seeking": true
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 0.490378,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.943131,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.584965,
+      "expected": "hulling",
+      "chosen": {
+        "mediaState": "seeking",
+        "targetTime": "22.262",
+        "presentation": "preview",
+        "frameTime": "20.500",
+        "frameChapter": "hulling",
+        "hasFrame": "true"
+      },
+      "subject": 222,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "22.262",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.940623,
+          "seeking": true
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.059514,
+          "seeking": false
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 0.490378,
+          "seeking": false
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 3,
+          "time": 1.943131,
+          "seeking": false
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.570086,
+      "expected": "hulling",
+      "chosen": {
+        "mediaState": "seeking",
+        "targetTime": "21.212",
+        "presentation": "preview",
+        "frameTime": "20.500",
+        "frameChapter": "hulling",
+        "hasFrame": "true"
+      },
+      "subject": 222,
+      "items": [
+        {
+          "mediaState": "seeking",
+          "targetTime": "21.212",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.940623,
+          "seeking": true
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.555012,
+      "expected": "washed",
+      "chosen": {
+        "targetTime": "20.480",
+        "mediaState": "seeking",
+        "presentation": "video",
+        "frameTime": "15.000",
+        "frameChapter": "washed",
+        "hasFrame": "true"
+      },
+      "subject": 372,
+      "items": [
+        {
+          "mediaState": "metadata",
+          "targetTime": "20.119",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 1.245984,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "20.480",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.539937,
+      "expected": "washed",
+      "chosen": {
+        "targetTime": "19.591",
+        "mediaState": "seeking",
+        "presentation": "video",
+        "frameTime": "15.000",
+        "frameChapter": "washed",
+        "hasFrame": "true"
+      },
+      "subject": 372,
+      "items": [
+        {
+          "mediaState": "metadata",
+          "targetTime": "18.967",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 1.245984,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "19.591",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.525059,
+      "expected": "washed",
+      "chosen": {
+        "targetTime": "18.276",
+        "mediaState": "seeking",
+        "presentation": "video",
+        "frameTime": "15.000",
+        "frameChapter": "washed",
+        "hasFrame": "true"
+      },
+      "subject": 372,
+      "items": [
+        {
+          "mediaState": "metadata",
+          "targetTime": "17.831",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 1.245984,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "18.276",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.509984,
+      "expected": "washed",
+      "chosen": {
+        "targetTime": "16.943",
+        "mediaState": "seeking",
+        "presentation": "video",
+        "frameTime": "15.000",
+        "frameChapter": "washed",
+        "hasFrame": "true"
+      },
+      "subject": 372,
+      "items": [
+        {
+          "mediaState": "metadata",
+          "targetTime": "16.679",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 1.245984,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "16.943",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.49491,
+      "expected": "washed",
+      "chosen": {
+        "targetTime": "15.611",
+        "mediaState": "seeking",
+        "presentation": "video",
+        "frameTime": "15.000",
+        "frameChapter": "washed",
+        "hasFrame": "true"
+      },
+      "subject": 372,
+      "items": [
+        {
+          "mediaState": "metadata",
+          "targetTime": "15.528",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 1.245984,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.611",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.480031,
+      "expected": "honey",
+      "chosen": {
+        "targetTime": "14.207",
+        "mediaState": "seeking",
+        "presentation": "sequence",
+        "frameTime": "10.500",
+        "frameChapter": "honey",
+        "hasFrame": "true"
+      },
+      "subject": 704,
+      "items": [
+        {
+          "mediaState": "metadata",
+          "targetTime": "14.476",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 1.245984,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "14.207",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.464957,
+      "expected": "honey",
+      "chosen": {
+        "targetTime": "13.275",
+        "mediaState": "seeking",
+        "presentation": "sequence",
+        "frameTime": "10.500",
+        "frameChapter": "honey",
+        "hasFrame": "true"
+      },
+      "subject": 704,
+      "items": [
+        {
+          "mediaState": "metadata",
+          "targetTime": "13.484",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 1.245984,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "13.275",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.450078,
+      "expected": "honey",
+      "chosen": {
+        "targetTime": "12.355",
+        "mediaState": "seeking",
+        "presentation": "sequence",
+        "frameTime": "10.500",
+        "frameChapter": "honey",
+        "hasFrame": "true"
+      },
+      "subject": 704,
+      "items": [
+        {
+          "mediaState": "metadata",
+          "targetTime": "12.505",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 1.245984,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "12.355",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.435004,
+      "expected": "honey",
+      "chosen": {
+        "targetTime": "11.423",
+        "mediaState": "seeking",
+        "presentation": "sequence",
+        "frameTime": "10.500",
+        "frameChapter": "honey",
+        "hasFrame": "true"
+      },
+      "subject": 704,
+      "items": [
+        {
+          "mediaState": "metadata",
+          "targetTime": "11.513",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 1.245984,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "11.423",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.41993,
+      "expected": "honey",
+      "chosen": {
+        "targetTime": "10.490",
+        "mediaState": "seeking",
+        "presentation": "sequence",
+        "frameTime": "10.500",
+        "frameChapter": "honey",
+        "hasFrame": "true"
+      },
+      "subject": 704,
+      "items": [
+        {
+          "mediaState": "metadata",
+          "targetTime": "10.522",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 1.245984,
+          "seeking": false
+        },
+        {
+          "targetTime": "9.700",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.490",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.405051,
+      "expected": "natural",
+      "chosen": {
+        "targetTime": "8.960",
+        "mediaState": "seeking",
+        "presentation": "sequence",
+        "frameTime": "9.500",
+        "frameChapter": "natural",
+        "hasFrame": "true"
+      },
+      "subject": 305,
+      "items": [
+        {
+          "mediaState": "metadata",
+          "targetTime": "9.233",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 1.245984,
+          "seeking": false
+        },
+        {
+          "targetTime": "8.960",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.389977,
+      "expected": "natural",
+      "chosen": {
+        "targetTime": "7.355",
+        "mediaState": "seeking",
+        "presentation": "sequence",
+        "frameTime": "9.500",
+        "frameChapter": "natural",
+        "hasFrame": "true"
+      },
+      "subject": 305,
+      "items": [
+        {
+          "mediaState": "metadata",
+          "targetTime": "7.569",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 1.245984,
+          "seeking": false
+        },
+        {
+          "targetTime": "7.355",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.375098,
+      "expected": "natural",
+      "chosen": {
+        "targetTime": "5.770",
+        "mediaState": "seeking",
+        "presentation": "sequence",
+        "frameTime": "9.500",
+        "frameChapter": "natural",
+        "hasFrame": "true"
+      },
+      "subject": 305,
+      "items": [
+        {
+          "mediaState": "metadata",
+          "targetTime": "5.926",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 1.245984,
+          "seeking": false
+        },
+        {
+          "targetTime": "5.770",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.360023,
+      "expected": "natural",
+      "chosen": {
+        "targetTime": "4.165",
+        "mediaState": "seeking",
+        "presentation": "sequence",
+        "frameTime": "9.500",
+        "frameChapter": "natural",
+        "hasFrame": "true"
+      },
+      "subject": 305,
+      "items": [
+        {
+          "mediaState": "metadata",
+          "targetTime": "4.262",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 1.245984,
+          "seeking": false
+        },
+        {
+          "targetTime": "4.165",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.344949,
+      "expected": "natural",
+      "chosen": {
+        "targetTime": "2.560",
+        "mediaState": "seeking",
+        "presentation": "sequence",
+        "frameTime": "9.500",
+        "frameChapter": "natural",
+        "hasFrame": "true"
+      },
+      "subject": 305,
+      "items": [
+        {
+          "mediaState": "metadata",
+          "targetTime": "2.598",
+          "presentation": "preview",
+          "frameTime": "20.500",
+          "frameChapter": "hulling",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 1.245984,
+          "seeking": false
+        },
+        {
+          "targetTime": "2.560",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.33007,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "ready",
+        "targetTime": "1.464",
+        "presentation": "video",
+        "frameTime": "1.464",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 667,
+      "items": [
+        {
+          "mediaState": "ready",
+          "targetTime": "1.464",
+          "presentation": "video",
+          "frameTime": "1.464",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 1.464303,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.314996,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "ready",
+        "targetTime": "1.355",
+        "presentation": "video",
+        "frameTime": "1.355",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 668,
+      "items": [
+        {
+          "mediaState": "ready",
+          "targetTime": "1.355",
+          "presentation": "video",
+          "frameTime": "1.355",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 1.355144,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.299922,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "ready",
+        "targetTime": "1.246",
+        "presentation": "video",
+        "frameTime": "1.246",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 672,
+      "items": [
+        {
+          "mediaState": "ready",
+          "targetTime": "1.246",
+          "presentation": "video",
+          "frameTime": "1.246",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 1.245984,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.285043,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "ready",
+        "targetTime": "1.138",
+        "presentation": "video",
+        "frameTime": "1.138",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 671,
+      "items": [
+        {
+          "mediaState": "ready",
+          "targetTime": "1.138",
+          "presentation": "video",
+          "frameTime": "1.138",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 1.138242,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.269969,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "ready",
+        "targetTime": "1.029",
+        "presentation": "video",
+        "frameTime": "1.029",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 672,
+      "items": [
+        {
+          "mediaState": "ready",
+          "targetTime": "1.029",
+          "presentation": "video",
+          "frameTime": "1.029",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 1.029083,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.25509,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "ready",
+        "targetTime": "0.921",
+        "presentation": "video",
+        "frameTime": "0.921",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 672,
+      "items": [
+        {
+          "mediaState": "ready",
+          "targetTime": "0.921",
+          "presentation": "video",
+          "frameTime": "0.921",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 0.921341,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.240016,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "ready",
+        "targetTime": "0.812",
+        "presentation": "video",
+        "frameTime": "0.812",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 673,
+      "items": [
+        {
+          "mediaState": "ready",
+          "targetTime": "0.812",
+          "presentation": "video",
+          "frameTime": "0.812",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 0.812182,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.224941,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "ready",
+        "targetTime": "0.703",
+        "presentation": "video",
+        "frameTime": "0.703",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 677,
+      "items": [
+        {
+          "mediaState": "ready",
+          "targetTime": "0.703",
+          "presentation": "video",
+          "frameTime": "0.703",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 0.703022,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.210063,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "ready",
+        "targetTime": "0.595",
+        "presentation": "video",
+        "frameTime": "0.595",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 669,
+      "items": [
+        {
+          "mediaState": "ready",
+          "targetTime": "0.595",
+          "presentation": "video",
+          "frameTime": "0.595",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 0.595281,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.194988,
+      "expected": "harvest",
+      "chosen": {
+        "mediaState": "ready",
+        "targetTime": "0.486",
+        "presentation": "video",
+        "frameTime": "0.486",
+        "frameChapter": "harvest",
+        "hasFrame": "true"
+      },
+      "subject": 676,
+      "items": [
+        {
+          "mediaState": "ready",
+          "targetTime": "0.486",
+          "presentation": "video",
+          "frameTime": "0.486",
+          "frameChapter": "harvest",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 0.486121,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.179914,
+      "expected": "origin",
+      "chosen": {
+        "mediaState": "ready",
+        "targetTime": "0.386",
+        "presentation": "video",
+        "frameTime": "0.386",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "subject": 670,
+      "items": [
+        {
+          "mediaState": "ready",
+          "targetTime": "0.386",
+          "presentation": "video",
+          "frameTime": "0.386",
+          "frameChapter": "origin",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 0.386073,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.165035,
+      "expected": "origin",
+      "chosen": {
+        "mediaState": "ready",
+        "targetTime": "0.292",
+        "presentation": "video",
+        "frameTime": "0.292",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "subject": 668,
+      "items": [
+        {
+          "mediaState": "ready",
+          "targetTime": "0.292",
+          "presentation": "video",
+          "frameTime": "0.292",
+          "frameChapter": "origin",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 0.291772,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.149961,
+      "expected": "origin",
+      "chosen": {
+        "mediaState": "ready",
+        "targetTime": "0.196",
+        "presentation": "video",
+        "frameTime": "0.196",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "subject": 675,
+      "items": [
+        {
+          "mediaState": "ready",
+          "targetTime": "0.196",
+          "presentation": "video",
+          "frameTime": "0.196",
+          "frameChapter": "origin",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 0.19623,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.135082,
+      "expected": "origin",
+      "chosen": {
+        "mediaState": "ready",
+        "targetTime": "0.102",
+        "presentation": "video",
+        "frameTime": "0.102",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "subject": 676,
+      "items": [
+        {
+          "mediaState": "ready",
+          "targetTime": "0.102",
+          "presentation": "video",
+          "frameTime": "0.102",
+          "frameChapter": "origin",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 0.101929,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    },
+    {
+      "direction": "reverse",
+      "p": 0.120008,
+      "expected": "origin",
+      "chosen": {
+        "mediaState": "ready",
+        "targetTime": "0.006",
+        "presentation": "video",
+        "frameTime": "0.006",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "subject": 676,
+      "items": [
+        {
+          "mediaState": "ready",
+          "targetTime": "0.006",
+          "presentation": "video",
+          "frameTime": "0.006",
+          "frameChapter": "origin",
+          "hasFrame": "true",
+          "ready": 4,
+          "time": 0.006387,
+          "seeking": false
+        },
+        {
+          "targetTime": "1.500",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "9.500",
+          "frameChapter": "natural",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 8.199999,
+          "seeking": true
+        },
+        {
+          "targetTime": "10.000",
+          "mediaState": "seeking",
+          "presentation": "sequence",
+          "frameTime": "10.500",
+          "frameChapter": "honey",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 4.699999,
+          "seeking": true
+        },
+        {
+          "targetTime": "15.000",
+          "mediaState": "seeking",
+          "presentation": "video",
+          "frameTime": "15.000",
+          "frameChapter": "washed",
+          "hasFrame": "true",
+          "ready": 1,
+          "time": 5.48,
+          "seeking": true
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "resources": [
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/style-CdBItdCm.css",
+      "bytes": 62244,
+      "start": 216.5,
+      "duration": 2207.399999976158
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/index-CjmD7HN8.js",
+      "bytes": 224561,
+      "start": 216.69999998807907,
+      "duration": 7139.9000000059605
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Archivo:wght@400;500;600&display=swap",
+      "bytes": 1106,
+      "start": 217.5,
+      "duration": 364.2999999821186
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/brand-transparent-CILVdTO2.png",
+      "bytes": 30510,
+      "start": 223.5,
+      "duration": 1191.699999988079
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/hero-estate-1680-D834h6dp.webp",
+      "bytes": 516432,
+      "start": 231,
+      "duration": 15233.399999976158
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/category-filter-960-Ct3wzmeK.webp",
+      "bytes": 193536,
+      "start": 264.09999999403954,
+      "duration": 6634.5999999940395
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/category-roasted-960-CQk3EpHh.webp",
+      "bytes": 135730,
+      "start": 274.19999998807907,
+      "duration": 5298.0999999940395
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/green-collection-tray-v32-960-BZ4done4.webp",
+      "bytes": 310648,
+      "start": 282.69999998807907,
+      "duration": 9999.09999999404
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-000.jpg",
+      "bytes": 26678,
+      "start": 7637.5999999940395,
+      "duration": 1036.0999999940395
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-060.jpg",
+      "bytes": 18050,
+      "start": 7638.199999988079,
+      "duration": 835.3000000119209
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-006.jpg",
+      "bytes": 27277,
+      "start": 7638.199999988079,
+      "duration": 1091.9000000059605
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-040.jpg",
+      "bytes": 30287,
+      "start": 7638.199999988079,
+      "duration": 1160.4000000059605
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/coffee-journey-poster-v28.jpg",
+      "bytes": 66924,
+      "start": 7638.299999982119,
+      "duration": 2966.7000000178814
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/desktop/opening-v32.mp4",
+      "bytes": 217243,
+      "start": 7645.199999988079,
+      "duration": 7903.199999988079
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-002.jpg",
+      "bytes": 27232,
+      "start": 8675.09999999404,
+      "duration": 1105.7999999821186
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/desktop/natural-v32.mp4",
+      "bytes": 300,
+      "start": 9175.299999982119,
+      "duration": 11412.90000000596
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/desktop/honey-v32.mp4",
+      "bytes": 300,
+      "start": 9176.09999999404,
+      "duration": 11412.09999999404
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/desktop/washed-v32.mp4",
+      "bytes": 300,
+      "start": 9176.59999999404,
+      "duration": 3551.4000000059605
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-005.jpg",
+      "bytes": 27186,
+      "start": 9781.799999982119,
+      "duration": 1606.7000000178814
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-010.jpg",
+      "bytes": 28676,
+      "start": 10477.199999988079,
+      "duration": 1286.0999999940395
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-042.jpg",
+      "bytes": 33505,
+      "start": 11441.299999982119,
+      "duration": 1622
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-038.jpg",
+      "bytes": 17762,
+      "start": 11764.199999988079,
+      "duration": 1717.699999988079
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-062.jpg",
+      "bytes": 18595,
+      "start": 12378.799999982119,
+      "duration": 1493
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/desktop/hulling-v32.mp4",
+      "bytes": 300,
+      "start": 12567.399999976158,
+      "duration": 7284.9000000059605
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/desktop/washed-v32.mp4",
+      "bytes": 300,
+      "start": 12727.799999982119,
+      "duration": 7860.4000000059605
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-058.jpg",
+      "bytes": 16159,
+      "start": 13064.699999988079,
+      "duration": 1124.300000011921
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-085.jpg",
+      "bytes": 30677,
+      "start": 13334.399999976158,
+      "duration": 1747.300000011921
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/desktop/green-v32.mp4",
+      "bytes": 300,
+      "start": 13337.09999999404,
+      "duration": 5772.0999999940395
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-124.jpg",
+      "bytes": 42309,
+      "start": 15082.399999976158,
+      "duration": 2006.300000011921
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-172.jpg",
+      "bytes": 24787,
+      "start": 17089.59999999404,
+      "duration": 3023.2999999821186
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/desktop/green-v32.mp4",
+      "bytes": 228126,
+      "start": 19109.19999998808,
+      "duration": 9078.40000000596
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-098.jpg",
+      "bytes": 60903,
+      "start": 20113.69999998808,
+      "duration": 2674.4000000059605
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-081.jpg",
+      "bytes": 21643,
+      "start": 20587.09999999404,
+      "duration": 934
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/desktop/natural-v32.mp4",
+      "bytes": 47816,
+      "start": 20587.19999998808,
+      "duration": 7042.300000011921
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-068.jpg",
+      "bytes": 31688,
+      "start": 21526.79999998212,
+      "duration": 2552.7000000178814
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-057.jpg",
+      "bytes": 16096,
+      "start": 21714.5,
+      "duration": 3115.399999976158
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-036.jpg",
+      "bytes": 23641,
+      "start": 22641.69999998808,
+      "duration": 3188.199999988079
+    },
+    {
+      "url": "http://127.0.0.1:4175/dist/assets/video/recovery-v31/frame-001.jpg",
+      "bytes": 27452,
+      "start": 25834,
+      "duration": 2912.399999976158
+    }
+  ],
+  "status": "passed",
+  "collection": "all three photographs visible, links enabled"
+}
