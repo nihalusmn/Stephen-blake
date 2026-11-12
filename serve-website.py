@@ -4,6 +4,7 @@ from pathlib import Path
 import os,re,sys
 from urllib.parse import urlsplit, unquote
 class Handler(SimpleHTTPRequestHandler):
+    extensions_map = {**SimpleHTTPRequestHandler.extensions_map, '.xml': 'application/xml; charset=utf-8', '.txt': 'text/plain; charset=utf-8'}
     # Serve the built site only, never the editable source, archives or dotfiles.
     def translate_path(self, path):
         parsed=urlsplit(path)
@@ -20,12 +21,17 @@ class Handler(SimpleHTTPRequestHandler):
             self.send_error(400); return None
         if host not in ('127.0.0.1','localhost','::1'):
             self.send_error(403); return None
+        request=urlsplit(self.path)
+        if request.path == '/index.html':
+            self.send_response(308)
+            self.send_header('Location','/' + ('?' + request.query if request.query else ''))
+            self.end_headers();return None
         path=Path(self.translate_path(self.path))
         try:
             relative=path.resolve().relative_to(Path(self.directory).resolve())
         except ValueError:
             self.send_error(404); return None
-        if any(p.startswith('.') for p in relative.parts) or (relative.parts and relative.parts[0] not in ('index.html','assets')):
+        if any(p.startswith('.') for p in relative.parts) or (relative.parts and relative.parts[0] not in ('index.html','assets','sitemap.xml','robots.txt')):
             self.send_error(404); return None
         header=self.headers.get('Range','')
         if not path.is_file() or not header:

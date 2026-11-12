@@ -25,7 +25,7 @@ with ZipFile(out, 'w', ZIP_DEFLATED, 6) as archive:
         source = root / name
         if not source.exists(): source = root.parent / name
         archive.write(source, destination)
-    for folder in ['app', 'assets', 'docs', 'tests', 'lib', 'scripts']:
+    for folder in ['app', 'assets', 'docs', 'tests', 'lib', 'scripts', 'public']:
         for p in (root / folder).rglob('*'):
             if slim and folder == 'assets' and str(p.relative_to(root)) not in media: continue
             if slim and folder != 'assets' and p.suffix.lower() in media_extensions: continue

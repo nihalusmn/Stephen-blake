@@ -4,7 +4,7 @@ import { dirname } from 'node:path';
 import { createHash } from 'node:crypto';
 export default defineConfig({
   base: './',
-  publicDir: false,
+  publicDir: 'public',
   plugins: [{ name: 'preserve-editorial-assets', closeBundle() {
     // Ship only the current runtime media, including dynamic chapter/frame URLs.
     const media = JSON.parse(readFileSync('app/runtime-media.json', 'utf8')).files;
