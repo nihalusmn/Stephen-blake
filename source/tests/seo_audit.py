@@ -40,6 +40,9 @@ check('Permanent index alias redirect', {'source':'/index.html','destination':'/
 for host in ('stephenblake.co.in','stephen-blake.vercel.app'):
     check(f'Canonical host rule: {host}', any(r.get('has')==[{'type':'host','value':host}]
         and r['destination']==CANONICAL+':path*' and r.get('permanent') for r in redirects))
+for host in ('stephenblake.co.in','stephen-blake.vercel.app'):
+    check(f'Explicit empty-path host rule: {host}', any(r['source']=='/' and r.get('has')==[{'type':'host','value':host}] and r['destination']==CANONICAL and r.get('permanent') for r in redirects))
+check('Explicit trailing-slash source noindex rule', any(h['source']=='/source/' and {'key':'X-Robots-Tag','value':'noindex'} in h['headers'] for h in config['headers']))
 check('No canonical-host redirect loop or wildcard preview redirect', all(
     not r.get('has') or r['has'][0]['value'] in ('stephenblake.co.in','stephen-blake.vercel.app') for r in redirects))
 check('Source files excluded from indexing', any(h['source']=='/source/:path*' and

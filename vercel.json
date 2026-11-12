@@ -7,6 +7,28 @@
       "permanent": true
     },
     {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "stephen-blake.vercel.app"
+        }
+      ],
+      "destination": "https://www.stephenblake.co.in/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "stephenblake.co.in"
+        }
+      ],
+      "destination": "https://www.stephenblake.co.in/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [
         {
@@ -104,6 +126,15 @@
     },
     {
       "source": "/vercel.json",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/source/",
       "headers": [
         {
           "key": "X-Robots-Tag",
