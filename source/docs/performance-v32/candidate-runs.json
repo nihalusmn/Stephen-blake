@@ -1,0 +1,122 @@
+[
+  {
+    "profile": "mobile",
+    "run": 1,
+    "score": 100,
+    "fcp": 1421.8571,
+    "lcp": 1421.8571,
+    "tbt": 9,
+    "cls": 0,
+    "speedIndex": 1824.4659438461244,
+    "bytes": 1621856,
+    "runtimeError": null
+  },
+  {
+    "profile": "mobile",
+    "run": 2,
+    "score": 100,
+    "fcp": 1419.2899,
+    "lcp": 1419.2899,
+    "tbt": 7,
+    "cls": 0,
+    "speedIndex": 1850.5698784065025,
+    "bytes": 1621856,
+    "runtimeError": null
+  },
+  {
+    "profile": "mobile",
+    "run": 3,
+    "score": 100,
+    "fcp": 1420.1717,
+    "lcp": 1420.1717,
+    "tbt": 8.5,
+    "cls": 0,
+    "speedIndex": 1867.5442404294859,
+    "bytes": 1621856,
+    "runtimeError": null
+  },
+  {
+    "profile": "mobile",
+    "run": 4,
+    "score": 100,
+    "fcp": 1420.6028,
+    "lcp": 1420.6028,
+    "tbt": 8,
+    "cls": 0,
+    "speedIndex": 1869.6730791231503,
+    "bytes": 1621856,
+    "runtimeError": null
+  },
+  {
+    "profile": "mobile",
+    "run": 5,
+    "score": 100,
+    "fcp": 1421.0521,
+    "lcp": 1421.0521,
+    "tbt": 8.5,
+    "cls": 0,
+    "speedIndex": 1887.0921084279403,
+    "bytes": 1621856,
+    "runtimeError": null
+  },
+  {
+    "profile": "desktop",
+    "run": 1,
+    "score": 100,
+    "fcp": 340.6291,
+    "lcp": 340.6291,
+    "tbt": 0,
+    "cls": 0.00007832939322301024,
+    "speedIndex": 558.8722001126575,
+    "bytes": 1681551,
+    "runtimeError": null
+  },
+  {
+    "profile": "desktop",
+    "run": 2,
+    "score": 100,
+    "fcp": 340.5253,
+    "lcp": 340.5253,
+    "tbt": 0,
+    "cls": 0.00007832939322301024,
+    "speedIndex": 550.4741359534294,
+    "bytes": 1681551,
+    "runtimeError": null
+  },
+  {
+    "profile": "desktop",
+    "run": 3,
+    "score": 100,
+    "fcp": 340.065,
+    "lcp": 340.065,
+    "tbt": 0,
+    "cls": 0.00007832939322301024,
+    "speedIndex": 546.3397897006312,
+    "bytes": 1681551,
+    "runtimeError": null
+  },
+  {
+    "profile": "desktop",
+    "run": 4,
+    "score": 100,
+    "fcp": 340.4641,
+    "lcp": 340.4641,
+    "tbt": 0,
+    "cls": 0.00007832939322301024,
+    "speedIndex": 542.8386603710294,
+    "bytes": 1681551,
+    "runtimeError": null
+  },
+  {
+    "profile": "desktop",
+    "run": 5,
+    "score": 100,
+    "fcp": 340.217,
+    "lcp": 340.217,
+    "tbt": 0,
+    "cls": 0.00007832939322301024,
+    "speedIndex": 554.679048097145,
+    "bytes": 1681551,
+    "runtimeError": null
+  }
+]

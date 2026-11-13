@@ -1,0 +1,160 @@
+{
+  "lcp": [
+    {
+      "time": 860,
+      "url": "",
+      "tag": "H1",
+      "id": "",
+      "class": "",
+      "style": "",
+      "opacity": "1",
+      "visibility": "visible",
+      "parentVisibility": "visible",
+      "parentOpacity": "1"
+    }
+  ],
+  "media": [
+    {
+      "event": "loadstart",
+      "time": 3123.7000000178814,
+      "src": "http://127.0.0.1:4197/assets/video/mobile/opening-v31.mp4",
+      "state": 0
+    },
+    {
+      "event": "loadedmetadata",
+      "time": 4389.9000000059605,
+      "src": "http://127.0.0.1:4197/assets/video/mobile/opening-v31.mp4",
+      "state": 3
+    },
+    {
+      "event": "loadeddata",
+      "time": 4390,
+      "src": "http://127.0.0.1:4197/assets/video/mobile/opening-v31.mp4",
+      "state": 3
+    }
+  ],
+  "tasks": [
+    {
+      "start": 2829,
+      "duration": 79
+    }
+  ],
+  "hero": 5461.700000017881,
+  "resources": [
+    {
+      "name": "http://127.0.0.1:4197/assets/style-DGNqpRPo.css",
+      "start": 170.40000000596046,
+      "end": 713.8000000119209,
+      "bytes": 13729
+    },
+    {
+      "name": "http://127.0.0.1:4197/assets/index-BYPXME4_.js",
+      "start": 171,
+      "end": 2827.7000000178814,
+      "bytes": 90403
+    },
+    {
+      "name": "http://127.0.0.1:4197/assets/source/brand-transparent.png",
+      "start": 175.40000000596046,
+      "end": 1215.300000011921,
+      "bytes": 30510
+    },
+    {
+      "name": "http://127.0.0.1:4197/assets/photography/hero-estate-1680.avif",
+      "start": 175.40000000596046,
+      "end": 5461,
+      "bytes": 260718
+    },
+    {
+      "name": "http://127.0.0.1:4197/assets/photography/category-roasted-480.webp",
+      "start": 181,
+      "end": 1658.9000000059605,
+      "bytes": 44624
+    },
+    {
+      "name": "http://127.0.0.1:4197/assets/photography/category-filter-480.webp",
+      "start": 181,
+      "end": 1981.5,
+      "bytes": 57624
+    },
+    {
+      "name": "http://127.0.0.1:4197/assets/photography/green-collection-tray-v32-original-logo-480.webp",
+      "start": 181,
+      "end": 3773.9000000059605,
+      "bytes": 110966
+    },
+    {
+      "name": "http://127.0.0.1:4197/assets/fonts/font-2.woff2",
+      "start": 733.8000000119209,
+      "end": 2386,
+      "bytes": 35240
+    },
+    {
+      "name": "http://127.0.0.1:4197/assets/fonts/font-8.woff2",
+      "start": 741.8000000119209,
+      "end": 3548.5,
+      "bytes": 67688
+    },
+    {
+      "name": "http://127.0.0.1:4197/assets/fonts/font-5.woff2",
+      "start": 746.5999999940395,
+      "end": 4154.9000000059605,
+      "bytes": 82004
+    },
+    {
+      "name": "http://127.0.0.1:4197/assets/video/recovery-v31/frame-000.jpg",
+      "start": 3108.800000011921,
+      "end": 3990.7000000178814,
+      "bytes": 26678
+    },
+    {
+      "name": "http://127.0.0.1:4197/assets/video/coffee-journey-poster-v28.jpg",
+      "start": 3109.300000011921,
+      "end": 4651.5,
+      "bytes": 66924
+    },
+    {
+      "name": "http://127.0.0.1:4197/assets/video/mobile/opening-v31.mp4",
+      "start": 3118,
+      "end": 5596.5999999940395,
+      "bytes": 157548
+    }
+  ],
+  "surface": [
+    {
+      "data": {
+        "mediaState": "ready",
+        "targetTime": "0.000",
+        "presentation": "video",
+        "frameTime": "0.000",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "style": "width: 487.5px; height: 650px; left: 195px; top: 303.84px; transform: translate(-50%, -50%); opacity: 0; visibility: hidden;"
+    }
+  ],
+  "heroImage": {
+    "src": "http://127.0.0.1:4197/assets/photography/hero-estate-1680.avif",
+    "width": 1502
+  },
+  "paints": [
+    {
+      "name": "first-paint",
+      "entryType": "paint",
+      "startTime": 860,
+      "duration": 0,
+      "navigationId": 2405,
+      "paintTime": 836,
+      "presentationTime": 860
+    },
+    {
+      "name": "first-contentful-paint",
+      "entryType": "paint",
+      "startTime": 860,
+      "duration": 0,
+      "navigationId": 2405,
+      "paintTime": 836,
+      "presentationTime": 860
+    }
+  ]
+}

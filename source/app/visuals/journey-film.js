@@ -44,8 +44,6 @@ export function createJourneyFilm(stage,own,invalidate){
     const source=stage.querySelector(`[data-note="${d.note}"]`);
     for(const child of source.childNodes)note.append(child.cloneNode(true));
     caption.append(note);panel.append(label,surface.element,caption);track.append(panel);
-    // Independent exact-film cover frames, ready before the panel is approached.
-    frames.get(frames.frame(d.t0,[d.t0,d.t1]));
     return {...d,panel,surface,note,source};
   });
   const surfaces=[main,...panels.map(p=>p.surface)];
@@ -104,7 +102,10 @@ export function createJourneyFilm(stage,own,invalidate){
       item.panel.style.transform=!phone&&i?`translate3d(${(1-reveal)*width*.52}px,0,0)`:'none';
       item.panel.style.opacity=!phone&&i?ease(p,item.start-.006,item.start+.006).toFixed(4):'1';
       item.note.style.opacity=phone?item.source.style.opacity:'1';
-      if(p>.23&&p<.59&&(!phone||p>item.start-.10))item.surface.prepare();
+      if(p>.23&&p<.59&&(!phone||p>item.start-.10)){
+        frames.get(frames.frame(item.t0,[item.t0,item.t1]));
+        item.surface.prepare();
+      }
       item.surface.update(item.t0+(item.t1-item.t0)*clamp((p-item.start)/(item.end-item.start)),horizontal>.001&&(phone?Math.abs(shift-i)<1.001:reveal>.001),item.name.toLowerCase(),[item.t0,item.t1]);
     }
     const join=ease(p,.19,.335),moving=p<.341,startH=phone?Math.min(height*.78,width*5/3):height*1.02;

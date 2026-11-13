@@ -1,0 +1,182 @@
+{
+  "lcp": [
+    {
+      "time": 860,
+      "url": "",
+      "tag": "H1",
+      "id": "",
+      "class": "",
+      "style": "",
+      "opacity": "1",
+      "visibility": "visible",
+      "parentVisibility": "visible",
+      "parentOpacity": "1"
+    },
+    {
+      "time": 5036,
+      "url": "http://127.0.0.1:4196/assets/video/mobile/opening-v31.mp4",
+      "tag": "VIDEO",
+      "id": "",
+      "class": "sb-frame-decoder",
+      "style": "",
+      "opacity": "0",
+      "visibility": "hidden",
+      "parentVisibility": "hidden",
+      "parentOpacity": "0"
+    }
+  ],
+  "media": [
+    {
+      "event": "loadstart",
+      "time": 3523,
+      "src": "http://127.0.0.1:4196/assets/video/mobile/opening-v31.mp4",
+      "state": 0
+    },
+    {
+      "event": "loadedmetadata",
+      "time": 4925.699999988079,
+      "src": "http://127.0.0.1:4196/assets/video/mobile/opening-v31.mp4",
+      "state": 3
+    },
+    {
+      "event": "loadeddata",
+      "time": 4925.699999988079,
+      "src": "http://127.0.0.1:4196/assets/video/mobile/opening-v31.mp4",
+      "state": 3
+    }
+  ],
+  "tasks": [
+    {
+      "start": 3206.5999999940395,
+      "duration": 82
+    },
+    {
+      "start": 3449.4000000059605,
+      "duration": 56
+    }
+  ],
+  "hero": 7272.4000000059605,
+  "resources": [
+    {
+      "name": "http://127.0.0.1:4196/assets/style-CdBItdCm.css",
+      "start": 175.5,
+      "end": 678.1999999880791,
+      "bytes": 13241
+    },
+    {
+      "name": "http://127.0.0.1:4196/assets/index-CbZ-EHU6.js",
+      "start": 175.59999999403954,
+      "end": 3205.300000011921,
+      "bytes": 90390
+    },
+    {
+      "name": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Archivo:wght@400;500;600&display=swap",
+      "start": 178.69999998807907,
+      "end": 461.59999999403954,
+      "bytes": 1106
+    },
+    {
+      "name": "http://127.0.0.1:4196/assets/source/brand-transparent.png",
+      "start": 180.5,
+      "end": 1361.4000000059605,
+      "bytes": 30510
+    },
+    {
+      "name": "http://127.0.0.1:4196/assets/photography/hero-estate-1680.webp",
+      "start": 180.5,
+      "end": 7271,
+      "bytes": 516432
+    },
+    {
+      "name": "http://127.0.0.1:4196/assets/photography/category-roasted-480.webp",
+      "start": 184.30000001192093,
+      "end": 1999,
+      "bytes": 44624
+    },
+    {
+      "name": "http://127.0.0.1:4196/assets/photography/category-filter-480.webp",
+      "start": 184.30000001192093,
+      "end": 2418.800000011921,
+      "bytes": 57624
+    },
+    {
+      "name": "http://127.0.0.1:4196/assets/photography/green-collection-tray-v32-original-logo-480.webp",
+      "start": 184.40000000596046,
+      "end": 3664.5999999940395,
+      "bytes": 110966
+    },
+    {
+      "name": "http://127.0.0.1:4196/assets/video/recovery-v31/frame-000.jpg",
+      "start": 3500.9000000059605,
+      "end": 4391.0999999940395,
+      "bytes": 26678
+    },
+    {
+      "name": "http://127.0.0.1:4196/assets/video/recovery-v31/frame-006.jpg",
+      "start": 3500.9000000059605,
+      "end": 4421.199999988079,
+      "bytes": 27277
+    },
+    {
+      "name": "http://127.0.0.1:4196/assets/video/recovery-v31/frame-060.jpg",
+      "start": 3501,
+      "end": 4189.5,
+      "bytes": 18050
+    },
+    {
+      "name": "http://127.0.0.1:4196/assets/video/recovery-v31/frame-040.jpg",
+      "start": 3501,
+      "end": 4496.4000000059605,
+      "bytes": 30287
+    },
+    {
+      "name": "http://127.0.0.1:4196/assets/video/coffee-journey-poster-v28.jpg",
+      "start": 3501.0999999940395,
+      "end": 5141.699999988079,
+      "bytes": 66924
+    },
+    {
+      "name": "http://127.0.0.1:4196/assets/video/mobile/opening-v31.mp4",
+      "start": 3515.199999988079,
+      "end": 6243.800000011921,
+      "bytes": 157548
+    }
+  ],
+  "surface": [
+    {
+      "data": {
+        "mediaState": "ready",
+        "targetTime": "0.000",
+        "presentation": "video",
+        "frameTime": "0.000",
+        "frameChapter": "origin",
+        "hasFrame": "true"
+      },
+      "style": "width: 487.5px; height: 650px; left: 195px; top: 303.84px; transform: translate(-50%, -50%); opacity: 0; visibility: hidden;"
+    }
+  ],
+  "heroImage": {
+    "src": "http://127.0.0.1:4196/assets/photography/hero-estate-1680.webp",
+    "width": 1502
+  },
+  "paints": [
+    {
+      "name": "first-paint",
+      "entryType": "paint",
+      "startTime": 860,
+      "duration": 0,
+      "navigationId": 9081,
+      "paintTime": 824.6999999880791,
+      "presentationTime": 860
+    },
+    {
+      "name": "first-contentful-paint",
+      "entryType": "paint",
+      "startTime": 860,
+      "duration": 0,
+      "navigationId": 9081,
+      "paintTime": 824.6999999880791,
+      "presentationTime": 860
+    }
+  ]
+}

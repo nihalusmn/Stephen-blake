@@ -6,6 +6,8 @@ export function createScrubSurface({className, frames, changed}) {
     const v=document.createElement('video'); v.className='sb-frame-decoder';
     v.muted=v.defaultMuted=v.playsInline=true;
     v.setAttribute('muted','');v.setAttribute('playsinline','');v.setAttribute('aria-hidden','true');
+    // A decoder is not a presentation layer. The canvas retains visible pixels.
+    v.style.display='none';
     v.preload='metadata';v.disablePictureInPicture=true;return v;
   }
   let video = decoder();
@@ -39,6 +41,7 @@ export function createScrubSurface({className, frames, changed}) {
     } else {
       if (type !== 'video') {image.src = source.src; image.style.visibility = 'visible';}
       else image.style.visibility = 'hidden';
+      video.style.display = type === 'video' ? '' : 'none';
       video.style.opacity = type === 'video' ? '1' : '0';
     }
     publish(type, time); delete element.dataset.drawError; return true;
@@ -140,7 +143,7 @@ export function createScrubSurface({className, frames, changed}) {
   listen(video);
   function select(nextURL) {
     if (frameRequest) video.cancelVideoFrameCallback?.(frameRequest); frameRequest=0;
-    cancelAnimationFrame(presentationRAF);presentationRAF=0;capturePending=false;video.pause();video.style.opacity='0';
+    cancelAnimationFrame(presentationRAF);presentationRAF=0;capturePending=false;video.pause();video.style.opacity='0';video.style.display='none';
     let next=decoders.get(nextURL);
     if (!next) {
       next=decoders.size ? decoder() : video;

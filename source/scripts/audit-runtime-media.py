@@ -21,7 +21,7 @@ def visit(path):
             visit(root / ref)
 visit(root / 'index.html')
 texts = '\n'.join(p.read_text() for p in seen if p.suffix != '.json')
-media = set(re.findall(r'assets/[\w./-]+\.(?:webp|png|jpe?g|svg|mp4|webm|woff2?)', texts))
+media = set(re.findall(r'assets/[\w./-]+\.(?:avif|webp|png|jpe?g|svg|mp4|webm|woff2?)', texts))
 # Catalogue paths are intentionally resolved at runtime.
 for name in re.findall(r"image:'(/[^']+)'", (root/'app/catalogue.js').read_text()):
     media.add('assets/products' + name)
@@ -34,6 +34,7 @@ for i in range(197): media.add(f'assets/video/recovery-v31/frame-{i:03}.jpg')
 for name in ('opening','natural','honey','washed','hulling','green','roasting','grinding','collection'):
     media.add(f'assets/video/mobile/{name}-v31.mp4')
     media.add(f'assets/video/desktop/{name}-v32.mp4')
+media.update('assets/fonts/' + p.name for p in (root/'assets/fonts').glob('*-OFL.txt'))
 missing = [p for p in sorted(media) if not (root/p).is_file()]
 if missing: raise SystemExit(f'Missing runtime files: {missing}')
 files = [p for p in (root/'assets').rglob('*') if p.is_file()]

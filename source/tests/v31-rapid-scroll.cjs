@@ -7,7 +7,7 @@ try{
   const page=await browser.newPage({viewport:{width,height:844},isMobile:width===390,hasTouch:width===390});
   const errors=[];page.on('pageerror',e=>errors.push(e.message));
   await page.addInitScript(()=>{window.__loads=[];const orig=HTMLMediaElement.prototype.load;HTMLMediaElement.prototype.load=function(){__loads.push({src:this.getAttribute('src'),t:performance.now()});return orig.call(this)}});
-  await page.goto('http://127.0.0.1:4175/dist/',{waitUntil:'domcontentloaded'});await page.waitForFunction(()=>document.documentElement.dataset.motionMode==='film-only');
+  await page.goto((process.env.SB_URL||'http://127.0.0.1:4175/dist/'),{waitUntil:'domcontentloaded'});await page.waitForFunction(()=>document.documentElement.dataset.motionMode==='film-only');
   const go=async p=>page.evaluate(p=>{const s=ScrollTrigger.getAll().find(t=>t.trigger?.id==='sb-origin');sbLenis.scrollTo(s.start+(s.end-s.start)*p,{immediate:true})},p);
   // Warm all chapters once, then reverse repeatedly without reloading media.
   for(const p of [.14,.29,.38,.46,.53,.61,.67,.76,.84,.89]){await go(p);await page.waitForTimeout(700)}
@@ -36,6 +36,6 @@ try{
   assert.deepEqual(errors,[]);console.log('PASS rapid scroll',width,'changes',changed,'p95',lags[Math.floor(lags.length*.95)].toFixed(3));
   await page.close();
  }
- fs.writeFileSync('docs/V31-rc3-rapid.json',JSON.stringify({status:'passed',results},null,2));
-} catch(e){fs.writeFileSync('docs/V31-rc3-rapid.json',JSON.stringify({failure:String(e),results},null,2));throw e}finally{await browser.close()}
+ fs.writeFileSync((process.env.SB_REPORT||'docs/V31-rc3-rapid.json'),JSON.stringify({status:'passed',results},null,2));
+} catch(e){fs.writeFileSync((process.env.SB_REPORT||'docs/V31-rc3-rapid.json'),JSON.stringify({failure:String(e),results},null,2));throw e}finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exit(1)});

@@ -1,0 +1,208 @@
+{
+  "site-regression": {
+    "status": "passed",
+    "count": 52,
+    "errors": []
+  },
+  "reliability-chromium": {
+    "status": "passed",
+    "count": 86,
+    "errors": []
+  },
+  "reliability-webkit": {
+    "status": "passed",
+    "count": 86,
+    "errors": []
+  },
+  "visual-comparison": {
+    "status": "passed",
+    "results": [
+      {
+        "width": 390,
+        "stage": 0,
+        "meanAbsoluteError": 1.751,
+        "changedFraction": 0.0005555555555555556
+      },
+      {
+        "width": 390,
+        "stage": 0.06,
+        "meanAbsoluteError": 2.577058879392213,
+        "changedFraction": 0.002054131054131054
+      },
+      {
+        "width": 390,
+        "stage": 0.14,
+        "meanAbsoluteError": 0,
+        "changedFraction": 0
+      },
+      {
+        "width": 390,
+        "stage": 0.29,
+        "meanAbsoluteError": 0,
+        "changedFraction": 0
+      },
+      {
+        "width": 390,
+        "stage": 0.38,
+        "meanAbsoluteError": 0,
+        "changedFraction": 0
+      },
+      {
+        "width": 390,
+        "stage": 0.46,
+        "meanAbsoluteError": 0,
+        "changedFraction": 0
+      },
+      {
+        "width": 390,
+        "stage": 0.53,
+        "meanAbsoluteError": 0,
+        "changedFraction": 0
+      },
+      {
+        "width": 390,
+        "stage": 0.615,
+        "meanAbsoluteError": 0,
+        "changedFraction": 0
+      },
+      {
+        "width": 390,
+        "stage": 0.76,
+        "meanAbsoluteError": 0,
+        "changedFraction": 0
+      },
+      {
+        "width": 390,
+        "stage": 0.845,
+        "meanAbsoluteError": 0,
+        "changedFraction": 0
+      },
+      {
+        "width": 390,
+        "stage": 0.995,
+        "meanAbsoluteError": 0,
+        "changedFraction": 0
+      },
+      {
+        "width": 1440,
+        "stage": 0,
+        "meanAbsoluteError": 1.6935151748971193,
+        "changedFraction": 0.00044521604938271603
+      },
+      {
+        "width": 1440,
+        "stage": 0.06,
+        "meanAbsoluteError": 2.5707996399176953,
+        "changedFraction": 0.001736111111111111
+      },
+      {
+        "width": 1440,
+        "stage": 0.14,
+        "meanAbsoluteError": 0,
+        "changedFraction": 0
+      },
+      {
+        "width": 1440,
+        "stage": 0.29,
+        "meanAbsoluteError": 0,
+        "changedFraction": 0
+      },
+      {
+        "width": 1440,
+        "stage": 0.38,
+        "meanAbsoluteError": 0,
+        "changedFraction": 0
+      },
+      {
+        "width": 1440,
+        "stage": 0.46,
+        "meanAbsoluteError": 0,
+        "changedFraction": 0
+      },
+      {
+        "width": 1440,
+        "stage": 0.53,
+        "meanAbsoluteError": 0,
+        "changedFraction": 0
+      },
+      {
+        "width": 1440,
+        "stage": 0.615,
+        "meanAbsoluteError": 0,
+        "changedFraction": 0
+      },
+      {
+        "width": 1440,
+        "stage": 0.76,
+        "meanAbsoluteError": 0,
+        "changedFraction": 0
+      },
+      {
+        "width": 1440,
+        "stage": 0.845,
+        "meanAbsoluteError": 0,
+        "changedFraction": 0
+      },
+      {
+        "width": 1440,
+        "stage": 0.995,
+        "meanAbsoluteError": 0,
+        "changedFraction": 0
+      }
+    ]
+  },
+  "rapid-scroll": {
+    "status": "passed",
+    "count": 3,
+    "errors": []
+  },
+  "slow-network": {
+    "status": "passed",
+    "count": 100,
+    "errors": []
+  },
+  "slow-blocked": {
+    "status": "passed",
+    "count": 100,
+    "errors": []
+  },
+  "warm-fallback": {
+    "status": "passed",
+    "count": 4
+  },
+  "seo-preservation": {
+    "canonical": true,
+    "indexing": true,
+    "title": true,
+    "description": true,
+    "GA4": true,
+    "source/public/sitemap.xml": true,
+    "source/public/robots.txt": true,
+    "source/public/vercel.json": true,
+    "sitemap.xml status": true,
+    "sitemap URLs": true,
+    "robots.txt status": true,
+    "media range": true,
+    "source/app/visuals/film-only-journey.js": true,
+    "source/app/visuals/hero-handoff.js": true,
+    "source/app/visuals/media-policy.js": true,
+    "source/app/animations/scroll.js": true,
+    "source/app/catalogue.js": true
+  },
+  "local-font-delay-chromium": {
+    "status": "passed",
+    "count": 6,
+    "errors": []
+  },
+  "local-font-delay-webkit": {
+    "status": "passed",
+    "count": 6,
+    "errors": []
+  },
+  "analytics": {
+    "status": "passed",
+    "initialPageViews": 1,
+    "collectedRequests": 1,
+    "syntheticEnquiry": "prepared; outbound intercepted; no private fields in analytics"
+  }
+}

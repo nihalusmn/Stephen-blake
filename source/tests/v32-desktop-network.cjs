@@ -9,7 +9,7 @@ const {chromium}=require(runtime+'playwright'),fs=require('fs'),assert=require('
  await c.send('Emulation.setCPUThrottlingRate',{rate:4});
  const errors=[],requests=[];p.on('pageerror',e=>errors.push(e.message));p.on('request',r=>requests.push(r.url()));
  if(process.env.SB_BLOCK_VIDEO)await p.route('**/*.mp4',r=>r.abort());
- await p.goto('http://127.0.0.1:4175/dist/',{waitUntil:'domcontentloaded'});await p.waitForFunction(()=>document.documentElement.dataset.motionMode==='film-only');
+ await p.goto((process.env.SB_URL||'http://127.0.0.1:4175/dist/'),{waitUntil:'domcontentloaded'});await p.waitForFunction(()=>document.documentElement.dataset.motionMode==='film-only');
  const samples=[];
  for(const direction of ['forward','reverse'])for(let i=0;i<50;i++){
   const t=direction==='forward'?.12+i*.015:.855-i*.015;
@@ -27,7 +27,7 @@ const {chromium}=require(runtime+'playwright'),fs=require('fs'),assert=require('
  await p.waitForTimeout(2000);
  await p.screenshot({path:'output/v31/desktop-slow-network.png'});
  const report={samples,errors,resources:await p.evaluate(()=>performance.getEntriesByType('resource').map(e=>({url:e.name,bytes:e.transferSize,start:e.startTime,duration:e.duration})))};
- const reportPath=process.env.SB_BLOCK_VIDEO?'docs/V32-desktop-slow-blocked.json':'docs/V32-desktop-slow-network.json';
+ const reportPath=process.env.SB_REPORT||(process.env.SB_BLOCK_VIDEO?'docs/V32-desktop-slow-blocked.json':'docs/V32-desktop-slow-network.json');
  fs.writeFileSync(reportPath,JSON.stringify(report,null,2));
  assert.deepEqual(errors,[]);assert(!requests.some(u=>/coffee-journey-v30|coffee-journey-v28\.mp4/.test(u)),'Desktop must use chapter files, not the full master');
  for(const s of samples){assert(s.chosen.hasFrame==='true'&&s.subject>5,`Blank frame at ${s.p}`);

@@ -8,6 +8,7 @@
     "app/animations/scroll.js",
     "app/catalogue.js",
     "app/config.js",
+    "app/fonts.css",
     "app/green-photography.js",
     "app/main.js",
     "app/motion.css",
@@ -26,6 +27,17 @@
     "index.html"
   ],
   "files": [
+    "assets/fonts/Archivo-OFL.txt",
+    "assets/fonts/Fraunces-OFL.txt",
+    "assets/fonts/font-0.woff2",
+    "assets/fonts/font-1.woff2",
+    "assets/fonts/font-2.woff2",
+    "assets/fonts/font-3.woff2",
+    "assets/fonts/font-4.woff2",
+    "assets/fonts/font-5.woff2",
+    "assets/fonts/font-6.woff2",
+    "assets/fonts/font-7.woff2",
+    "assets/fonts/font-8.woff2",
     "assets/photography/category-filter-1120.webp",
     "assets/photography/category-filter-480.webp",
     "assets/photography/category-filter-960.webp",
@@ -45,7 +57,9 @@
     "assets/photography/green-collection-tray-v32-original-logo-960.webp",
     "assets/photography/green-robusta-cherry-aaa-v32-original-logo-480.webp",
     "assets/photography/green-robusta-cherry-aaa-v32-original-logo-960.webp",
+    "assets/photography/hero-estate-1680.avif",
     "assets/photography/hero-estate-1680.webp",
+    "assets/photography/hero-estate-960.avif",
     "assets/photography/hero-estate-960.webp",
     "assets/photography/private-label-arabica.jpeg",
     "assets/photography/private-label-robusta.jpeg",
@@ -282,5 +296,5 @@
     "assets/video/recovery-v31/frame-195.jpg",
     "assets/video/recovery-v31/frame-196.jpg"
   ],
-  "bytes": 28781664
+  "bytes": 29582380
 }

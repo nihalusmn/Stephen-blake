@@ -1,0 +1,26 @@
+[
+  {
+    "profile": "mobile",
+    "run": 1,
+    "score": 80,
+    "fcp": 1464.2552,
+    "lcp": 5329.2552,
+    "tbt": 60,
+    "cls": 0.03249676302062957,
+    "speedIndex": 2055.7135833615075,
+    "bytes": 1312780,
+    "runtimeError": null
+  },
+  {
+    "profile": "mobile",
+    "run": 2,
+    "score": 77,
+    "fcp": 1465.7287,
+    "lcp": 6454.7287,
+    "tbt": 61,
+    "cls": 0.03209989163316498,
+    "speedIndex": 2031.9540034165434,
+    "bytes": 1312780,
+    "runtimeError": null
+  }
+]

@@ -43,7 +43,7 @@ async function collection(p,label){await go(p,.995);await p.waitForTimeout(200);
   await p.addInitScript(()=>{window.__scrollLog=[];const original=window.scrollTo;window.scrollTo=function(...args){__scrollLog.push({args,stack:new Error().stack});return original.apply(this,args)};addEventListener('resize',()=>__scrollLog.push({resize:[innerWidth,innerHeight]}));});
   p.on('pageerror',e=>errors.push(`${name}: ${e.message}`));let fontReleased=false;let blocked=name==='all-videos-blocked',delayed=name==='delayed-panel',first=true;
   if(name==='webgl-and-data-saver')await p.addInitScript(()=>{window.webglCalls=0;const original=HTMLCanvasElement.prototype.getContext;HTMLCanvasElement.prototype.getContext=function(t,...a){if(t.startsWith('webgl')){webglCalls++;return null;}return original.call(this,t,...a)};Object.defineProperty(navigator,'connection',{value:{saveData:true},configurable:true})});
-  if(name==='delayed-font')await p.route('**/fonts.googleapis.com/**',async r=>{await new Promise(resolve=>setTimeout(resolve,3000));fontReleased=true;try{await r.abort()}catch{}});
+  if(name==='delayed-font')await p.route(/fonts\.googleapis\.com\/|\/assets\/fonts\/.*\.woff2/,async r=>{await new Promise(resolve=>setTimeout(resolve,3000));fontReleased=true;try{await r.abort()}catch{}});
   if(name==='optional-still-fails')await p.route('**/coffee-journey-poster-v28.jpg',r=>r.abort());
   if(blocked)await p.route('**/*.mp4',r=>blocked?r.abort():r.continue());
   if(delayed)await p.route('**/mobile/natural-v31.mp4',async r=>{if(delayed)await new Promise(resolve=>setTimeout(resolve,5000));try{await r.continue()}catch{}});

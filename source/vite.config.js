@@ -12,13 +12,18 @@ export default defineConfig({
     const originals = new Map(media.map(path => [digest(path), path]));
     const duplicates = [];
     for (const file of readdirSync('dist/assets')) {
-      if (!/\.(webp|png|jpe?g|svg|mp4|webm)$/i.test(file)) continue;
+      if (!/\.(avif|webp|png|jpe?g|svg|mp4|webm|woff2?)$/i.test(file)) continue;
       const path = `assets/${file}`, original = originals.get(digest(`dist/${path}`));
       if (original && original !== path) duplicates.push([path, original]);
     }
     for (const path of ['dist/index.html', ...readdirSync('dist/assets').filter(f => /\.(js|css)$/.test(f)).map(f => `dist/assets/${f}`)]) {
       let text = readFileSync(path, 'utf8');
-      for (const [duplicate, original] of duplicates) text = text.replaceAll(duplicate, original);
+      for (const [duplicate, original] of duplicates) {
+        text = text.replaceAll(duplicate, original);
+        // CSS lives inside assets/, so Vite emits relative sibling URLs.
+        if (path.endsWith('.css')) text = text.replaceAll(
+          `./${duplicate.slice('assets/'.length)}`, `./${original.slice('assets/'.length)}`);
+      }
       writeFileSync(path, text);
     }
     for (const [duplicate] of duplicates) unlinkSync(`dist/${duplicate}`);

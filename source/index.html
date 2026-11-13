@@ -28,9 +28,7 @@
     document.head.append(tag);
   })();
 </script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="app/fonts.css">
 <link rel="stylesheet" href="app/site.css">
 <link rel="stylesheet" href="app/origin.css">
 <link rel="icon" href="data:,">
@@ -90,7 +88,10 @@
   <div class="sb-stage" id="sb-stage">
 
     <div class="sb-bg" aria-hidden="true">
+  <picture>
+    <source type="image/avif" srcset="assets/photography/hero-estate-960.avif 960w, assets/photography/hero-estate-1680.avif 1680w" sizes="(max-aspect-ratio: 16/9) 178vh, 100vw">
   <img class="sb-bg__layer sb-bg__plantation" id="hero-bg" alt="" src="assets/photography/hero-estate-1680.webp" srcset="assets/photography/hero-estate-960.webp 960w, assets/photography/hero-estate-1680.webp 1680w" sizes="(max-aspect-ratio: 16/9) 178vh, 100vw" fetchpriority="high">
+  </picture>
       <div class="sb-bg__studio" id="sb-studio"></div>
       <div class="sb-bg__paper" id="sb-paper"></div>
     </div>
